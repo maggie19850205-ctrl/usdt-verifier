@@ -1,0 +1,26 @@
+# AutoMoney Store
+> AI-powered digital products marketplace. Browse 342 digital downloads and 268 product pages across AI automation, digital marketing, freelancing, productivity, e-commerce, and design categories.
+
+## Products
+- [All Products](https://automoney-store.pages.dev/products/)
+- [Digital Downloads](https://automoney-store.pages.dev/downloads/)
+
+## Categories
+- AI Automation: AI chatbot guides, prompt engineering, workflow automation
+- Digital Marketing: Social media calendars, email funnels, SEO guides
+- Freelancing: Proposal templates, contract bundles, invoicing
+- Productivity: Notion dashboards, planners, goal-setting workbooks
+- E-commerce: Shopify setup, dropshipping, affiliate marketing toolkits
+- Design: Canva templates, logo packs, branding guides
+- Crypto: Trading journals, NFT guides
+
+## Featured Products
+- AI Chatbot Setup Guide ($5.99)
+- ChatGPT Prompt Engineering Bundle ($5.99)
+- Social Media Content Calendar ($5.99)
+- Notion Dashboard System ($5.99)
+- Shopify Store Setup Guide ($5.99)
+
+## Payment
+- USDT TRC-20 only
+- Wallet: TRnz5Pi8R3hjCbBjnDuZo7ZvR57euo2q8Z
