@@ -27,6 +27,14 @@ function Step($name, $script) {
 }
 
 switch ($Action) {
+  "factory" {
+    Step "Run content factory" {
+      node (Join-Path $PSScriptRoot "content-factory.js")
+    }
+    Step "Generate downloads index" {
+      node (Join-Path $PSScriptRoot "gen-downloads-index.js")
+    }
+  }
   "posts" {
     Step "Generate trending blog posts" {
       node (Join-Path $PSScriptRoot "generate-trending-posts.js")
@@ -60,12 +68,14 @@ switch ($Action) {
   }
   "all" {
     Log "=== Daily Auto-Run Pipeline ==="
-    Step "1. Generate blog posts" { node (Join-Path $PSScriptRoot "generate-trending-posts.js") }
-    Step "2. Generate products" { node (Join-Path $PSScriptRoot "trending-products.js") }
-    Step "3. Multi-language" { node (Join-Path $PSScriptRoot "generate-multi.js") }
-    Step "4. Fix purchase flow" { node (Join-Path $PSScriptRoot "fix-purchase-flow.js") }
-    Step "5. Sitemap" { node (Join-Path $root "generate-sitemap.js") }
-    Step "6. Deploy" {
+    Step "1. Content factory" { node (Join-Path $PSScriptRoot "content-factory.js") }
+    Step "2. Downloads index" { node (Join-Path $PSScriptRoot "gen-downloads-index.js") }
+    Step "3. Generate blog posts" { node (Join-Path $PSScriptRoot "generate-trending-posts.js") }
+    Step "4. Generate products" { node (Join-Path $PSScriptRoot "trending-products.js") }
+    Step "5. Multi-language" { node (Join-Path $PSScriptRoot "generate-multi.js") }
+    Step "6. Fix purchase flow" { node (Join-Path $PSScriptRoot "fix-purchase-flow.js") }
+    Step "7. Sitemap (manual)" { Write-Output "  (Sitemap updated inline in CI)" }
+    Step "8. Deploy" {
       Set-Location -LiteralPath $root
       npx wrangler pages deploy $output --branch main --commit-dirty=true 2>&1
     }
