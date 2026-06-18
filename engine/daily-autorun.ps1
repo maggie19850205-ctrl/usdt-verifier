@@ -74,8 +74,9 @@ switch ($Action) {
     Step "4. Generate products" { node (Join-Path $PSScriptRoot "trending-products.js") }
     Step "5. Multi-language" { node (Join-Path $PSScriptRoot "generate-multi.js") }
     Step "6. Fix purchase flow" { node (Join-Path $PSScriptRoot "fix-purchase-flow.js") }
-    Step "7. Sitemap (manual)" { Write-Output "  (Sitemap updated inline in CI)" }
-    Step "8. Deploy" {
+    Step "7. IndexNow submission" { powershell -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "submit-indexnow.ps1") }
+    Step "8. Sitemap (manual)" { Write-Output "  (Sitemap updated inline in CI)" }
+    Step "9. Deploy" {
       Set-Location -LiteralPath $root
       npx wrangler pages deploy $output --branch main --commit-dirty=true 2>&1
     }
