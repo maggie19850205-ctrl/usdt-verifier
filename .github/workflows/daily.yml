@@ -1,0 +1,45 @@
+name: Daily Auto-Run Pipeline
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: 'Skip deploy (false = deploy)'
+        required: false
+        default: 'true'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install wrangler
+        run: npm install -g wrangler@latest
+
+      - name: Generate blog posts
+        run: node engine/generate-trending-posts.js
+
+      - name: Generate products
+        run: node engine/trending-products.js
+
+      - name: Generate multi-language pages
+        run: node engine/generate-multi.js
+
+      - name: Fix purchase flow
+        run: node engine/fix-purchase-flow.js
+
+      - name: Regenerate sitemap
+        run: node generate-sitemap.js
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ inputs.deploy != 'false' || github.event_name == 'schedule' }}
+        run: npx wrangler pages deploy output --branch main --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
