@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const ai = require('./ai-provider.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUTPUT = path.join(ROOT, 'output', 'blog');
@@ -44,54 +45,26 @@ li{margin-bottom:8px}
 .cta{display:inline-block;background:linear-gradient(135deg,#00e676,#00bcd4);color:#0a0a12;padding:12px 32px;border-radius:100px;text-decoration:none;font-weight:700;font-size:0.9rem;margin:16px 0}
 @media(max-width:600px){.wrap{padding:24px 16px}h1{font-size:1.5rem}}`;
 
-function seedRand(seed) {
-  let s = seed >>> 0;
-  return () => { s = (s * 1103515245 + 12345) >>> 0; return (s & 0x7fffffff) / 0x7fffffff; };
-}
-
-const VOCAB = [
-  'implement', 'optimize', 'automate', 'streamline', 'integrate', 'leverage',
-  'build', 'deploy', 'configure', 'analyze', 'monitor', 'scale', 'design',
-  'develop', 'test', 'launch', 'track', 'measure', 'improve', 'transform',
-  'system', 'workflow', 'pipeline', 'platform', 'solution', 'framework',
-  'strategy', 'process', 'tool', 'resource', 'team', 'data', 'metric',
-  'automation', 'integration', 'optimization', 'deployment', 'configuration',
-  'efficient', 'scalable', 'reliable', 'robust', 'flexible', 'maintainable',
-  'business', 'digital', 'automated', 'smart', 'intelligent', 'seamless',
-  'productivity', 'efficiency', 'performance', 'quality', 'growth', 'revenue',
-  'innovative', 'cutting-edge', 'next-generation', 'advanced', 'modern',
-];
-
-function generateText(rng, words) {
-  const parts = [];
-  for (let i = 0; i < words; i += 12) {
-    const n = Math.min(12, words - i);
-    const sentence = [];
-    for (let j = 0; j < n; j++) sentence.push(VOCAB[Math.floor(rng() * VOCAB.length)]);
-    parts.push(sentence.join(' '));
-  }
-  let text = parts.join('. ');
-  return text.charAt(0).toUpperCase() + text.slice(1) + '.';
-}
-
 function slugify(text) {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-function generatePost(title, rng) {
+const SECTIONS = [
+  'Introduction',
+  'Why This Matters in 2026',
+  'Getting Started',
+  'Key Strategies',
+  'Implementation Guide',
+  'Common Mistakes to Avoid',
+  'Case Study',
+  'Frequently Asked Questions',
+  'Conclusion',
+];
+
+async function generatePost(title, rng) {
   const slug = slugify(title);
-  const sections = [
-    'Introduction',
-    'Why This Matters in 2026',
-    'Getting Started',
-    'Key Strategies',
-    'Implementation Guide',
-    'Common Mistakes to Avoid',
-    'Case Study',
-    'Frequently Asked Questions',
-    'Conclusion',
-  ];
   const today = new Date().toISOString().split('T')[0];
+  const seed = crypto.createHash('md5').update(title).digest().readUInt32LE(0);
 
   let html = `<!DOCTYPE html>
 <html lang="en">
@@ -108,14 +81,32 @@ function generatePost(title, rng) {
 <p class="meta">Published: ${today} &middot; AutoMoney Blog</p>
 `;
 
-  for (const section of sections) {
+  for (let si = 0; si < SECTIONS.length; si++) {
+    const section = SECTIONS[si];
     html += `<h2>${section}</h2>\n`;
-    const pCount = section === 'Introduction' || section === 'Conclusion' ? 2 : 3 + Math.floor(rng() * 2);
-    for (let i = 0; i < pCount; i++) {
-      html += `<p>${generateText(rng, 25 + Math.floor(rng() * 35))}</p>\n`;
-    }
+
     if (section === 'Case Study') {
-      html += `<div class="highlight"><p><strong>Results:</strong> ${generateText(rng, 20)}</p></div>\n`;
+      const caseContent = await ai.generate(
+        `Write a case study section for blog post titled "${title}". Include specific numbers and results.`,
+        `Write a 3-sentence case study about ${title.toLowerCase()} with specific metrics.`,
+        200, seed + si
+      );
+      html += `<p>${caseContent}</p>\n`;
+      html += `<div class="highlight"><p><strong>Results:</strong> ${await ai.generate(
+        `Results summary for ${title} case study.`,
+        `Summarize results of implementing ${title}. 1 sentence.`,
+        80, seed + 100 + si
+      )}</p></div>\n`;
+    } else {
+      const content = await ai.generate(
+        `You are writing section "${section}" of a blog post titled "${title}". Write informative, specific content.`,
+        `Write a 2-3 paragraph section for "${section}" of "${title}". Include specific tips and actionable advice.`,
+        250, seed + si
+      );
+      const paragraphs = content.split('\n').filter(p => p.trim());
+      for (const p of paragraphs) {
+        html += `<p>${p}</p>\n`;
+      }
     }
   }
 
@@ -133,28 +124,22 @@ function generatePost(title, rng) {
   return { slug, html };
 }
 
-// Main
-const POSTS_DIR = path.join(OUTPUT);
-fs.mkdirSync(POSTS_DIR, { recursive: true });
+(async () => {
+  const POSTS_DIR = path.join(OUTPUT);
+  fs.mkdirSync(POSTS_DIR, { recursive: true });
 
-let count = 0;
-for (const topic of TOPICS) {
-  const rng = seedRand(crypto.createHash('md5').update(topic).digest().readUInt32LE(0));
-  const { slug, html } = generatePost(topic, rng);
-  fs.writeFileSync(path.join(POSTS_DIR, `${slug}.html`), html, 'utf-8');
-  count++;
-}
+  let count = 0;
+  for (const topic of TOPICS) {
+    const rng = ai.seedRand(crypto.createHash('md5').update(topic).digest().readUInt32LE(0));
+    const { slug, html } = await generatePost(topic, rng);
+    fs.writeFileSync(path.join(POSTS_DIR, `${slug}.html`), html, 'utf-8');
+    count++;
+    console.log(`  [${count}/${TOPICS.length}] ${topic.substring(0, 50)}`);
+  }
 
-console.log(`Generated ${count} blog posts in ${POSTS_DIR}`);
+  const posts = TOPICS.map(t => ({ title: t, slug: slugify(t), date: new Date().toISOString().split('T')[0] }));
 
-// Also create blog index
-const posts = [];
-for (const topic of TOPICS) {
-  const slug = slugify(topic);
-  posts.push({ title: topic, slug, date: new Date().toISOString().split('T')[0] });
-}
-
-let indexHtml = `<!DOCTYPE html>
+  let indexHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -168,12 +153,13 @@ let indexHtml = `<!DOCTYPE html>
 <p class="meta">Latest articles on AI automation, digital business, and productivity</p>
 `;
 
-for (const p of posts) {
-  indexHtml += `<div style="background:#16162a;border:1px solid #2a2a4a;border-radius:8px;padding:20px;margin-bottom:16px">
+  for (const p of posts) {
+    indexHtml += `<div style="background:#16162a;border:1px solid #2a2a4a;border-radius:8px;padding:20px;margin-bottom:16px">
 <a href="/blog/${p.slug}" style="color:#00e676;text-decoration:none;font-size:1.1rem;font-weight:600">${p.title}</a>
 <div style="color:#666;font-size:0.8rem;margin-top:8px">${p.date}</div>
 </div>\n`;
-}
+  }
 
-fs.writeFileSync(path.join(POSTS_DIR, 'index.html'), indexHtml + `<div class="footer"><p>AutoMoney Store &copy; 2026</p></div></div></body></html>`, 'utf-8');
-console.log(`Blog index updated: ${posts.length} posts`);
+  fs.writeFileSync(path.join(POSTS_DIR, 'index.html'), indexHtml + `<div class="footer"><p>AutoMoney Store &copy; 2026</p></div></div></body></html>`, 'utf-8');
+  console.log(`Generated ${count} blog posts + index`);
+})();

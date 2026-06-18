@@ -1,0 +1,13 @@
+Title: AI Code Generation Tools: Ship Products Faster
+
+---
+
+**Getting Started**
+
+In today's fast-paced development landscape, efficiency and productivity are paramount. AI code generation tools are revolutionizing the way we develop software, enabling developers to ship products faster without compromising quality. Here's a step-by-step guide to get you started with these powerful tools.
+
+First, it's essential to understand that AI code generation tools are designed to assist, not replace, developers. They can help automate repetitive tasks, generate code snippets, and suggest optimal solutions based on established coding practices and patterns.
+
+To begin, choose an AI code generation tool that best fits your development stack and project requirements. Popular options include Kite (Python), Codota (JavaScript, TypeScript, Python), and DeepCode (multi-language). Most of these tools offer free trials, allowing you to test their capabilities before committing.
+
+Once you've selected a tool, install it following the provided instructions for your IDE (Integrated Development Environment). Integration typically involves adding a plugin or extension, and the process is usually straightforward.

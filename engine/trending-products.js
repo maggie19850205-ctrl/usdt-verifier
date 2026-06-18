@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const ai = require('./ai-provider.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUTPUT = path.join(ROOT, 'output', 'pages');
 const SITE_URL = 'https://automoney-store.pages.dev';
 
-// Product categories that map to existing page structure
 const PRODUCT_CATEGORIES = [
   { id: 'ai-agents-automation', name: 'AI Agents Automation', price: 14.99 },
   { id: 'ai-code-generation', name: 'AI Code Generation', price: 12.99 },
@@ -64,11 +64,6 @@ li{margin-bottom:8px}
 .footer{text-align:center;padding:32px;color:#333;font-size:0.75rem;border-top:1px solid #2a2a4a;margin-top:48px}
 @media(max-width:600px){.wrap{padding:24px 16px}h1{font-size:1.6rem}}`;
 
-function seedRand(seed) {
-  let s = seed >>> 0;
-  return () => { s = (s * 1103515245 + 12345) >>> 0; return (s & 0x7fffffff) / 0x7fffffff; };
-}
-
 const FEATURES = [
   'Step-by-step video tutorials', 'Ready-to-use templates', 'Lifetime access & updates',
   'Community support forum', 'Downloadable PDF guide', 'Email support within 24h',
@@ -89,26 +84,31 @@ const FAQS = [
   { q: 'Will this work on my computer?', a: 'Our products are designed to work on any modern system (Windows, macOS, Linux) with a web browser and internet connection.' },
 ];
 
-function generateText(rng, words) {
-  const vocab = ['implement','optimize','automate','streamline','integrate','leverage','build','deploy','configure','analyze','monitor','scale','design','develop','test','launch','track','measure','improve','transform','system','workflow','pipeline','platform','solution','framework','strategy','process','tool','resource','team','data','metric','automation','integration','optimization','deployment','efficient','scalable','reliable','robust','flexible','maintainable','business','digital','automated','smart','intelligent','productivity','efficiency','performance','quality','growth','revenue'];
-  const parts = [];
-  for (let i = 0; i < words; i += 10) {
-    const n = Math.min(10, words - i);
-    const sentence = [];
-    for (let j = 0; j < n; j++) sentence.push(vocab[Math.floor(rng() * vocab.length)]);
-    parts.push(sentence.join(' '));
-  }
-  let text = parts.join('. ');
-  return text.charAt(0).toUpperCase() + text.slice(1) + '.';
-}
-
-function generateProduct(cat, rng) {
+async function generateProduct(cat, rng) {
   const slug = `${cat.id}-ultimate-bundle`;
   const dir = path.join(OUTPUT, slug);
   fs.mkdirSync(dir, { recursive: true });
 
-  const desc = generateText(rng, 30);
-  const features = [...FEATURES].sort(() => rng() - 0.5);
+  const seed = crypto.createHash('md5').update(cat.id).digest().readUInt32LE(0);
+  const [desc, included, ...featureItems] = await Promise.all([
+    ai.generate(
+      `You are writing a product description for "${cat.name}". Be specific and persuasive. Write 2-3 sentences.`,
+      `Write a compelling description for ${cat.name} ($${cat.price}). Target: entrepreneurs and freelancers.`,
+      150, seed
+    ),
+    ai.generate(
+      `List the contents of a ${cat.name} bundle.`,
+      `Write one sentence describing what's included in ${cat.name}.`,
+      100, seed + 1
+    ),
+    ...[0,1,2,3,4].map(i => ai.generate(
+      `Feature ${i+1} of ${cat.name}.`,
+      `Write one specific feature for ${cat.name}. Keep under 12 words.`,
+      30, seed + 10 + i
+    )),
+  ]);
+
+  const sortedFeatures = [...FEATURES].sort(() => rng() - 0.5);
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -130,7 +130,7 @@ ${['Complete Guide', 'Template Pack', 'Checklist Workbook', 'Video Tutorials', '
 </div>
 
 <div class="feature-grid">
-${features.slice(0, 8).map(f => `<div class="feature-card"><div class="icon">&#10003;</div><div class="title">${f}</div></div>`).join('\n')}
+${sortedFeatures.slice(0, 8).map(f => `<div class="feature-card"><div class="icon">&#10003;</div><div class="title">${f}</div></div>`).join('\n')}
 </div>
 
 <div style="text-align:center">
@@ -149,17 +149,11 @@ ${features.slice(0, 8).map(f => `<div class="feature-card"><div class="icon">&#1
 ${STEPS.map(s => `<div class="step"><div class="num">&#10095;</div><div class="title">${s}</div></div>`).join('\n')}
 </div>
 
-${cat.id === 'ai-agents-automation' ? `<h2>What's Included</h2>
-<p>${generateText(rng, 25)}</p>
+<h2>What's Included</h2>
+<p>${included}</p>
 <ul>
-<li>${generateText(rng, 8)}</li>
-<li>${generateText(rng, 8)}</li>
-<li>${generateText(rng, 8)}</li>
-<li>${generateText(rng, 8)}</li>
-<li>${generateText(rng, 8)}</li>
-</ul>` : `<h2>What's Included</h2>
-<p>${generateText(rng, 25)}</p>
-<p>${generateText(rng, 25)}</p>`}
+${featureItems.map(f => `<li>${f}</li>`).join('\n')}
+</ul>
 
 <h2>Frequently Asked Questions</h2>
 ${FAQS.map(f => `<div class="faq-item"><div class="q">${f.q}</div><div class="a">${f.a}</div></div>`).join('\n')}
@@ -182,14 +176,16 @@ ${FAQS.map(f => `<div class="faq-item"><div class="q">${f.q}</div><div class="a"
   return slug;
 }
 
-const OUT_DIR = path.join(OUTPUT);
-fs.mkdirSync(OUT_DIR, { recursive: true });
+(async () => {
+  const OUT_DIR = path.join(OUTPUT);
+  fs.mkdirSync(OUT_DIR, { recursive: true });
 
-let count = 0;
-for (const cat of PRODUCT_CATEGORIES) {
-  const rng = seedRand(crypto.createHash('md5').update(cat.id).digest().readUInt32LE(0));
-  generateProduct(cat, rng);
-  count++;
-}
-
-console.log(`Generated ${count} new product pages in ${OUT_DIR}`);
+  let count = 0;
+  for (const cat of PRODUCT_CATEGORIES) {
+    const rng = ai.seedRand(crypto.createHash('md5').update(cat.id).digest().readUInt32LE(0));
+    await generateProduct(cat, rng);
+    count++;
+    console.log(`  [${count}/${PRODUCT_CATEGORIES.length}] ${cat.name}`);
+  }
+  console.log(`Generated ${count} new product pages in ${OUT_DIR}`);
+})();

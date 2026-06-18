@@ -1,0 +1,15 @@
+**Frequently Asked Questions: Building a No-Code SaaS Platform**
+
+**1. What tools are essential for building a no-code SaaS platform?**
+
+A. **No-Code Platforms**: Platforms like Bubble, Adalo, or OutSystems allow you to create applications without writing code. They offer visual interfaces to design your application's user interface, create databases, and set up logic.
+
+B. **Design Tools**: Tools like Figma, Sketch, or Adobe XD can help you create wireframes, mock-ups, and high-fidelity designs for your SaaS platform.
+
+C. **Project Management Tools**: Trello, Asana, or Jira can help you organize your tasks, manage timelines, and collaborate with your team.
+
+D. **Customer Relationship Management (CRM) Tools**: Tools like HubSpot, Salesforce, or Zoho CRM can help manage your customer relationships, track leads, and manage sales.
+
+**2. How can I validate my no-code SaaS idea before building it?**
+
+A. **Sur
