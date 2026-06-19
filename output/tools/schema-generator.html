@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Schema Markup Generator - JSON-LD for SEO | Free Tool</title>
+<meta name="description" content="Generate schema markup JSON-LD for Product, FAQ, Article, BreadcrumbList, HowTo, and more. Free schema generator tool for SEO.">
+<link rel="canonical" href="https://automoney-store.pages.dev/tools/schema-generator/">
+<meta property="og:title" content="Schema Markup Generator - JSON-LD for SEO">
+<meta property="og:description" content="Generate schema markup JSON-LD for Product, FAQ, Article, BreadcrumbList, HowTo, and more. Free schema generator tool for SEO.">
+<meta name="robots" content="index, follow">
+<style>:root{--bg:#0a0a12;--card:#16162a;--border:#2a2a4a;--text:#e0e0e0;--muted:#888;--accent:#00e676;--accent2:#00bcd4;--danger:#ef4444}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:40px 24px}
+h1{font-size:2rem;margin-bottom:8px;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+h2{color:var(--accent);font-size:1.2rem;margin:24px 0 12px}
+p{color:#b0b0b0;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:16px}
+label{display:block;color:var(--muted);font-size:.85rem;margin-bottom:4px;margin-top:12px}
+input,select,textarea{width:100%;padding:10px 14px;background:#0a0a12;border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:.9rem}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+textarea{font-family:monospace;min-height:100px;resize:vertical}
+.btn{display:inline-block;padding:10px 24px;border-radius:8px;border:none;cursor:pointer;font-weight:600;font-size:.9rem;margin:4px}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--bg)}
+.btn-secondary{background:var(--card);color:var(--text);border:1px solid var(--border)}
+.btn-primary:hover{opacity:.9}
+.btn-secondary:hover{background:#1e1e3e}
+.tabs{display:flex;gap:4px;margin-bottom:16px;flex-wrap:wrap}
+.tab{padding:8px 18px;border-radius:8px;cursor:pointer;font-size:.85rem;background:var(--card);border:1px solid var(--border);color:var(--muted);transition:all .2s}
+.tab.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--bg);border-color:transparent;font-weight:600}
+.tab:hover{opacity:.8}
+.output-box{background:#0a0a12;border:1px solid var(--border);border-radius:8px;padding:16px;font-family:monospace;font-size:.8rem;white-space:pre-wrap;overflow-x:auto;max-height:400px;overflow-y:auto;color:#f59e0b;margin-top:12px}
+.copy-btn{background:var(--card);border:1px solid var(--border);color:var(--accent);padding:6px 16px;border-radius:6px;cursor:pointer;font-size:.8rem;margin-top:8px}
+.copy-btn:hover{background:#1e1e3e}
+.field-group{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.field-group-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:8px}
+.faq-item input{margin-bottom:4px}
+.remove-btn{color:var(--danger);cursor:pointer;font-size:.8rem;border:none;background:none;padding:4px 8px;float:right}
+.add-btn{color:var(--accent2);cursor:pointer;font-size:.85rem;border:1px dashed var(--border);background:none;padding:8px 16px;border-radius:6px;width:100%;margin-top:8px}
+.add-btn:hover{background:var(--card)}
+.preview-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:8px 0}
+.preview-info div{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:8px;text-align:center}
+.preview-info .num{font-size:1.3rem;color:var(--accent);font-weight:700}
+.preview-info .lbl{font-size:.7rem;color:var(--muted)}
+.footer{text-align:center;padding:32px;color:#333;font-size:.75rem;border-top:1px solid var(--border);margin-top:48px}
+@media(max-width:600px){.wrap{padding:24px 16px}h1{font-size:1.5rem}.field-group,.field-group-3{grid-template-columns:1fr}}</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Schema Markup Generator</h1>
+<p>Generate structured data JSON-LD for your web pages. Improves SEO by helping search engines understand your content. Copy the generated code and paste it into your page's <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code>.</p>
+
+<div class="tabs" id="schemaTabs">
+  <span class="tab active" onclick="switchTab('product')">Product</span>
+  <span class="tab" onclick="switchTab('faq')">FAQ Page</span>
+  <span class="tab" onclick="switchTab('article')">Article</span>
+  <span class="tab" onclick="switchTab('breadcrumb')">BreadcrumbList</span>
+  <span class="tab" onclick="switchTab('howto')">HowTo</span>
+  <span class="tab" onclick="switchTab('local')">Local Business</span>
+</div>
+
+<!-- Product Schema -->
+<div id="tab-product" class="schema-tab">
+  <div class="card">
+    <div class="field-group">
+      <div><label>Product Name *</label><input id="prodName" placeholder="e.g. AI Agents Bundle" value="Digital Product"></div>
+      <div><label>Price (USD) *</label><input id="prodPrice" placeholder="5.00" value="5.00"></div>
+    </div>
+    <div class="field-group">
+      <div><label>Description</label><textarea id="prodDesc" rows="2" placeholder="Brief product description">High-quality digital product</textarea></div>
+      <div><label>Product URL</label><input id="prodUrl" placeholder="https://..." value="https://automoney-store.pages.dev"></div>
+    </div>
+    <div><label>Brand Name</label><input id="prodBrand" placeholder="AutoMoney Store" value="AutoMoney Store"></div>
+    <div><label>Image URL (optional)</label><input id="prodImage" placeholder="https://...image.jpg"></div>
+    <button class="btn btn-primary" onclick="generateProduct()">Generate Product Schema</button>
+  </div>
+  <div id="prodOutput" class="output-box">Click "Generate" to create schema markup</div>
+  <button class="copy-btn" onclick="copyOutput('prodOutput')">Copy to Clipboard</button>
+</div>
+
+<!-- FAQ Schema -->
+<div id="tab-faq" class="schema-tab" style="display:none">
+  <div class="card">
+    <p style="font-size:.85rem;color:var(--muted)">Add questions and answers. At least 2 recommended.</p>
+    <div id="faqItems">
+      <div class="faq-item">
+        <input placeholder="Question 1" class="faq-q" value="What is included in this product?">
+        <textarea rows="2" placeholder="Answer 1" class="faq-a">The product includes comprehensive documentation, templates, and examples to help you get started immediately.</textarea>
+        <button class="remove-btn" onclick="this.parentElement.remove()">Remove</button>
+      </div>
+      <div class="faq-item">
+        <input placeholder="Question 2" class="faq-q" value="Is there a refund policy?">
+        <textarea rows="2" placeholder="Answer 2" class="faq-a">We offer a 30-day money-back guarantee if you are not satisfied with your purchase.</textarea>
+        <button class="remove-btn" onclick="this.parentElement.remove()">Remove</button>
+      </div>
+      <div class="faq-item">
+        <input placeholder="Question 3" class="faq-q" value="How do I access the content after purchase?">
+        <textarea rows="2" placeholder="Answer 3" class="faq-a">You get instant digital download after payment confirmation. Lifetime access included.</textarea>
+        <button class="remove-btn" onclick="this.parentElement.remove()">Remove</button>
+      </div>
+    </div>
+    <button class="add-btn" onclick="addFaqItem()">+ Add Question</button>
+    <div style="margin-top:12px"><button class="btn btn-primary" onclick="generateFaq()">Generate FAQ Schema</button></div>
+  </div>
+  <div id="faqOutput" class="output-box">Click "Generate" to create schema markup</div>
+  <button class="copy-btn" onclick="copyOutput('faqOutput')">Copy to Clipboard</button>
+</div>
+
+<!-- Article Schema -->
+<div id="tab-article" class="schema-tab" style="display:none">
+  <div class="card">
+    <div><label>Article Title *</label><input id="artTitle" placeholder="Article headline" value="How to Boost Your SEO in 2026"></div>
+    <div class="field-group">
+      <div><label>Author Name *</label><input id="artAuthor" placeholder="Author" value="AutoMoney Store"></div>
+      <div><label>Publish Date *</label><input id="artDate" type="date"></div>
+    </div>
+    <div><label>Description</label><textarea id="artDesc" rows="2" placeholder="Article description / excerpt">Learn effective SEO strategies to rank higher in search results.</textarea></div>
+    <div class="field-group">
+      <div><label>Article URL</label><input id="artUrl" placeholder="https://..." value="https://automoney-store.pages.dev/blog/"></div>
+      <div><label>Image URL</label><input id="artImage" placeholder="https://...image.jpg"></div>
+    </div>
+    <button class="btn btn-primary" onclick="generateArticle()">Generate Article Schema</button>
+  </div>
+  <div id="artOutput" class="output-box">Click "Generate" to create schema markup</div>
+  <button class="copy-btn" onclick="copyOutput('artOutput')">Copy to Clipboard</button>
+</div>
+
+<!-- Breadcrumb Schema -->
+<div id="tab-breadcrumb" class="schema-tab" style="display:none">
+  <div class="card">
+    <p style="font-size:.85rem;color:var(--muted)">Enter each breadcrumb in order (home first).</p>
+    <div id="bcItems">
+      <div style="display:flex;gap:8px;margin-bottom:8px;align-items:center">
+        <input class="bc-name" placeholder="Page name" value="Home" style="flex:1">
+        <input class="bc-url" placeholder="URL" value="https://automoney-store.pages.dev/" style="flex:2">
+        <button class="remove-btn" onclick="this.parentElement.remove()">X</button>
+      </div>
+      <div style="display:flex;gap:8px;margin-bottom:8px;align-items:center">
+        <input class="bc-name" placeholder="Page name" value="Downloads" style="flex:1">
+        <input class="bc-url" placeholder="URL" value="https://automoney-store.pages.dev/downloads/" style="flex:2">
+        <button class="remove-btn" onclick="this.parentElement.remove()">X</button>
+      </div>
+      <div style="display:flex;gap:8px;margin-bottom:8px;align-items:center">
+        <input class="bc-name" placeholder="Page name" value="Current Product" style="flex:1">
+        <input class="bc-url" placeholder="URL" value="https://automoney-store.pages.dev/downloads/product" style="flex:2">
+        <button class="remove-btn" onclick="this.parentElement.remove()">X</button>
+      </div>
+    </div>
+    <button class="add-btn" onclick="addBreadcrumb()">+ Add Breadcrumb</button>
+    <div style="margin-top:12px"><button class="btn btn-primary" onclick="generateBreadcrumb()">Generate Breadcrumb Schema</button></div>
+  </div>
+  <div id="bcOutput" class="output-box">Click "Generate" to create schema markup</div>
+  <button class="copy-btn" onclick="copyOutput('bcOutput')">Copy to Clipboard</button>
+</div>
+
+<!-- HowTo Schema -->
+<div id="tab-howto" class="schema-tab" style="display:none">
+  <div class="card">
+    <div><label>HowTo Name *</label><input id="htName" placeholder="e.g. How to Set Up AI Automation" value="How to Use This Guide"></div>
+    <div><label>Description</label><textarea id="htDesc" rows="2" placeholder="Brief description">Follow these steps to get the most out of your purchase.</textarea></div>
+    <p style="font-size:.85rem;color:var(--muted);margin-top:12px">Steps (minimum 2 recommended):</p>
+    <div id="htSteps">
+      <div class="faq-item">
+        <input placeholder="Step name" class="ht-name" value="Download">
+        <textarea rows="1" placeholder="Step description" class="ht-desc">Purchase and download your files instantly.</textarea>
+        <button class="remove-btn" onclick="this.parentElement.remove()">Remove</button>
+      </div>
+      <div class="faq-item">
+        <input placeholder="Step name" class="ht-name" value="Review">
+        <textarea rows="1" placeholder="Step description" class="ht-desc">Read through the included documentation at your own pace.</textarea>
+        <button class="remove-btn" onclick="this.parentElement.remove()">Remove</button>
+      </div>
+      <div class="faq-item">
+        <input placeholder="Step name" class="ht-name" value="Apply">
+        <textarea rows="1" placeholder="Step description" class="ht-desc">Use the templates and exercises to implement what you learn.</textarea>
+        <button class="remove-btn" onclick="this.parentElement.remove()">Remove</button>
+      </div>
+    </div>
+    <button class="add-btn" onclick="addHowToStep()">+ Add Step</button>
+    <div style="margin-top:12px"><button class="btn btn-primary" onclick="generateHowTo()">Generate HowTo Schema</button></div>
+  </div>
+  <div id="htOutput" class="output-box">Click "Generate" to create schema markup</div>
+  <button class="copy-btn" onclick="copyOutput('htOutput')">Copy to Clipboard</button>
+</div>
+
+<!-- Local Business Schema -->
+<div id="tab-local" class="schema-tab" style="display:none">
+  <div class="card">
+    <div><label>Business Name *</label><input id="lbName" placeholder="Business name" value="AutoMoney Store"></div>
+    <div class="field-group">
+      <div><label>Phone</label><input id="lbPhone" placeholder="+1-234-567-8900"></div>
+      <div><label>Email</label><input id="lbEmail" placeholder="contact@example.com"></div>
+    </div>
+    <div><label>Address</label><input id="lbAddr" placeholder="Street address"></div>
+    <div class="field-group-3">
+      <div><label>City</label><input id="lbCity" placeholder="City"></div>
+      <div><label>State</label><input id="lbState" placeholder="State"></div>
+      <div><label>Postal Code</label><input id="lbZip" placeholder="Zip code"></div>
+    </div>
+    <div class="field-group">
+      <div><label>Opening Hours (e.g. Mo-Fr 09:00-17:00)</label><input id="lbHours" placeholder="Mo-Fr 09:00-17:00"></div>
+      <div><label>Price Range ($-$$$$)</label><input id="lbPrice" placeholder="$"></div>
+    </div>
+    <button class="btn btn-primary" onclick="generateLocal()">Generate Local Business Schema</button>
+  </div>
+  <div id="lbOutput" class="output-box">Click "Generate" to create schema markup</div>
+  <button class="copy-btn" onclick="copyOutput('lbOutput')">Copy to Clipboard</button>
+</div>
+
+<div style="margin-top:24px;padding:16px;background:var(--card);border-radius:8px;border:1px solid var(--border)">
+  <h2 style="margin:0 0 8px">Why Use Schema Markup?</h2>
+  <ul style="color:#b0b0b0;font-size:.9rem;margin-left:20px">
+    <li>Helps search engines understand your page content</li>
+    <li>Enables rich snippets in search results (stars, prices, FAQs)</li>
+    <li>May improve click-through rates by 20-30%</li>
+    <li>Required for Google's "People Also Ask" and knowledge panels</li>
+    <li>Supported by Google, Bing, Yandex, and Baidu</li>
+  </ul>
+</div>
+
+<div class="footer">
+<p>AutoMoney Store &copy; 2026. Free SEO Tool.</p>
+<p><a href="https://automoney-store.pages.dev" style="color:#444;text-decoration:none">automoney-store.pages.dev</a></p>
+</div>
+</div>
+
+<script>
+function switchTab(type) {
+  document.querySelectorAll('.schema-tab').forEach(t => t.style.display = 'none');
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + type).style.display = 'block';
+  event.target.classList.add('active');
+}
+
+function addFaqItem() {
+  const div = document.createElement('div');
+  div.className = 'faq-item';
+  div.innerHTML = '<input placeholder="Question" class="faq-q"><textarea rows="2" placeholder="Answer" class="faq-a"></textarea><button class="remove-btn" onclick="this.parentElement.remove()">Remove</button>';
+  document.getElementById('faqItems').appendChild(div);
+}
+
+function addBreadcrumb() {
+  const div = document.createElement('div');
+  div.style.cssText = 'display:flex;gap:8px;margin-bottom:8px;align-items:center';
+  div.innerHTML = '<input class="bc-name" placeholder="Page name" style="flex:1"><input class="bc-url" placeholder="URL" style="flex:2"><button class="remove-btn" onclick="this.parentElement.remove()">X</button>';
+  document.getElementById('bcItems').appendChild(div);
+}
+
+function addHowToStep() {
+  const div = document.createElement('div');
+  div.className = 'faq-item';
+  div.innerHTML = '<input placeholder="Step name" class="ht-name"><textarea rows="1" placeholder="Step description" class="ht-desc"></textarea><button class="remove-btn" onclick="this.parentElement.remove()">Remove</button>';
+  document.getElementById('htSteps').appendChild(div);
+}
+
+function generateProduct() {
+  const name = document.getElementById('prodName').value || 'Product';
+  const price = document.getElementById('prodPrice').value || '0';
+  const desc = document.getElementById('prodDesc').value || '';
+  const url = document.getElementById('prodUrl').value || '';
+  const brand = document.getElementById('prodBrand').value || '';
+  const image = document.getElementById('prodImage').value;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": name,
+    "description": desc,
+    "offers": {
+      "@type": "Offer",
+      "price": price,
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    }
+  };
+  if (url) schema.url = url;
+  if (brand) schema.brand = { "@type": "Brand", "name": brand };
+  if (image) schema.image = image;
+  document.getElementById('prodOutput').textContent = JSON.stringify(schema, null, 2);
+}
+
+function generateFaq() {
+  const items = document.querySelectorAll('#faqItems .faq-item');
+  const mainEntity = [];
+  items.forEach(item => {
+    const q = item.querySelector('.faq-q').value;
+    const a = item.querySelector('.faq-a').value;
+    if (q && a) {
+      mainEntity.push({
+        "@type": "Question",
+        "name": q,
+        "acceptedAnswer": { "@type": "Answer", "text": a }
+      });
+    }
+  });
+  const schema = { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": mainEntity };
+  document.getElementById('faqOutput').textContent = JSON.stringify(schema, null, 2);
+}
+
+function generateArticle() {
+  const title = document.getElementById('artTitle').value || 'Article';
+  const author = document.getElementById('artAuthor').value || 'Author';
+  const date = document.getElementById('artDate').value || new Date().toISOString().split('T')[0];
+  const desc = document.getElementById('artDesc').value || '';
+  const url = document.getElementById('artUrl').value || '';
+  const img = document.getElementById('artImage').value;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "author": { "@type": "Person", "name": author },
+    "datePublished": date,
+    "description": desc
+  };
+  if (url) schema.url = url;
+  if (img) schema.image = img;
+  document.getElementById('artOutput').textContent = JSON.stringify(schema, null, 2);
+}
+
+function generateBreadcrumb() {
+  const items = document.querySelectorAll('#bcItems > div');
+  const list = [];
+  items.forEach((item, i) => {
+    const name = item.querySelector('.bc-name').value;
+    const url = item.querySelector('.bc-url').value;
+    if (name) {
+      const entry = { "@type": "ListItem", "position": i + 1, "name": name };
+      if (url) entry.item = url;
+      list.push(entry);
+    }
+  });
+  const schema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": list };
+  document.getElementById('bcOutput').textContent = JSON.stringify(schema, null, 2);
+}
+
+function generateHowTo() {
+  const name = document.getElementById('htName').value || 'Guide';
+  const desc = document.getElementById('htDesc').value || '';
+  const steps = document.querySelectorAll('#htSteps .faq-item');
+  const stepList = [];
+  steps.forEach((item, i) => {
+    const sName = item.querySelector('.ht-name').value;
+    const sDesc = item.querySelector('.ht-desc').value;
+    if (sName || sDesc) {
+      stepList.push({ "@type": "HowToStep", "position": i + 1, "name": sName || `Step ${i+1}`, "text": sDesc || '' });
+    }
+  });
+  const schema = { "@context": "https://schema.org", "@type": "HowTo", "name": name, "description": desc, "step": stepList };
+  document.getElementById('htOutput').textContent = JSON.stringify(schema, null, 2);
+}
+
+function generateLocal() {
+  const name = document.getElementById('lbName').value || 'Business';
+  const phone = document.getElementById('lbPhone').value;
+  const email = document.getElementById('lbEmail').value;
+  const addr = document.getElementById('lbAddr').value;
+  const city = document.getElementById('lbCity').value;
+  const state = document.getElementById('lbState').value;
+  const zip = document.getElementById('lbZip').value;
+  const hours = document.getElementById('lbHours').value;
+  const price = document.getElementById('lbPrice').value;
+  const schema = { "@context": "https://schema.org", "@type": "LocalBusiness", "name": name };
+  if (phone) schema.telephone = phone;
+  if (email) schema.email = email;
+  if (addr || city) {
+    schema.address = { "@type": "PostalAddress" };
+    if (addr) schema.address.streetAddress = addr;
+    if (city) schema.address.addressLocality = city;
+    if (state) schema.address.addressRegion = state;
+    if (zip) schema.address.postalCode = zip;
+  }
+  if (hours) schema.openingHours = hours;
+  if (price) schema.priceRange = price;
+  document.getElementById('lbOutput').textContent = JSON.stringify(schema, null, 2);
+}
+
+function copyOutput(id) {
+  const el = document.getElementById(id);
+  const text = el.textContent;
+  if (text.includes('Click "Generate"')) return;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = el.nextElementSibling;
+    const orig = btn.textContent;
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = orig, 1500);
+  });
+}
+</script>
+</body>
+</html>
