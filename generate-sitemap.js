@@ -42,6 +42,8 @@ function scanDir(dir, basePath) {
 scanDir(path.join(OUTPUT, 'pages'), 'pages');
 scanDir(path.join(OUTPUT, 'blog'), 'blog');
 scanDir(path.join(OUTPUT, 'tools'), 'tools');
+scanDir(path.join(OUTPUT, 'downloads'), 'downloads');
+scanDir(path.join(OUTPUT, 'products'), 'products');
 
 // Language pages - scan each language dir
 for (const lang of ['en', 'es', 'pt']) {
