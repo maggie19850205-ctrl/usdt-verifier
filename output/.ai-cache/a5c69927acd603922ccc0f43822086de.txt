@@ -1,0 +1,40 @@
+{
+  "meta": "Professional AI voiceover script templates for video, ads, and podcasts. Save time with proven structures.",
+  "intro": "Stop staring at a blank page. These 5 ready-to-use AI voiceover script templates help you create compelling audio content for YouTube, TikTok, commercials, and more. Each template includes a clear structure and prompts for AI tools like ElevenLabs or Murf.",
+  "templates": [
+    {
+      "n": "YouTube Intro Hook",
+      "d": "A 15-30 second template designed to grab attention fast. Includes a problem statement, curiosity gap, and call to subscribe."
+    },
+    {
+      "n": "Product Ad Script",
+      "d": "A 60-second commercial template with pain point, solution, features, and strong CTA. Optimized for AI voice pacing."
+    },
+    {
+      "n": "Podcast Intro",
+      "d": "A 20-second branded intro with host welcome, episode teaser, and sponsor mention. Works with any AI voice."
+    },
+    {
+      "n": "Social Media Teaser",
+      "d": "A 10-15 second short-form script for TikTok/Reels. Includes hook, key insight, and engagement prompt."
+    },
+    {
+      "n": "Educational Explainer",
+      "d": "A 90-second script for tutorials or how-tos. Breaks down complex topics with step-by-step narration."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I edit these templates for my brand?",
+      "a": "Yes, all templates are fully customizable. Replace placeholders like [Product Name] or [Pain Point] with your own content."
+    },
+    {
+      "q": "Do these work with any AI voice generator?",
+      "a": "Absolutely. The templates are tool-agnostic and optimized for ElevenLabs, Murf, Play.ht, and similar platforms."
+    },
+    {
+      "q": "What format are the templates in?",
+      "a": "You get a PDF with 5 scripts plus a usage guide. Each script includes timing marks and emphasis cues for natural delivery."
+    }
+  ]
+}

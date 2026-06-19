@@ -1,0 +1,40 @@
+{
+  "meta": "Unlock creative AI image generation with 5 premium prompt templates. Save time, get stunning results with tested frameworks.",
+  "intro": "This AI Image Generation Prompt Pack provides five ready-to-use, highly effective prompt templates designed for tools like Midjourney, DALL-E, and Stable Diffusion. Each template includes specific parameters for style, lighting, composition, and mood, helping you create professional-grade images in seconds. Perfect for designers, marketers, and content creators.",
+  "templates": [
+    {
+      "n": "Cinematic Portrait",
+      "d": "Creates a dramatic, film-quality portrait with controlled lighting and depth of field. Use parameters: 'cinematic lighting, shallow depth of field, 85mm lens, soft bokeh background, moody atmosphere, 4K'. Best for character concepts and professional headshots."
+    },
+    {
+      "n": "Fantasy Landscape",
+      "d": "Generates epic, otherworldly landscapes with vibrant colors and mystical elements. Use parameters: 'ethereal, surreal, bioluminescent flora, floating islands, dramatic sky, volumetric fog, 8K'. Ideal for book covers and game environments."
+    },
+    {
+      "n": "Product Showcase",
+      "d": "Produces clean, high-end product images with realistic textures and reflections. Use parameters: 'studio lighting, white background, macro shot, glossy reflections, sharp focus, commercial photography'. Great for e-commerce and advertising."
+    },
+    {
+      "n": "Abstract Art",
+      "d": "Creates unique, non-representational art with dynamic shapes and color gradients. Use parameters: 'fluid art, geometric abstraction, vibrant color palette, flowing lines, high contrast, digital painting'. Perfect for wallpapers and branding."
+    },
+    {
+      "n": "Cyberpunk Scene",
+      "d": "Builds futuristic, neon-lit cityscapes with gritty urban details. Use parameters: 'neon lights, rain-slicked streets, holographic ads, dark alleyways, cybernetic elements, 4K, wide angle'. Ideal for sci-fi projects and game concept art."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use these templates with any AI image generator?",
+      "a": "Yes, the templates are designed to work with popular tools like Midjourney, DALL-E 3, and Stable Diffusion. You may need to adjust specific parameters (e.g., aspect ratio) based on the platform."
+    },
+    {
+      "q": "Are these templates customizable?",
+      "a": "Absolutely. Each template serves as a starting point. You can swap subjects, change color palettes, or add unique descriptors to match your vision."
+    },
+    {
+      "q": "What format is the pack delivered in?",
+      "a": "You receive a PDF file containing all five templates with detailed instructions and example prompts. It's optimized for quick reference and easy copying."
+    }
+  ]
+}

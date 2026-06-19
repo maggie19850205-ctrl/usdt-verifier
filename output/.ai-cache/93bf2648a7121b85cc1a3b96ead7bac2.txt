@@ -1,0 +1,40 @@
+{
+"meta": "Streamline your freelance contracts with 5 customizable templates for projects, NDAs, and more. Professional, affordable, and ready to use.",
+"intro": "Stop wasting time drafting contracts from scratch. This template pack gives you 5 professionally written, customizable contract templates covering the most common freelance scenarios. Each template is formatted in plain language and ready to adapt to your specific project needs.",
+"templates": [
+{
+"n": "Standard Freelance Service Agreement",
+"d": "Covers project scope, deliverables, payment terms (including milestones), revision limits, and cancellation policy. Ideal for fixed-price or hourly projects."
+},
+{
+"n": "Non-Disclosure Agreement (NDA)",
+"d": "Protects your confidential information and client data. Includes mutual and unilateral options, with a 2-year term and standard exclusions."
+},
+{
+"n": "Independent Contractor Agreement",
+"d": "For long-term or retainer relationships. Specifies work schedule, payment frequency, intellectual property ownership, and termination clauses."
+},
+{
+"n": "Project-Specific Addendum",
+"d": "Attach this to a master agreement for one-off projects. Includes a simple scope statement, budget line, and delivery timeline."
+},
+{
+"n": "Invoice and Payment Terms Template",
+"d": "Not a contract, but a clear payment policy. Defines due dates, late fees (e.g., 1.5% monthly), accepted payment methods, and dispute resolution."
+}
+],
+"faq": [
+{
+"q": "Are these templates legally binding?",
+"a": "Yes, when properly filled out and signed by both parties. However, we recommend having a local attorney review them for jurisdiction-specific compliance."
+},
+{
+"q": "Can I modify the templates?",
+"a": "Absolutely. Each template is provided in editable DOCX format so you can add, remove, or adjust clauses as needed for your business."
+},
+{
+"q": "Do you offer refunds?",
+"a": "Because these are digital downloads, we do not offer refunds. If you have an issue, contact support and we'll help resolve it."
+}
+]
+}

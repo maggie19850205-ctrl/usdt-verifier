@@ -1,0 +1,39 @@
+{
+"meta": "Master Perplexity AI research with this complete guide. Learn advanced search, analysis, and citation techniques for efficient research.",
+"sections": [
+{
+"h": "Getting Started with Perplexity AI",
+"b": "Perplexity AI combines large language models with real-time web search to deliver cited, conversational answers. Set up your account in under 2 minutes and start querying with natural language or Boolean operators for precision."
+},
+{
+"h": "Advanced Search Strategies",
+"b": "Use Pro Search for complex multi-step queries, leveraging GPT-4 or Claude 3.5. Apply filters like date ranges, source types (e.g., academic papers, news), and specific domains to narrow results by up to 60%."
+},
+{
+"h": "Analyzing and Synthesizing Results",
+"b": "Perplexity's 'Copilot' feature suggests follow-up questions and deep dives. Use the 'Collections' tool to organize findings into folders, and export citations in APA or MLA format with one click."
+},
+{
+"h": "Integrating Perplexity into Research Workflows",
+"b": "Combine Perplexity with tools like Zotero or Notion for seamless reference management. Automate daily research briefs using the API, saving 3-5 hours per week on manual searches."
+},
+{
+"h": "Troubleshooting and Best Practices",
+"b": "Avoid common pitfalls like overly broad queries or ignoring source credibility. For best results, refine prompts iteratively and cross-check critical claims with primary sources listed in Perplexity's footnotes."
+}
+],
+"faq": [
+{
+"q": "How does Perplexity AI differ from traditional search engines like Google?",
+"a": "Perplexity provides synthesized, cited answers instead of just links, using AI to understand context and multi-turn conversations. It excels at research tasks requiring deep analysis rather than simple lookups."
+},
+{
+"q": "Can I use Perplexity offline or without an internet connection?",
+"a": "No, Perplexity requires an internet connection because it queries live web data and relies on cloud-based AI models. However, you can save session transcripts for offline review."
+},
+{
+"q": "Is Perplexity suitable for academic research?",
+"a": "Yes, it's ideal for literature reviews and fact-checking due to its citation system and ability to filter by academic sources. However, always verify critical data against peer-reviewed journals for full rigor."
+}
+]
+}

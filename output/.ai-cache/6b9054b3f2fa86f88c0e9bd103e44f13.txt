@@ -1,0 +1,40 @@
+{
+"meta": "Streamline your freelance business with ready-to-use AI assistant templates. Save time, boost productivity, and automate tasks.",
+"intro": "This template pack provides five customizable AI assistant prompts designed to automate client communication, project management, and administrative tasks. Perfect for freelancers looking to scale their operations without hiring extra help. Each template is optimized for ChatGPT, Claude, and Gemini.",
+"templates": [
+{
+"n": "Client Onboarding Assistant",
+"d": "Automate welcome emails, set expectations, collect project requirements, and schedule kickoff calls. Includes prompts for gathering scope, timeline, and budget details."
+},
+{
+"n": "Project Scope & Quote Generator",
+"d": "Generate detailed project scopes, itemized quotes, and revision clauses. Integrates with rate calculators and common freelance pricing models (hourly, fixed, retainer)."
+},
+{
+"n": "Daily Task Prioritizer",
+"d": "Organize your to-do list by urgency, value, and energy level. Uses the Eisenhower Matrix and time-blocking techniques to optimize your workflow."
+},
+{
+"n": "Client Follow-Up & Upsell Engine",
+"d": "Draft polite follow-up messages, check-in emails, and upsell proposals. Includes triggers for post-delivery feedback and referral requests."
+},
+{
+"n": "Invoice & Payment Reminder Bot",
+"d": "Create professional payment reminders, late fee notices, and thank-you notes. Supports multiple currencies and integrates with common invoicing tools like FreshBooks and Wave."
+}
+],
+"faq": [
+{
+"q": "Can I customize these templates for my specific niche?",
+"a": "Yes, each template includes placeholders for your industry, services, and branding. Simply replace bracketed fields like [Client Name] or [Project Type]."
+},
+{
+"q": "Do these templates work with any AI tool?",
+"a": "Absolutely. They are optimized for ChatGPT, Claude, and Gemini, but can be adapted for any large language model with minor tweaks."
+},
+{
+"q": "Are there any usage limits?",
+"a": "No, you can use the templates as many times as you like. They are digital downloads with no expiration date."
+}
+]
+}

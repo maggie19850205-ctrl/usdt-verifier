@@ -1,0 +1,40 @@
+{
+"meta": "Build high-converting sales funnels with 5 proven templates. Includes AIDA, VSL, tripwire, webinar, and launch funnels.",
+"intro": "This template pack provides five ready-to-use sales funnel frameworks designed for digital products, courses, and services. Each template includes placement for opt-in pages, email sequences, upsells, and thank-you pages. Adaptable for ClickFunnels, Kajabi, Leadpages, or any page builder.",
+"templates": [
+{
+"n": "AIDA Funnel",
+"d": "Attention-Interest-Desire-Action structure. Use for simple lead magnets or low-ticket offers. Includes headline hooks, bullet points, scarcity timer, and CTA button copy."
+},
+{
+"n": "VSL Funnel",
+"d": "Video Sales Letter format. Optimized for 5-15 minute videos with timestamp triggers for email follow-ups. Includes script outline, email sequence, and retargeting pixel placement."
+},
+{
+"n": "Tripwire Funnel",
+"d": "Front-end low-cost offer ($7-$27) leading to backend upsells. Includes order form bumps, one-click upsell flows, and downsell page copy."
+},
+{
+"n": "Webinar Funnel",
+"d": "Registration, replay, and cart close sequence. Includes email templates for 3-day live event, replay access, and cart extension with countdown timers."
+},
+{
+"n": "Product Launch Funnel",
+"d": "Pre-launch, launch, and post-launch phases. Includes teaser email sequence, cart open/close dates, and scarcity-based urgency copy for limited-time bonuses."
+}
+],
+"faq": [
+{
+"q": "Can I use these templates with any landing page builder?",
+"a": "Yes, the templates are platform-agnostic. Copy and paste the text blocks into ClickFunnels, Kajabi, Leadpages, WordPress, or any drag-and-drop builder."
+},
+{
+"q": "Do the templates include email sequences?",
+"a": "Yes, each funnel template includes a 3-5 email sequence with subject lines, body copy, and call-to-action buttons. Adapt for Mailchimp, ConvertKit, or ActiveCampaign."
+},
+{
+"q": "Are these templates suitable for beginners?",
+"a": "Absolutely. Each template includes step-by-step instructions, example headlines, and placement guides for buttons, images, and forms. No prior funnel-building experience required."
+}
+]
+}

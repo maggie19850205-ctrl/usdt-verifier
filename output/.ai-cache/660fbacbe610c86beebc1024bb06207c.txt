@@ -1,0 +1,35 @@
+{
+  "meta": "Streamline billing with 5 automated invoice templates, expense trackers, and payment reminders for freelancers and small businesses.",
+  "sections": [
+    {
+      "h": "What's Included in the Ultimate Bundle",
+      "b": "This bundle combines 5 professionally designed invoice templates (PDF, Excel, Google Sheets), an integrated expense tracker, and automated payment reminder scripts. You'll also get a client management dashboard and tax summary reports to simplify year-end filing."
+    },
+    {
+      "h": "Automate Your Invoicing Workflow",
+      "b": "Save 10+ hours per month by automating invoice generation, recurring billing, and payment follow-ups. The templates use built-in formulas to calculate totals, taxes, and discounts instantly, reducing manual errors by 90%. Integrates with PayPal, Stripe, and bank transfers."
+    },
+    {
+      "h": "Designed for Freelancers & Small Teams",
+      "b": "Whether you're a solo freelancer or a team of 5, these templates scale with you. Includes multi-currency support, customizable branding (logo, colors, fonts), and automatic invoice numbering. Over 2,000 users have streamlined their billing process with this bundle."
+    },
+    {
+      "h": "Instant Access & Lifetime Updates",
+      "b": "Download immediately after purchase—no subscription fees. You'll receive lifetime updates for free, including new templates and features. Compatible with Microsoft Office 2019+, Google Workspace, and Mac Numbers."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I customize the invoice templates with my logo?",
+      "a": "Yes, each template includes placeholder fields for your logo, business name, address, and contact details. Simply replace the sample text and image with your own."
+    },
+    {
+      "q": "Do the payment reminders work automatically?",
+      "a": "The bundle includes Google Apps Script and Excel macros to send automated email reminders at set intervals (3, 7, 14 days overdue). You can customize the message and frequency."
+    },
+    {
+      "q": "Are the templates compatible with accounting software?",
+      "a": "Yes, you can export data to QuickBooks, Xero, and Wave. The CSV export option also allows easy import into most accounting platforms."
+    }
+  ]
+}

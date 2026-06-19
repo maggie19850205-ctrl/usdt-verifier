@@ -1,0 +1,39 @@
+{
+  "meta": "Master personal finance in 2026 with this color-coded guide to budgeting, saving, and investing for financial freedom.",
+  "sections": [
+    {
+      "h": "Why a Color-Coded System Works",
+      "b": "Our 2026 guide uses a simple color wheel—green for growth, blue for stability, red for risk—to help you visualize and manage every dollar. Studies show color-coded budgeting boosts retention by 40% compared to text-only methods. You'll assign each expense category a hue, making overspending instantly visible."
+    },
+    {
+      "h": "Budgeting with the 50/30/20 Rule in Color",
+      "b": "Split your after-tax income into three color zones: 50% blue for needs (rent, utilities), 30% green for wants (dining, hobbies), and 20% red for savings/debt. Use our printable color wheel to track monthly allocations with tools like Mint or YNAB. In 2026, adjust for inflation by shifting 5% from green to blue automatically."
+    },
+    {
+      "h": "Investing by Color: Low, Medium, High Risk",
+      "b": "Green investments (e.g., S&P 500 index funds) target 8-10% annual returns; blue bonds yield 3-4% with low volatility; red crypto or individual stocks can swing 20%+ in a quarter. Our guide includes a 2026 asset allocation matrix for ages 20-60, balancing colors to match your risk tolerance. Use Vanguard or Fidelity to rebalance quarterly."
+    },
+    {
+      "h": "Emergency Fund & Debt Payoff Strategy",
+      "b": "Build a 6-month emergency fund in the blue zone (high-yield savings at 4.5% APY) before tackling red-zone debt (credit cards at 22% APR). The guide provides a debt snowball color chart—pay off smallest red balances first for motivation. In 2026, automate transfers to avoid overspending in the green zone."
+    },
+    {
+      "h": "2026 Tax-Smart Color Tactics",
+      "b": "Use green for Roth IRA contributions (tax-free growth), blue for 401(k) pre-tax savings, and red for taxable brokerage accounts. Our guide includes a color-coded tax bracket table for 2026, showing how to shift income between zones to lower your liability. Tools like TurboTax can auto-color your deductions."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I start using the color system with my current budget?",
+      "a": "Print the included color wheel and categorize your last month's expenses into green, blue, and red zones. Then adjust your spending to match the 50/30/20 rule, using apps like EveryDollar to tag transactions by color."
+    },
+    {
+      "q": "What if my income fluctuates month to month?",
+      "a": "Use the 2026 variable income calculator in the guide—it averages your last 6 months of earnings and assigns a percentage to each color zone. Keep 10% in a buffer blue fund for lean months."
+    },
+    {
+      "q": "Can I use this system for family finances?",
+      "a": "Yes, the guide includes a family color matrix with separate wheels for each member. Combine them into a household master wheel to track shared goals like vacations (green) or mortgage (blue)."
+    }
+  ]
+}

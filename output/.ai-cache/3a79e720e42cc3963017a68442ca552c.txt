@@ -1,0 +1,35 @@
+{
+  "meta": "Master Pinterest SEO with this ultimate bundle of strategies, templates, and checklists to boost traffic and visibility.",
+  "sections": [
+    {
+      "h": "What’s Inside the Ultimate Bundle",
+      "b": "This bundle combines three core resources: a complete guide to Pinterest SEO, a checklist workbook for daily optimization, and a template pack for pins and boards. You get 15+ actionable templates, 8-step checklists, and 50+ keyword research examples using tools like Tailwind and Pinterest Trends."
+    },
+    {
+      "h": "Keyword Research Mastery",
+      "b": "Learn to identify high-volume, low-competition keywords using Pinterest’s search bar, Google Trends, and AI tools like ChatGPT. The guide teaches you to build keyword clusters for boards and pins, increasing visibility by up to 40% in search results."
+    },
+    {
+      "h": "Board & Pin Optimization",
+      "b": "Optimize board titles, descriptions, and covers with targeted keywords. The template pack includes 5 board name formulas and 10 pin title templates that follow Pinterest’s 2025 algorithm updates, proven to improve click-through rates by 25%."
+    },
+    {
+      "h": "Analytics & Iteration Framework",
+      "b": "Track performance with Pinterest Analytics and Google Analytics 4. The workbook includes a monthly review sheet to identify top-performing pins and adjust strategies, with benchmarks showing 3x growth in impressions within 60 days."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this bundle suitable for beginners?",
+      "a": "Yes, the guide starts with basics like setting up a business account and finding keywords, while the templates and checklists simplify execution for any skill level."
+    },
+    {
+      "q": "How often should I use the checklist?",
+      "a": "The daily checklist takes 10 minutes per day, with a weekly deep-dive for board audits. Most users see results within 2-4 weeks of consistent use."
+    },
+    {
+      "q": "Does this work for any niche?",
+      "a": "Absolutely. The strategies are niche-agnostic, with examples from lifestyle, e-commerce, and B2B. The template pack includes adaptable formats for all categories."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+"meta": "Streamline your contract management with this checklist workbook. Ensure compliance, avoid errors, and save time.",
+"intro": "This checklist workbook is designed to help you manage contracts efficiently from start to finish. Use it to track key clauses, deadlines, and obligations, ensuring nothing falls through the cracks.",
+"items": [
+"Identify all parties and their roles in the contract",
+"Verify key dates: start, end, renewal, and termination",
+"Review payment terms: amounts, schedules, and penalties",
+"Check confidentiality and non-disclosure clauses",
+"Confirm dispute resolution and governing law provisions",
+"Assess liability limits and indemnification terms",
+"Ensure all required signatures and initials are present",
+"File the signed contract and set reminders for milestones"
+],
+"faq": [
+{"q": "Who is this workbook for?", "a": "It's ideal for freelancers, small business owners, and project managers who need a simple system to review and track contracts."},
+{"q": "Can I use this for any type of contract?", "a": "Yes, the checklist is generic and works for service agreements, leases, NDAs, and more."},
+{"q": "Is this a digital product?", "a": "Yes, it's a printable PDF checklist workbook that you can use immediately after purchase."}
+]
+}

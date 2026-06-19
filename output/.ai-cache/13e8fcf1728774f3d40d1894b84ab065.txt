@@ -1,0 +1,28 @@
+{
+  "meta": "Streamline your video creation with this AI-powered script generator checklist workbook for $3.99.",
+  "intro": "Transform your video ideas into compelling scripts with this structured checklist workbook, designed to leverage AI tools like ChatGPT and Jasper for efficient content creation.",
+  "items": [
+    "Define your video goal and target audience using the SMART framework",
+    "Select the best AI script generator (e.g., ChatGPT, Jasper, Writesonic) for your niche",
+    "Craft a hook with the AIDA model (Attention, Interest, Desire, Action)",
+    "Structure your script with the 3-act format (Setup, Confrontation, Resolution)",
+    "Incorporate SEO keywords into your script using tools like TubeBuddy",
+    "Generate and refine dialogue with AI prompts for natural flow",
+    "Add visual cues and timing annotations for smooth production",
+    "Review and optimize script length for platform-specific limits (e.g., 60 seconds for TikTok)"
+  ],
+  "faq": [
+    {
+      "q": "Do I need prior video scripting experience to use this workbook?",
+      "a": "No, the workbook is beginner-friendly with step-by-step checklists that guide you through each stage, from idea to final script."
+    },
+    {
+      "q": "Which AI tools are recommended in this workbook?",
+      "a": "We focus on popular tools like ChatGPT, Jasper, and Copy.ai, providing specific prompts and examples tailored for video scripts."
+    },
+    {
+      "q": "Can this workbook help with different video formats?",
+      "a": "Yes, it covers scripts for tutorials, product demos, social media clips, and storytelling videos, with adaptable templates."
+    }
+  ]
+}

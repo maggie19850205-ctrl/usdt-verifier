@@ -1,0 +1,39 @@
+{
+  "meta": "Master TikTok's algorithm with our complete guide to crafting viral videos. Proven strategies, tools, and examples included.",
+  "sections": [
+    {
+      "h": "The 3-Second Hook Formula",
+      "b": "Capture attention instantly using the 'Pattern Interrupt' technique—start with a surprising visual or question. Tools like CapCut and InShot help trim intros to under 3 seconds. Data shows videos with hooks retain 70% more viewers."
+    },
+    {
+      "h": "Riding Trending Sounds & Hashtags",
+      "b": "Identify trending sounds via TikTok's Creative Center and pair them with niche hashtags (e.g., #BookTok for authors). Use 3-5 broad tags and 2 specific ones per post. Videos using trending audio see 2x average engagement."
+    },
+    {
+      "h": "Video Structure for Maximum Watch Time",
+      "b": "Follow the 'Looping Narrative' structure: hook, build, twist, and seamless loop ending. Keep total length between 15-30 seconds for algorithm favorability. Analytics reveal 60%+ completion rates for this pattern."
+    },
+    {
+      "h": "Posting Schedule & Algorithm Timing",
+      "b": "Post 1-3 times daily during peak hours (7-9 PM local time) using tools like Later for scheduling. New accounts should aim for 14 consecutive days of posting. Consistent uploaders see 40% faster follower growth."
+    },
+    {
+      "h": "Analytics-Driven Optimization",
+      "b": "Use TikTok Pro Account analytics to track retention rate, follower activity, and traffic sources. A/B test thumbnails, captions, and posting times weekly. Accounts optimizing based on data improve views by 50% within 30 days."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does it take for a TikTok to go viral?",
+      "a": "Viral success varies, but most hits occur within 24-48 hours of posting if the algorithm picks up early engagement. Consistent quality posting increases odds."
+    },
+    {
+      "q": "Do I need expensive equipment for viral videos?",
+      "a": "No, a smartphone with good lighting and clear audio is sufficient. Focus on content value over production value—many viral videos are shot on basic phones."
+    },
+    {
+      "q": "Can this guide work for any niche?",
+      "a": "Yes, the formulas are platform-agnostic and adaptable. From fitness to finance, the hook, sound, and structure principles apply universally."
+    }
+  ]
+}

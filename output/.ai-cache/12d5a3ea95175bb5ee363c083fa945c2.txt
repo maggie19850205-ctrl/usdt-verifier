@@ -1,0 +1,39 @@
+{
+  "meta": "Learn to repurpose AI content across platforms with our complete guide. Tools, frameworks, and strategies included.",
+  "sections": [
+    {
+      "h": "Why Repurpose AI Content?",
+      "b": "Repurposing AI-generated content saves time and maximizes reach. Studies show repurposed content can increase engagement by 60% using tools like Jasper and ChatGPT for multi-platform adaptation. Focus on core messages and reformat for blogs, social media, and videos."
+    },
+    {
+      "h": "Core Repurposing Frameworks",
+      "b": "Use the '5-3-1 Framework': create 5 social posts, 3 email snippets, and 1 long-form article from a single AI draft. Tools like Canva and Lumen5 help convert text into visuals and videos, boosting retention by 40%."
+    },
+    {
+      "h": "Platform-Specific Strategies",
+      "b": "For LinkedIn, shorten AI text to 150 characters with bullet points. For YouTube, extract key phrases for timestamps and captions. Use Hootsuite to schedule repurposed content across 5+ platforms, reducing manual work by 80%."
+    },
+    {
+      "h": "Automation and Scaling",
+      "b": "Automate repurposing with Zapier and Make.com, connecting AI tools to social media and email. Set up workflows to convert one blog post into 10 tweets, 3 Instagram captions, and 2 newsletter sections in under 30 minutes."
+    },
+    {
+      "h": "Measuring Success",
+      "b": "Track repurposing ROI with Google Analytics and Buffer. Aim for 20% increase in traffic per repurposed piece. Use A/B testing on headlines and formats to optimize, focusing on click-through rates above 3%."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I repurpose content without losing quality?",
+      "a": "Yes, by using AI tools like ChatGPT to rewrite and adjust tone while keeping key data. Always add human edits to ensure accuracy and brand voice."
+    },
+    {
+      "q": "What tools are best for beginners?",
+      "a": "Start with free tools like Canva for visuals and Lumen5 for video. For automation, Zapier offers affordable plans to connect AI outputs to platforms."
+    },
+    {
+      "q": "How much time does repurposing save?",
+      "a": "Automating repurposing can save 10-15 hours per week, as one AI draft can generate 20+ pieces of content across different channels."
+    }
+  ]
+}

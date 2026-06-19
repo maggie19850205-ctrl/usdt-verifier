@@ -1,0 +1,38 @@
+{
+  "meta": "Complete guide to freelance proposal templates with tools, frameworks, and strategies to win more clients.",
+  "sections": [
+    {
+      "h": "Why Use a Freelance Proposal Template",
+      "b": "A structured proposal template saves hours of writing time and ensures consistency across pitches. Studies show that proposals with clear formatting and client-specific sections have a 30% higher conversion rate. Templates also help you avoid missing key elements like pricing breakdowns or timelines, which can cost you the deal."
+    },
+    {
+      "h": "Key Components of a Winning Proposal",
+      "b": "Every effective freelance proposal includes a problem statement, solution overview, deliverables, timeline, pricing, and terms. Use frameworks like the 'Challenge-Solution-Result' model to structure your narrative. Tools like PandaDoc or Proposify can automate formatting and track when clients open your proposal."
+    },
+    "h": "How to Customize Templates for Different Clients",
+      "b": "Generic proposals fail because clients want to feel understood. Research the client's industry, pain points, and competitors, then tailor your solution and case studies accordingly. For example, use specific metrics from past projects (e.g., 'increased conversion by 40%') to build credibility. Customize the tone to match the client's brand voice."
+    },
+    {
+      "h": "Pricing Strategies to Include in Your Proposal",
+      "b": "Offer tiered pricing options (e.g., Basic, Standard, Premium) to appeal to different budgets and increase perceived value. Use value-based pricing by highlighting ROI, such as 'This SEO package typically generates $5,000 in additional monthly revenue.' Always include payment terms, milestones, and a clear scope to avoid scope creep."
+    },
+    {
+      "h": "Common Mistakes and How to Avoid Them",
+      "b": "Don't overpromise on deliverables or timelines—be realistic and buffer for revisions. Avoid jargon or overly technical language that confuses non-expert clients. Finally, always include a call-to-action (e.g., 'Let's schedule a call to discuss') and a deadline for the proposal to create urgency."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What software do you recommend for creating proposals?",
+      "a": "PandaDoc and Proposify are popular for their drag-and-drop editors and client tracking features. For a free option, Google Docs with a template works well for beginners."
+    },
+    {
+      "q": "How long should a freelance proposal be?",
+      "a": "Aim for 2-5 pages—long enough to cover key details but short enough to keep attention. Focus on clarity and value, not fluff."
+    },
+    {
+      "q": "Can I reuse the same template for every client?",
+      "a": "No, always customize the template for each client. Change the problem statement, examples, and pricing to fit their specific needs and industry."
+    }
+  ]
+}

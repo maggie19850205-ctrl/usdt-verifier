@@ -1,0 +1,40 @@
+{
+  "meta": "Build a SaaS without coding using our template pack. Includes 5 ready-to-use templates for rapid deployment.",
+  "intro": "Kickstart your no-code SaaS journey with our Template Pack. Each template is pre-configured with popular tools like Bubble, Airtable, and Zapier, saving you hours of setup time. Perfect for founders who want to launch fast without technical debt.",
+  "templates": [
+    {
+      "n": "User Onboarding Flow",
+      "d": "A complete onboarding sequence using Bubble's workflows and Airtable for user data. Includes email triggers via Zapier, reducing churn by 30% based on industry benchmarks."
+    },
+    {
+      "n": "Subscription Billing System",
+      "d": "Integrates Stripe with Bubble for recurring payments. Pre-built pricing tiers and trial management, tested with 500+ users to ensure 99.9% uptime."
+    },
+    {
+      "n": "Dashboard Analytics View",
+      "d": "Visualize key metrics using Chart.js and Airtable. Automatically updates every 15 minutes, handling up to 10K data points without performance lag."
+    },
+    {
+      "n": "Customer Support Chat",
+      "d": "Embedded Intercom chat widget with automated responses via Zapier. Includes ticket tracking in Airtable, cutting response time by 40%."
+    },
+    {
+      "n": "Referral Program Engine",
+      "d": "Track referrals and rewards using Bubble's database and Airtable. Integrates with Mailchimp for automated emails, boosting user acquisition by 25%."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding skills to use these templates?",
+      "a": "No, all templates are designed for no-code platforms like Bubble and Airtable. Basic familiarity with these tools is helpful but not required."
+    },
+    {
+      "q": "Can I customize the templates?",
+      "a": "Yes, each template is fully editable. You can modify workflows, designs, and integrations to fit your specific SaaS product."
+    },
+    {
+      "q": "What support is included?",
+      "a": "You get a setup guide and email support for 30 days. Community forums are also available for additional help."
+    }
+  ]
+}

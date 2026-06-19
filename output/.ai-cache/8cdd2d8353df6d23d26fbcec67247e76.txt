@@ -1,0 +1,19 @@
+{
+"meta": "Brand identity checklist workbook to define your brand's visual and verbal identity. Includes 8 actionable steps.",
+"intro": "This checklist workbook guides you through defining and documenting your brand identity. Use it to create a consistent, recognizable brand across all touchpoints.",
+"items": [
+"Define your brand's mission, vision, and core values.",
+"Identify your target audience and create detailed buyer personas.",
+"Develop your brand voice and tone guidelines (e.g., formal, playful, authoritative).",
+"Choose your brand color palette (primary, secondary, and accent colors).",
+"Select typography (headline and body fonts) with fallback options.",
+"Design your logo variations (full, icon, horizontal, vertical).",
+"Create visual guidelines for imagery, icons, and graphic elements.",
+"Compile all elements into a one-page brand identity reference sheet."
+],
+"faq": [
+{"q": "How long does it take to complete this workbook?", "a": "Most users complete it in 2–4 hours, depending on how much research you already have on your brand."},
+{"q": "Can I use this for a rebrand?", "a": "Yes, the workbook is designed for both new brands and rebrands. Simply adapt each step to your existing brand context."},
+{"q": "What tools do I need to use this checklist?", "a": "You only need a pen and paper or a digital document editor. Optional tools include Canva for mockups and a color picker tool."}
+]
+}

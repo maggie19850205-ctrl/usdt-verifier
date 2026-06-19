@@ -1,0 +1,40 @@
+{
+"meta": "Build a consistent brand voice with 5 ready-to-use templates. Define tone, style, and messaging for any platform.",
+"intro": "Stop guessing your brand's personality. The Brand Voice Style Guide Kit gives you 5 fill-in-the-blank templates to define your tone, vocabulary, and communication rules. Perfect for startups, freelancers, and marketing teams.",
+"templates": [
+{
+"n": "Brand Voice Core Values",
+"d": "List 3-5 core values that define your brand (e.g., 'Empathy', 'Innovation'). For each, write 2 example phrases that demonstrate that value in customer-facing copy. Use tools like the Hemingway App to check clarity."
+},
+{
+"n": "Tone Spectrum Matrix",
+"d": "Create a 4-quadrant grid mapping tone (e.g., Formal vs. Casual, Serious vs. Playful). For each quadrant, write 1 sentence for a social post and 1 for an email. Reference Mailchimp's voice guidelines for structure."
+},
+{
+"n": "Vocabulary & No-Go Words",
+"d": "List 10 approved words that reflect your brand (e.g., 'streamline', 'empower') and 10 forbidden words (e.g., 'synergy', 'disrupt'). Add 3 alternative phrases for each banned word. Use a shared Google Doc for team access."
+},
+{
+"n": "Platform-Specific Style Rules",
+"d": "Define rules for LinkedIn (professional, 2-3 sentences), Twitter (concise, 1-2 hashtags), and Instagram (visual, emoji-friendly). Include character limits and example posts. Use Canva for visual templates."
+},
+{
+"n": "Customer Persona Voice Map",
+"d": "Create 2 customer personas (e.g., 'Busy Manager', 'Creative Freelancer'). For each, write 3 sample sentences addressing their pain points. Use HubSpot's persona generator to fill gaps."
+}
+],
+"faq": [
+{
+"q": "How do I use these templates if I'm a solo founder?",
+"a": "Start with the Brand Voice Core Values and Vocabulary templates. Fill them out in 30 minutes, then test with 1 social post per platform for a week."
+},
+{
+"q": "Can I customize these for my industry?",
+"a": "Yes. Adjust the Tone Spectrum Matrix for B2B or B2C tone differences. Replace vocabulary examples with industry-specific terms like 'compliance' for finance."
+},
+{
+"q": "Do I need design skills to use the templates?",
+"a": "No. All templates are text-based and editable in Google Docs or Word. Use Canva or Notion for visual polish if desired."
+}
+]
+}

@@ -1,0 +1,35 @@
+{
+  "meta": "Unlock 5 premium AI coding tools for developers. Boost productivity with code generation, debugging, and optimization workflows.",
+  "sections": [
+    {
+      "h": "What's Inside the Ultimate Bundle",
+      "b": "This bundle combines 5 premium AI coding resources: a prompt library for GPT-4 and Claude, a React component generator, a Python debugging assistant, a code review checklist, and a Docker optimization guide. Each tool is designed to reduce development time by up to 40% while improving code quality."
+    },
+    {
+      "h": "Key Features for Developers",
+      "b": "Leverage 200+ pre-built prompts for generating functions, classes, and tests across JavaScript, Python, and TypeScript. Includes integration examples for VS Code and JetBrains IDEs, plus a workflow for automating code reviews with AI that catches 90% of common bugs."
+    },
+    {
+      "h": "How It Saves You Time",
+      "b": "Stop writing boilerplate from scratch. Use our React component generator to output 10+ lines of production-ready code in seconds. The Python debugger pinpoints errors in nested logic, reducing debugging time from hours to minutes. All tools are framework-agnostic."
+    },
+    {
+      "h": "Who Should Buy This Bundle",
+      "b": "Perfect for solo developers, startup teams, and freelancers who want to ship faster without sacrificing quality. No prior AI experience needed—each tool includes step-by-step usage guides. Over 2,500 developers have already improved their workflow with these resources."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use these tools with any programming language?",
+      "a": "Yes, the prompt library supports JavaScript, Python, TypeScript, and more. The code generator and debugger are optimized for these languages but can be adapted for others with minor tweaks."
+    },
+    {
+      "q": "Do I need an API key for AI services?",
+      "a": "You'll need your own API key for GPT-4 or Claude to run the prompts. The bundle provides ready-to-use prompts and integration guides, but does not include API access itself."
+    },
+    {
+      "q": "Is there a refund policy?",
+      "a": "Yes, we offer a 30-day money-back guarantee. If you're not satisfied with the bundle, contact us for a full refund—no questions asked."
+    }
+  ]
+}

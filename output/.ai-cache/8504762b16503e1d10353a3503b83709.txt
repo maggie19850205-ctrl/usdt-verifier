@@ -1,0 +1,35 @@
+{
+"meta": "Automate lead generation with this ultimate bundle: workflows, tools, and templates for consistent B2B sales pipeline growth.",
+"sections": [
+{
+"h": "Why Automate Lead Generation?",
+"b": "Manual lead generation wastes up to 40% of sales time on repetitive tasks like data entry and follow-ups. Automation cuts this by 70%, letting your team focus on closing deals. With the right tools, you can capture, qualify, and nurture leads 24/7 without added headcount."
+},
+{
+"h": "Core Workflows in This Bundle",
+"b": "This bundle includes five pre-built automation workflows for LinkedIn prospecting, email outreach, CRM enrichment, lead scoring, and retargeting. Each workflow integrates with tools like HubSpot, Salesforce, and Zapier. You’ll also get a step-by-step setup guide to deploy them in under 2 hours."
+},
+{
+"h": "Tools and Frameworks Included",
+"b": "Leverage frameworks like the Inbound Lead Scoring Matrix and the 3-Touch Follow-Up Sequence to prioritize high-intent leads. We recommend pairing these with tools like Calendly for scheduling, Hunter.io for email finding, and PhantomBuster for LinkedIn scraping. All templates are compatible with Google Sheets and Airtable."
+},
+{
+"h": "Measurable Results You Can Expect",
+"b": "Users report a 50% increase in qualified leads within 30 days and a 30% reduction in cost-per-lead. For example, one SaaS company generated 200+ MQLs monthly using the included Facebook Lead Ad-to-CRM workflow. With this bundle, you’ll track KPIs like conversion rate and response time in a pre-built dashboard."
+}
+],
+"faq": [
+{
+"q": "What is included in the Ultimate Bundle?",
+"a": "You get 5 automation workflows, 10 customizable templates, a lead scoring framework, and a 15-page implementation guide. All files are downloadable in PDF and spreadsheet formats."
+},
+{
+"q": "Do I need technical skills to use these automations?",
+"a": "No coding is required. Each workflow includes screenshots and plain-English instructions for tools like Zapier, Make, and HubSpot. Basic familiarity with CRMs is helpful but not mandatory."
+},
+{
+"q": "Can I customize the workflows for my industry?",
+"a": "Yes, all templates are fully editable. Swap out sample data, adjust lead scoring thresholds, or integrate your own tools. The bundle includes a customization checklist for B2B, e-commerce, and real estate verticals."
+}
+]
+}

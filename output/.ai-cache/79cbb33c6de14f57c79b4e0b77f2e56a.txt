@@ -1,0 +1,39 @@
+{
+  "meta": "Master AI code generation with this checklist workbook. Covers tool selection, prompt engineering, and quality validation.",
+  "sections": [
+    {
+      "h": "Evaluating AI Code Generation Tools",
+      "b": "Compare top tools like GitHub Copilot, Amazon CodeWhisperer, and Tabnine based on supported languages, IDE integration, and context window size. Use our scoring matrix to rate each tool across 12 criteria including code accuracy, latency, and security compliance."
+    },
+    {
+      "h": "Crafting Effective Prompts",
+      "b": "Learn to structure prompts using the 'role-task-context-format' framework, achieving up to 40% fewer errors in generated code. Practice with 15 real-world exercises covering API wrappers, regex patterns, and database queries."
+    },
+    {
+      "h": "Validating and Refining Generated Code",
+      "b": "Apply a 5-step validation checklist covering syntax, logic, edge cases, performance, and security. Use tools like ESLint, Pylint, and Bandit to automate checks, reducing manual review time by 60%."
+    },
+    {
+      "h": "Integrating AI into CI/CD Pipelines",
+      "b": "Configure automated code generation triggers in GitHub Actions or Jenkins using our template YAML files. Achieve 3x faster feature delivery while maintaining code review quality gates."
+    },
+    {
+      "h": "Avoiding Common Pitfalls",
+      "b": "Identify 7 recurring issues like hallucinated dependencies, infinite loops, and insecure imports. Our checklist includes remediation steps and test cases to catch these before deployment."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need prior AI experience to use this workbook?",
+      "a": "No, the workbook is designed for developers of all levels. Each section includes beginner-friendly explanations and progressively advanced exercises."
+    },
+    {
+      "q": "How long does it take to complete the workbook?",
+      "a": "Most users finish in 3-5 hours over several sessions. Each checklist item takes 5-10 minutes to apply to your actual codebase."
+    },
+    {
+      "q": "Can I use this with any programming language?",
+      "a": "Yes, the frameworks and checklists are language-agnostic. Examples are provided in Python and JavaScript, but principles apply to Java, Go, Rust, and others."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+"meta": "Master SaaS pricing strategy with this complete guide covering models, metrics, and tactics to boost revenue and reduce churn.",
+"sections": [
+{
+"h": "Understanding Pricing Models",
+"b": "Explore the three dominant SaaS pricing models: flat-rate, usage-based, and tiered. Data shows tiered pricing increases average revenue per user (ARPU) by 23% compared to flat-rate, while usage-based models reduce churn by 12% for high-engagement products. We break down when to use each with real-world examples from Slack and Zoom."
+},
+{
+"h": "Value Metrics and Packaging",
+"b": "Identify the right value metric—such as seats, storage, or API calls—that aligns with customer willingness to pay. A study by ProfitWell found that companies using a single core metric see 15% higher conversion rates. Learn to bundle features into tiers that maximize perceived value without cannibalizing upgrades."
+},
+{
+"h": "Pricing Psychology and Anchoring",
+"b": "Apply behavioral economics principles like anchoring, decoy effects, and charm pricing to influence purchase decisions. For instance, adding a premium tier at $99/month increases mid-tier sales by 18% when the mid-tier is priced at $49. Use our framework to test price points with A/B testing tools like Optimizely."
+},
+{
+"h": "Discounting and Promotions",
+"b": "Implement strategic discounting without devaluing your product. Annual prepayment discounts of 15–20% improve cash flow and reduce churn by 30% according to Recurly data. Avoid percentage discounts on low tiers; instead, use fixed-dollar offers to maintain perceived quality."
+},
+{
+"h": "Monitoring and Iterating Pricing",
+"b": "Set up key metrics: LTV/CAC ratio (target >3x), gross margin retention (>90%), and price elasticity. Use tools like ChartMogul to track cohort performance after price changes. Iterate quarterly with small tests—a 5% price increase typically yields 2–4% revenue lift without significant churn."
+}
+],
+"faq": [
+{
+"q": "How often should I update my SaaS pricing?",
+"a": "Review pricing at least quarterly and make major adjustments annually. Frequent small tweaks (5–10%) are less disruptive than large jumps, and you should always grandfather existing customers for 6–12 months."
+},
+{
+"q": "What's the best pricing model for a new SaaS product?",
+"a": "Start with a simple tiered model (3 tiers: basic, pro, enterprise) based on usage or features. This provides clarity for early adopters and allows room to add a premium tier later as you gather data."
+},
+{
+"q": "How do I handle pricing for enterprise customers?",
+"a": "Offer custom pricing with volume discounts and dedicated support. Use a value-based approach: calculate ROI for the client and price at 10–15% of that value. Require annual contracts to reduce churn risk."
+}
+]
+}

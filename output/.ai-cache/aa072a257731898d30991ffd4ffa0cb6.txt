@@ -1,0 +1,40 @@
+{
+  "meta": "Streamline your email replies with AI-powered templates for autoresponders, saving time and boosting engagement.",
+  "intro": "This template pack includes 5 ready-to-use AI email auto-responder templates designed to handle common scenarios like out-of-office, lead follow-up, and customer support. Each template is optimized for personalization and efficiency, leveraging AI tools like ChatGPT or Jasper to generate context-aware responses in seconds.",
+  "templates": [
+    {
+      "n": "Out-of-Office Auto-Responder",
+      "d": "A professional template that informs senders of your absence, provides alternative contact info, and sets expectations for reply timing. Includes placeholders for dates and emergency contacts."
+    },
+    {
+      "n": "Lead Follow-Up Auto-Responder",
+      "d": "Engages new leads with a warm, value-driven response that acknowledges their inquiry, offers a quick resource (e.g., a case study or demo link), and prompts a next step. Uses AI to personalize based on lead source."
+    },
+    {
+      "n": "Customer Support Acknowledgment",
+      "d": "Automatically confirms receipt of a support ticket, sets a typical response time (e.g., 24 hours), and includes a link to the knowledge base for self-service. Designed to reduce anxiety and repeat inquiries."
+    },
+    {
+      "n": "Order Confirmation Auto-Responder",
+      "d": "Confirms purchase details, provides order tracking info, and up-sells with a related product recommendation based on the purchase. Includes a 10% discount code for future orders to boost retention."
+    },
+    {
+      "n": "Meeting Scheduling Auto-Responder",
+      "d": "Responds to meeting requests by offering available time slots via Calendly or a similar tool, asks for agenda topics, and confirms once booked. Integrates with Google Calendar and Outlook for seamless sync."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I use these templates with AI tools?",
+      "a": "Copy the template into an AI platform like ChatGPT or Jasper, replace placeholders with your details, and let the AI generate a personalized response. Each template includes brackets for variables like [Name] or [Date]."
+    },
+    {
+      "q": "Can I customize the templates for my brand?",
+      "a": "Yes, each template includes style and tone guidelines, making it easy to adjust language, add your logo, or include brand-specific calls-to-action. They are designed as flexible starting points."
+    },
+    {
+      "q": "Do these work with any email platform?",
+      "a": "Absolutely. The templates are platform-agnostic and can be used with Gmail, Outlook, HubSpot, or any CRM. Simply paste the final AI-generated text into your auto-responder settings."
+    }
+  ]
+}

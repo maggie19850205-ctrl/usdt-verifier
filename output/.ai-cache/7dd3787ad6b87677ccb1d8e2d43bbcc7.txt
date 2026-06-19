@@ -1,0 +1,40 @@
+{
+"meta": "Get 5 essential project management templates to plan, track, and deliver projects on time. Perfect for teams and freelancers.",
+"intro": "Streamline your project workflow with this pack of 5 ready-to-use templates. Designed for project managers, team leads, and solopreneurs, these templates cover planning, execution, and reporting. Save hours of setup time and stay organized from kickoff to delivery.",
+"templates": [
+{
+"n": "Project Charter Template",
+"d": "Define project scope, objectives, stakeholders, and key milestones. Includes sections for budget estimates and risk assessment."
+},
+{
+"n": "Task Tracker Template",
+"d": "Track tasks, assignees, due dates, and status. Features priority levels, progress percentages, and automated deadline alerts."
+},
+{
+"n": "Gantt Chart Template",
+"d": "Visualize project timeline with dependencies, critical path, and resource allocation. Compatible with Microsoft Excel and Google Sheets."
+},
+{
+"n": "Meeting Minutes Template",
+"d": "Capture action items, decisions, and next steps. Includes agenda template and follow-up reminder columns."
+},
+{
+"n": "Project Closure Report",
+"d": "Document lessons learned, final budget vs actuals, and deliverables sign-off. Includes a checklist for stakeholder approval."
+}
+],
+"faq": [
+{
+"q": "Are these templates compatible with Google Sheets?",
+"a": "Yes, all templates are available in both Excel (.xlsx) and Google Sheets formats. You can import them directly into your Google Drive."
+},
+{
+"q": "Can I customize the templates for my team?",
+"a": "Absolutely. Each template is fully editable. You can add or remove columns, change colors, and adjust formulas to fit your workflow."
+},
+{
+"q": "Do I need project management software to use these?",
+"a": "No, these templates work with standard spreadsheet tools like Excel, Google Sheets, or LibreOffice. No additional software required."
+}
+]
+}

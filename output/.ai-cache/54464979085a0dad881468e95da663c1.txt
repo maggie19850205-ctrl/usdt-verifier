@@ -1,0 +1,28 @@
+{
+  "meta": "Structured checklist workbook for building an AI-optimized resume with 8 actionable steps to boost interview chances.",
+  "intro": "This checklist workbook guides you through creating a resume tailored for AI screening systems and human recruiters alike. Each step includes prompts and verification checks to ensure your resume passes automated filters and stands out to hiring managers.",
+  "items": [
+    "Analyze job description for keywords and required skills using tools like Jobscan or SkillSyncer.",
+    "Format your resume with standard fonts (Arial, Calibri) and avoid tables, columns, or graphics to ensure ATS readability.",
+    "Quantify achievements with numbers (e.g., 'Increased sales by 30%') in bullet points under each role.",
+    "Optimize your summary section with 3-5 lines including your target title, key skills, and a measurable accomplishment.",
+    "Use action verbs (e.g., 'Led,' 'Implemented,' 'Optimized') consistently across all experience entries.",
+    "Include a skills section with both hard skills (e.g., Python, Salesforce) and soft skills (e.g., leadership) matching the job.",
+    "Add certifications, courses, or projects relevant to the role, prioritizing those from recognized platforms (Coursera, LinkedIn Learning).",
+    "Proofread for typos and test your resume with a free ATS scanner (e.g., TopResume's tool) before submitting."
+  ],
+  "faq": [
+    {
+      "q": "How long should my resume be for AI screening?",
+      "a": "One page for less than 10 years of experience, two pages maximum for senior roles. AI systems favor concise, keyword-dense content."
+    },
+    {
+      "q": "Can I use a creative template for AI resume builders?",
+      "a": "No, avoid graphics, columns, or unusual fonts. Stick to simple, text-based layouts to ensure AI parsers correctly extract your information."
+    },
+    {
+      "q": "How often should I update this checklist for job applications?",
+      "a": "Use it for every new job application, as each role has unique keywords. Re-run the checklist to tailor your resume for each position."
+    }
+  ]
+}

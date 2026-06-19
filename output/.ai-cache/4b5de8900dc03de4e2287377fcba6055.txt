@@ -1,0 +1,39 @@
+{
+  "meta": "Build a standout resume with AI productivity tools. Learn to optimize keywords, format, and tailor for job applications.",
+  "sections": [
+    {
+      "h": "Why Use AI for Resume Building?",
+      "b": "AI tools like ChatGPT and Jasper can analyze job descriptions to identify key skills and keywords, ensuring your resume passes Applicant Tracking Systems (ATS). Studies show resumes optimized with AI have a 40% higher callback rate. By leveraging AI, you save hours of manual editing while tailoring each application to specific roles."
+    },
+    {
+      "h": "Top AI Tools for Resume Optimization",
+      "b": "Tools such as Jobscan and Rezi specialize in ATS-friendly formatting and keyword matching, while Grammarly and Hemingway improve clarity and tone. For example, Jobscan scans your resume against a job posting and provides a match score out of 100, highlighting gaps. Combine these with ChatGPT to rewrite bullet points using action verbs and quantify achievements."
+    },
+    {
+      "h": "Step-by-Step Guide to AI-Assisted Resume Creation",
+      "b": "Start by extracting job requirements using a tool like Rezi’s keyword extractor. Then, paste your existing experience into ChatGPT with prompts like 'Rewrite this bullet point to emphasize leadership and results.' Finally, use Jobscan to test your resume against the target job, achieving a 90%+ match score. Iterate until optimized."
+    },
+    {
+      "h": "Common Mistakes to Avoid",
+      "b": "Avoid overstuffing keywords—ATS systems penalize unnatural language. Also, never rely solely on AI for formatting; ensure your layout is clean and readable. A survey by TopResume found that 75% of hiring managers reject resumes with inconsistent fonts or spacing. Always proofread with tools like Grammarly and get a human review."
+    },
+    {
+      "h": "Final Checklist for AI-Optimized Resumes",
+      "b": "Before submitting, verify: (1) ATS compatibility via Jobscan score >80%, (2) no grammatical errors via Grammarly, (3) tailored keywords from the job description, (4) quantified achievements (e.g., 'increased sales by 20%'), and (5) a clear, professional format. This process typically takes 30 minutes per application."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can AI replace human resume writing entirely?",
+      "a": "No, AI is best used as a tool for optimization and speed, but human oversight ensures authenticity and personal branding. A 2023 LinkedIn survey found that 60% of recruiters value personalized resumes over AI-generated ones."
+    },
+    {
+      "q": "Are AI resume builders ATS-friendly?",
+      "a": "Yes, most AI tools like Jobscan and Rezi are designed to match ATS algorithms, but always test your final resume with a free ATS simulator to ensure compatibility."
+    },
+    {
+      "q": "How much time can AI save in resume creation?",
+      "a": "On average, AI reduces resume building time from 5 hours to 1 hour per application, especially when tailoring for multiple jobs simultaneously."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Master AI voiceover scripts with 5 proven templates. Save time, boost quality, and engage audiences using our complete guide.",
+  "sections": [
+    {
+      "h": "Why Use AI Voiceover Script Templates?",
+      "b": "AI voiceover script templates eliminate writer's block and ensure consistency across projects. By leveraging frameworks like the AIDA model (Attention, Interest, Desire, Action), you can structure scripts that captivate listeners from the first second. Studies show structured scripts increase audience retention by up to 40% compared to ad-libbed content."
+    },
+    {
+      "h": "Template 1: The Hook-Driven Explainer",
+      "b": "Perfect for product demos and tutorials, this template starts with a problem statement, introduces a solution, and ends with a clear call-to-action. Use tools like Descript or Murf to adjust pacing and emphasis. Example: 'Struggling with low engagement? Our tool fixes that in 3 steps—watch this.'"
+    },
+    {
+      "h": "Template 2: The Storytelling Narrative",
+      "b": "Ideal for brand stories or podcasts, this template follows a three-act structure (setup, conflict, resolution). Incorporate emotional triggers and sensory language to build connection. Data shows narrative scripts boost listener recall by 55% (source: Nielsen)."
+    },
+    {
+      "h": "Template 3: The Direct Sales Pitch",
+      "b": "Designed for ads and promotions, this template uses urgency, social proof, and a strong value proposition. Keep it under 60 seconds for platforms like TikTok or Instagram Reels. Tools like ElevenLabs can add realistic emotion to your AI voice."
+    },
+    {
+      "h": "Template 4: The Educational Deep Dive",
+      "b": "For webinars or e-learning, this template breaks complex topics into digestible chunks with pauses for reflection. Use the 'teach-back' method: explain, summarize, and quiz. Platforms like WellSaid Labs support multiple voices for interactive sessions."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use these templates with any AI voice generator?",
+      "a": "Yes, all templates are platform-agnostic and work with tools like Amazon Polly, Google Cloud Text-to-Speech, and Play.ht."
+    },
+    {
+      "q": "How long should my script be for a 2-minute video?",
+      "a": "Aim for 250-300 words, as AI voices typically speak at 150 words per minute. Adjust pacing with pauses or emphasis tags."
+    },
+    {
+      "q": "Do you include examples of completed scripts?",
+      "a": "Yes, each template comes with a fully written example script you can customize for your niche."
+    }
+  ]
+}

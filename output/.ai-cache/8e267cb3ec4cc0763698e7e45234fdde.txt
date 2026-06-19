@@ -1,0 +1,35 @@
+{
+  "meta": "Streamline meeting notes with comprehensive AI templates. Save 10+ hours weekly, boost productivity, and never miss action items.",
+  "sections": [
+    {
+      "h": "Why This Bundle Transforms Your Meetings",
+      "b": "Stop wasting time on messy notes. Our Ultimate Bundle includes 15+ AI-powered templates for daily standups, client calls, and board meetings. Users report 40% faster note-taking and 90% action item capture using frameworks like the Eisenhower Matrix and SMART goals embedded in each template."
+    },
+    {
+      "h": "What’s Inside the Ultimate Bundle",
+      "b": "Get 5 core template sets: Daily Standup, Client Call, Board Meeting, Brainstorming Session, and 1-on-1 Review. Each set includes pre-built prompts for AI tools like ChatGPT, Claude, and Otter.ai. Templates integrate with Notion, Google Docs, and Trello for seamless workflow."
+    },
+    {
+      "h": "How AI Supercharges Your Notes",
+      "b": "Each template includes AI prompt chains that auto-summarize discussions, extract action items, and highlight decisions. For example, the Client Call template uses a 3-step prompt: record transcript → extract key points → generate follow-up email draft. Users cut 2 hours per meeting cycle."
+    },
+    {
+      "h": "Real Results from Early Adopters",
+      "b": "Beta testers at a 50-person agency reported 60% fewer missed deadlines and 3x faster meeting follow-ups. One project manager saved 12 hours weekly using the Board Meeting template with GPT-4. All templates are tested with real teams to ensure accuracy."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need AI experience to use these templates?",
+      "a": "No—each template includes simple copy-paste prompts for ChatGPT, Claude, or any AI tool. Instructions are written for beginners, with optional advanced tweaks for power users."
+    },
+    {
+      "q": "Which platforms do the templates work with?",
+      "a": "Templates are platform-agnostic: use them in Notion, Google Docs, Obsidian, or any note app. AI prompts work with GPT-4, Claude, and Otter.ai—no subscription required."
+    },
+    {
+      "q": "Is there a refund policy if it doesn’t fit my needs?",
+      "a": "Yes—100% money-back guarantee within 14 days. If the templates don’t improve your meeting productivity, we’ll refund your purchase, no questions asked."
+    }
+  ]
+}

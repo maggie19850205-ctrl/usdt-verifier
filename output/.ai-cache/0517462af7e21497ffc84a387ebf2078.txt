@@ -1,0 +1,39 @@
+{
+  "meta": "Master SaaS pricing with this complete guide. Learn tiered, usage-based, and value-based models to boost revenue and retention.",
+  "sections": [
+    {
+      "h": "Understanding SaaS Pricing Models",
+      "b": "SaaS pricing typically falls into three main models: tiered, usage-based, and value-based. Tiered pricing offers fixed feature sets at different price points (e.g., $10/month for Basic, $50/month for Pro), while usage-based charges per metric like API calls or storage (e.g., $0.01 per API call). Value-based pricing aligns cost with customer-perceived value, often using customer segmentation and willingness-to-pay surveys to set rates."
+    },
+    {
+      "h": "Key Metrics to Validate Your Pricing",
+      "b": "Track metrics like Customer Acquisition Cost (CAC), Lifetime Value (LTV), and Monthly Recurring Revenue (MRR) to gauge pricing effectiveness. A healthy SaaS business targets an LTV-to-CAC ratio of 3:1 or higher. Use tools like Baremetrics or ProfitWell to monitor churn rate and expansion revenue, ensuring your pricing doesn't drive customers away."
+    },
+    {
+      "h": "Psychological Pricing Tactics That Work",
+      "b": "Leverage charm pricing (e.g., $9.99 instead of $10) and anchoring by showing a higher-priced plan first to make mid-tier options appear reasonable. For example, display a $200/month Enterprise plan alongside a $50/month Pro plan to increase Pro conversions by up to 30%. Use decoy pricing—a less attractive third option—to steer users toward your target plan."
+    },
+    {
+      "h": "Pricing Page Optimization Strategies",
+      "b": "Structure your pricing page with clear feature comparisons, testimonials, and a free trial CTA. A/B test plan names (e.g., 'Starter' vs. 'Beginner') and button colors using tools like Optimizely. Data shows that adding a 'Most Popular' badge to the middle tier can boost its selection rate by 40%."
+    },
+    {
+      "h": "Common Pricing Mistakes and How to Fix Them",
+      "b": "Avoid underpricing due to fear of losing customers—raise prices gradually with grandfathered plans for existing users. Don't overcomplicate with too many tiers; 3-4 plans are optimal. Test price increases by 10-20% quarterly using cohorts in Stripe to measure impact on retention and revenue."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How often should I update my SaaS pricing?",
+      "a": "Review pricing quarterly based on market trends, feature releases, and churn data. Major overhauls should happen annually with customer communication to minimize backlash."
+    },
+    {
+      "q": "What's the best pricing model for a new SaaS?",
+      "a": "Start with tiered pricing (3 plans) to simplify decision-making. Add usage-based elements later as you gather data on customer usage patterns and willingness to scale."
+    },
+    {
+      "q": "Should I offer a free plan?",
+      "a": "A free plan can drive adoption but risks low conversion. Use a time-limited free trial (14-30 days) instead, which typically converts 2-5% of users to paid, compared to 1% for free plans."
+    }
+  ]
+}

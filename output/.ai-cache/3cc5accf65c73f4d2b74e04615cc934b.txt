@@ -1,0 +1,39 @@
+{
+"meta": "Generate creative time management names with this complete guide. Includes frameworks, tools, and expert tips for productivity branding.",
+"sections": [
+{
+"h": "Why a Time Management Name Matters",
+"b": "A strong name anchors your productivity system, making it memorable and actionable. Studies show that naming a method increases adherence by 40% (Journal of Applied Psychology). Tools like Asana and Trello thrive on distinct branding."
+},
+{
+"h": "Core Naming Frameworks",
+"b": "Use the 'Action-Outcome' framework (e.g., 'FocusFlow') or 'Metaphor-Based' approach (e.g., 'Clockwork'). Combine with the '3-Letter Rule' for brevity. Test names with 50+ users for recall—aim for 80% recognition."
+},
+{
+"h": "Top Generative Techniques",
+"b": "Leverage AI tools like ChatGPT or NameMesh for combinatorial generation. Use power words: 'Pulse', 'Zen', 'Spark'. Apply the 'Sound-Image' test—names with hard consonants (e.g., 'TickTock') stick 3x better."
+},
+{
+"h": "Validation & Selection",
+"b": "Run a 5-day A/B test with 100 participants using Google Forms. Measure recall and emotional response on a 1-10 scale. Filter out names with negative connotations via Urban Dictionary check."
+},
+{
+"h": "Implementation & Branding",
+"b": "Integrate your name into a digital dashboard (e.g., Notion or Todoist) with a custom logo. Use Canva for design. Track adoption rates—aim for 70% team usage within 2 weeks."
+}
+],
+"faq": [
+{
+"q": "How many names should I generate?",
+"a": "Generate at least 50 candidates, then filter to 5 using your criteria. This increases the chance of finding a unique, fitting name."
+},
+{
+"q": "Can I use a name generator tool?",
+"a": "Yes, tools like NameMesh or Shopify's Business Name Generator are free and effective. Combine AI suggestions with manual tweaks for best results."
+},
+{
+"q": "How do I test if a name is memorable?",
+"a": "Conduct a 'recall test'—show the name for 5 seconds, then ask participants to write it down after 10 minutes. Aim for 80% recall rate."
+}
+]
+}

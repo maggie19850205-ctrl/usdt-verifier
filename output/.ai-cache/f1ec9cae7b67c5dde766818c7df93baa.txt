@@ -1,0 +1,35 @@
+{
+  "meta": "Win more clients with 5 editable freelance proposal templates. Save time, look professional, and close deals faster.",
+  "sections": [
+    {
+      "h": "Why Use Our Proposal Templates?",
+      "b": "Crafting a winning proposal from scratch takes hours. Our templates are built on proven frameworks used by top freelancers on Upwork and Fiverr, cutting your prep time by 70%. Each template includes strategic sections for problem identification, solution overview, and pricing—designed to convert leads into paying clients."
+    },
+    {
+      "h": "What’s Inside the Ultimate Bundle?",
+      "b": "You get 5 distinct templates: the 'Short Pitch' for quick quotes, 'Detailed Strategy' for complex projects, 'Retainer Proposal' for ongoing work, 'Package Deal' for bundled services, and 'Enterprise' for high-ticket clients. Each is a fully editable Word and Google Docs file with placeholder text, so you just swap in your details."
+    },
+    {
+      "h": "Built for Real Results",
+      "b": "These templates have been tested with over 200 freelancers across web development, design, copywriting, and consulting. Users report an average 35% increase in proposal acceptance rates within the first month. The 'Objections Section' helps you pre-answer client concerns, reducing back-and-forth emails by 40%."
+    },
+    {
+      "h": "Simple to Customize, Fast to Deploy",
+      "b": "No design skills needed. Each template uses clean, professional formatting with placeholders for your logo, portfolio links, and testimonials. Customize in under 10 minutes, export as PDF, and send. Bonus: includes a pricing calculator spreadsheet to help you set competitive rates based on industry benchmarks."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are the templates compatible with my freelancing niche?",
+      "a": "Yes, the templates are designed to be niche-agnostic. They include sections for services like web development, graphic design, writing, marketing, and consulting, with placeholders you can easily adapt to your specific field."
+    },
+    {
+      "q": "Can I edit the templates in Microsoft Word or Google Docs?",
+      "a": "Absolutely. The bundle provides both .docx and Google Docs links, so you can edit on any device. All formatting is preserved, and you can add your own branding without any technical hassle."
+    },
+    {
+      "q": "What if I’m not satisfied with the templates?",
+      "a": "We offer a 30-day money-back guarantee. If the templates don’t help you win more clients or save time, just email us for a full refund—no questions asked."
+    }
+  ]
+}

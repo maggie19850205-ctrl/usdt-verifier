@@ -1,0 +1,39 @@
+{
+  "meta": "Build a SaaS without code using our template pack. Includes 5 pre-built templates for rapid launch.",
+  "sections": [
+    {
+      "h": "Why Use a No-Code SaaS Builder?",
+      "b": "No-code platforms like Bubble, Adalo, and Glide let you create full-featured SaaS apps without writing a single line of code. This template pack gives you a head start with pre-configured workflows, UI components, and database schemas, reducing development time from months to days."
+    },
+    {
+      "h": "What’s Inside the Template Pack?",
+      "b": "You get 5 battle-tested templates: a subscription management system with Stripe integration, a user onboarding flow with email automation via Zapier, an analytics dashboard using Google Sheets, a landing page with A/B testing setup, and a customer support ticketing system. Each template includes step-by-step instructions and video walkthroughs."
+    },
+    {
+      "h": "How to Customize for Your Idea",
+      "b": "Templates are fully editable in Bubble’s visual editor. Change colors, fonts, and logic with drag-and-drop. Swap out placeholder data for your own, connect APIs like OpenAI or Twilio, and deploy to a custom domain in under an hour. No coding skills required."
+    },
+    {
+      "h": "Pricing and Value",
+      "b": "For $9.99, you save hundreds of dollars in developer costs and weeks of trial-and-error. Each template is valued at $50+ individually. This pack is ideal for solopreneurs, startup founders, and side hustlers who want to validate an idea fast without technical overhead."
+    },
+    {
+      "h": "Success Stories",
+      "b": "Users have launched a freelance marketplace, a membership site, and a booking platform using these templates. One founder reported generating $2k in revenue within the first month. Another cut their MVP build time from 3 months to 2 weeks."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need any coding experience?",
+      "a": "No, the templates are designed for complete beginners. All steps are explained in plain English with visual guides."
+    },
+    {
+      "q": "Which no-code platform do these work with?",
+      "a": "These templates are built for Bubble.io, the most popular no-code platform for complex web apps. You just need a free Bubble account."
+    },
+    {
+      "q": "Can I get a refund if it doesn’t work?",
+      "a": "Yes, we offer a 30-day money-back guarantee. If you’re not satisfied, email us for a full refund."
+    }
+  ]
+}

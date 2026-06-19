@@ -1,0 +1,35 @@
+{
+  "meta": "Build a SaaS without coding using this comprehensive bundle of no-code tools, templates, and strategies for $19.99.",
+  "sections": [
+    {
+      "h": "What’s Inside the No-Code SaaS Builder Ultimate Bundle",
+      "b": "This bundle includes 5 complete guides covering Bubble.io, Airtable, Zapier, and Stripe integration. You’ll get step-by-step walkthroughs for building a functional MVP in under 30 days, with 50+ pre-built templates for user authentication, payment processing, and data management."
+    },
+    {
+      "h": "Master Bubble.io for Rapid Prototyping",
+      "b": "Learn to create dynamic web apps using Bubble.io’s visual editor, including responsive design and workflow automation. The guide covers 20+ reusable components and API connectors to external services like Google Maps and OpenAI, reducing development time by 70%."
+    },
+    {
+      "h": "Automate with Zapier and Integromat",
+      "b": "Set up 15+ automated workflows for email notifications, CRM updates, and user onboarding using Zapier and Integromat. This section includes specific triggers and actions for Slack, Mailchimp, and HubSpot, with error-handling best practices."
+    },
+    {
+      "h": "Monetize with Stripe and Subscription Models",
+      "b": "Implement recurring billing, one-time payments, and trial periods using Stripe’s API and no-code plugins. The bundle provides pre-configured pricing tables and checkout flows, tested with 10,000+ transactions to ensure 99.9% uptime."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need any coding experience to use this bundle?",
+      "a": "No, this bundle is designed for absolute beginners. All guides assume zero coding knowledge and use visual drag-and-drop tools."
+    },
+    {
+      "q": "How long does it take to launch a SaaS with these tools?",
+      "a": "Most users launch a working MVP within 2-4 weeks, depending on complexity. The bundle includes a 30-day roadmap with daily tasks."
+    },
+    {
+      "q": "What if I encounter issues during setup?",
+      "a": "You get lifetime access to a private community forum and email support from the creators, with average response times under 4 hours."
+    }
+  ]
+}

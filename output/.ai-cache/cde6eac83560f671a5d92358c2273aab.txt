@@ -1,0 +1,35 @@
+{
+  "meta": "All-in-one digital nomad toolkit: tools, templates, and checklists for remote work, travel, and productivity.",
+  "sections": [
+    {
+      "h": "Essential Remote Work Toolkit",
+      "b": "This bundle includes curated lists of the best remote collaboration tools like Slack, Trello, and Zoom, plus productivity frameworks such as the Pomodoro Technique and Getting Things Done (GTD). You'll also find VPN recommendations (NordVPN, ExpressVPN) and time zone management apps (World Time Buddy) to stay connected anywhere."
+    },
+    {
+      "h": "Travel Planning & Logistics Templates",
+      "b": "Access ready-to-use spreadsheets for budgeting, packing, and itinerary planning, with pre-filled categories for 30+ destinations. Includes a visa checklist covering 50 countries and a health insurance comparison chart (SafetyWing, World Nomads) to simplify your moves."
+    },
+    {
+      "h": "Income & Expense Trackers",
+      "b": "Track freelance earnings, tax deductions, and currency conversions with built-in formulas for 15 major currencies. The bundle features a 12-month dashboard compatible with Google Sheets and Excel, plus a profit margin calculator for service-based businesses."
+    },
+    {
+      "h": "Community & Lifestyle Hacks",
+      "b": "Gain access to a directory of 200+ digital nomad-friendly coworking spaces and coliving hubs (e.g., Selina, Outsite) across 40 countries. Also includes a 7-day meal prep guide for budget travelers and a social script library for networking at remote work events."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What file formats are included in the bundle?",
+      "a": "All templates and checklists are provided in PDF, Google Sheets, and Excel formats for maximum compatibility across devices."
+    },
+    {
+      "q": "Can I use these tools offline?",
+      "a": "Yes, most templates and checklists are downloadable for offline use, though some apps mentioned (like Slack) require internet connectivity."
+    },
+    {
+      "q": "Is this bundle updated regularly?",
+      "a": "Yes, we update the resource lists and templates quarterly to reflect new tools, visa changes, and travel trends."
+    }
+  ]
+}

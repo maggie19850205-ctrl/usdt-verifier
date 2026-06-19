@@ -1,0 +1,35 @@
+{
+  "meta": "All-in-one crypto payment gateway bundle: setup guides, templates, and checklists for seamless blockchain transactions.",
+  "sections": [
+    {
+      "h": "What's Inside the Bundle",
+      "b": "This bundle combines 5 premium resources: a complete integration guide, a merchant setup checklist, a security audit template, a customer onboarding workbook, and a troubleshooting playbook. Designed for businesses accepting Bitcoin, Ethereum, and stablecoins via plugins like WooCommerce and Shopify."
+    },
+    {
+      "h": "Integration Made Simple",
+      "b": "Step-by-step instructions for connecting to major payment processors (Coinbase Commerce, BitPay, CoinGate). Includes API code snippets in Python and JavaScript, plus a pre-configured sandbox environment for testing. Average setup time reduced from 3 days to 4 hours."
+    },
+    {
+      "h": "Security & Compliance",
+      "b": "Covers PCI DSS equivalent standards for crypto, KYC/AML checklists, and smart contract auditing tips. Includes a template for generating legally compliant invoices and refund policies. Based on guidelines from the Crypto Council for Innovation."
+    },
+    {
+      "h": "Customer Support Playbook",
+      "b": "Pre-written email templates, live chat scripts for transaction disputes, and a FAQ database for common issues like delayed confirmations or gas fee fluctuations. Includes a 30-day escalation matrix to resolve 95% of tickets within 24 hours."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding skills to use this bundle?",
+      "a": "No, the bundle includes no-code integration guides for platforms like Shopify and WooCommerce, plus step-by-step instructions for API-based setups if needed."
+    },
+    {
+      "q": "Which cryptocurrencies are supported?",
+      "a": "The bundle covers Bitcoin, Ethereum, USDC, USDT, and 20+ ERC-20 tokens, with instructions for adding custom tokens via smart contract addresses."
+    },
+    {
+      "q": "Is there a refund policy?",
+      "a": "Yes, this digital product comes with a 30-day money-back guarantee if you encounter any compatibility issues with your platform."
+    }
+  ]
+}

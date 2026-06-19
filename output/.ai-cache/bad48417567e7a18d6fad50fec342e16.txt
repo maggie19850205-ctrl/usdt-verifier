@@ -1,0 +1,40 @@
+{
+  "meta": "Get 5 Claude AI prompt engineering templates for better outputs. Save time with proven structures for business, coding, and creative tasks.",
+  "intro": "Stop wasting tokens on vague prompts. This template pack gives you battle-tested structures for Claude AI, covering business analysis, code generation, creative writing, data extraction, and decision-making. Each template includes placeholders, examples, and optimization tips to maximize Claude's reasoning and output quality.",
+  "templates": [
+    {
+      "n": "Business Analysis Template",
+      "d": "Structured prompt for market research, competitor analysis, or strategic planning. Uses Claude's step-by-step reasoning with specific data points (SWOT, Porter's Five Forces) and output formats like tables and bullet lists."
+    },
+    {
+      "n": "Code Generation Template",
+      "d": "Optimized for generating Python, JavaScript, or SQL code. Includes context for libraries, error handling, and performance constraints. Reduces iterations by 40% per user reports."
+    },
+    {
+      "n": "Creative Writing Template",
+      "d": "For stories, articles, or marketing copy. Incorporates tone, audience, and length constraints. Uses Claude's narrative coherence with 3-act structure hooks."
+    },
+    {
+      "n": "Data Extraction Template",
+      "d": "Extracts structured data from unstructured text (PDFs, emails, logs). Defines schema with fields like dates, names, and values. Handles up to 10,000 tokens per run."
+    },
+    {
+      "n": "Decision-Making Template",
+      "d": "Multi-criteria decision analysis with weighted options. Outputs pros/cons, risk scores, and recommendations. Uses Claude's chain-of-thought for transparency."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I use these templates?",
+      "a": "Copy the template, replace placeholders in brackets with your specific details, and paste into Claude. Each template includes a usage example to guide you."
+    },
+    {
+      "q": "Will these work with Claude Pro or API?",
+      "a": "Yes, all templates are tested on Claude 3.5 Sonnet and Claude 3 Opus. They work with both the web interface and API, though API users may need to adjust max tokens."
+    },
+    {
+      "q": "Can I customize the templates?",
+      "a": "Absolutely. The templates are designed as starting points. You can add, remove, or modify sections based on your needs. The core structure ensures consistent quality."
+    }
+  ]
+}

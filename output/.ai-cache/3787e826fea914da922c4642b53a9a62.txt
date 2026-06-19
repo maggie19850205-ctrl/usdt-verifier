@@ -1,0 +1,39 @@
+{
+  "meta": "Master SaaS pricing with this complete guide. Learn strategies, optimize revenue, and avoid common pitfalls.",
+  "sections": [
+    {
+      "h": "Understanding SaaS Pricing Models",
+      "b": "Explore the four primary SaaS pricing models: flat-rate, tiered, per-user, and usage-based. Each model impacts customer acquisition and lifetime value differently, with tiered pricing often increasing revenue by 20-30% when optimized correctly."
+    },
+    {
+      "h": "Key Metrics for Pricing Optimization",
+      "b": "Track essential metrics like Customer Acquisition Cost (CAC), Lifetime Value (LTV), and Monthly Recurring Revenue (MRR). Use tools like ProfitWell or ChartMogul to analyze data and identify pricing sweet spots that maximize profitability."
+    },
+    {
+      "h": "Competitive Pricing Analysis Framework",
+      "b": "Conduct a competitor analysis using a 3-step framework: identify top 5 competitors, map their pricing tiers, and evaluate feature differences. Leverage tools like Crayon or Klue to gather real-time competitive intelligence and position your pricing effectively."
+    },
+    {
+      "h": "Psychology of Pricing: Anchoring and Framing",
+      "b": "Apply behavioral economics principles like anchoring and decoy pricing to influence buyer decisions. For example, offering a premium tier at $99 makes a $49 mid-tier seem more attractive, potentially boosting conversion rates by 15-25%."
+    },
+    {
+      "h": "Implementing and Testing Pricing Changes",
+      "b": "Use A/B testing and price sensitivity surveys (e.g., Van Westendorp model) to validate changes before rollout. Tools like Price Intelligently or Baremetrics can help simulate impacts, reducing revenue risk by up to 40% during transitions."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How often should I review my SaaS pricing strategy?",
+      "a": "Review pricing quarterly to adapt to market shifts and customer feedback. Major changes should be tested with a subset of users to minimize churn risk."
+    },
+    {
+      "q": "What is the best pricing model for early-stage SaaS?",
+      "a": "Start with tiered pricing (3-4 tiers) to balance simplicity and flexibility. This model allows you to capture different customer segments without overwhelming new users."
+    },
+    {
+      "q": "How do I handle price increases for existing customers?",
+      "a": "Grandfather existing customers for 6-12 months and communicate the value increase clearly. Offer a grace period and personalized support to retain loyalty."
+    }
+  ]
+}

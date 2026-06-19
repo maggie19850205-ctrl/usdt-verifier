@@ -1,0 +1,40 @@
+{
+  "meta": "Facebook Ads Cheat Sheet template pack with 5 templates to optimize ad campaigns and boost ROI.",
+  "intro": "Stop guessing with your Facebook Ads. This cheat sheet template pack gives you ready-to-use frameworks for high-converting campaigns, from audience targeting to ad copy and performance tracking. Save hours of setup time and maximize your ad spend.",
+  "templates": [
+    {
+      "n": "Audience Targeting Matrix",
+      "d": "Map out core, lookalike, and retargeting audiences with custom fields for interests, behaviors, and exclusion criteria. Includes a checklist to validate audience size (recommended 1-5% of total market) and relevance score targets above 8/10."
+    },
+    {
+      "n": "Ad Copy & Creative Brief",
+      "d": "Structure your ad copy with hooks, benefits, CTAs, and social proof sections. Includes a creative brief template for image/video specs (e.g., 1080x1080 for feed, 9:16 for stories) and A/B testing variables like headline or primary text."
+    },
+    {
+      "n": "Budget & Bid Optimization Sheet",
+      "d": "Plan daily budgets, bid strategies (lowest cost vs. cost cap), and campaign objectives. Includes a calculator for estimated reach based on CPM benchmarks ($5-$15 per 1000 impressions) and frequency cap recommendations (max 3 per user per week)."
+    },
+    {
+      "n": "Performance Dashboard",
+      "d": "Track key metrics: CTR (target >2%), CPC (target <$1.50), ROAS (target >4x), and conversion rate (target >3%). Includes conditional formatting to highlight underperforming ads and a weekly review template for scaling or pausing."
+    },
+    {
+      "n": "Ad Testing & Scaling Checklist",
+      "d": "Step-by-step checklist for testing 3-5 ad variations per audience, using Facebook's dynamic creative feature. Includes rules for scaling (increase budget by 20% every 48 hours if ROAS stable) and sunsetting (pause if CTR drops below 0.5% for 3 days)."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I use these templates with Facebook Ads Manager?",
+      "a": "Download the pack as editable Google Sheets or Excel files. Copy the structures into your Ads Manager campaigns or use them as planning worksheets before launching. Each template includes example data to guide you."
+    },
+    {
+      "q": "Do the templates include formulas for budget calculations?",
+      "a": "Yes, the Budget & Bid Optimization Sheet has pre-built formulas for estimated reach, frequency, and cost per result based on your inputs. Just enter your budget and audience size to get instant projections."
+    },
+    {
+      "q": "Can I customize the templates for different industries?",
+      "a": "Absolutely. All fields are editable, and we provide industry benchmarks (e.g., e-commerce CTR 2-3%, lead gen CPC $1-3) that you can adjust. The Audience Targeting Matrix includes placeholders for niche interests and behaviors."
+    }
+  ]
+}

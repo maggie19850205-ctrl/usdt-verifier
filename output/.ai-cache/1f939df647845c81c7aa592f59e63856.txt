@@ -1,0 +1,40 @@
+{
+"meta": "Get 5 expert ChatGPT prompt templates for business, marketing, and productivity. Save hours and boost output quality instantly.",
+"intro": "This template pack includes five ready-to-use ChatGPT prompt frameworks designed for entrepreneurs, marketers, and content creators. Each template is optimized for clarity, specificity, and high-quality output—just fill in your details and generate.",
+"templates": [
+{
+"n": "The Customer Avatar Builder",
+"d": "Define your ideal customer in seconds. Use this template to generate detailed buyer personas including demographics, pain points, goals, and buying objections—perfect for targeting ads or writing sales copy."
+},
+{
+"n": "The Blog Post Outliner",
+"d": "Generate a complete blog post outline with introduction, 5 subheadings, bullet points, and a conclusion. Includes keyword integration tips and suggested internal links for SEO."
+},
+{
+"n": "The Email Sequence Architect",
+"d": "Create a 5-email drip sequence for product launches or lead nurturing. Each email includes a subject line, opening hook, value section, CTA, and PS—tested for open rates above 25%."
+},
+{
+"n": "The Social Media Caption Generator",
+"d": "Produce 3 variations of a social media caption (short, medium, long) for any platform. Includes hashtag suggestions, emoji placement, and CTAs optimized for engagement."
+},
+{
+"n": "The Problem-Solution Framework",
+"d": "Structure any pitch, video script, or landing page using the Problem-Agitate-Solution format. Outputs a persuasive narrative with emotional triggers and data-backed claims."
+}
+],
+"faq": [
+{
+"q": "Do I need ChatGPT Plus to use these templates?",
+"a": "No, these templates work with the free version of ChatGPT (GPT-3.5) and are optimized for GPT-4 as well. Just copy and paste the prompt into any chat interface."
+},
+{
+"q": "Can I customize the templates for my niche?",
+"a": "Absolutely. Each template includes bracketed placeholders for your specific industry, product, or audience. Simply replace them with your own details for instant customization."
+},
+{
+"q": "What format are the templates delivered in?",
+"a": "The templates are provided as a downloadable PDF document with clear instructions and examples. You can also copy the plain text prompts directly from the file."
+}
+]
+}

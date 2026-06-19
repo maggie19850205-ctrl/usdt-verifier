@@ -1,0 +1,39 @@
+{
+  "meta": "Master Perplexity AI research with this complete guide. Learn pro search, analysis, and citation techniques for academic and professional use.",
+  "sections": [
+    {
+      "h": "Getting Started with Perplexity AI",
+      "b": "Learn the fundamentals of Perplexity AI's interface and core search capabilities. This section covers account setup, query basics, and understanding the AI's response structure, including source citations and follow-up questions."
+    },
+    {
+      "h": "Advanced Search Techniques",
+      "b": "Master Pro Search, Focus modes (Academic, Writing, Math, Video), and Copilot for iterative research. Discover how to use operators like site:, filetype:, and date filters to refine results, boosting accuracy by up to 40% compared to standard queries."
+    },
+    {
+      "h": "Citation & Source Management",
+      "b": "Learn to extract, organize, and verify citations from Perplexity's responses. This section covers using the citation tool for academic papers, saving collections to libraries, and cross-referencing with Google Scholar and PubMed for rigorous research workflows."
+    },
+    {
+      "h": "Research Workflow Integration",
+      "b": "Integrate Perplexity into your daily research pipeline using the API and browser extensions. Automate literature reviews, generate annotated bibliographies, and collaborate with teams via shared spaces, reducing research time by 50% for complex projects."
+    },
+    {
+      "h": "Troubleshooting & Best Practices",
+      "b": "Address common issues like hallucinated sources, rate limits, and vague answers. Implement best practices: use iterative queries, specify context in Copilot, and combine with tools like Zotero or Notion for end-to-end research management."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How is Perplexity AI different from Google Search?",
+      "a": "Perplexity AI provides synthesized answers with cited sources, unlike Google's list of links. It uses large language models to understand context and can handle follow-up questions, making it better for deep research tasks."
+    },
+    {
+      "q": "Can I use Perplexity for academic research?",
+      "a": "Yes, the Academic Focus mode prioritizes peer-reviewed papers and journals. Pair it with citation management tools like Zotero to track sources, but always verify original papers for critical work."
+    },
+    {
+      "q": "How do I avoid inaccurate or hallucinated information?",
+      "a": "Always cross-check cited sources, use Copilot for complex queries, and enable the 'Pro' search for higher accuracy. Limit queries to specific domains (e.g., site:.edu) and ask for step-by-step reasoning."
+    }
+  ]
+}

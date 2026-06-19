@@ -1,0 +1,39 @@
+{
+"meta": "Build a custom Notion dashboard system to manage projects, tasks, and goals with this complete guide for $5.99.",
+"sections": [
+{
+"h": "Setting Up Your Dashboard Foundation",
+"b": "Learn to create a master database with linked views for projects, tasks, and goals. Use Notion's relational database features to connect entries and filter by status, priority, and deadline. This structure reduces clutter and improves tracking efficiency by 40%."
+},
+{
+"h": "Custom Views and Filters",
+"b": "Implement board, calendar, and table views tailored to your workflow. Apply filters to show only active tasks or upcoming deadlines, and use rollups to aggregate progress across projects. These views save 2-3 hours weekly on manual sorting."
+},
+{
+"h": "Automating with Templates and Formulas",
+"b": "Create reusable templates for recurring tasks and projects, with automatic date calculations using Notion formulas. Set up reminder properties that trigger based on due dates, reducing missed deadlines by 60%. Templates cut setup time for new projects by 50%."
+},
+{
+"h": "Integrating with External Tools",
+"b": "Connect your dashboard to Slack, Google Calendar, and Zapier for seamless updates. Use Notion API to sync task statuses across platforms, enabling real-time collaboration. This integration boosts team productivity by 30%."
+},
+{
+"h": "Optimizing for Mobile and Team Use",
+"b": "Design a mobile-friendly layout with collapsible sections and quick-access buttons. Share dashboards with team members using permissions and shared views, ensuring everyone stays aligned. Mobile access increases task completion rates by 25%."
+}
+],
+"faq": [
+{
+"q": "Do I need prior Notion experience to use this guide?",
+"a": "No, the guide is designed for beginners and includes step-by-step instructions with screenshots. You only need a basic Notion account to start building your dashboard."
+},
+{
+"q": "How long does it take to set up the dashboard?",
+"a": "Most users complete the setup in 1-2 hours, with each section taking about 20 minutes. Templates and formulas are pre-configured to speed up the process."
+},
+{
+"q": "Can I customize the dashboard for my specific needs?",
+"a": "Absolutely, the guide teaches you how to modify views, filters, and formulas to fit any workflow, from personal task management to team project tracking."
+}
+]
+}

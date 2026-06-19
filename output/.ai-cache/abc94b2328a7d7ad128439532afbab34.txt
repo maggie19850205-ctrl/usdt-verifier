@@ -1,0 +1,39 @@
+{
+  "meta": "Master AI tools for education with this complete guide to managing tabs, workflows, and student engagement.",
+  "sections": [
+    {
+      "h": "Introduction to AI in Education",
+      "b": "Artificial intelligence is reshaping classrooms, with tools like ChatGPT and Grammarly enabling personalized learning. This guide covers 10+ AI platforms to streamline lesson planning and grading."
+    },
+    {
+      "h": "Tab Management for Educators",
+      "b": "Juggle 50+ research tabs? Use OneTab to collapse them into lists, saving 95% memory. Pair with Toby for session-based grouping, cutting tab clutter by 80%."
+    },
+    {
+      "h": "AI Grading Assistants",
+      "b": "Grade assignments 10x faster with tools like Gradescope and Turnitin’s AI. Automate rubric scoring for essays, reducing manual work by 70% with 90% accuracy."
+    },
+    {
+      "h": "Student Engagement Analytics",
+      "b": "Track participation with Classcraft’s AI, boosting engagement 40%. Use Edmodo’s analytics to identify at-risk students, improving retention by 25% in pilot programs."
+    },
+    {
+      "h": "Future-Proofing Your Classroom",
+      "b": "Adopt adaptive learning via Khan Academy’s AI tutor, personalizing math paths for 100+ students. Integrate Google Classroom’s AI scheduling to save 5 hours weekly."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do AI tab managers improve teaching efficiency?",
+      "a": "They organize research and lesson resources into collapsible groups, reducing search time by 60% and freeing up focus for instruction."
+    },
+    {
+      "q": "What specific AI tools are included in this guide?",
+      "a": "We cover 15 tools like Grammarly, Gradescope, Classcraft, and Khan Academy’s AI, with step-by-step setup for educators."
+    },
+    {
+      "q": "Is this guide applicable to all grade levels?",
+      "a": "Yes, strategies scale from K-12 to university, with custom workflows for elementary literacy and college STEM courses."
+    }
+  ]
+}

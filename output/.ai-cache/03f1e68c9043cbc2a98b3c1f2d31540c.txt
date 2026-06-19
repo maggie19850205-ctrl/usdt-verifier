@@ -1,0 +1,28 @@
+{
+  "meta": "AI Code Review Checklist: Ensure code quality, security, and best practices with this comprehensive workbook for developers.",
+  "intro": "Master AI-assisted code reviews with this structured checklist workbook. Designed for developers using tools like GitHub Copilot and ChatGPT, it covers 8 critical areas to catch bugs, enforce standards, and improve collaboration.",
+  "items": [
+    "Verify AI-generated code adheres to project-specific naming conventions and style guides (e.g., PEP 8, ESLint rules).",
+    "Check for correct implementation of error handling and edge cases—AI often misses null checks or boundary conditions.",
+    "Confirm all external API calls include proper authentication tokens and rate limiting (e.g., using OAuth 2.0 or API keys).",
+    "Audit for security vulnerabilities: SQL injection, XSS, or hardcoded secrets—especially in AI-suggested snippets.",
+    "Ensure code is modular and follows DRY principles; refactor AI outputs that duplicate logic across functions.",
+    "Test for performance bottlenecks: AI may generate inefficient loops or unnecessary database queries (e.g., N+1 problems).",
+    "Validate documentation completeness: AI comments should explain 'why' not just 'what', and include usage examples.",
+    "Run automated tests (unit, integration, regression) on AI contributions to catch regressions before merging."
+  ],
+  "faq": [
+    {
+      "q": "Can I use this checklist with any AI coding assistant?",
+      "a": "Yes, it works with GitHub Copilot, ChatGPT, CodeWhisperer, and others—focusing on universal review principles."
+    },
+    {
+      "q": "Is this workbook suitable for solo developers?",
+      "a": "Absolutely. It helps you systematically review your own AI-generated code, reducing bugs and improving code quality."
+    },
+    {
+      "q": "Does this cover security-specific checks?",
+      "a": "Yes, item 4 explicitly covers vulnerabilities like SQL injection and hardcoded secrets, plus general security hygiene."
+    }
+  ]
+}

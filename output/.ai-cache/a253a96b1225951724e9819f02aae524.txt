@@ -1,0 +1,40 @@
+{
+  "meta": "Streamline your workflow with 5 ready-to-use templates for automated content creation. Save time and boost productivity.",
+  "intro": "This template pack provides five customizable templates to automate your content creation process, from ideation to publication. Each template is designed to work with popular tools like Notion, Airtable, and Google Sheets, helping you produce consistent, high-quality content faster.",
+  "templates": [
+    {
+      "n": "Content Ideation Template",
+      "d": "Generate 50+ content ideas monthly using keyword research and trend analysis. Integrates with Ahrefs and Google Trends."
+    },
+    {
+      "n": "Drafting Workflow Template",
+      "d": "Automate blog post outlines with AI prompts for GPT-4 and Claude. Includes sections for headers, bullet points, and SEO keywords."
+    },
+    {
+      "n": "Social Media Scheduler Template",
+      "d": "Plan and auto-post across 5 platforms (Twitter, LinkedIn, Instagram, Facebook, Pinterest) using Buffer or Hootsuite integration."
+    },
+    {
+      "n": "Email Newsletter Builder Template",
+      "d": "Create drip campaigns with 10 pre-written templates. Compatible with Mailchimp and ConvertKit for automated sending."
+    },
+    {
+      "n": "Performance Tracker Template",
+      "d": "Track 15 key metrics (CTR, engagement, conversions) with Google Analytics and SEMrush. Includes monthly report dashboards."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I customize these templates for my niche?",
+      "a": "Yes, each template includes editable fields and instructions for tailoring to your industry, such as e-commerce, SaaS, or education."
+    },
+    {
+      "q": "Do I need technical skills to use this pack?",
+      "a": "No, templates are designed for non-tech users with step-by-step guides. Basic familiarity with spreadsheets is helpful but not required."
+    },
+    {
+      "q": "What tools are required for automation?",
+      "a": "Most templates work with free tools like Google Sheets and Zapier, but some features may require paid plans for full automation."
+    }
+  ]
+}

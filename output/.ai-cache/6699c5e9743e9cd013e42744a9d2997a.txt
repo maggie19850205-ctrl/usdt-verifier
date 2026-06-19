@@ -1,0 +1,35 @@
+{
+  "meta": "Unlock 500+ logo design concepts with this ultimate bundle of templates, guides, and inspiration for creatives.",
+  "sections": [
+    {
+      "h": "What’s Inside the Bundle",
+      "b": "This ultimate bundle includes over 500 logo design templates across 10 industry categories, from tech startups to food brands. Each template is fully editable in Adobe Illustrator and Canva, saving you hours of brainstorming. You’ll also get 50+ color palette guides and typography pairings to refine your designs."
+    },
+    {
+      "h": "How to Use the Templates",
+      "b": "Start by selecting a category that matches your client’s niche, then customize shapes, colors, and fonts using the included layer-organized files. For rapid prototyping, use the Canva versions to test variations in under 10 minutes. Each template includes a style guide to ensure consistency across branding."
+    },
+    {
+      "h": "Who Needs This Bundle",
+      "b": "Freelance graphic designers and agencies can use these templates to speed up client projects without sacrificing originality. Marketing teams and small business owners will find the ready-to-edit assets perfect for in-house branding needs. The bundle also includes a 30-page inspiration book with real-world logo examples and design principles."
+    },
+    {
+      "h": "Why Choose This Bundle",
+      "b": "Unlike single-template packs, this bundle offers a 90% time reduction in concept creation with proven frameworks like the Golden Ratio and negative space techniques. Priced at $8.99, it replaces $200+ worth of individual assets, backed by a 30-day satisfaction guarantee. Bonus: 10 exclusive logo animation presets for social media use."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use these logos for commercial projects?",
+      "a": "Yes, all templates come with a commercial license, allowing you to sell or use them for client work without attribution."
+    },
+    {
+      "q": "What software do I need to edit the files?",
+      "a": "The bundle includes AI (Adobe Illustrator) and Canva formats, plus SVG and PNG for quick use. No advanced design skills required."
+    },
+    {
+      "q": "Is there a refund policy if I’m not satisfied?",
+      "a": "Absolutely, we offer a 30-day money-back guarantee. Contact support for a full refund if the bundle doesn’t meet your expectations."
+    }
+  ]
+}

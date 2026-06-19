@@ -1,0 +1,40 @@
+{
+  "meta": "Streamline workflows with 5 AI agent automation templates. Save time, reduce errors, and scale tasks effortlessly.",
+  "intro": "Unlock the power of AI agents with this pack of 5 ready-to-use automation templates. Designed for small businesses, freelancers, and teams, these templates help you automate repetitive tasks, integrate with popular tools, and boost productivity without coding. Each template includes clear instructions and customization tips.",
+  "templates": [
+    {
+      "n": "Customer Support Agent",
+      "d": "Automate responses to common inquiries using GPT-4 and Zapier. Handles FAQs, ticket routing, and escalation, reducing response time by 60%."
+    },
+    {
+      "n": "Data Entry Agent",
+      "d": "Extract and organize data from emails and PDFs into Google Sheets. Uses Python scripts and OCR, cutting manual entry time by 80%."
+    },
+    {
+      "n": "Social Media Scheduler",
+      "d": "Generate and schedule posts across Twitter, LinkedIn, and Instagram. Integrates with Buffer and uses AI for content ideas, saving 5 hours weekly."
+    },
+    {
+      "n": "Email Outreach Agent",
+      "d": "Personalize and send cold emails at scale with Mailchimp and OpenAI. Tracks open rates and follow-ups, improving conversion by 35%."
+    },
+    {
+      "n": "Meeting Summarizer Agent",
+      "d": "Transcribe and summarize Zoom calls using Whisper and Notion. Extracts action items and deadlines, reducing review time by 50%."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding skills to use these templates?",
+      "a": "No, each template comes with step-by-step setup guides and uses no-code tools like Zapier and Google Sheets. Basic familiarity with drag-and-drop interfaces is helpful."
+    },
+    {
+      "q": "What tools or subscriptions are required?",
+      "a": "Most templates require free tiers of Zapier, OpenAI API (pay-per-use), and Google accounts. Some may need paid plans for higher volume, but all are optional."
+    },
+    {
+      "q": "Can I customize the templates for my specific workflow?",
+      "a": "Yes, each template includes customization tips and variables for tasks, triggers, and outputs. You can modify prompts, integrations, and schedules easily."
+    }
+  ]
+}

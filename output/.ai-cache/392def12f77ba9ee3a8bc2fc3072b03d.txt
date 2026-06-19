@@ -1,0 +1,39 @@
+{
+  "meta": "Streamline support with our AI Customer Support Automation Checklist Workbook. 5 key areas, 70+ tasks, save 30% response time.",
+  "sections": [
+    {
+      "h": "Phase 1: Audit Your Current Support Workflow",
+      "b": "Map out your existing ticket flow using tools like Zendesk or Intercom. Identify the top 50% of queries that are repetitive and rule-based. This audit typically reveals 40% of tickets can be automated immediately."
+    },
+    {
+      "h": "Phase 2: Select the Right AI Platform",
+      "b": "Compare solutions like Intercom Fin, Zendesk Answer Bot, or Tidio Lyro. Evaluate them on NLU accuracy, integration ease, and cost per resolution. The right platform can cut first response time from 4 hours to under 1 minute."
+    },
+    {
+      "h": "Phase 3: Design Your Automation Playbooks",
+      "b": "Create decision trees for common issues: password resets, order status, refund policies. Use no-code builders to set up triggers and responses. A well-designed playbook resolves 65% of queries without human handoff."
+    },
+    {
+      "h": "Phase 4: Train, Test, and Optimize AI Responses",
+      "b": "Feed your bot with 200+ past support tickets for training. Run A/B tests on response variants and monitor escalation rates. Continuous optimization can improve deflection rate by 20% in the first month."
+    },
+    {
+      "h": "Phase 5: Measure Impact and Scale",
+      "b": "Track metrics: automation rate, CSAT, agent handle time. Use dashboards in Google Data Studio or Tableau to report ROI. Companies using this workbook report 30% faster response and 50% reduction in repetitive tickets."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does this workbook include templates for chatbot scripts?",
+      "a": "Yes, it includes 12 customizable script templates for common scenarios like shipping delays and account issues, designed for platforms like ManyChat and Chatfuel."
+    },
+    {
+      "q": "Can I use this for a small team of 3 agents?",
+      "a": "Absolutely. The workbook scales from solo operations to teams of 50+, with specific checklists for low-volume and high-volume support environments."
+    },
+    {
+      "q": "How long does it take to implement the checklist?",
+      "a": "Most users complete the full implementation in 4-6 weeks, with the first automation live within the first week using the quick-start guide."
+    }
+  ]
+}

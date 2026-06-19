@@ -1,0 +1,40 @@
+{
+  "meta": "Boost remote team productivity with 5 essential templates for async communication, task tracking, and workflow management.",
+  "intro": "This template pack provides ready-to-use frameworks to streamline remote team operations, reduce meeting overload, and enhance accountability across distributed teams.",
+  "templates": [
+    {
+      "n": "Async Daily Standup Template",
+      "d": "Replace live meetings with a structured async check-in. Includes prompts for yesterday's wins, today's priorities, and blockers, integrated with Slack or Teams."
+    },
+    {
+      "n": "Task Prioritization Matrix",
+      "d": "A 2x2 grid based on urgency and impact, adapted from the Eisenhower Matrix. Helps remote teams focus on high-value tasks during asynchronous workdays."
+    },
+    {
+      "n": "Virtual Team Retrospective Board",
+      "d": "A Miro-compatible template for running remote retrospectives with columns for what went well, what to improve, and action items. Includes timed facilitation notes."
+    },
+    {
+      "n": "Remote Onboarding Checklist",
+      "d": "A 30-day onboarding tracker with milestones for tool setup, culture immersion, and first project deliverables. Includes timezone-aware buddy assignments."
+    },
+    {
+      "n": "Weekly Async OKR Review",
+      "d": "A spreadsheet template for tracking Objectives and Key Results across remote teams. Includes color-coded progress bars and automated email reminders."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do the templates work with my existing tools?",
+      "a": "Yes, all templates are tool-agnostic and include instructions for adapting to Slack, Notion, Asana, Trello, and Miro."
+    },
+    {
+      "q": "Can I customize the templates?",
+      "a": "Absolutely. Each template is provided as an editable Google Doc, Miro board, or Excel file so you can tailor it to your team's workflow."
+    },
+    {
+      "q": "Is this suitable for fully remote teams of any size?",
+      "a": "Yes, the pack is designed for teams of 5 to 50+ members, with scaling tips included for larger groups."
+    }
+  ]
+}

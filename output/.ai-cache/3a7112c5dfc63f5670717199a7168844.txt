@@ -1,0 +1,40 @@
+{
+  "meta": "Streamline client onboarding with customizable templates for proposals, contracts, and more. Save time and impress clients.",
+  "intro": "The Client Onboarding Kit includes five essential templates to help you onboard new clients efficiently and professionally. Each template is fully editable and designed to reduce administrative work so you can focus on delivering value.",
+  "templates": [
+    {
+      "n": "Welcome Email Template",
+      "d": "A polished email to introduce your services, set expectations, and share next steps. Includes placeholders for project timelines and key contacts."
+    },
+    {
+      "n": "Proposal Template",
+      "d": "A structured proposal outline with sections for scope, deliverables, pricing, and terms. Helps you present a clear, compelling offer in minutes."
+    },
+    {
+      "n": "Contract Template",
+      "d": "A legally sound contract covering payment terms, confidentiality, and project milestones. Based on industry best practices and easy to customize."
+    },
+    {
+      "n": "Project Brief Template",
+      "d": "A one-page brief to capture client goals, target audience, and project requirements. Ensures alignment before work begins."
+    },
+    {
+      "n": "Invoice Template",
+      "d": "A clean invoice layout with fields for itemized services, rates, and payment instructions. Compatible with popular accounting tools."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are the templates compatible with Google Docs?",
+      "a": "Yes, all templates are provided in Google Docs format and can be exported to Word or PDF as needed."
+    },
+    {
+      "q": "Can I modify the contract template for my specific needs?",
+      "a": "Absolutely. The contract template includes editable sections for your unique terms, but we recommend consulting a lawyer for legal review."
+    },
+    {
+      "q": "Is there a refund policy?",
+      "a": "Due to the digital nature of this product, all sales are final. However, if you encounter any issues, contact us for support."
+    }
+  ]
+}

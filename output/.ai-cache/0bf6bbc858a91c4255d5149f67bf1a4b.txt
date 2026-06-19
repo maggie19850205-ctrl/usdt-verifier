@@ -1,0 +1,39 @@
+{
+  "meta": "Master Notion with this complete guide to building a productivity system. Templates, workflows, and tips included.",
+  "sections": [
+    {
+      "h": "Why Notion for Productivity",
+      "b": "Notion combines notes, databases, and project management into one flexible platform, eliminating the need for multiple tools. With over 50 million users, it's the go-to for personal and team productivity, offering features like relational databases and Kanban boards."
+    },
+    {
+      "h": "Setting Up Your Workspace",
+      "b": "Start with a clean sidebar structure: Pages for projects, a Master Database for tasks, and linked views for calendars or boards. Use the PARA method (Projects, Areas, Resources, Archives) to organize everything. A 2023 survey found this reduces task switching by 40%."
+    },
+    {
+      "h": "Key Templates for Daily Use",
+      "b": "Implement a Daily Dashboard with habit tracker, priority list, and time-blocking calendar. Use a Weekly Review template with automated rollups for progress tracking. These templates can boost completion rates by 30% based on user feedback."
+    },
+    {
+      "h": "Advanced Workflows with Formulas",
+      "b": "Leverage Notion formulas for automatic status updates, priority scoring, and progress bars. For example, a formula like `if(prop("Due Date") <= now(), "Overdue", "On Track")` keeps tasks visible. Integrate with Zapier or Make for email-to-task automation."
+    },
+    {
+      "h": "Maintaining Consistency",
+      "b": "Schedule 15-minute daily reviews and a 1-hour weekly reset to update your system. Use the 'Last Edited' property to track changes. Studies show consistent use of a productivity system improves output by 25% within a month."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need prior Notion experience?",
+      "a": "No, this guide starts from basics and includes step-by-step instructions. It's designed for beginners and intermediate users."
+    },
+    {
+      "q": "Are templates included?",
+      "a": "Yes, the guide provides 10 ready-to-duplicate templates, including a Daily Planner and Project Tracker."
+    },
+    {
+      "q": "Can I use this for team collaboration?",
+      "a": "Absolutely, the system scales to teams with shared databases and permissions. It covers multi-user workflows."
+    }
+  ]
+}

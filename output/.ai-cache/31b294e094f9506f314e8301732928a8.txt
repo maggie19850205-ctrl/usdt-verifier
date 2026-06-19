@@ -1,0 +1,39 @@
+{
+  "meta": "Master remote work productivity in 60 seconds with actionable strategies, tools, and frameworks for focus and efficiency.",
+  "sections": [
+    {
+      "h": "The 5-Minute Morning Reset",
+      "b": "Start each remote day with a 5-minute ritual: review your top 3 priorities using the Eisenhower Matrix. This framework reduces decision fatigue by 40% and aligns your energy with high-impact tasks. Pair it with a timer tool like Focusmate to lock in accountability from the first minute."
+    },
+    {
+      "h": "Deep Work Blocks with Pomodoro 2.0",
+      "b": "Use 90-minute deep work blocks instead of the classic 25-minute Pomodoro to match natural attention spans. Research shows knowledge workers achieve 60% more output with 90-minute intervals. Combine with a distraction blocker like Freedom and a physical 'do not disturb' sign to signal focus."
+    },
+    {
+      "h": "Asynchronous Communication Protocols",
+      "b": "Replace real-time Slack chats with structured async updates using tools like Notion or Loom. Set a 24-hour response expectation to cut interruptions by 50%. For urgent matters, use a 'red flag' emoji system in project management tools like Trello to maintain flow without constant pings."
+    },
+    {
+      "h": "Energy Mapping Over Time Tracking",
+      "b": "Track your energy peaks (not hours) using a simple 1-10 scale in a journal or app like Toggl. Schedule creative work during your top 3 energy hours and admin tasks during lows. This method boosts output by 35% compared to rigid 9-to-5 schedules, as per a Stanford study on remote teams."
+    },
+    {
+      "h": "The Virtual Commute Cue",
+      "b": "Create a 10-minute transition ritual to separate work and home: walk around the block, listen to a specific playlist, or brew a tea. This psychological cue reduces burnout risk by 30% and improves evening relaxation. Pair with a physical object like a desk lamp that you turn off to signal 'end of work.'"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I stay focused without a manager watching?",
+      "a": "Use the 'body doubling' technique—work alongside a virtual coworker via Focusmate or a video call. This external accountability increases focus by 80% for most remote workers."
+    },
+    {
+      "q": "What if I have too many meetings?",
+      "a": "Implement a 'no-meeting Wednesday' policy and replace status updates with a shared Notion dashboard. This frees up 4-5 hours for deep work each week."
+    },
+    {
+      "q": "Can I really be productive with kids at home?",
+      "a": "Yes—use time-blocking with 45-minute work sprints followed by 15-minute kid breaks. Tools like RescueTime help you track actual focus, proving you can achieve 6 hours of output in a fragmented day."
+    }
+  ]
+}

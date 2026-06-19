@@ -1,0 +1,40 @@
+{
+"meta": "Boost sales with our Conversion Rate Optimization Kit. Includes 5 proven templates for A/B testing, landing pages, and more.",
+"intro": "Stop guessing and start optimizing. This template pack gives you the exact frameworks used by top CRO experts to turn visitors into customers.",
+"templates": [
+{
+"n": "A/B Testing Plan Template",
+"d": "Structured document to define test hypotheses, set success metrics (e.g., conversion rate lift), and schedule experiments using tools like Google Optimize or VWO."
+},
+{
+"n": "Landing Page Audit Checklist",
+"d": "Systematic review covering headline clarity, call-to-action contrast, load speed (under 3 seconds), and mobile responsiveness to identify conversion barriers."
+},
+{
+"n": "Customer Journey Mapping Canvas",
+"d": "Visual template to plot touchpoints from awareness to purchase, highlighting drop-off points and opportunities for micro-conversions like email signups."
+},
+{
+"n": "Value Proposition Refinement Worksheet",
+"d": "Step-by-step guide to articulate unique benefits using the 5-second test framework, backed by customer feedback and competitor analysis."
+},
+{
+"n": "Exit-Intent Popup Strategy Blueprint",
+"d": "Pre-built popup designs and trigger rules (e.g., 50% scroll depth) with copywriting formulas to capture leads, reducing bounce rates by up to 15%."
+}
+],
+"faq": [
+{
+"q": "Do I need technical skills to use these templates?",
+"a": "No, all templates are designed for non-technical users. They come with clear instructions and examples you can adapt to any platform like Shopify or WordPress."
+},
+{
+"q": "Can I customize the templates for my industry?",
+"a": "Absolutely. Each template includes fillable fields and prompts specific to e-commerce, SaaS, or service businesses, making them easy to tailor."
+},
+{
+"q": "How soon can I see results from using this pack?",
+"a": "Most users implement at least one template within a week. A/B testing typically shows conversion improvements within 14-30 days of consistent use."
+}
+]
+}

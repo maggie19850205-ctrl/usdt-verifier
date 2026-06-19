@@ -1,0 +1,40 @@
+{
+  "meta": "Streamline research with 5 editable Perplexity AI templates. Boost productivity, organize findings, and cite sources efficiently.",
+  "intro": "This template pack provides five ready-to-use Perplexity AI research templates designed to save time and enhance accuracy. Each template is fully editable and includes structured prompts, source tracking, and output formatting guidelines.",
+  "templates": [
+    {
+      "n": "Literature Review Template",
+      "d": "Automatically extract key findings, methodologies, and gaps from 10+ academic sources. Includes citation formatting for APA, MLA, and Chicago styles."
+    },
+    {
+      "n": "Market Analysis Template",
+      "d": "Generate competitor comparisons, market size estimates, and trend forecasts using Perplexity's real-time data integration. Supports up to 5 competitor profiles per run."
+    },
+    {
+      "n": "Technical Research Template",
+      "d": "Break down complex topics into digestible sections with code snippets, API documentation links, and version-specific notes. Ideal for developers and engineers."
+    },
+    {
+      "n": "Fact-Checking Template",
+      "d": "Verify claims across multiple authoritative sources (e.g., PubMed, .gov domains) with confidence scores and discrepancy alerts. Includes a 5-step verification checklist."
+    },
+    {
+      "n": "Project Proposal Template",
+      "d": "Structure research-backed proposals with executive summaries, risk matrices, and ROI projections. Pre-loaded with prompts for funding justifications."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are these templates compatible with Perplexity Pro?",
+      "a": "Yes, all templates work with both free and Pro versions, though Pro users benefit from faster processing and unlimited file uploads."
+    },
+    {
+      "q": "Can I customize the output format?",
+      "a": "Absolutely. Each template includes editable placeholders for tone, length, and citation style. You can also export results as Markdown, PDF, or CSV."
+    },
+    {
+      "q": "Do I need prior experience with Perplexity AI?",
+      "a": "No. The pack includes a quick-start guide with step-by-step instructions, and each template has built-in tooltips explaining key features."
+    }
+  ]
+}

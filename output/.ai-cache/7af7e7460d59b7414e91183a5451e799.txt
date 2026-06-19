@@ -1,0 +1,16 @@
+{
+  "meta": "Optimize your SaaS pricing with our template pack. Includes 5 templates for tiered, usage, and value-based models.",
+  "intro": "This template pack provides ready-to-use frameworks for structuring your SaaS pricing strategy. Each template is designed to help you analyze market data, segment customers, and set competitive prices that maximize revenue.",
+  "templates": [
+    {"n": "Tiered Pricing Canvas", "d": "Map out 3-5 pricing tiers with feature differentiation, ideal for B2B SaaS. Includes columns for tier name, key features, target user segment, and monthly/annual pricing."},
+    {"n": "Usage-Based Pricing Calculator", "d": "Calculate per-unit costs for pay-as-you-go models. Integrates with usage data from Stripe or Chargebee to set thresholds for volume discounts and overage fees."},
+    {"n": "Value-Based Pricing Scorecard", "d": "Assess customer willingness-to-pay using a 10-point value metric. Scores factors like time saved, revenue impact, and competitive alternatives, then maps to a price range."},
+    {"n": "Competitive Price Matrix", "d": "Compare your pricing against 5 competitors across 8 features. Automatically highlights gaps and opportunities using weighted scoring for market positioning."},
+    {"n": "Discount & Promotion Planner", "d": "Plan annual discounts, trial offers, and bundling strategies. Includes ROI calculator for each promotion type with break-even analysis based on churn rates."}
+  ],
+  "faq": [
+    {"q": "What formats are the templates available in?", "a": "Each template is provided as an editable Google Sheets file and a printable PDF. You can customize all fields to match your product."},
+    {"q": "Can these templates be used for enterprise SaaS?", "a": "Yes, the tiered pricing canvas and competitive matrix are specifically designed for enterprise B2B, with fields for contract length, SLA tiers, and volume discounts."},
+    {"q": "How do I calculate usage-based pricing for my app?", "a": "The usage-based calculator uses your existing billing data. Input your average user consumption and cost per unit to generate recommended per-unit rates and overage thresholds."}
+  ]
+}

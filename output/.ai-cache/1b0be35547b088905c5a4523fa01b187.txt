@@ -1,0 +1,35 @@
+{
+"meta": "Build your SaaS without code with ultimate bundle of tools, templates, and guides. Launch faster, save thousands.",
+"sections": [
+{
+"h": "All-in-One No-Code SaaS Toolkit",
+"b": "This bundle includes 15+ curated no-code tools, 10 pre-built SaaS templates, and a step-by-step launch guide. Save up to $2,000 compared to buying separately, and reduce development time by 80% using platforms like Bubble, Airtable, and Zapier."
+},
+{
+"h": "Pre-Built Templates for Rapid Launch",
+"b": "Get 10 ready-to-use SaaS templates including landing pages, onboarding flows, and payment integrations. Each template is optimized for conversion and works with Stripe, Mailchimp, and Google Analytics out of the box."
+},
+{
+"h": "Automation & Workflow Blueprints",
+"b": "Access 20 automation workflows that handle user signups, email sequences, and data syncing. Use Zapier and Make to connect your tools with zero coding, saving 15+ hours per week on manual tasks."
+},
+{
+"h": "Monetization & Growth Strategies",
+"b": "Learn proven pricing models, subscription management, and customer acquisition tactics. Includes frameworks for setting up freemium tiers, referral programs, and A/B testing—backed by data from 500+ successful no-code SaaS founders."
+}
+],
+"faq": [
+{
+"q": "Do I need any coding experience to use this bundle?",
+"a": "No, all tools and templates are designed for non-technical founders. You only need basic computer skills to follow the guides and set up your SaaS."
+},
+{
+"q": "What platforms are included in the templates?",
+"a": "Templates are built for Bubble, Webflow, and Airtable, with integrations for Stripe, Zapier, and Mailchimp. Each template includes detailed setup instructions."
+},
+{
+"q": "Can I get a refund if the bundle doesn't meet my expectations?",
+"a": "Yes, we offer a 30-day money-back guarantee. If you're not satisfied, contact us for a full refund—no questions asked."
+}
+]
+}

@@ -1,0 +1,35 @@
+{
+  "meta": "Ultimate bundle of AI recipe generator templates. Automate meal planning, grocery lists, and dietary customizations with ease.",
+  "sections": [
+    {
+      "h": "Streamline Meal Planning with AI",
+      "b": "This ultimate bundle includes 10+ AI-powered templates designed to automate weekly meal planning. Use tools like GPT-3.5 and Zapier to generate personalized recipes based on dietary preferences, reducing planning time by 70%. Templates cover breakfast, lunch, dinner, and snacks."
+    },
+    {
+      "h": "Automate Grocery Lists Instantly",
+      "b": "Each template integrates with grocery list generators, pulling ingredients from AI-suggested recipes. Set up automated workflows using Notion or Airtable to create shopping lists in seconds. Save an average of 2 hours per week on grocery prep."
+    },
+    {
+      "h": "Customize for Any Diet",
+      "b": "Templates support keto, vegan, gluten-free, and paleo diets with pre-built AI prompts. Adjust macros and portion sizes using tools like Cronometer or MyFitnessPal. Over 500 recipe variations included for seamless customization."
+    },
+    {
+      "h": "Scale Your Cooking Efficiency",
+      "b": "Use AI to batch-generate 7-day meal plans with nutritional breakdowns. Templates include error-checking logic to avoid ingredient conflicts. Ideal for meal prep services and busy families, cutting decision fatigue by 80%."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do these templates require coding skills?",
+      "a": "No, all templates are no-code and ready to use with platforms like Google Sheets, Notion, and Zapier. Step-by-step guides are included for setup."
+    },
+    {
+      "q": "Can I integrate these with my existing meal planning app?",
+      "a": "Yes, templates are compatible with popular apps like Mealime, Paprika, and Yummly via API or CSV export. Instructions for integration are provided."
+    },
+    {
+      "q": "What if I need a recipe for a specific cuisine?",
+      "a": "Templates include cuisine-specific AI prompts for Italian, Mexican, Asian, and more. You can also add custom prompts for any cuisine."
+    }
+  ]
+}

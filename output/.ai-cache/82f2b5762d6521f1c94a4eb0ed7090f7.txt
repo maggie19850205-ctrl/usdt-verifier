@@ -1,0 +1,39 @@
+{
+"meta": "Boost remote team output with our actionable checklist workbook. Tools, frameworks, and metrics for managers.",
+"sections": [
+{
+"h": "Assess Current Workflows",
+"b": "Begin by auditing your team's existing processes using the 5-step workflow evaluation framework. Identify bottlenecks like asynchronous communication delays or tool overlap that reduce efficiency by up to 40%."
+},
+{
+"h": "Set Clear Daily Goals",
+"b": "Implement OKRs aligned with weekly sprints using Trello or Asana. Our workbook includes a template for breaking down objectives into 3 measurable key results per team member."
+},
+{
+"h": "Optimize Communication Channels",
+"b": "Reduce meeting overload by categorizing messages into Slack channels for urgent, daily, and weekly updates. Studies show this cuts response time by 30% and boosts deep work hours."
+},
+{
+"h": "Track Performance Metrics",
+"b": "Use the included scorecard to monitor velocity, task completion rate, and burnout risk via tools like Clockify or Toggl. Adjust workload distribution weekly based on data."
+},
+{
+"h": "Foster Accountability & Culture",
+"b": "Establish a peer-check system with daily 5-minute standups and weekly retrospectives. Our checklist ensures 80% of teams report higher trust and task ownership within 30 days."
+}
+],
+"faq": [
+{
+"q": "How is this different from a standard productivity guide?",
+"a": "It's a step-by-step workbook with fillable checklists, templates, and real-world tools like Asana and Clockify, designed for immediate application in remote teams."
+},
+{
+"q": "Can I use this for a team of 50+ people?",
+"a": "Yes, the frameworks scale from 5 to 100+ members, with sections on delegation layers and tool access controls for larger groups."
+},
+{
+"q": "How long does it take to implement?",
+"a": "Most teams see measurable improvements within 2 weeks by completing one section per day, totaling about 10 hours of focused work."
+}
+]
+}

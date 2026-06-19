@@ -1,0 +1,40 @@
+{
+  "meta": "Master TikTok virality with 5 proven templates. Save time, boost views, and grow your audience starting at $4.99.",
+  "intro": "Stop guessing what works. This template pack gives you 5 battle-tested video structures used by top creators to consistently hit the For You Page. Each template includes a fillable script outline, hook variations, and timing cues.",
+  "templates": [
+    {
+      "n": "The Hook-Then-Hold Template",
+      "d": "Opens with a pattern-interrupt hook (e.g., 'Stop scrolling if...') in the first 1-2 seconds, followed by a rapid value drop. Includes 3 hook variations and a 15-second story arc. Best for educational or reaction content."
+    },
+    {
+      "n": "The Story Arc Template",
+      "d": "A 3-act structure: problem, twist, payoff. Designed for personal stories or transformations. Includes a 60-second timeline with emotional beat markers and a call-to-action at the 50-second mark."
+    },
+    {
+      "n": "The Challenge Template",
+      "d": "Structured for duets, stitches, or original challenges. Provides a 30-second countdown script, trending audio suggestions, and a 'challenge rules' overlay text guide. Boosts engagement through participation."
+    },
+    {
+      "n": "The Educational Hack Template",
+      "d": "A 15-second rapid-fire format: hook, 3 tips, and a mic-drop ending. Includes a 'text-on-screen' layout guide and 5 proven hook phrases from viral edu-creators. Ideal for tutorials or life hacks."
+    },
+    {
+      "n": "The Trend Jacking Template",
+      "d": "A modular framework to adapt any trending sound or hashtag. Contains a trend analysis checklist, 4 transition ideas, and a 'viral twist' prompt to make the trend your own. Works in under 24 hours."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need video editing experience to use these templates?",
+      "a": "No. Each template includes a plain-language script and timing guide. You can film on your phone and edit in TikTok’s native app."
+    },
+    {
+      "q": "How quickly will I see results?",
+      "a": "Most users report higher watch time and shares within the first 3 posts. Actual viral results depend on niche and consistency, but the templates remove the guesswork."
+    },
+    {
+      "q": "Can I use these templates for any niche?",
+      "a": "Yes. The structures are platform-agnostic and work for beauty, finance, comedy, fitness, and more. Each template includes niche adaptation tips."
+    }
+  ]
+}

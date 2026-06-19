@@ -1,0 +1,20 @@
+{
+  "type": "checklist-workbook",
+  "meta": "Streamline your freelance AI projects with this printable checklist workbook. Track tasks, manage clients, and boost productivity.",
+  "intro": "This workbook is designed to help freelancers organize their AI assistant projects from start to finish. Each checklist item guides you through essential steps for client success, from scoping to delivery.",
+  "items": [
+    "Define project scope and AI assistant capabilities (e.g., chatbots, data analysis, content generation).",
+    "Set up communication channels (Slack, email) and client feedback loops.",
+    "Gather and preprocess training data (CSV, PDFs, or APIs) ensuring quality and privacy compliance.",
+    "Choose and configure AI model (GPT-4, Claude, or custom) with appropriate parameters.",
+    "Implement testing framework with 10+ edge cases and performance benchmarks.",
+    "Deploy assistant via web app, API, or messaging platform with monitoring tools.",
+    "Create client handoff documentation including usage guides and maintenance schedule.",
+    "Schedule post-launch review for feedback collection and model refinement."
+  ],
+  "faq": [
+    {"q": "Who is this workbook for?", "a": "It's for freelance developers, consultants, and creators building AI assistants for clients, covering all skill levels."},
+    {"q": "Can I reuse this for multiple projects?", "a": "Yes, each section is designed to be reusable; print or copy pages for every new client project."},
+    {"q": "Does it include digital templates?", "a": "The workbook is printable PDF; digital fillable version is available upon request via email."}
+  ]
+}

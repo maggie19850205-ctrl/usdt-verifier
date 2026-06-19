@@ -1,0 +1,39 @@
+{
+  "meta": "Boost your job search with AI resume builder templates. Complete guide to create ATS-friendly resumes fast.",
+  "sections": [
+    {
+      "h": "Why Use AI Resume Builder Templates",
+      "b": "AI resume builder templates save you hours by auto-formatting your content into ATS-compatible layouts. Tools like Zety and Rezi offer tailored templates that optimize keywords for specific job descriptions, increasing callback rates by up to 40%."
+    },
+    {
+      "h": "Key Features of Top AI Templates",
+      "b": "The best AI resume templates include smart content suggestions, real-time grammar checks (via Grammarly integration), and customizable sections for skills, experience, and education. Look for templates with pre-built ATS parsers that align with 95% of applicant tracking systems."
+    },
+    {
+      "h": "How to Choose the Right Template",
+      "b": "Select templates based on your industry—clean, minimal designs for corporate roles and creative layouts for marketing or design. Use platforms like Canva or Novoresume to compare 20+ options, and prioritize templates with built-in keyword analysis for job-specific terms."
+    },
+    {
+      "h": "Step-by-Step Customization Guide",
+      "b": "Start by importing your existing resume into an AI builder like Kickresume. Use the tool's suggestion engine to rephrase bullet points with action verbs (e.g., 'led,' 'optimized') and quantify achievements. Test your final draft with Jobscan to ensure 80%+ match rate with target job descriptions."
+    },
+    {
+      "h": "Common Mistakes to Avoid",
+      "b": "Avoid overloading templates with graphics or tables that confuse ATS scanners. Stick to standard fonts like Arial or Calibri, and never use headers/footers for critical info. Also, ensure your file is saved as a .docx or PDF (not .jpg) for maximum compatibility."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are AI resume builder templates free?",
+      "a": "Many platforms offer free basic templates, but premium features like keyword optimization and unlimited downloads cost $5–$20/month. Our complete guide includes templates compatible with free trials from Zety and Rezi."
+    },
+    {
+      "q": "Can AI templates guarantee interview calls?",
+      "a": "No, but they significantly improve your chances by aligning with ATS algorithms. Users report 30–50% more interview requests after using AI-optimized templates with targeted keywords."
+    },
+    {
+      "q": "How long does it take to customize a template?",
+      "a": "With AI assistance, you can complete a tailored resume in 15–30 minutes. Manual customization without AI takes 2–3 hours for similar results."
+    }
+  ]
+}

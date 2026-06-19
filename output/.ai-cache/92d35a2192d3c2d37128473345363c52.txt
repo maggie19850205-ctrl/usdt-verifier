@@ -1,0 +1,35 @@
+{
+"meta": "Unlock 15 proven LinkedIn lead gen templates to boost conversions. Perfect for B2B sales teams and marketers.",
+"sections": [
+{
+"h": "Streamline Your Outreach with Proven Frameworks",
+"b": "Our ultimate bundle includes 15 templates built on tested frameworks like SPIN selling and Challenger Sale. Each template is designed to increase response rates by up to 40% based on industry benchmarks."
+},
+{
+"h": "Save Hours of Crafting Messages Each Week",
+"b": "Stop starting from scratch. With ready-to-use templates for connection requests, follow-ups, and value propositions, you can cut message creation time by 60% and focus on closing deals."
+},
+{
+"h": "Tailored for Every Stage of the Sales Funnel",
+"b": "From initial outreach to re-engaging cold leads, these templates cover awareness, consideration, and decision stages. Use A/B testing data to optimize subject lines and call-to-actions."
+},
+{
+"h": "Real Results from B2B Sales Professionals",
+"b": "Users report an average 25% increase in reply rates within the first month. Templates include personalization prompts and hooks proven effective for industries like SaaS, consulting, and finance."
+}
+],
+"faq": [
+{
+"q": "How many templates are included in the bundle?",
+"a": "The ultimate bundle contains 15 distinct templates, covering connection requests, follow-ups, and value proposition messages."
+},
+{
+"q": "Are these templates customizable for my industry?",
+"a": "Yes, each template includes placeholders and personalization tips to adapt for SaaS, consulting, finance, and other B2B sectors."
+},
+{
+"q": "What is the refund policy?",
+"a": "We offer a 30-day money-back guarantee if the templates do not improve your outreach efficiency."
+}
+]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": "Plan and schedule posts with this social media content calendar template pack. Organize campaigns and save time.",
+  "intro": "This template pack includes five ready-to-use social media content calendar templates designed to streamline your posting schedule, track campaigns, and boost engagement across platforms like Instagram, LinkedIn, Twitter, and Facebook.",
+  "templates": [
+    {
+      "n": "Monthly Overview Calendar",
+      "d": "A high-level monthly grid to map out all posts, holidays, and campaign themes. Includes columns for platform, post type, and status."
+    },
+    {
+      "n": "Weekly Content Planner",
+      "d": "Break down each week with specific time slots, content themes, and asset links. Perfect for team collaboration and approval workflows."
+    },
+    {
+      "n": "Campaign Tracker",
+      "d": "Track individual campaigns with goals, budget, posting dates, and performance metrics like reach and engagement rates."
+    },
+    {
+      "n": "Post Performance Dashboard",
+      "d": "Analyze top-performing posts with columns for likes, shares, comments, and click-through rates. Includes a summary chart area."
+    },
+    {
+      "n": "Evergreen Content Bank",
+      "d": "Store and categorize repurposable content ideas with tags for topic, format, and best posting time. Includes a reuse frequency counter."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I customize these templates for my brand?",
+      "a": "Yes, all templates are fully editable in Google Sheets or Excel. You can add your brand colors, logo, and custom columns."
+    },
+    {
+      "q": "Do I need any special software?",
+      "a": "No, the templates work in Google Sheets (free) and Microsoft Excel. No design skills required."
+    },
+    {
+      "q": "How do I access the templates after purchase?",
+      "a": "You receive a direct download link via email. The files are in .xlsx and .csv formats for immediate use."
+    }
+  ]
+}

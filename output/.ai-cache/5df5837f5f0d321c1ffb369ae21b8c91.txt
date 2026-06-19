@@ -1,0 +1,19 @@
+{
+"meta": "Master AI image generation with this checklist workbook. Practical steps, tools, and prompts for stunning visuals.",
+"intro": "This workbook is your hands-on guide to creating professional AI-generated images. It includes step-by-step checklists, prompt templates, and essential tips to improve your results using tools like Midjourney, DALL-E 3, and Stable Diffusion.",
+"items": [
+"Define your image goal: subject, style, mood, and composition.",
+"Select the right AI tool: Midjourney for artistry, DALL-E 3 for precision, Stable Diffusion for customization.",
+"Write a base prompt: include subject, action, environment, and lighting.",
+"Add style modifiers: art style, artist reference, era, or medium.",
+"Include technical parameters: aspect ratio, resolution, and camera settings.",
+"Use negative prompts to exclude unwanted elements.",
+"Test and iterate: generate 3-5 variations and refine your prompt.",
+"Save and organize: log successful prompts with the tool and settings used."
+],
+"faq": [
+{"q": "Do I need prior AI experience to use this workbook?", "a": "No, it is designed for beginners and intermediate users, with clear checklists to guide you step by step."},
+{"q": "Can I use these checklists with any AI image generator?", "a": "Yes, the prompts and techniques are tool-agnostic, though specific tips for Midjourney, DALL-E 3, and Stable Diffusion are included."},
+{"q": "What format is the workbook in?", "a": "It is a digital PDF workbook, printable and fillable, with 8 checklists and space for notes."}
+]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Master YouTube SEO with this complete guide covering keyword research, ranking factors, and optimization strategies for 2024.",
+  "sections": [
+    {
+      "h": "Keyword Research for YouTube",
+      "b": "Discover high-volume, low-competition keywords using tools like TubeBuddy, VidIQ, and Google Trends. Focus on search intent and long-tail phrases to rank for specific queries, targeting 3-5 keywords per video."
+    },
+    {
+      "h": "Optimizing Video Metadata",
+      "b": "Craft compelling titles under 60 characters with primary keywords upfront, write 200+ word descriptions with natural keyword placement, and use 15-20 relevant tags including broad and specific terms. Leverage YouTube's algorithm by placing keywords in the first 25 words of the description."
+    },
+    {
+      "h": "Thumbnail and Engagement Signals",
+      "b": "Design custom thumbnails with high contrast, close-ups, and text overlays using Canva or Photoshop. Prioritize click-through rate (CTR) above 5% and average view duration (AVD) over 70% by hooking viewers in the first 15 seconds with pattern interrupts."
+    },
+    {
+      "h": "Advanced Ranking Strategies",
+      "b": "Implement end screens and cards to boost session time, use chapters for better user experience and indexing, and analyze YouTube Analytics for audience retention drops. Aim for 10-15% CTR and 50%+ retention to trigger algorithm promotion."
+    },
+    {
+      "h": "Promotion and Consistency",
+      "b": "Share videos on social media platforms like Reddit and X with targeted hashtags, embed in blog posts, and collaborate with creators in your niche. Post weekly at peak times (2-4 PM EST) and maintain a consistent upload schedule to build subscriber trust."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does it take for YouTube SEO to work?",
+      "a": "Typically 2-4 weeks for ranking improvements, but consistent optimization and high engagement can accelerate results within 7 days for low-competition keywords."
+    },
+    {
+      "q": "Do I need to use every tag and description option?",
+      "a": "Yes, fully optimizing title, description, tags, and chapters maximizes visibility. Missing fields reduces your chance to rank for relevant searches."
+    },
+    {
+      "q": "Can I rank without high subscriber count?",
+      "a": "Absolutely, YouTube prioritizes CTR and watch time over subscribers. A well-optimized video from a small channel can outrank larger ones with better engagement metrics."
+    }
+  ]
+}

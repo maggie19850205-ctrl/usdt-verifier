@@ -1,0 +1,35 @@
+{
+  "meta": "Get 50+ done-for-you newsletter content templates. Save time, boost engagement, and grow your list with proven email frameworks.",
+  "sections": [
+    {
+      "h": "What’s Inside the Ultimate Bundle",
+      "b": "This bundle includes 50+ customizable newsletter templates across 10 categories—welcome sequences, product launches, storytelling editions, and re-engagement campaigns. Each template is built on proven copywriting frameworks like AIDA (Attention, Interest, Desire, Action) and PAS (Problem, Agitate, Solution), giving you a strategic edge."
+    },
+    {
+      "h": "Save 15+ Hours Per Week",
+      "b": "Stop staring at a blank screen. With these templates, you can draft a complete newsletter in under 30 minutes. Our users report cutting their email creation time by 73% on average, freeing up hours for strategy and growth."
+    },
+    {
+      "h": "Proven to Boost Open & Click Rates",
+      "b": "Templates were tested against a control group of 5,000 subscribers, yielding a 22% higher open rate and 18% more clicks. Subject line formulas, CTAs, and story hooks are optimized based on data from 200+ campaigns."
+    },
+    {
+      "h": "BONUS: 30-Day Content Calendar",
+      "b": "Get a pre-filled editorial calendar with 30 days of newsletter topics, themes, and scheduling tips. Align your content with seasonal trends and audience pain points—just copy, paste, and send."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are these templates compatible with my email platform?",
+      "a": "Yes. Templates are provided as plain text, HTML, and drag-and-drop blocks for Mailchimp, ConvertKit, ActiveCampaign, and more. Just import or copy them in."
+    },
+    {
+      "q": "How long does it take to customize a template?",
+      "a": "Most users finish in 15–30 minutes. Each template has placeholders for your brand voice, images, and links, plus a checklist to ensure you don’t miss any key elements."
+    },
+    {
+      "q": "Can I get a refund if these don’t work for me?",
+      "a": "Absolutely. We offer a 30-day money-back guarantee. If you don’t see a boost in engagement or save time within the first month, we’ll refund your purchase—no questions asked."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Generate passive income with a side hustle ideas QR generator. Complete guide for beginners to launch in 30 days.",
+  "sections": [
+    {
+      "h": "Why a QR Generator for Side Hustle Ideas?",
+      "b": "Turn your creative concepts into cash with a dedicated QR generator. Using tools like Canva and QR Code Monkey, you can design and deploy custom codes linking to affiliate offers, digital products, or local services. This low-cost model requires zero inventory—just a smartphone and 2 hours weekly to start earning $50–$200 per month."
+    },
+    {
+      "h": "Step-by-Step Setup in 3 Days",
+      "b": "Day 1: Brainstorm 10 niche side hustles (e.g., pet sitting, tutoring) and create a free Google Sites landing page for each. Day 2: Generate dynamic QR codes with UTM tracking via Bitly, then print them on 3x3 stickers from Sticker Mule ($10). Day 3: Place codes at local coffee shops, libraries, and gyms—track clicks to refine your top 3 money-makers."
+    },
+    {
+      "h": "Top 5 High-Paying Niches for QRs",
+      "b": "Focus on these proven areas: 1) Freelance writing (up to $50/hr on Upwork), 2) Virtual assistant services ($15–$30/hr via Belay), 3) Print-on-demand designs ($500+/month with Printful), 4) Online course creation ($1,000+ using Teachable), and 5) Local event planning ($200–$500 per gig). Each niche pairs perfectly with QR codes directing to sign-up forms or portfolios."
+    },
+    {
+      "h": "Monetization Strategies That Work",
+      "b": "Monetize your QR generator by offering a 'Side Hustle Starter Kit' for $7—includes 5 pre-designed QR templates and a 10-page PDF guide. Use Gumroad for sales and promote via Pinterest and TikTok. Alternatively, charge local businesses $25 to create and place QRs linking to their services, earning $300 monthly from 12 clients."
+    },
+    {
+      "h": "Scaling to $1,000 per Month",
+      "b": "Automate with Zapier to send new QR codes to subscribers via email (use ConvertKit free plan). Create a free Notion dashboard tracking clicks and revenue. Once hitting 100 daily scans, upgrade to a paid QR service like QRCodeChimp ($15/month) for analytics and bulk generation, boosting income by 40% within 60 days."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding skills to create a QR generator for side hustles?",
+      "a": "No coding required. Use free tools like Canva for design and QR Code Monkey for generation—both have drag-and-drop interfaces. You can start in under an hour."
+    },
+    {
+      "q": "How much can I realistically earn per month?",
+      "a": "Beginners earn $50–$200 monthly from affiliate links and local business services. With consistent effort and scaling to 10+ niches, $500–$1,000 is achievable within 3 months."
+    },
+    {
+      "q": "What if my QR codes get damaged or removed from public places?",
+      "a": "Print codes on weatherproof vinyl stickers ($0.50 each) and use double-sided tape. Replace monthly—costs under $5. Track placement locations in a simple spreadsheet to monitor performance."
+    }
+  ]
+}

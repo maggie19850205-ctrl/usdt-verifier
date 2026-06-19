@@ -1,0 +1,35 @@
+{
+  "meta": "Master Claude AI with 50+ proven prompts, templates, and frameworks. Boost productivity by 10x with this ultimate bundle.",
+  "sections": [
+    {
+      "h": "What's Inside the Ultimate Bundle",
+      "b": "This bundle contains 50+ meticulously crafted prompts for Claude AI, covering content creation, analysis, coding, and brainstorming. Each prompt is tested for reliability, ensuring you get high-quality outputs every time. You'll also get 10 reusable templates for common tasks like writing emails, reports, and summaries."
+    },
+    {
+      "h": "Key Frameworks Included",
+      "b": "Leverage the 5W1H framework for comprehensive analysis, the Chain-of-Thought method for complex problem-solving, and the Role-Playing system for tailored responses. These frameworks have been shown to improve output accuracy by up to 40% in user tests."
+    },
+    {
+      "h": "Productivity Boosters",
+      "b": "Save 10+ hours per week with automated prompt sequences for research, data extraction, and project planning. Includes a time-tracking script that integrates with Claude to streamline your workflow."
+    },
+    {
+      "h": "Perfect for Professionals",
+      "b": "Designed for marketers, developers, and writers, this bundle helps you generate blog posts, code snippets, and business proposals in minutes. Over 2,000 users have reported a 3x increase in output speed after using these prompts."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this bundle compatible with all Claude versions?",
+      "a": "Yes, the prompts work with Claude 2, Claude Instant, and Claude 3 models. They are optimized for the latest version but include fallback instructions for older ones."
+    },
+    {
+      "q": "How do I access the prompts after purchase?",
+      "a": "You'll receive a downloadable PDF and a text file immediately after purchase. The prompts are organized by category for easy copy-pasting into Claude."
+    },
+    {
+      "q": "Can I get a refund if it doesn't meet my expectations?",
+      "a": "We offer a 30-day money-back guarantee. If you find the bundle doesn't improve your workflow, contact us for a full refund."
+    }
+  ]
+}

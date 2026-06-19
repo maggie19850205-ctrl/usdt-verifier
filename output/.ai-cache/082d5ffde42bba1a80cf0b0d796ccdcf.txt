@@ -1,0 +1,28 @@
+{
+  "meta": "Build a high-converting email funnel with this actionable checklist workbook. Step-by-step for automated sales.",
+  "intro": "This 8-step checklist workbook guides you through creating a complete email marketing funnel from scratch. Each step includes a focused action item, space for notes, and a completion checkbox. Designed for solopreneurs and small teams who want to turn subscribers into repeat customers without the fluff.",
+  "items": [
+    "Define your lead magnet and create a one-page opt-in landing page (use tools like Carrd or Leadpages).",
+    "Set up your email marketing platform (e.g., Mailchimp, ConvertKit, or ActiveCampaign) and connect your opt-in form.",
+    "Write your welcome sequence: 3 emails (intro, deliver lead magnet, set expectations). Aim for 40-50% open rate.",
+    "Map your 5-email nurture sequence: value, story, social proof, soft offer, hard offer. Include 2-3 CTAs per email.",
+    "Design your abandoned cart sequence (if ecommerce): 3 emails within 24 hours, with 20% discount code in email 2.",
+    "Create your re-engagement sequence for inactive subscribers (no opens in 90 days): 2 emails, then a sunset policy.",
+    "Set up automated tags and segments (e.g., by interest, purchase history, engagement score) for targeted follow-ups.",
+    "Test your entire funnel with a small list (10-20 people), fix broken links, and schedule your first broadcast campaign."
+  ],
+  "faq": [
+    {
+      "q": "Do I need technical skills to use this workbook?",
+      "a": "No. The workbook assumes basic familiarity with email platforms but provides step-by-step instructions and tool recommendations for each action item."
+    },
+    {
+      "q": "How long does it take to complete the entire checklist?",
+      "a": "Most users finish all 8 steps within 2-3 hours, though writing email copy may take additional time depending on your offer complexity."
+    },
+    {
+      "q": "Can I use this workbook with any email marketing service?",
+      "a": "Yes. The steps are platform-agnostic, though specific tips are included for Mailchimp, ConvertKit, and ActiveCampaign."
+    }
+  ]
+}

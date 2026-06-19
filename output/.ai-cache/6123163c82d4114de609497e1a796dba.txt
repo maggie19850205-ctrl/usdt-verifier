@@ -1,0 +1,39 @@
+{
+  "meta": "AI in Education PowerPoint Deck: 25 slides on integrating AI tools for personalized learning, grading, and lesson planning.",
+  "sections": [
+    {
+      "h": "Introduction to AI in Education",
+      "b": "Explore how artificial intelligence is transforming classrooms with tools like ChatGPT, Grammarly, and Khan Academy's AI tutor. This section covers the basics of AI literacy for educators and students, including key statistics like 60% of teachers now using AI for lesson prep."
+    },
+    {
+      "h": "Personalized Learning with AI",
+      "b": "Leverage AI platforms such as DreamBox and Carnegie Learning to adapt content to individual student needs. Discover how adaptive algorithms improve test scores by up to 30% and reduce learning gaps through real-time feedback."
+    },
+    {
+      "h": "Automating Administrative Tasks",
+      "b": "Save 5-10 hours per week using AI tools like Gradescope for automated grading and Otter.ai for lecture transcription. This section provides step-by-step workflows for streamlining attendance, scheduling, and parent communication."
+    },
+    {
+      "h": "Ethical AI Use and Data Privacy",
+      "b": "Navigate critical concerns like bias in algorithms and student data protection under FERPA and GDPR. Learn frameworks for auditing AI tools, with case studies showing how schools reduced privacy risks by 40%."
+    },
+    {
+      "h": "Future Trends and Implementation Roadmap",
+      "b": "Prepare for emerging technologies like AI-powered virtual tutors and predictive analytics for dropout prevention. The deck includes a 90-day rollout plan with budget estimates and training resources from ISTE and EdTech Digest."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who is this PowerPoint deck designed for?",
+      "a": "This deck is tailored for K-12 teachers, administrators, and higher education faculty looking to integrate AI into their curriculum or operations."
+    },
+    {
+      "q": "What file format is included?",
+      "a": "You receive a fully editable PowerPoint file (PPTX) with 25 slides, plus a PDF version for quick reference."
+    },
+    {
+      "q": "Does the deck cover specific AI tools?",
+      "a": "Yes, it features 10+ tools including ChatGPT, Turnitin, and ScribeSense, with screenshots and implementation tips."
+    }
+  ]
+}

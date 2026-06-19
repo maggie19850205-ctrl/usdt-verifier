@@ -1,0 +1,35 @@
+{
+"meta": "Master ChatGPT plugin development with our ultimate bundle: code, deploy, and monetize plugins using Python, FastAPI, and OpenAI API.",
+"sections": [
+{
+"h": "Why Build ChatGPT Plugins?",
+"b": "Plugins extend ChatGPT’s capabilities to real-world APIs, databases, and services. With over 100 million weekly active users, plugin developers can tap into a massive audience for productivity, entertainment, and business tools. This bundle teaches you to create plugins that solve real problems—from fetching live stock data to managing project tasks."
+},
+{
+"h": "Core Development Stack",
+"b": "You’ll learn Python 3.10+, FastAPI for rapid API creation, and the official OpenAI plugin manifest specification. We cover authentication (OAuth 2.0, API keys), request/response handling, and error management. By week two, you’ll have a fully functional weather plugin deployed on Railway or Vercel."
+},
+{
+"h": "Monetization & Distribution Strategies",
+"b": "Understand how to list your plugin on the ChatGPT Plugin Store, set up usage-based billing via Stripe, and promote through developer communities. We analyze top-grossing plugins like Zapier and Wolfram Alpha to show you pricing models that work—including freemium, subscription, and pay-per-call tiers."
+},
+{
+"h": "Real-World Project Walkthroughs",
+"b": "Build three complete plugins: a note-taking assistant (syncs with Notion API), a travel planner (integrates Skyscanner and Google Maps), and a code reviewer (uses GPT-4 to analyze GitHub repos). Each project includes testing with pytest, logging with Sentry, and performance optimization for under 500ms response times."
+}
+],
+"faq": [
+{
+"q": "Do I need prior API development experience?",
+"a": "Basic Python skills are sufficient—we cover FastAPI and authentication from scratch. If you’ve built a simple REST API before, you’re ready to start."
+},
+{
+"q": "Can I deploy plugins without a paid server?",
+"a": "Yes, we use free tiers of Railway, Vercel, and Render for development. Production plugins may require a $5–$20/month hosting plan depending on usage."
+},
+{
+"q": "How long does it take to build and publish a plugin?",
+"a": "Most students publish their first plugin within 2–3 weeks of starting the course. The bundle includes checklists for OpenAI review requirements to avoid delays."
+}
+]
+}

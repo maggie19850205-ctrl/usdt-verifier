@@ -1,0 +1,35 @@
+{
+  "meta": "Automate workflows with AI agents bundle: 4 sections on tools, frameworks, and scaling. Boost productivity with proven strategies.",
+  "sections": [
+    {
+      "h": "Introduction to AI Agent Automation",
+      "b": "AI agents are autonomous software entities that perform tasks, make decisions, and interact with systems without human intervention. This bundle covers core concepts like agent loops, memory, and tool use using frameworks such as LangChain and AutoGPT, enabling you to automate up to 80% of repetitive business processes."
+    },
+    {
+      "h": "Building Custom Workflows with LangChain",
+      "b": "Learn to design multi-step workflows using LangChain's chain and agent modules, integrating APIs, databases, and LLMs. Practical examples include automating customer support triage that reduces response time by 60% and generating weekly reports with dynamic data from 5+ sources."
+    },
+    {
+      "h": "Scaling with Multi-Agent Systems",
+      "b": "Deploy coordinated teams of agents using frameworks like CrewAI and Microsoft AutoGen to handle complex projects. For instance, a marketing team of 3 agents can produce 20 personalized campaigns daily, while a development squad can auto-fix 50% of code bugs in under 10 minutes."
+    },
+    {
+      "h": "Monitoring and Optimization",
+      "b": "Implement observability with tools like LangSmith and Weights & Biases to track agent performance, cost, and error rates. Optimize by adjusting parameters such as temperature (0.1-0.7) and max tokens (500-2000), achieving a 30% reduction in API costs while maintaining 95% task success rate."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What programming experience do I need?",
+      "a": "Basic Python knowledge is sufficient; the bundle includes step-by-step code examples and pre-built templates for common automation tasks."
+    },
+    {
+      "q": "Can I use these agents with my existing tools?",
+      "a": "Yes, the frameworks support integrations with Slack, Gmail, Notion, and over 100 other APIs via built-in connectors."
+    },
+    {
+      "q": "How long does it take to implement a basic agent?",
+      "a": "Following the guides, you can set up a simple agent for data extraction or email automation in under 2 hours."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": "Generate engaging AI social media posts instantly with 5 customizable templates. Save time, boost reach, and stay consistent.",
+  "intro": "Stop staring at a blank screen. Our AI Social Media Post Generator template pack gives you 5 ready-to-use, fully customizable templates for crafting high-engagement posts in minutes. Perfect for marketers, solopreneurs, and content creators who want to leverage AI without the guesswork.",
+  "templates": [
+    {
+      "n": "The Hook & Story Template",
+      "d": "Start with a compelling hook (e.g., 'I tried 50 AI tools—here’s the one that saved 10 hours a week'), then share a short personal story, and end with a call-to-action. Use this for LinkedIn or Twitter threads to build authority."
+    },
+    {
+      "n": "The Value-List Template",
+      "d": "List 3-5 quick tips or statistics (e.g., '5 AI prompts that doubled my email open rates'). Ideal for Instagram carousels or Facebook posts—drives saves and shares."
+    },
+    {
+      "n": "The Question Spark Template",
+      "d": "Pose a provocative question (e.g., 'Is AI going to replace your job? Here’s what 80% of CEOs think') and answer with data. Perfect for LinkedIn polls or Twitter engagement."
+    },
+    {
+      "n": "The How-To Mini Guide Template",
+      "d": "Break down a simple process in 3 steps (e.g., 'How to generate 30 blog ideas in 60 seconds with ChatGPT'). Use for YouTube Shorts, TikTok, or blog previews."
+    },
+    {
+      "n": "The Social Proof & Results Template",
+      "d": "Showcase a before/after or metric (e.g., 'From 200 to 5,000 followers in 30 days using this AI scheduler'). Great for Instagram Stories or LinkedIn testimonials."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need AI experience to use these templates?",
+      "a": "No—each template includes a simple fill-in-the-blanks structure and suggested AI prompts (e.g., for ChatGPT or Jasper) to generate your post in under 2 minutes."
+    },
+    {
+      "q": "Can I customize the templates for different platforms?",
+      "a": "Absolutely. Each template includes length and tone guidelines for LinkedIn, Twitter, Instagram, Facebook, and TikTok, so you can adapt them instantly."
+    },
+    {
+      "q": "What if I don’t like the templates?",
+      "a": "We offer a 30-day money-back guarantee. If the templates don’t save you time or improve your engagement, we’ll refund your purchase—no questions asked."
+    }
+  ]
+}

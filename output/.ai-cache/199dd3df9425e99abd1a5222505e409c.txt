@@ -1,0 +1,35 @@
+{
+  "meta": "Master freelance success with 30+ AI prompts, client templates, and productivity tools. Save 50% vs buying separately.",
+  "sections": [
+    {
+      "h": "All-in-One Freelance Toolkit",
+      "b": "This bundle combines our top-selling AI assistant packs into one powerhouse resource. You get 30+ ready-to-use prompts for ChatGPT, Claude, and Gemini, covering proposals, outreach, project management, and client communication. Save 50% compared to purchasing each pack individually."
+    },
+    {
+      "h": "Streamline Client Acquisition",
+      "b": "Leverage 10 targeted prompts to craft personalized cold emails, optimize your Upwork profile, and write compelling case studies. Includes a CRM template for tracking leads and follow-ups, helping you convert 3x more prospects."
+    },
+    {
+      "h": "Automate Project Delivery",
+      "b": "Use 12 prompts to generate project briefs, write code snippets, create design specs, and draft user manuals. Integrates with Trello and Asana via Zapier templates to reduce manual work by 40%."
+    },
+    {
+      "h": "Optimize Pricing & Invoicing",
+      "b": "Access 8 prompts for calculating hourly rates, creating value-based proposals, and automating invoice follow-ups. Includes a 10-line Python script for generating PDF invoices with tax calculations."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do these prompts work with free AI models?",
+      "a": "Yes, all prompts are optimized for GPT-3.5, GPT-4, Claude 2, and Gemini Pro. Free tier users can still achieve 90% of the results."
+    },
+    {
+      "q": "Can I customize the templates for my niche?",
+      "a": "Absolutely. Each prompt includes placeholders for industry-specific terms like 'web development' or 'graphic design' — just swap them in."
+    },
+    {
+      "q": "Is there a refund policy?",
+      "a": "We offer a 30-day money-back guarantee. If the bundle doesn't save you at least 5 hours per week, we'll refund your purchase."
+    }
+  ]
+}

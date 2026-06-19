@@ -1,0 +1,35 @@
+{
+  "meta": "Unlock 500+ premium Canva templates for social media, branding, and marketing. Lifetime access, easy edit, pro designs.",
+  "sections": [
+    {
+      "h": "All-in-One Design Solution",
+      "b": "This bundle includes over 500 templates spanning Instagram posts, stories, Facebook covers, LinkedIn banners, YouTube thumbnails, and more. Each template is fully customizable in Canva (free version) with drag-and-drop simplicity, saving you 10+ hours per week on design."
+    },
+    {
+      "h": "Brand Consistency Made Easy",
+      "b": "Maintain a cohesive brand identity across all platforms with pre-matched color palettes, fonts, and logo placeholders. Use the included brand kit guide to swap colors globally in under 2 minutes, ensuring every post aligns with your visual identity."
+    },
+    {
+      "h": "Marketing & Sales Funnel Templates",
+      "b": "Go beyond social media with 80+ sales-focused templates for lead magnets, email headers, product mockups, and webinar slides. Built with conversion principles from top marketers, these designs have been tested to increase engagement by up to 40% in A/B tests."
+    },
+    {
+      "h": "Lifetime Access & Updates",
+      "b": "Get instant download of all 500+ templates plus free lifetime updates as new trends emerge. Each template is organized into folders by platform and use case, with a 60-second video tutorial for each category. No recurring fees—pay once, use forever."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a paid Canva subscription to use these templates?",
+      "a": "No, all templates work with Canva’s free plan. Some premium elements (like stock photos) may require a free Canva account, but the templates themselves are fully editable without any paid upgrade."
+    },
+    {
+      "q": "How are the templates delivered after purchase?",
+      "a": "You receive a PDF with direct links to each template folder in Canva. Click any link, and the template opens instantly in your Canva account—no file downloads or software installation required."
+    },
+    {
+      "q": "Can I resell these templates or use them for client work?",
+      "a": "Yes, you can use them for unlimited personal and client projects. However, you cannot resell the templates themselves or redistribute them as standalone files. Commercial use is allowed for final deliverables."
+    }
+  ]
+}

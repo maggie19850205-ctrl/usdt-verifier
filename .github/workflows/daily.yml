@@ -29,8 +29,17 @@ jobs:
       - name: Generate products
         run: node engine/trending-products.js
 
+      - name: Anglicize pages (remove Chinese text)
+        run: node engine/anglicize-pages.js
+
       - name: Generate multi-language pages
         run: node engine/generate-multi.js
+
+      - name: Add GEO schemas (Product, FAQPage, BreadcrumbList, HowTo)
+        run: |
+          node engine/add-faq-and-schema.js
+          node engine/add-product-schema.js
+          node engine/add-geo-schemas.js
 
       - name: Fix purchase flow
         run: node engine/fix-purchase-flow.js

@@ -1,0 +1,28 @@
+{
+  "meta": "Master ChatGPT with this checklist workbook. Boost productivity and prompt quality instantly.",
+  "intro": "This checklist workbook helps you craft precise ChatGPT prompts, avoid common mistakes, and get consistent, high-quality outputs every time.",
+  "items": [
+    "Define your goal and audience before each prompt.",
+    "Use role-playing to set context (e.g., 'Act as a marketing expert').",
+    "Specify format, tone, and length in the prompt.",
+    "Include examples or constraints for better results.",
+    "Break complex tasks into step-by-step subtasks.",
+    "Ask for multiple variations or alternatives.",
+    "Iterate and refine based on initial outputs.",
+    "Save and reuse effective prompt templates."
+  ],
+  "faq": [
+    {
+      "q": "Who is this checklist for?",
+      "a": "Anyone who uses ChatGPT—from beginners to advanced users—looking to save time and improve output consistency."
+    },
+    {
+      "q": "How do I use the workbook?",
+      "a": "Print or open the digital workbook, then follow each checklist item while writing prompts. Track your progress and note improvements."
+    },
+    {
+      "q": "Does this work with GPT-4 and other models?",
+      "a": "Yes, the techniques apply to any ChatGPT version (3.5, 4, 4o) and similar AI assistants like Claude or Gemini."
+    }
+  ]
+}

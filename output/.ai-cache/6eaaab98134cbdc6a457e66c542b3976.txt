@@ -1,0 +1,19 @@
+{
+  "meta": "Master Twitter growth with a step-by-step checklist workbook. Optimize profile, content, engagement, and analytics for rapid follower increase.",
+  "intro": "This checklist workbook provides a structured, actionable system to grow your Twitter/X presence. Each step is broken into clear tasks with space for notes and tracking progress. Designed for beginners and intermediate users aiming for consistent, measurable growth.",
+  "items": [
+    "Optimize your profile: bio, header, pinned tweet with clear value proposition.",
+    "Set daily engagement goals: reply to 10 tweets, quote 3, retweet 5.",
+    "Create a content calendar: 4 tweet types (value, story, question, promo) per week.",
+    "Use 3-5 relevant hashtags per tweet, monitor trending topics daily.",
+    "Schedule tweets during peak hours (8-10 AM, 12-1 PM, 6-8 PM EST) using tools like Buffer or Hootsuite.",
+    "Run a 7-day follow/unfollow strategy: follow 30 target accounts/day, unfollow non-followers after 5 days.",
+    "Analyze weekly metrics: impressions, engagement rate, follower growth via X Analytics.",
+    "Implement a 30-day challenge: tweet daily, engage with 5 influencers, track results in workbook."
+  ],
+  "faq": [
+    {"q": "How long does it take to see results with this workbook?", "a": "Most users see a 20-30% increase in engagement within 2 weeks if they follow the daily checklist consistently."},
+    {"q": "Do I need any paid tools to use this workbook?", "a": "No, all strategies use free features of X and optional free tiers of tools like Buffer for scheduling."},
+    {"q": "Can this workbook help if I have less than 100 followers?", "a": "Yes, it's optimized for small accounts. Focus on profile optimization and engagement tasks to build initial traction."}
+  ]
+}

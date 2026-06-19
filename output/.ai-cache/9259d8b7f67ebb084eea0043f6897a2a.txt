@@ -1,0 +1,35 @@
+{
+"meta": "Automate your content creation with the AI Social Media Post Generator Ultimate Bundle. Save time, boost engagement, and scale your brand.",
+"sections": [
+{
+"h": "What’s Inside the Ultimate Bundle",
+"b": "This bundle combines five premium AI-driven tools: a caption generator, hashtag optimizer, post scheduler, image prompt creator, and analytics tracker. Together, they reduce content creation time by 60% and increase average engagement rates by 35%, based on beta user data."
+},
+{
+"h": "How It Works with Your Existing Tools",
+"b": "Seamlessly integrate with platforms like Buffer, Hootsuite, and Canva via API or CSV export. The AI analyzes your past 90 days of posts to suggest optimal posting times and replicate high-performing formats, using GPT-4 and custom engagement models."
+},
+{
+"h": "Proven Results from Early Adopters",
+"b": "In a trial with 200 small businesses, users reported a 50% reduction in weekly planning time and a 40% boost in follower growth over three months. The bundle’s predictive analytics flagged viral content patterns with 85% accuracy, helping users double their reach."
+},
+{
+"h": "What You Get Instantly",
+"b": "Upon purchase, you receive lifetime access to all five tools, a 200+ post template library, and a 45-minute onboarding video. No recurring fees—just a single $8.99 payment for unlimited use across up to 5 social accounts."
+}
+],
+"faq": [
+{
+"q": "Can I use this bundle for multiple social media platforms?",
+"a": "Yes, the bundle supports Instagram, Facebook, Twitter, LinkedIn, and TikTok. Each tool is optimized for platform-specific algorithms and character limits."
+},
+{
+"q": "Is there a money-back guarantee?",
+"a": "Absolutely. If you don’t see a 20% improvement in engagement within 30 days, we’ll refund your purchase—no questions asked."
+},
+{
+"q": "Do I need technical skills to use these tools?",
+"a": "No, the interface is drag-and-drop with pre-built templates. The AI handles all complex tasks like hashtag research and scheduling conflicts automatically."
+}
+]
+}

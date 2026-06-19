@@ -1,0 +1,35 @@
+{
+  "meta": "Master AI data analysis with this ultimate bundle: workbooks, guides, and templates for Python, SQL, and machine learning.",
+  "sections": [
+    {
+      "h": "Comprehensive Data Analysis Foundations",
+      "b": "Dive into core concepts with step-by-step exercises covering Python (pandas, NumPy) and SQL (CTEs, window functions). Includes 20+ real-world datasets from Kaggle and UCI to practice cleaning, merging, and aggregating data."
+    },
+    {
+      "h": "Advanced Visualization & Reporting",
+      "b": "Learn to create publication-ready charts using Matplotlib, Seaborn, and Plotly. Includes templates for automated dashboards in Jupyter Notebooks, with 15 pre-built visualizations for exploratory data analysis."
+    },
+    {
+      "h": "Machine Learning Integration",
+      "b": "Implement regression, classification, and clustering algorithms with scikit-learn and TensorFlow. Features 10 end-to-end projects, including customer segmentation and sales forecasting, with hyperparameter tuning guides."
+    },
+    {
+      "h": "Real-World Project Workflows",
+      "b": "Apply skills to 5 capstone projects: e-commerce analytics, healthcare trends, financial risk modeling, social media sentiment, and supply chain optimization. Each includes data preprocessing, model building, and deployment templates."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What tools are required to use this bundle?",
+      "a": "You need Python 3.8+ and Jupyter Notebook installed. All datasets and code are provided in the bundle, with setup instructions for Anaconda and virtual environments."
+    },
+    {
+      "q": "Is this suitable for beginners?",
+      "a": "Yes, the bundle starts with foundational Python and SQL exercises, gradually progressing to advanced machine learning. Each section includes explanations and solution walkthroughs."
+    },
+    {
+      "q": "Can I use these resources for commercial projects?",
+      "a": "Absolutely. All templates, code, and workflows are royalty-free for personal and commercial use, with no attribution required."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Master no-code SaaS building with this checklist workbook. Step-by-step guide to launch your MVP fast.",
+  "sections": [
+    {
+      "h": "Validate Your Idea First",
+      "b": "Before building, use free tools like Google Trends and Typeform to survey 100 potential users. Aim for 30% intent-to-purchase to proceed. This checklist provides a 5-step validation framework to avoid wasting months on unviable concepts."
+    },
+    {
+      "h": "Choose the Right No-Code Stack",
+      "b": "Select from top platforms like Bubble for web apps, Glide for mobile, or Adalo for databases. Compare pricing, scalability, and integration limits. This section lists 8 criteria to match your SaaS needs with the best tool."
+    },
+    {
+      "h": "Design and Prototype Your MVP",
+      "b": "Use Figma for UI mockups and Zapier for automating workflows. Build a functional prototype in under 2 weeks with pre-built templates. The workbook includes a 12-step design sprint checklist to iterate rapidly."
+    },
+    {
+      "h": "Launch and Monetize Effectively",
+      "b": "Set up Stripe or Paddle for payments, and deploy via Netlify or Railway. Track key metrics like churn rate and LTV with Mixpanel. This section covers a 7-day launch plan and pricing strategies for recurring revenue."
+    },
+    {
+      "h": "Scale Without Code Limitations",
+      "b": "Leverage Airtable for data management and Make for complex automations. When traffic hits 10K users, migrate to Xano for backend scalability. The workbook includes a scaling roadmap with 5 growth hacks."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need any coding experience to use this workbook?",
+      "a": "No, the workbook is designed for absolute beginners. It uses only drag-and-drop tools and visual workflows."
+    },
+    {
+      "q": "How long does it take to build a SaaS with this checklist?",
+      "a": "Most users launch an MVP within 2-4 weeks, following the step-by-step guide and daily action items."
+    },
+    {
+      "q": "Can I use this for any type of SaaS product?",
+      "a": "Yes, the framework covers subscription apps, marketplaces, and internal tools, with specific examples for each."
+    }
+  ]
+}

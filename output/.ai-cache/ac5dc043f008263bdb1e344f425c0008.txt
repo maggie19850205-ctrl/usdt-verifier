@@ -1,0 +1,28 @@
+{
+"meta": "Master font pairing with this actionable checklist workbook. Learn to combine typefaces for professional, cohesive designs.",
+"intro": "This workbook provides a step-by-step checklist to help you confidently pair fonts for any project—from branding to web design. Each step includes practical exercises and real-world examples to reinforce your skills.",
+"items": [
+"Define your project’s tone: formal, playful, modern, or classic.",
+"Choose one display font for headlines (e.g., Playfair Display, Oswald).",
+"Select a complementary body font (e.g., Source Sans Pro, Lora).",
+"Ensure contrast: pair a serif with a sans-serif (e.g., Merriweather + Open Sans).",
+"Check x-height alignment for visual harmony.",
+"Test font weights: use bold for hierarchy, regular for body text.",
+"Limit to 2–3 fonts per project to avoid clutter.",
+"Verify legibility at small sizes (e.g., 14–16px for body)."
+],
+"faq": [
+{
+"q": "How many fonts should I use in a single design?",
+"a": "Stick to 2–3 fonts maximum—one for headlines, one for body text, and optionally a third for accents or callouts."
+},
+{
+"q": "What is the best way to pair a serif and sans-serif?",
+"a": "Choose fonts with similar x-heights and contrasting styles, like pairing a classic serif (e.g., Garamond) with a clean sans-serif (e.g., Helvetica)."
+},
+{
+"q": "Can I use free fonts for professional projects?",
+"a": "Yes, many free fonts like those from Google Fonts are high-quality. Just ensure the license covers commercial use."
+}
+]
+}

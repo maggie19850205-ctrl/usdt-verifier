@@ -1,0 +1,20 @@
+{
+  "type": "checklist-workbook",
+  "meta": "Master AI research with Perplexity. 8-step checklist workbook to streamline queries, sources, and analysis.",
+  "intro": "This workbook guides you through 8 essential steps to optimize your Perplexity AI research workflow, from query crafting to source validation, ensuring efficient and accurate results.",
+  "items": [
+    "Define your research question with specific keywords and context for Perplexity.",
+    "Select the correct mode: Pro for deep dives, Quick for fast facts.",
+    "Use operators like site: or filetype: to narrow source scope.",
+    "Review and cross-reference cited sources for credibility.",
+    "Iterate queries by refining terms based on initial results.",
+    "Save and organize key findings into collections for later use.",
+    "Export data as markdown or PDF for reporting.",
+    "Analyze response patterns to identify gaps in your research."
+  ],
+  "faq": [
+    {"q": "How do I improve Perplexity's answer accuracy?", "a": "Use specific, multi-word queries and enable the 'Pro' mode for deeper context analysis."},
+    {"q": "Can I use this workbook for academic research?", "a": "Yes, it includes steps for source verification and citation export, tailored for scholarly work."},
+    {"q": "Is this workbook suitable for beginners?", "a": "Absolutely, it starts from basic query setup and progresses to advanced analysis techniques."}
+  ]
+}

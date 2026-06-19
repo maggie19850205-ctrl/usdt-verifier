@@ -1,0 +1,40 @@
+{
+  "meta": "Email Marketing Funnel Blueprint template pack for building automated sequences, increasing conversions, and nurturing leads.",
+  "intro": "Stop guessing and start converting. This template pack gives you done-for-you email sequences, subject lines, and automation flows to build a high-converting email marketing funnel from scratch.",
+  "templates": [
+    {
+      "n": "Welcome Sequence",
+      "d": "5-email automated welcome series that introduces your brand, delivers a lead magnet, and guides subscribers toward their first purchase. Includes personalized subject lines and CTAs."
+    },
+    {
+      "n": "Nurture Drip Campaign",
+      "d": "7-email educational sequence designed to build trust and authority. Each email covers a pain point, provides value, and subtly promotes your offer with social proof."
+    },
+    {
+      "n": "Abandoned Cart Recovery",
+      "d": "3-email sequence triggered when a user leaves items in their cart. Features urgency tactics, discount incentives, and a final reminder to recover up to 15% of lost sales."
+    },
+    {
+      "n": "Re-engagement Campaign",
+      "d": "4-email series for inactive subscribers (no opens in 90 days). Includes a curiosity gap subject line, a feedback request, and a final 'we miss you' offer."
+    },
+    {
+      "n": "Sales Launch Sequence",
+      "d": "6-email pre-launch, launch, and post-launch campaign for product drops or promotions. Uses countdown timers, scarcity, and testimonials to drive conversions."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need any special software to use these templates?",
+      "a": "No, the templates are compatible with all major email marketing platforms like Mailchimp, ConvertKit, ActiveCampaign, and Klaviyo. Just copy and paste the content."
+    },
+    {
+      "q": "Are the templates customizable?",
+      "a": "Yes, every template includes placeholder text and variables (e.g., [First Name], [Product Name]) that you can easily replace with your own brand details."
+    },
+    {
+      "q": "How long does it take to set up the funnel?",
+      "a": "Most users can have the entire funnel live within 30 minutes by following the included setup guide and connecting their email platform."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Create a consistent brand voice with this complete guide, including frameworks, tone matrices, and style examples.",
+  "sections": [
+    {
+      "h": "Why Brand Voice Matters",
+      "b": "A consistent brand voice boosts recognition by up to 80% and builds trust with your audience. This guide breaks down the psychology behind tone and how to align your messaging across all channels, from social media to customer support."
+    },
+    {
+      "h": "Defining Your Core Brand Personality",
+      "b": "Use the 5-axis personality framework (sincerity, excitement, competence, sophistication, ruggedness) to pinpoint your brand's character. We provide a step-by-step worksheet to map your attributes and avoid mixed signals that confuse customers."
+    },
+    {
+      "h": "Building a Tone Matrix for Every Channel",
+      "b": "Create a tone matrix that adapts your voice for email, blog posts, social media, and ads without losing consistency. Examples include adjusting formality from 1-5 and emotional intensity for platforms like LinkedIn vs. Instagram."
+    },
+    {
+      "h": "Style Guide Templates and Examples",
+      "b": "Access ready-to-use templates for your brand style guide, including do/don't lists, vocabulary banks, and sample copy for 10 scenarios. Real-world examples from brands like Mailchimp and Slack show how theory translates to practice."
+    },
+    {
+      "h": "Implementation Checklist and Audits",
+      "b": "Audit your current content with a 15-point checklist covering grammar, tone, and brand values. Learn how to train your team using role-playing exercises and monthly reviews to maintain voice consistency over time."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to create a brand voice guide using this kit?",
+      "a": "Most users complete the core guide in 2-3 hours, with additional time for team alignment and template customization."
+    },
+    {
+      "q": "Is this guide suitable for a single-person business or only for teams?",
+      "a": "It works for both—solo entrepreneurs can use the templates to refine their personal brand voice, while teams benefit from the collaborative frameworks."
+    },
+    {
+      "q": "Do you include examples for specific industries like tech or retail?",
+      "a": "Yes, the guide features industry-specific case studies and tone adjustments for tech, e-commerce, nonprofit, and service-based businesses."
+    }
+  ]
+}

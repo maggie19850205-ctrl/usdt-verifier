@@ -1,0 +1,40 @@
+{
+  "meta": "AI-ready resume templates for job seekers. 5 designs optimized for ATS parsing and recruiter appeal.",
+  "intro": "Stand out in seconds with our AI-optimized resume templates. Each design is crafted to pass Applicant Tracking Systems (ATS) and impress hiring managers, with clean layouts and strategic keyword placement.",
+  "templates": [
+    {
+      "n": "Executive Edge",
+      "d": "A sleek two-column layout with a dark header for senior roles. Includes pre-built sections for executive summaries, key achievements, and board experience."
+    },
+    {
+      "n": "Tech Pro",
+      "d": "Minimalist single-column design with a skills matrix, GitHub link placeholder, and project timeline. Ideal for software engineers and data scientists."
+    },
+    {
+      "n": "Creative Portfolio",
+      "d": "Bold accent colors and visual hierarchy for designers, marketers, and content creators. Features a portfolio grid and social proof badges."
+    },
+    {
+      "n": "Clean Classic",
+      "d": "Traditional reverse-chronological layout with subtle typography. Perfect for corporate roles, finance, and consulting industries."
+    },
+    {
+      "n": "Entry Level Launch",
+      "d": "Skill-focused layout with education emphasis, internship highlights, and a personal branding statement. Designed for fresh graduates and career changers."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are these templates ATS-friendly?",
+      "a": "Yes, all templates use standard fonts and simple table-free layouts to ensure 95%+ ATS compatibility. We tested them with leading systems like Taleo and Greenhouse."
+    },
+    {
+      "q": "Can I customize the colors and fonts?",
+      "a": "Absolutely. Each template comes in editable DOCX and AI formats, allowing you to tweak colors, fonts, and spacing in Microsoft Word or Adobe Illustrator."
+    },
+    {
+      "q": "How do I add AI-generated content?",
+      "a": "Simply paste AI-generated bullet points (e.g., from ChatGPT or Jasper) into the pre-formatted text fields. The layout auto-adjusts to maintain visual balance."
+    }
+  ]
+}

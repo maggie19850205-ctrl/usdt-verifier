@@ -1,0 +1,40 @@
+{
+  "meta": "Instagram Growth Checklist template pack for rapid follower increase. 5 templates to boost engagement and reach.",
+  "intro": "This template pack provides 5 ready-to-use checklists to systematically grow your Instagram account. Each template focuses on a key growth lever, from content planning to engagement optimization, helping you implement proven strategies without starting from scratch.",
+  "templates": [
+    {
+      "n": "Daily Engagement Routine",
+      "d": "A 30-minute daily checklist covering liking 50 posts, commenting on 20 accounts in your niche, and responding to all DMs within 2 hours. Use Instagram Insights to track engagement rate changes."
+    },
+    {
+      "n": "Content Calendar Builder",
+      "d": "Plan 4 weeks of posts using a grid that balances Reels (40%), static images (30%), carousels (20%), and Stories (10%). Include 3 hashtag sets per post type, each with 10-15 tags from the 500k-1M range."
+    },
+    {
+      "n": "Hashtag Research & Audit",
+      "d": "A 5-step checklist to identify 30 high-performing hashtags per niche using tools like Display Purposes and Later. Includes a weekly audit to replace underperformers (those with less than 500 impressions)."
+    },
+    {
+      "n": "Story & Reel Optimization",
+      "d": "Covers 7 key elements for each Story (poll, question sticker, countdown) and Reel (hook in first 2 seconds, trending audio, 3 captions variants). A/B test post times using Instagram's 'Best Time' feature."
+    },
+    {
+      "n": "Growth Audit & Cleanup",
+      "d": "Monthly checklist to review follower growth (target +5%), engagement rate (target 3%+), and unfollow inactive accounts (those not posting in 30 days). Use HypeAuditor to spot fake followers."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I customize these templates for a specific niche?",
+      "a": "Yes, each template includes placeholder fields for your niche (e.g., fitness, travel, ecommerce) and instructions to swap hashtags, examples, and posting times to match your audience."
+    },
+    {
+      "q": "Are these templates compatible with scheduling tools like Later or Buffer?",
+      "a": "Absolutely. The content calendar template provides post details that can be directly copied into any scheduling tool, with columns for caption, hashtags, and optimal posting time."
+    },
+    {
+      "q": "How often should I use the Growth Audit template?",
+      "a": "Run the Growth Audit template once per month to track key metrics. For best results, pair it with the Daily Engagement Routine to maintain consistent growth between audits."
+    }
+  ]
+}

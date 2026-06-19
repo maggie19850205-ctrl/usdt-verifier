@@ -1,0 +1,28 @@
+{
+  "meta": "Streamline your social media with AI scheduling. This checklist workbook helps you plan, automate, and optimize posts efficiently.",
+  "intro": "This workbook provides a step-by-step checklist to integrate AI scheduling tools into your social media strategy. From content planning to performance analysis, each step ensures you save time and boost engagement.",
+  "items": [
+    "Define your social media goals and target audience for AI-driven scheduling.",
+    "Select an AI scheduling tool (e.g., Buffer, Hootsuite, Later) and set up accounts.",
+    "Create a content calendar template with categories (e.g., educational, promotional, interactive).",
+    "Generate 10 AI-optimized post ideas per platform using tools like ChatGPT or Jasper.",
+    "Schedule posts with optimal timing (based on platform analytics or tools like Sprout Social).",
+    "Set up automated A/B testing for headlines and visuals using AI features.",
+    "Integrate AI analytics (e.g., Brandwatch, SocialBee) to track engagement and adjust schedules.",
+    "Review and refine your workflow monthly using performance data and AI recommendations."
+  ],
+  "faq": [
+    {
+      "q": "What AI tools work best for scheduling social media posts?",
+      "a": "Tools like Buffer, Hootsuite, and Later offer AI features for optimal posting times, content suggestions, and analytics. For content generation, combine them with ChatGPT or Jasper."
+    },
+    {
+      "q": "How often should I update my content calendar?",
+      "a": "Review your calendar weekly for minor adjustments and conduct a full overhaul monthly based on AI performance insights and engagement metrics."
+    },
+    {
+      "q": "Can this workbook help with multiple platforms?",
+      "a": "Yes, the checklist covers cross-platform strategies (e.g., Instagram, LinkedIn, Twitter) and includes steps to tailor scheduling and content for each network."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Master sustainable business practices with this complete guide covering ESG, circular economy, and green operations.",
+  "sections": [
+    {
+      "h": "Understanding ESG Frameworks",
+      "b": "Learn to integrate Environmental, Social, and Governance (ESG) criteria into your business model using frameworks like SASB and GRI. We provide step-by-step instructions to measure your carbon footprint and set science-based targets aligned with the Paris Agreement."
+    },
+    {
+      "h": "Circular Economy Strategies",
+      "b": "Transition from linear to circular models by implementing design-for-disassembly principles and material recovery systems. Case studies show companies like Patagonia and IKEA reduced waste by 40% while increasing customer loyalty through repair and resale programs."
+    },
+    {
+      "h": "Green Operations & Supply Chain",
+      "b": "Optimize logistics with route-planning software and renewable energy procurement, cutting emissions by up to 30%. Learn to audit suppliers using the EcoVadis platform and negotiate contracts that prioritize sustainable sourcing."
+    },
+    {
+      "h": "Sustainable Marketing & Reporting",
+      "b": "Communicate your impact authentically using the UN Sustainable Development Goals (SDGs) and avoid greenwashing with verified certifications like B Corp or LEED. Our guide includes templates for annual sustainability reports that satisfy investors and regulators."
+    },
+    {
+      "h": "Funding & Incentives for Green Businesses",
+      "b": "Access over $1 trillion in global green finance through grants, tax credits, and ESG-linked loans. We detail programs like the EU Green Deal and US Inflation Reduction Act, with tips to qualify for up to 30% in energy efficiency rebates."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this guide suitable for startups or only established companies?",
+      "a": "Both. The guide includes scalable strategies for early-stage ventures (like lean sustainability audits) as well as enterprise-level frameworks for multinationals."
+    },
+    {
+      "q": "Does the guide cover industry-specific regulations?",
+      "a": "Yes, it addresses compliance for sectors like manufacturing, retail, and tech, including EU CSRD and SEC climate disclosure rules."
+    },
+    {
+      "q": "Can I implement these strategies without a dedicated sustainability team?",
+      "a": "Absolutely. We provide checklists and low-cost tools (e.g., free carbon calculators) that a single founder or manager can execute."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "meta": "Automate AI workflows with this checklist workbook. Streamline processes, save time, and boost productivity with actionable steps.",
+  "intro": "This checklist workbook provides a structured approach to designing, implementing, and optimizing AI workflow automation. Use it to identify bottlenecks, select tools, and ensure seamless integration.",
+  "items": [
+    "Define your workflow objective and key performance indicators (KPIs).",
+    "Map current manual processes and identify automation opportunities.",
+    "Select AI tools (e.g., Zapier, UiPath, OpenAI API) for specific tasks.",
+    "Set up data pipelines and ensure clean, structured inputs.",
+    "Configure trigger-action rules and test with sample data.",
+    "Integrate error handling and fallback mechanisms.",
+    "Monitor performance metrics and iterate based on feedback.",
+    "Document the final workflow for team training and scaling."
+  ],
+  "faq": [
+    {
+      "q": "What AI tools are recommended for workflow automation?",
+      "a": "Popular tools include Zapier for no-code automation, UiPath for robotic process automation (RPA), and OpenAI API for intelligent task handling."
+    },
+    {
+      "q": "How long does it take to implement an automated workflow?",
+      "a": "Simple workflows can be set up in a few hours, while complex ones may take 1-2 weeks depending on data integration and testing."
+    },
+    {
+      "q": "Can this workbook be used for non-technical teams?",
+      "a": "Yes, the checklist is designed for both technical and non-technical users, with clear steps and tool recommendations suitable for all skill levels."
+    }
+  ]
+}

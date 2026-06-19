@@ -1,0 +1,40 @@
+{
+  "meta": "Step-by-step AI chatbot setup template pack. Build and deploy chatbots with ready-to-use prompts and workflows.",
+  "intro": "This template pack provides everything you need to set up an AI chatbot from scratch. Includes customizable prompts, conversation flows, and deployment checklists to launch chatbots for customer support, lead generation, or internal knowledge bases.",
+  "templates": [
+    {
+      "n": "Customer Support Bot Prompts",
+      "d": "Pre-written prompts for common support scenarios: order inquiries, returns, and account issues. Includes escalation triggers and tone guidelines for consistent responses."
+    },
+    {
+      "n": "Lead Qualification Workflow",
+      "d": "Step-by-step conversation flow to capture visitor intent, ask qualifying questions, and transfer qualified leads to sales. Integrates with CRM webhooks for automatic lead creation."
+    },
+    {
+      "n": "FAQ Knowledge Base Builder",
+      "d": "Template to structure and upload up to 50 FAQ entries. Includes categorization by topic, answer formatting, and fallback prompts for unknown queries."
+    },
+    {
+      "n": "Deployment Checklist",
+      "d": "12-point checklist covering platform setup, testing scenarios, analytics tracking, and go-live verification. Compatible with ChatBot, Tidio, and ManyChat."
+    },
+    {
+      "n": "Onboarding User Guide",
+      "d": "Editable guide for end-users explaining chatbot capabilities, command shortcuts, and feedback options. Designed for email or in-app help center use."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What platforms are these templates compatible with?",
+      "a": "The templates work with popular chatbot builders like ChatBot, Tidio, ManyChat, and custom platforms via JSON export. Each template includes platform-specific tips."
+    },
+    {
+      "q": "Do I need coding skills to use these templates?",
+      "a": "No coding required. Templates are provided as editable documents and JSON files. Basic familiarity with your chatbot platform's interface is helpful."
+    },
+    {
+      "q": "Can I modify the templates for my industry?",
+      "a": "Yes, all templates are fully customizable. Replace example content with your business data, products, and FAQs. Instructions for personalization are included."
+    }
+  ]
+}

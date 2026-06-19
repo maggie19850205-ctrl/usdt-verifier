@@ -1,0 +1,39 @@
+{
+  "meta": "Master AI caption writing with proven tips and tools. Generate engaging content fast.",
+  "sections": [
+    {
+      "h": "Why AI Caption Generators Boost Engagement",
+      "b": "AI caption generators analyze trending topics and audience behavior to craft compelling text. Tools like Copy.ai and Jasper can increase social media engagement by up to 40% by optimizing for clicks and shares."
+    },
+    {
+      "h": "Top Features to Look For in an AI Tool",
+      "b": "Seek tools with tone customization, hashtag suggestions, and platform-specific formatting. For example, Later’s AI adapts captions for Instagram, LinkedIn, and TikTok, saving 3+ hours weekly per campaign."
+    },
+    {
+      "h": "5 Proven Tips for AI-Generated Captions",
+      "b": "1) Start with a clear goal (e.g., awareness vs. sales). 2) Use emotional triggers like curiosity or urgency. 3) Add emojis sparingly—studies show 1-2 per caption boost reach 25%. 4) Test A/B variants with tools like Hootsuite. 5) Edit AI output to match brand voice."
+    },
+    {
+      "h": "Common Mistakes to Avoid",
+      "b": "Over-relying on AI without human review can lead to generic or tone-deaf content. Avoid jargon overload—keep captions under 150 characters for Twitter and 220 for Instagram. Always fact-check stats to maintain credibility."
+    },
+    {
+      "h": "Measuring Success with AI Captions",
+      "b": "Track metrics like click-through rate (CTR), comments, and saves using native analytics or tools like Sprout Social. A/B testing AI vs. human-written captions often shows AI’s 15-20% higher CTR on promotional posts."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can AI replace human creativity in caption writing?",
+      "a": "No, AI is best as a starting point. It generates ideas quickly, but human editing adds authenticity and brand personality that resonates with audiences."
+    },
+    {
+      "q": "How do I choose the right AI caption generator?",
+      "a": "Look for free trials, platform-specific templates, and integration with your social media scheduler. Tools like ChatGPT and Canva’s Magic Write are beginner-friendly."
+    },
+    {
+      "q": "Will AI captions help with SEO?",
+      "a": "Yes, but only if you include relevant keywords naturally. AI can suggest hashtags and phrases, but avoid stuffing to prevent penalties."
+    }
+  ]
+}

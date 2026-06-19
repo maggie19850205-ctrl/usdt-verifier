@@ -1,0 +1,39 @@
+{
+"meta": "Master 2026 personal finance with this spreadsheet template. Track budgets, savings, and investments for financial success.",
+"sections": [
+{
+"h": "Why Use a 2026 Personal Finance Spreadsheet?",
+"b": "In 2026, managing your money manually is inefficient. This template automates budget tracking using zero-based budgeting and the 50/30/20 rule, saving you 5+ hours monthly. With built-in formulas for debt snowball and investment growth, you gain real-time visibility into your financial health."
+},
+{
+"h": "Key Features for 2026 Planning",
+"b": "Includes 12 monthly sheets with automatic rollover, a dashboard for net worth tracking, and tax estimators for 2026 rates. Supports integration with Mint and YNAB exports, plus goal tracking for retirement, emergency funds, and major purchases. Customize categories for inflation-adjusted expenses."
+},
+{
+"h": "How to Set Up Your Template",
+"b": "Download and open in Excel or Google Sheets. Enter your income, fixed costs, and variable expenses into the pre-labeled fields. Use the built-in charts to visualize spending patterns and adjust allocations. The template auto-calculates savings rates and debt payoff timelines, helping you stay on track."
+},
+{
+"h": "Advanced Investment Tracking",
+"b": "Monitor stocks, bonds, and crypto portfolios with real-time price updates via API integration. Track ROI, dividend yields, and tax-loss harvesting opportunities. The template includes a retirement calculator using the 4% rule and Monte Carlo simulations for risk assessment."
+},
+{
+"h": "Exclusive 2026 Updates",
+"b": "This version includes new IRS tax brackets, inflation-adjusted spending limits, and a side hustle income tracker. Also features a carbon footprint calculator for eco-conscious budgeting. Free lifetime updates ensure compatibility with future financial changes."
+}
+],
+"faq": [
+{
+"q": "Is this template compatible with Google Sheets?",
+"a": "Yes, it works seamlessly in both Google Sheets and Microsoft Excel, with all formulas and conditional formatting preserved."
+},
+{
+"q": "Can I track multiple bank accounts?",
+"a": "Absolutely. The template supports up to 10 accounts, including checking, savings, credit cards, and investment portfolios."
+},
+{
+"q": "How often are updates released?",
+"a": "Updates are released annually by January 1st, covering new tax laws, inflation data, and user-requested features."
+}
+]
+}

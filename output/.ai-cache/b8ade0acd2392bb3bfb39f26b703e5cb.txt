@@ -1,0 +1,28 @@
+{
+  "meta": "Streamline your recipe creation with AI. This checklist workbook guides you through generating, refining, and organizing recipes efficiently.",
+  "intro": "This AI Recipe Generator Checklist Workbook is designed to help you leverage AI tools to create, refine, and organize recipes with ease. Whether you're a home cook or a content creator, this workbook provides step-by-step checklists to ensure you cover all aspects of recipe development, from ingredient sourcing to final presentation.",
+  "items": [
+    "Define your recipe goal: cuisine type, dietary restrictions, and serving size.",
+    "Generate initial recipe using AI (e.g., ChatGPT or Claude) with specific parameters.",
+    "Review AI output for ingredient accuracy and adjust quantities as needed.",
+    "Test recipe execution: note cooking times, substitutions, and texture results.",
+    "Refine instructions: simplify steps and add timing cues for clarity.",
+    "Create nutritional breakdown using AI or manual tools (e.g., MyFitnessPal).",
+    "Design recipe card layout with title, ingredients, steps, and tips.",
+    "Finalize and save: export to PDF or share on your blog/social media."
+  ],
+  "faq": [
+    {
+      "q": "Do I need prior AI experience to use this workbook?",
+      "a": "No, the workbook includes simple prompts and checklists that guide you through using AI for recipe generation, making it accessible for beginners."
+    },
+    {
+      "q": "Can I use this workbook with any AI tool?",
+      "a": "Yes, the checklists are tool-agnostic and work with popular AI assistants like ChatGPT, Claude, or Google Bard."
+    },
+    {
+      "q": "Is this workbook suitable for professional chefs?",
+      "a": "Absolutely, it helps streamline recipe development for scaling, menu planning, and ensuring consistency in professional kitchens."
+    }
+  ]
+}

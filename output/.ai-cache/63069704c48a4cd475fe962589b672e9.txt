@@ -1,0 +1,35 @@
+{
+"meta": "Automate customer service with AI tools, workflows, and prompts. Save 80% response time, boost satisfaction.",
+"sections": [
+{
+"h": "Streamline Support with AI-Powered Automation",
+"b": "This bundle includes pre-built templates for chatbots, email autoresponders, and ticket routing using tools like ChatGPT, Zapier, and Zendesk. By implementing these, you can reduce average response time from 12 hours to 15 minutes and handle 90% of common queries without human intervention."
+},
+{
+"h": "Integrate Across Channels Seamlessly",
+"b": "Connect your AI system with WhatsApp, Facebook Messenger, and your website using our step-by-step guides for platforms like ManyChat and Tidio. This omnichannel approach increases customer engagement by 40% and ensures consistent responses regardless of the touchpoint."
+},
+{
+"h": "Optimize with Analytics and Feedback Loops",
+"b": "Use our included dashboards for tracking key metrics such as first-contact resolution rate and CSAT scores. With A/B testing frameworks and sentiment analysis scripts, you can continuously refine your AI’s accuracy, achieving a 95% satisfaction rate within 30 days."
+},
+{
+"h": "Scale Without Adding Headcount",
+"b": "Our bundle provides scripts for handling peak loads, such as Black Friday or product launches, using scalable cloud functions on AWS Lambda. This allows your support team to focus on complex issues while the AI manages up to 10,000 concurrent conversations, reducing operational costs by 60%."
+}
+],
+"faq": [
+{
+"q": "Do I need coding skills to use this bundle?",
+"a": "No, all templates come with drag-and-drop interfaces for tools like Chatfuel and no-code Zapier workflows. However, basic familiarity with your chosen platform is helpful."
+},
+{
+"q": "Can I customize the AI responses for my brand?",
+"a": "Yes, every script includes placeholders for your brand voice, FAQs, and product details. You can edit them in plain English without technical expertise."
+},
+{
+"q": "What support do I get after purchase?",
+"a": "You’ll receive lifetime access to the bundle, plus email support for setup issues. Additionally, we provide quarterly updates with new templates based on industry trends."
+}
+]
+}

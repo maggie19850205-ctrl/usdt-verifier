@@ -1,0 +1,39 @@
+{
+"meta": "Complete guide to the Online Business Automation WordPress theme. Features, setup, and optimization for $22.99.",
+"sections": [
+{
+"h": "Theme Overview and Key Features",
+"b": "The Online Business Automation WordPress theme is designed to streamline digital operations, integrating tools like WooCommerce, Elementor, and Zapier for automated workflows. It includes pre-built templates for sales funnels, email capture, and membership sites, reducing manual setup time by up to 40%."
+},
+{
+"h": "Installation and Initial Setup",
+"b": "Install the theme via the WordPress dashboard or FTP, then activate required plugins like WooCommerce and AutomatorWP. Follow the step-by-step wizard to configure payment gateways (Stripe, PayPal) and automation triggers for order confirmations and lead scoring."
+},
+{
+"h": "Customizing Your Automation Workflows",
+"b": "Use the built-in visual automation builder to create sequences for abandoned cart recovery, email follow-ups, and task assignments. Leverage Zapier integration to connect with 5,000+ apps, and set conditional logic for personalized customer journeys based on behavior metrics."
+},
+{
+"h": "Performance Optimization and Security",
+"b": "Enable caching via WP Rocket and CDN integration (Cloudflare) to achieve 95+ PageSpeed scores. Implement two-factor authentication and automated backups with UpdraftPlus, ensuring 99.9% uptime for critical business processes."
+},
+{
+"h": "Pricing and Value Proposition",
+"b": "At $22.99, this theme offers a 70% cost reduction compared to custom development, with lifetime updates and 6 months of support. It includes 12 pre-built automation templates, saving an estimated 20 hours of setup time for new online businesses."
+}
+],
+"faq": [
+{
+"q": "Does this theme require coding knowledge?",
+"a": "No, the theme is designed for non-developers with a drag-and-drop automation builder and pre-configured workflows, though basic WordPress familiarity is helpful."
+},
+{
+"q": "Can I integrate this with my existing CRM?",
+"a": "Yes, via Zapier or direct API connections to platforms like HubSpot, Salesforce, and Mailchimp, allowing seamless data syncing and trigger-based actions."
+},
+{
+"q": "Is the theme compatible with the latest WordPress version?",
+"a": "Yes, it is fully compatible with WordPress 6.4+ and regularly updated to support new plugins and security patches."
+}
+]
+}

@@ -1,0 +1,28 @@
+{
+  "meta": "Master Facebook Ads with this checklist workbook. Optimize campaigns, target audiences, and boost ROI step-by-step.",
+  "intro": "This checklist workbook condenses proven Facebook Ads strategies into actionable steps. Designed for marketers and business owners, it covers campaign setup, audience targeting, ad creative, and performance tracking using real-world examples and metrics.",
+  "items": [
+    "Define your campaign objective (awareness, consideration, or conversion) using Facebook's 11 objective options.",
+    "Set up Facebook Pixel and Conversions API to track 10+ key events like purchases and leads.",
+    "Create a custom audience with 5% lookalike targeting based on your top 1000 customers.",
+    "Design 3 ad variants per ad set—test headlines, images, and CTAs using A/B testing.",
+    "Set daily budgets starting at $10 and use cost-per-result (CPR) to optimize spend.",
+    "Schedule ads for peak engagement times (9 AM–11 AM and 7 PM–9 PM in target timezone).",
+    "Monitor ad frequency—keep it below 3 to avoid audience fatigue and ad blindness.",
+    "Analyze results weekly: aim for CTR > 1.5%, CPM < $15, and ROAS > 3x."
+  ],
+  "faq": [
+    {
+      "q": "Does this workbook include templates for ad copy?",
+      "a": "Yes, it provides 5 tested copy frameworks for headlines, body text, and CTAs, plus examples for e-commerce and service-based businesses."
+    },
+    {
+      "q": "How often should I use this checklist?",
+      "a": "Use it for every new campaign launch and weekly during active campaigns to ensure all optimization steps are followed."
+    },
+    {
+      "q": "Is this suitable for beginners?",
+      "a": "Absolutely. Each step includes clear instructions and definitions of terms like CPM and CTR, making it beginner-friendly yet valuable for experienced advertisers."
+    }
+  ]
+}

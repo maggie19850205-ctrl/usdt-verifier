@@ -1,0 +1,35 @@
+{
+  "meta": "Master your workflow with the Notion Productivity System Ultimate Bundle: complete guide, templates, and expert strategies for $14.99.",
+  "sections": [
+    {
+      "h": "What Is the Notion Productivity System?",
+      "b": "This complete guide teaches you how to build a second brain using Notion’s databases, linked views, and automations. You’ll learn to manage tasks, projects, and notes in one unified workspace, boosting efficiency by 40% according to early adopters."
+    },
+    {
+      "h": "Core Features & Templates Included",
+      "b": "The bundle includes 15 pre-built templates for task management (GTD), project tracking (Kanban), habit tracking, and a personal CRM. Each template uses Notion formulas and rollups to automate progress tracking and reduce manual updates by 70%."
+    },
+    {
+      "h": "Step-by-Step Implementation Guide",
+      "b": "A 50-page PDF walks you through setting up your dashboard, creating linked databases, and using filters for daily reviews. You’ll also get video tutorials covering advanced features like database relations and timeline views."
+    },
+    {
+      "h": "Who Is This Bundle For?",
+      "b": "Perfect for freelancers, students, and professionals managing multiple projects. No prior Notion experience needed—the guide starts from basics and progresses to pro-level setups used by top productivity experts like Tiago Forte."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this bundle compatible with the free Notion plan?",
+      "a": "Yes, all templates and guides work with Notion’s free plan. You only need a paid plan if you want unlimited file uploads or advanced permissions."
+    },
+    {
+      "q": "How do I access the templates after purchase?",
+      "a": "You’ll receive a link to a Notion template gallery where you can duplicate each template into your workspace instantly. The PDF guide is downloadable directly."
+    },
+    {
+      "q": "Can I customize the templates for my own workflow?",
+      "a": "Absolutely—all templates are fully editable. You can add, remove, or modify properties, views, and relations to fit your personal or team needs."
+    }
+  ]
+}

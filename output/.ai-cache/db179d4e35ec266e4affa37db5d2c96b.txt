@@ -1,0 +1,39 @@
+{
+  "meta": "Discover top AI tools deals and coupons. Save on premium software with our complete guide to discounts and offers.",
+  "sections": [
+    {
+      "h": "Top AI Writing Assistants at Discounted Prices",
+      "b": "Jasper AI and Copy.ai offer 20-50% off annual plans through exclusive coupon codes. Use tools like Grammarly Premium for 40% off to enhance your writing workflow with AI-powered suggestions."
+    },
+    {
+      "h": "Save on AI Design and Image Generation Tools",
+      "b": "Midjourney and DALL-E 3 subscriptions often have seasonal deals up to 30% off. Canva Pro includes AI features and can be accessed with a 25% discount via partner links."
+    },
+    {
+      "h": "AI Productivity and Automation Software Coupons",
+      "b": "Zapier and Notion AI offer 20% off for first-time users, automating tasks across 5,000+ apps. Use coupon codes like 'AI20' to unlock savings on annual plans."
+    },
+    {
+      "h": "Best AI Video and Audio Tools Deals",
+      "b": "Descript and Synthesia provide up to 35% off for new subscribers, enabling AI-powered video editing and voiceovers. Runway ML offers student discounts for creative projects."
+    },
+    {
+      "h": "How to Maximize Savings with AI Tool Bundles",
+      "b": "Bundle deals from platforms like AppSumo and StackSocial include 10+ AI tools for under $100. Combine coupons with referral programs to save an extra 15% on checkout."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Where can I find the latest AI tools coupon codes?",
+      "a": "Check deal aggregator sites like CouponBirds or RetailMeNot for verified codes. Many AI tools also offer exclusive discounts through their newsletter or social media channels."
+    },
+    {
+      "q": "Do AI tool deals work for annual subscriptions?",
+      "a": "Yes, most coupons apply to annual plans, often providing deeper discounts than monthly subscriptions. Look for codes like 'SAVE50' for up to 50% off yearly payments."
+    },
+    {
+      "q": "Can I stack multiple coupons on AI software purchases?",
+      "a": "Rarely, as most tools allow only one coupon per transaction. However, you can combine coupon codes with cashback offers from platforms like Rakuten for additional savings."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+"meta": "Curated template pack for digital nomads to streamline workflows, manage travel, and boost productivity on the go.",
+"intro": "This template pack provides ready-to-use tools for digital nomads to organize their itineraries, track expenses, manage client projects, and maintain remote work routines efficiently.",
+"templates": [
+{
+"n": "Travel Itinerary Planner",
+"d": "A comprehensive template to plan flights, accommodations, and daily schedules with integrated checklists for visas, insurance, and packing."
+},
+{
+"n": "Expense Tracker Sheet",
+"d": "Automated spreadsheet to log expenses in multiple currencies, categorize spending (flights, food, co-working), and generate monthly budget summaries."
+},
+{
+"n": "Client Project Dashboard",
+"d": "Kanban-style board template to manage client deliverables, deadlines, and communication logs across time zones using tools like Trello or Notion."
+},
+{
+"n": "Daily Routine Optimizer",
+"d": "Time-blocking template to schedule work hours, exercise, and leisure around variable time zones with focus on deep work and breaks."
+},
+{
+"n": "Nomad Networking Log",
+"d": "CRM-style template to track contacts from co-working spaces, meetups, and online communities, including follow-up reminders and notes."
+}
+],
+"faq": [
+{
+"q": "What formats are the templates available in?",
+"a": "Templates are provided as editable Google Sheets, Notion pages, and PDFs for flexibility across devices and offline use."
+},
+{
+"q": "Can I customize these templates for my specific needs?",
+"a": "Yes, all templates are fully customizable—add or remove columns, fields, or sections to match your workflow."
+},
+{
+"q": "Are these templates suitable for beginners?",
+"a": "Absolutely, each template includes a simple guide and example entries to help you get started quickly, even if you're new to digital nomad life."
+}
+]
+}

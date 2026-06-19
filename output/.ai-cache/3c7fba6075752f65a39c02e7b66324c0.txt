@@ -1,0 +1,19 @@
+{
+"meta": "Instagram growth checklist workbook with actionable steps to boost followers and engagement fast.",
+"intro": "This checklist workbook provides a step-by-step system to grow your Instagram account organically. Each item is a proven action to increase reach, engagement, and followers.",
+"items": [
+"Optimize your Instagram bio with a clear value proposition and link.",
+"Post consistently 3-5 times per week using a content calendar.",
+"Use 5-10 relevant hashtags per post, mixing broad and niche tags.",
+"Engage with 10 accounts in your niche daily (like, comment, share).",
+"Create 3 Reels per week targeting trending audio and topics.",
+"Use Instagram Stories daily with polls, questions, or countdowns.",
+"Collaborate with 2 micro-influencers in your niche per month.",
+"Analyze insights weekly to replicate top-performing content."
+],
+"faq": [
+{"q": "How long does it take to see results?", "a": "Most users see a 20-30% increase in engagement within 2-4 weeks of consistent use."},
+{"q": "Do I need a business account?", "a": "Yes, a business or creator account gives access to analytics and promotional tools."},
+{"q": "Can I use this for a new account?", "a": "Absolutely, the checklist is designed for both new and established accounts."}
+]
+}

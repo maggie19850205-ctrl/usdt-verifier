@@ -1,0 +1,16 @@
+{
+"meta": "AI code generation tools template pack for developers. Includes prompts, workflows, and best practices.",
+"intro": "This template pack provides 5 ready-to-use templates for leveraging AI code generation tools like GitHub Copilot, Tabnine, and ChatGPT to accelerate your development workflow. Each template includes specific prompts, configuration settings, and implementation steps.",
+"templates": [
+{"n": "AI-Powered Code Review Template", "d": "Streamline code reviews using AI tools. Includes prompts for identifying bugs, suggesting optimizations, and enforcing coding standards with GitHub Copilot and ChatGPT."},
+{"n": "Automated Test Generation Template", "d": "Generate unit and integration tests with AI. Leverage Tabnine and ChatGPT to create test cases for Python, JavaScript, and Java projects, covering edge cases and mocking."},
+{"n": "Code Documentation Generator", "d": "Produce comprehensive documentation from code. Use AI to auto-generate docstrings, API references, and README files for Node.js, Django, and Flask projects."},
+{"n": "Refactoring Assistant Template", "d": "Refactor legacy code efficiently. Prompts for AI tools to identify code smells, suggest design patterns, and rewrite functions in TypeScript, Python, and C#."},
+{"n": "Code Completion Configuration Guide", "d": "Optimize AI code completion settings. Detailed configuration for GitHub Copilot and Tabnine to improve suggestions, including context windows, snippet triggers, and language-specific rules."}
+],
+"faq": [
+{"q": "Do I need experience with AI tools to use these templates?", "a": "No, the templates are designed for all skill levels. Each includes step-by-step instructions and example prompts to get started quickly."},
+{"q": "Which AI tools are supported?", "a": "The templates work with GitHub Copilot, Tabnine, and ChatGPT. Configuration settings are provided for each tool, with alternatives for other AI assistants."},
+{"q": "Can I customize the templates?", "a": "Yes, all templates are fully editable. You can modify prompts, adjust settings, and add your own rules to fit your specific workflow."}
+]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": "AI data analysis workbook template pack with 5 customizable templates for efficient data insights and reporting.",
+  "intro": "This template pack provides five ready-to-use AI-powered data analysis workbooks designed to streamline your data processing, visualization, and reporting. Each template integrates with popular AI tools like ChatGPT, Claude, and Google Gemini to accelerate your workflow.",
+  "templates": [
+    {
+      "n": "Exploratory Data Analysis (EDA) Template",
+      "d": "A structured workbook for initial data exploration, including automated summary statistics, correlation matrix generation, and anomaly detection using pandas and seaborn."
+    },
+    {
+      "n": "Predictive Modeling Template",
+      "d": "Pre-built sections for regression and classification tasks, with prompts for feature engineering, model selection (e.g., Random Forest, XGBoost), and hyperparameter tuning via scikit-learn."
+    },
+    {
+      "n": "Data Visualization Dashboard Template",
+      "d": "A comprehensive layout for creating interactive dashboards with Plotly and Matplotlib, including chart type recommendations and color palette optimization."
+    },
+    {
+      "n": "Natural Language Processing (NLP) Template",
+      "d": "Workbook for text analysis tasks such as sentiment analysis, topic modeling (LDA), and keyword extraction, with integration hooks for spaCy and NLTK."
+    },
+    {
+      "n": "A/B Testing & Experimentation Template",
+      "d": "Template for designing and analyzing experiments, including sample size calculation, statistical significance testing (t-test, chi-square), and result reporting with confidence intervals."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What AI tools are compatible with these templates?",
+      "a": "The templates are designed to work with ChatGPT, Claude, Google Gemini, and other LLMs, plus Python libraries like pandas and scikit-learn."
+    },
+    {
+      "q": "Do I need coding experience to use this pack?",
+      "a": "Basic familiarity with Python is helpful, but each template includes step-by-step prompts and comments to guide non-coders through the analysis."
+    },
+    {
+      "q": "Can I customize the templates for my specific data?",
+      "a": "Yes, all templates are fully editable .ipynb or .xlsx files, allowing you to adjust variables, add sections, or integrate your own datasets."
+    }
+  ]
+}

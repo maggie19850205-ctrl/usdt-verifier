@@ -1,0 +1,40 @@
+{
+  "meta": "Optimize your AI content for search with this template pack. Includes 5 SEO templates for better rankings and visibility.",
+  "intro": "This template pack provides ready-to-use SEO content optimization templates designed for AI-generated content. Each template helps you structure, keyword-optimize, and format your content for higher search engine rankings. Perfect for bloggers, marketers, and content creators using AI tools.",
+  "templates": [
+    {
+      "n": "Keyword Integration Template",
+      "d": "Structured template to seamlessly integrate primary and secondary keywords into AI-generated content. Includes placeholders for LSI keywords, semantic variations, and natural keyword density checks (target 1-2%). Works with GPT-4, Claude, and Jasper."
+    },
+    {
+      "n": "Meta Description Optimizer",
+      "d": "Template for crafting compelling meta descriptions under 160 characters. Includes A/B testing frameworks, click-through rate boosters (e.g., numbers, power words), and format for search snippet previews. Proven to increase CTR by 15-30%."
+    },
+    {
+      "n": "Content Structure Blueprint",
+      "d": "Pre-formatted outline for AI content with H1-H6 hierarchy, FAQ schema placement, and internal linking spots. Includes readability scoring (target Flesch-Kincaid 60-70) and section length guidelines (300-500 words per H2)."
+    },
+    {
+      "n": "Image Alt Text Generator",
+      "d": "Template for writing SEO-optimized alt text for AI-generated images. Includes keyword inclusion rules (1-2 per alt), descriptive format (e.g., 'woman using AI chatbot on laptop'), and character limits (125 max). Supports DALL-E, Midjourney, and Stable Diffusion outputs."
+    },
+    {
+      "n": "Header Tag Optimization Sheet",
+      "d": "Spreadsheet-style template for mapping keywords to H1, H2, and H3 tags across 10+ content sections. Includes priority scoring (high/medium/low), duplicate tag warnings, and recommended header count (1 H1, 3-5 H2s per 1000 words)."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do these templates work with any AI writing tool?",
+      "a": "Yes, the templates are tool-agnostic and compatible with GPT-4, Claude, Jasper, Copy.ai, and others. Each template includes specific instructions for different AI platforms."
+    },
+    {
+      "q": "How much time can I save using this pack?",
+      "a": "Users typically save 2-3 hours per article by eliminating manual keyword research and formatting. The templates reduce SEO optimization time by up to 60%."
+    },
+    {
+      "q": "Are there examples of completed templates included?",
+      "a": "Each template comes with a filled-out example (e.g., for a 'best AI tools 2024' article) so you can see the expected output and adapt it to your niche."
+    }
+  ]
+}

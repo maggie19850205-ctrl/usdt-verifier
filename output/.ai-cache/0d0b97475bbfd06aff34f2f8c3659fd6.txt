@@ -1,0 +1,35 @@
+{
+  "meta": "Automate customer support with AI. Includes guides, templates, and checklists to reduce response time by 50%.",
+  "sections": [
+    {
+      "h": "Why Automate Customer Support with AI?",
+      "b": "AI automation can handle up to 80% of repetitive queries, reducing your team's workload and response time by half. Tools like Zendesk AI and Intercom Fin integrate seamlessly to provide instant, accurate answers."
+    },
+    {
+      "h": "What's Inside the Ultimate Bundle?",
+      "b": "This bundle includes a complete guide to AI support automation, a set of ready-to-use chatbot templates for platforms like Tidio and ManyChat, and a step-by-step checklist for implementation. You'll also get access to proven frameworks for scaling support."
+    },
+    {
+      "h": "Key Benefits for Your Business",
+      "b": "Expect a 40% reduction in support costs and a 25% increase in customer satisfaction scores (CSAT). By automating FAQs, order tracking, and basic troubleshooting, your team can focus on complex issues."
+    },
+    {
+      "h": "Getting Started in 3 Steps",
+      "b": "Step 1: Use the checklist to audit your current support workflow. Step 2: Deploy our chatbot templates (optimized for GPT-4) within 24 hours. Step 3: Monitor performance via analytics dashboards like Freshdesk or HubSpot Service Hub."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need technical skills to use this bundle?",
+      "a": "No, the bundle is designed for non-technical users. Each template comes with a setup guide, and the checklist walks you through every step without coding."
+    },
+    {
+      "q": "Will this work with my existing helpdesk software?",
+      "a": "Yes, the templates are compatible with major platforms like Zendesk, Intercom, Freshdesk, and HubSpot. Integration instructions are included."
+    },
+    {
+      "q": "What if I need additional customization?",
+      "a": "The bundle includes a customization guide with advanced tips. For complex needs, you can use the provided frameworks to build custom flows."
+    }
+  ]
+}

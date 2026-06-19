@@ -1,0 +1,35 @@
+{
+  "meta": "All-in-one toolkit for digital nomads: productivity, finance, travel, and remote work essentials.",
+  "sections": [
+    {
+      "h": "Master Your Productivity Anywhere",
+      "b": "Leverage tools like Notion for task management, Toggl for time tracking, and the Pomodoro Technique (25/5 cycles) to maintain focus across time zones. Our templates help you set up a distraction-free workflow with 80% fewer context switches."
+    },
+    {
+      "h": "Streamline Your Finances on the Road",
+      "b": "Manage multi-currency income with Wise (0.5% fee), track expenses via YNAB, and automate tax deductions using QuickBooks Self-Employed. The bundle includes a spending tracker that reduces budget variance by 30%."
+    },
+    {
+      "h": "Travel Smarter, Not Harder",
+      "b": "Use Skyscanner for cheap flights, TrustedHousesitters for free accommodation, and SafetyWing for insurance ($45/month). Our route planner cuts relocation costs by 25% with curated city guides for 50+ nomad hubs."
+    },
+    {
+      "h": "Remote Work Tools That Scale",
+      "b": "Optimize collaboration with Slack (channels), Zoom (breakout rooms), and Trello (Kanban boards). The bundle includes a client communication template that reduces email threads by 40% using async updates."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use this bundle if I'm new to being a digital nomad?",
+      "a": "Absolutely. The guide includes step-by-step setup instructions for each tool, plus a 7-day onboarding checklist to get you started."
+    },
+    {
+      "q": "Are the templates compatible with mobile devices?",
+      "a": "Yes, all templates are optimized for mobile use via Notion, Trello, and Google Sheets apps, ensuring access offline or on low-bandwidth connections."
+    },
+    {
+      "q": "What if I need support for a specific tool?",
+      "a": "The bundle includes a private community forum and 24/7 chatbot support for tool-specific troubleshooting, plus a 30-day money-back guarantee."
+    }
+  ]
+}

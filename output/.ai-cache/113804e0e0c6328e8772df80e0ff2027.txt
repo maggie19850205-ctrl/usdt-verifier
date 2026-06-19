@@ -1,0 +1,35 @@
+{
+  "meta": "Get 100+ legally-vetted contract templates for freelancers and agencies. Save time and money with this ultimate bundle.",
+  "sections": [
+    {
+      "h": "Why Every Freelancer Needs This Bundle",
+      "b": "Stop risking your income with handshake deals. This bundle includes 120+ templates for service agreements, NDAs, and partnership contracts, all drafted by legal experts. Save $3,000+ in lawyer fees while protecting your intellectual property and payment terms."
+    },
+    {
+      "h": "What’s Inside: 120+ Ready-to-Use Templates",
+      "b": "From freelance design contracts to software development agreements, each template is customizable in Word and Google Docs. Includes 15 client onboarding checklists, 20 invoice templates, and 10 termination letters. Every template follows US and UK legal standards."
+    },
+    {
+      "h": "How to Customize and Execute in 10 Minutes",
+      "b": "Replace placeholders like [Client Name] and [Project Scope] using our fillable PDF guide. Each template includes a plain-English summary of key clauses like payment schedules and dispute resolution. No legal degree required—just copy, paste, and sign."
+    },
+    {
+      "h": "Bonus: Legal Risk Assessment Checklist",
+      "b": "Avoid common pitfalls with our 50-point checklist covering copyright ownership, non-compete clauses, and liability caps. Includes a 30-minute video walkthrough by a corporate lawyer. This bonus alone has helped 2,000+ freelancers avoid costly lawsuits."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are these templates legally binding in my country?",
+      "a": "Yes, the templates are drafted to comply with US and UK law, but we recommend having a local lawyer review for jurisdiction-specific requirements."
+    },
+    {
+      "q": "Can I edit the templates in Microsoft Word?",
+      "a": "Absolutely. All templates come in .docx format with editable fields, plus a PDF version for quick printing. No special software needed."
+    },
+    {
+      "q": "What if I need a template not included in the bundle?",
+      "a": "We offer a 30-day satisfaction guarantee. If you need a specific contract, email us and we’ll add it to the bundle within 48 hours for free."
+    }
+  ]
+}

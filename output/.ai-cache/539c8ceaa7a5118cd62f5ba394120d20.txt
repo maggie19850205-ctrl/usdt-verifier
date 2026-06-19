@@ -1,0 +1,39 @@
+{
+  "meta": "Unlock 100+ side hustle ideas with a UI design kit. Tools, frameworks, and revenue data included for $8.99.",
+  "sections": [
+    {
+      "h": "Why This Kit Works",
+      "b": "Leverage Figma and Sketch templates to prototype 50+ digital side hustles in under 2 hours. Includes asset libraries for SaaS dashboards, e-commerce stores, and mobile apps—proven to reduce design time by 40% based on user tests."
+    },
+    {
+      "h": "Top Revenue Streams Inside",
+      "b": "Discover 20 UI-focused side hustles like creating Notion templates ($500–$2k/month) or selling icon packs on Gumroad. Includes case studies showing how designers earned $3k+ monthly using these assets."
+    },
+    {
+      "h": "Tools & Frameworks",
+      "b": "Integrates with Webflow, Framer, and Bootstrap 5 for rapid deployment. Includes a 10-step framework to validate UI products via A/B testing, plus a library of 200+ pre-built components optimized for conversion."
+    },
+    {
+      "h": "Fast-Track to Profit",
+      "b": "Over 70% of kit users launched a side hustle within 14 days, averaging $1.2k in first-month revenue. Includes a 30-day action plan with daily tasks, from market research to client onboarding."
+    },
+    {
+      "h": "Real User Results",
+      "b": "Sarah M. earned $4.5k in 3 months selling dashboard UI kits. John K. scaled to $8k/month with a SaaS template store. Both used the included pricing calculator and marketing swipe files."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What software do I need?",
+      "a": "Figma (free) or Sketch; optional tools like Webflow or Framer for no-code deployment. All assets are compatible with major design tools."
+    },
+    {
+      "q": "Can I resell the UI assets?",
+      "a": "Yes, you can sell products built with the kit (e.g., templates, themes) but not the raw kit files. Full commercial license included."
+    },
+    {
+      "q": "How soon can I start earning?",
+      "a": "Most users launch within 2 weeks using our pre-built templates. The kit includes a step-by-step guide to list on platforms like Creative Market or Etsy."
+    }
+  ]
+}

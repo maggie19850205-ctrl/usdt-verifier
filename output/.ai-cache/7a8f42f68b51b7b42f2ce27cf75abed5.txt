@@ -1,0 +1,28 @@
+{
+  "meta": "Streamline your workflow with this automated content creation checklist workbook for efficiency and consistency.",
+  "intro": "This workbook provides a step-by-step checklist to automate your content creation process, from planning to publishing, ensuring no step is missed.",
+  "items": [
+    "Define content goals and target audience personas",
+    "Set up a content calendar with automated scheduling tools like Buffer or Hootsuite",
+    "Create a template library for blog posts, social media, and emails",
+    "Integrate AI writing assistants like Jasper or Copy.ai for draft generation",
+    "Automate image creation using Canva or Adobe Express with preset templates",
+    "Implement SEO optimization tools like Yoast or Surfer SEO for each piece",
+    "Schedule social sharing with IFTTT or Zapier for cross-platform posting",
+    "Set up analytics tracking via Google Analytics or HubSpot to measure performance"
+  ],
+  "faq": [
+    {
+      "q": "Who is this workbook for?",
+      "a": "It is designed for content creators, marketers, and small business owners looking to save time and maintain consistency in their content production."
+    },
+    {
+      "q": "Do I need technical skills to use it?",
+      "a": "No, the workbook uses simple checklists and explains each tool in plain language, making it accessible for beginners."
+    },
+    {
+      "q": "Can I customize the checklists?",
+      "a": "Yes, the workbook is editable so you can add or modify steps to fit your specific workflow and tools."
+    }
+  ]
+}

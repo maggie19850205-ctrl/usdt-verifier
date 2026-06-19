@@ -1,0 +1,39 @@
+{
+  "meta": "Turn your side hustle into a QR code empire. 50+ ideas, tools, and strategies to generate passive income with QR codes.",
+  "sections": [
+    {
+      "h": "Why QR Codes Are Your Side Hustle Secret Weapon",
+      "b": "QR codes are everywhere, but most people use them wrong. With the right strategy, you can turn free QR code generators into passive income machines. Use tools like QRCode Monkey or Beaconstac to create custom codes that link to affiliate offers, digital products, or local business promotions. By embedding tracking pixels and UTM parameters, you can earn $500-$2,000 monthly from a single optimized QR campaign."
+    },
+    {
+      "h": "50+ Side Hustle Ideas You Can Launch Today",
+      "b": "From QR-based restaurant menus to event ticketing and donation links, the possibilities are endless. Start with low-effort ideas like QR code business cards for freelancers ($10-$50 per design) or dynamic QR codes for real estate agents ($100-$300 per campaign). Use platforms like Canva for design and Bitly for link management to scale without coding. Each idea includes a step-by-step setup guide and average revenue potential."
+    },
+    {
+      "h": "Tools and Frameworks to Automate Your QR Income",
+      "b": "Automation is key to scaling. Pair QR codes with Zapier to send leads to your CRM or email list automatically. Use Google Analytics to track scans and conversion rates. For advanced users, integrate with Shopify to create QR codes that direct to product pages with discount codes, boosting sales by 30%. The guide covers 7 free and 5 paid tools, including QR TIGER and Scanova."
+    },
+    {
+      "h": "Monetization Strategies That Actually Work",
+      "b": "Stop giving QR codes away for free. Charge businesses $50-$200 per month for dynamic QR codes that update offers in real time. Bundle QR codes with digital products like ebooks or courses for $27-$97. Use A/B testing to optimize landing pages and double your click-through rates. Real case studies show how one user made $4,000 in a month by placing QR codes on pizza boxes."
+    },
+    {
+      "h": "Avoid These 7 Common QR Code Mistakes",
+      "b": "Mistakes like using low-contrast colors, static links, or no tracking kill your revenue. Always test your QR codes on multiple devices and lighting conditions. Use a URL shortener to avoid broken links. The guide includes a checklist to ensure your codes scan 100% of the time and a troubleshooting section for common errors like 'invalid format' or 'expired link'."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding skills to use this guide?",
+      "a": "No, the guide is designed for beginners. All tools mentioned have drag-and-drop interfaces and no-code setups. You'll learn to create and monetize QR codes in under 30 minutes."
+    },
+    {
+      "q": "How much money can I realistically make?",
+      "a": "Most users earn $500-$3,000 per month within 90 days by following the strategies. The guide includes 3 case studies of people who started from zero and scaled to full-time income."
+    },
+    {
+      "q": "Is this guide updated for 2025 QR code trends?",
+      "a": "Yes, it covers the latest algorithms, design trends, and monetization methods. Includes updates on dynamic QR codes, social media integration, and AI-powered tracking tools."
+    }
+  ]
+}

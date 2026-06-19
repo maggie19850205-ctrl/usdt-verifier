@@ -1,0 +1,40 @@
+{
+"meta": "Streamline marketing analytics with our Template Pack. Includes 5 customizable dashboards for KPIs, ROI, and campaign tracking.",
+"intro": "Stop juggling spreadsheets and start making data-driven decisions. This template pack gives you five ready-to-use marketing analytics dashboards, designed for marketers, small business owners, and freelancers who want to track performance without the complexity.",
+"templates": [
+{
+"n": "Campaign Performance Dashboard",
+"d": "Track metrics across Google Ads, Facebook, and email campaigns. Includes CTR, CPC, conversion rate, and cost per acquisition in a single view."
+},
+{
+"n": "ROI & Budget Tracker",
+"d": "Monitor ad spend vs. revenue in real-time. Pre-built formulas calculate ROAS and net profit with 3-month trend lines."
+},
+{
+"n": "Social Media Growth Dashboard",
+"d": "Visualize follower growth, engagement rate, and top posts for Instagram, LinkedIn, and TikTok. Updates automatically with manual data entry."
+},
+{
+"n": "Lead Generation Funnel",
+"d": "Map leads from first touch to sale. Includes stage conversion rates, lead source breakdown, and time-to-close averages."
+},
+{
+"n": "Monthly Marketing Report",
+"d": "Executive-ready summary with charts for channel performance, goal progress, and budget variance. Exportable as PDF or Google Slides."
+}
+],
+"faq": [
+{
+"q": "Are these templates compatible with Google Sheets and Excel?",
+"a": "Yes, each template works in both Google Sheets and Excel. They include pre-built formulas and conditional formatting for instant insights."
+},
+{
+"q": "Do I need advanced analytics skills to use these?",
+"a": "No. Templates are designed for beginners and include instructions. Just input your data, and dashboards update automatically."
+},
+{
+"q": "Can I customize the templates for my specific metrics?",
+"a": "Absolutely. All fields, charts, and formulas are editable. You can add or remove metrics to match your unique funnel or channels."
+}
+]
+}

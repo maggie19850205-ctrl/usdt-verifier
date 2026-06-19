@@ -1,0 +1,28 @@
+{
+  "meta": "Streamline your social media strategy with this AI checklist workbook. Plan, create, and schedule posts efficiently.",
+  "intro": "This AI-driven checklist workbook helps you craft engaging social media posts by leveraging automation tools and proven frameworks. Perfect for marketers and entrepreneurs aiming to save time while boosting engagement.",
+  "items": [
+    "Define your target audience and platform (e.g., Instagram, LinkedIn, Twitter) using AI audience analysis tools like SparkToro.",
+    "Set content goals aligned with your brand voice and choose post formats (e.g., carousel, video, text) based on platform best practices.",
+    "Generate 5-10 post ideas using AI prompts in tools like ChatGPT or Jasper, focusing on trending topics and keywords.",
+    "Draft headlines and captions with AI copywriting tools, ensuring they include a hook, value proposition, and call-to-action.",
+    "Incorporate visual elements (images, GIFs, or videos) using AI design tools like Canva or DALL-E for consistent branding.",
+    "Schedule posts during peak engagement times using AI scheduling tools like Buffer or Hootsuite, with optimal posting frequency.",
+    "Monitor post performance using analytics (e.g., engagement rate, clicks) and adjust future content based on AI-driven insights.",
+    "Repurpose top-performing posts into different formats (e.g., blog to LinkedIn post) using AI summarization tools like SummarizeBot."
+  ],
+  "faq": [
+    {
+      "q": "Do I need technical skills to use this checklist?",
+      "a": "No, the checklist is designed for beginners and pros alike, with step-by-step tasks that leverage user-friendly AI tools."
+    },
+    {
+      "q": "How often should I repeat this checklist?",
+      "a": "We recommend using it weekly to maintain a consistent posting schedule and adapt to changing trends."
+    },
+    {
+      "q": "Can this workbook help with multiple social media platforms?",
+      "a": "Yes, it covers strategies for Instagram, LinkedIn, Twitter, and Facebook, with platform-specific tips in each item."
+    }
+  ]
+}

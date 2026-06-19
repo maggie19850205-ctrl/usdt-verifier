@@ -1,0 +1,28 @@
+{
+  "meta": "Streamline billing with our Automated Invoice Generator Checklist Workbook. Master invoicing tools and save time.",
+  "intro": "This workbook guides you through setting up and optimizing an automated invoice system, from choosing the right software to handling late payments. Use the checklists below to ensure every step is covered.",
+  "items": [
+    "Select an invoicing tool (e.g., FreshBooks, QuickBooks, or Wave) and compare features against your business needs.",
+    "Set up recurring invoice templates with your logo, payment terms, and itemized service descriptions.",
+    "Integrate payment gateways (e.g., Stripe, PayPal) to enable automatic payment collection and reconciliation.",
+    "Configure automated reminders: send invoice at due, 3-day overdue, and 7-day overdue alerts via email.",
+    "Test the end-to-end flow: create a sample invoice, trigger a payment, and verify the automation logs.",
+    "Define late fee rules (e.g., 5% after 10 days) and automate their application in your invoicing software.",
+    "Set up a dashboard to monitor invoice statuses (paid, pending, overdue) and generate weekly reports.",
+    "Document your workflow and train team members on handling exceptions like failed payments or disputes."
+  ],
+  "faq": [
+    {
+      "q": "What if I already use manual invoicing?",
+      "a": "The workbook includes a migration checklist to transition from manual to automated, with steps to import existing data and test the new system."
+    },
+    {
+      "q": "Do I need technical skills to use this?",
+      "a": "No coding required. The workbook focuses on user-friendly tools like FreshBooks and Wave, with screenshots and plain-language instructions."
+    },
+    {
+      "q": "Can this handle multiple currencies?",
+      "a": "Yes, the checklist covers setting up multi-currency invoices and automatic exchange rate updates in tools like QuickBooks."
+    }
+  ]
+}

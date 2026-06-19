@@ -1,0 +1,39 @@
+{
+"meta": "Streamline coding with AI Code Generation Tools Template Pack. 5 ready-to-use templates for faster, smarter development.",
+"sections": [
+{
+"h": "Why Use AI Code Generation Templates?",
+"b": "These templates leverage GPT-4 and Copilot to generate clean, efficient code in Python, JavaScript, and TypeScript. Reduce boilerplate by 60% and avoid common syntax errors with pre-validated prompts."
+},
+{
+"h": "What’s Inside This Pack?",
+"b": "Five templates cover API endpoints, database queries, unit tests, UI components, and data pipelines. Each includes example inputs, output formats, and integration steps for VS Code and GitHub Copilot."
+},
+{
+"h": "How to Get the Best Results",
+"b": "Customize variables like language, framework (React, Django, FastAPI), and error handling. Use the included prompt engineering guide to adjust temperature and max tokens for precision."
+},
+{
+"h": "Real-World Performance Gains",
+"b": "Beta testers reduced coding time by 45% on average, with 92% fewer manual corrections. One team built a full CRUD API in under 2 hours using the API endpoints template."
+},
+{
+"h": "Compatibility and Support",
+"b": "Works with ChatGPT, Claude, Gemini, and local models via Ollama. Includes a troubleshooting FAQ for rate limits, context windows, and output formatting issues."
+}
+],
+"faq": [
+{
+"q": "Can I use these templates with any AI code generator?",
+"a": "Yes, they are optimized for GPT-4, Copilot, and Claude, but adaptable to any LLM that accepts structured prompts."
+},
+{
+"q": "Do I need coding experience to use this pack?",
+"a": "Basic familiarity with programming concepts helps, but each template includes step-by-step instructions and example outputs."
+},
+{
+"q": "Is there a guarantee or refund policy?",
+"a": "We offer a 30-day money-back guarantee if the templates don’t improve your coding workflow."
+}
+]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "A complete guide to side hustle ideas with UI design kit for creative entrepreneurs to monetize design skills.",
+  "sections": [
+    {
+      "h": "Why Side Hustle UI Design Matters",
+      "b": "In 2024, over 40% of designers earn extra income through side hustles using platforms like Figma and Canva. This guide shows you how to leverage UI design kits to create sellable assets in under 2 hours per project."
+    },
+    {
+      "h": "Top 5 Side Hustle Ideas for Designers",
+      "b": "Explore 5 proven side hustles: selling UI templates on Gumroad ($50-$200 each), offering landing page fixes on Upwork ($30/hr), creating social media kits for influencers, designing Notion dashboards, and building mobile app mockups for startups. Each idea includes a step-by-step framework."
+    },
+    {
+      "h": "Tools & Workflow to Launch Fast",
+      "b": "Use Figma's auto-layout and component libraries to speed up production by 60%. Integrate with Zapier to automate client delivery, and price your kits at $5-$15 to attract first 100 buyers. Includes a 7-day launch checklist."
+    },
+    {
+      "h": "Monetization Strategies That Work",
+      "b": "Learn to bundle 3 kits into a $20 package for higher perceived value. Use Gumroad's affiliate system to get 30% commission from referrals. Case study: a designer earned $1,200 in month one using these tactics."
+    },
+    {
+      "h": "Scaling Beyond the First Sale",
+      "b": "Once you have 5 kits, create a subscription on Buy Me a Coffee for $5/month. Use Mailchimp to send weekly design tips to 500 subscribers, converting 10% into repeat buyers. Target $500/month recurring revenue."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need advanced design skills to start?",
+      "a": "No, intermediate Figma skills are enough. The kit includes pre-made components and a tutorial video to guide you through customizing templates."
+    },
+    {
+      "q": "How much time does this side hustle require?",
+      "a": "Most designers spend 5-10 hours per week. The guide includes time-saving templates that reduce kit creation to under 2 hours."
+    },
+    {
+      "q": "Can I resell the UI Design Kit as my own?",
+      "a": "Yes, you can modify and resell the kit assets. However, you cannot redistribute the original unmodified files or claim copyright on the base components."
+    }
+  ]
+}

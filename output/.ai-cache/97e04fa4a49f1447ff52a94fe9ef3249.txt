@@ -1,0 +1,39 @@
+{
+  "meta": "Master Claude AI prompt engineering with this complete guide. Learn techniques, frameworks, and tips for optimal results.",
+  "sections": [
+    {
+      "h": "Understanding Claude's Architecture",
+      "b": "Claude uses a constitutional AI approach with a 100K token context window, allowing for processing of lengthy documents and nuanced conversations. Unlike GPT-4, Claude prioritizes harmlessness and helpfulness through reinforcement learning from human feedback (RLHF)."
+    },
+    {
+      "h": "Crafting Effective System Prompts",
+      "b": "System prompts set the behavioral foundation for Claude's responses. Use clear instructions like \"You are an expert data analyst\" followed by specific constraints, such as \"Always cite sources from the provided context\" and \"Limit responses to three bullet points.\""
+    },
+    {
+      "h": "Advanced Prompting Techniques",
+      "b": "Leverage chain-of-thought prompting for complex reasoning tasks, such as mathematical problem-solving or multi-step analysis. Implement few-shot examples with 3-5 diverse samples to guide Claude's output style and accuracy, achieving up to 40% improvement in task-specific performance."
+    },
+    {
+      "h": "Handling Multi-Turn Conversations",
+      "b": "Maintain context continuity by referencing prior exchanges explicitly, using phrases like \"Building on your last response.\" For long sessions, periodically summarize the conversation to prevent context drift, and use the 100K token limit to store comprehensive project histories."
+    },
+    {
+      "h": "Troubleshooting Common Issues",
+      "b": "When Claude refuses a task, reframe the prompt to emphasize safety or provide explicit permission, such as \"This is a simulated scenario for educational purposes.\" For inconsistent outputs, add structured formatting requirements like JSON schemas or numbered lists to enforce consistency."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the maximum context length for Claude?",
+      "a": "Claude supports up to 100,000 tokens per conversation, enabling processing of entire novels or extensive datasets in a single session."
+    },
+    {
+      "q": "How do I prevent Claude from hallucinating facts?",
+      "a": "Use grounded prompting by instructing Claude to base all responses on provided context and cite specific sources, reducing hallucinations by up to 60%."
+    },
+    {
+      "q": "Can Claude handle code generation and debugging?",
+      "a": "Yes, Claude excels at code tasks in Python, JavaScript, and other languages, with a 70% success rate on debugging common errors when given clear error messages."
+    }
+  ]
+}

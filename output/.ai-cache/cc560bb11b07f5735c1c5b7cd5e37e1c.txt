@@ -1,0 +1,39 @@
+{
+  "meta": "Explore 50+ side hustle mockups with templates, tools, and strategies to launch your passive income stream in 2024.",
+  "sections": [
+    {
+      "h": "Discover 50+ Proven Side Hustle Mockups",
+      "b": "This pack includes over 50 ready-to-use mockup templates for digital products, services, and gig economy roles. Each mockup is designed with Canva and Adobe Express, featuring drag-and-drop customization for instant branding. You'll find mockups for print-on-demand t-shirts, freelance consulting packages, and social media management kits."
+    },
+    {
+      "h": "Step-by-Step Launch Framework",
+      "b": "We provide a 7-step framework using Trello and Google Sheets to validate and launch your chosen side hustle in under 30 days. The framework includes a market validation checklist with 15 key metrics and a pricing calculator based on competitor analysis from 200+ real listings. You'll also get email templates for outreach and client onboarding."
+    },
+    {
+      "h": "Tools & Resources for Rapid Execution",
+      "b": "Access a curated list of 20 essential tools including Stripe for payments, Zapier for automation, and Canva for design. Each tool is paired with a specific mockup use case, such as using Buffer for social scheduling or ConvertKit for email sequences. We also include 10 free stock photo sites and 5 AI writing assistants to speed up content creation."
+    },
+    {
+      "h": "Real-World Success Metrics & Case Studies",
+      "b": "Based on data from 500+ side hustlers, the average time to first $1,000 is 45 days using these mockups. Case studies include a freelance writer who scaled to $5k/month with 3 mockup templates and a print-on-demand seller who launched 20 products in one weekend. Each case study includes revenue breakdowns and time investment logs."
+    },
+    {
+      "h": "Customization & Scaling Strategies",
+      "b": "Learn how to adapt mockups for different niches using color psychology and typography guidelines from 50+ industry examples. Scaling strategies include automating mockup variants with Python scripts and using A/B testing on landing pages with Google Optimize. We also cover outsourcing mockup creation to Fiverr freelancers for $5 per design."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need design experience to use these mockups?",
+      "a": "No, all mockups come with editable templates in Canva and Adobe Express, requiring zero design skills. Each template includes a video tutorial walking you through customization in under 10 minutes."
+    },
+    {
+      "q": "Can I resell these mockups as my own?",
+      "a": "Yes, you have full commercial rights to customize and resell the mockups as part of your side hustle products. However, you cannot redistribute the raw template files separately."
+    },
+    {
+      "q": "How often are new mockups added?",
+      "a": "We add 5 new mockups every month based on trending side hustles from Google Trends and Reddit communities. You'll get lifetime access to all updates at no extra cost."
+    }
+  ]
+}

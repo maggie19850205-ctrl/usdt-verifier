@@ -1,0 +1,39 @@
+{
+  "meta": "Protect your data with our Canva Data Privacy Guide templates. Easy-to-use designs for policies, consent forms, and compliance.",
+  "sections": [
+    {
+      "h": "Why Data Privacy Matters for Your Business",
+      "b": "Data privacy is crucial for building trust with your customers and avoiding legal penalties. With regulations like GDPR and CCPA, non-compliance can cost up to 4% of annual revenue. Our guide simplifies these requirements into actionable steps using Canva."
+    },
+    {
+      "h": "Key Components of a Privacy Policy",
+      "b": "A strong privacy policy must cover data collection, usage, storage, and user rights. Use our templates to outline specific purposes like marketing analytics (e.g., Google Analytics) or third-party sharing. Include clear opt-out mechanisms and contact details for data requests."
+    },
+    {
+      "h": "Creating Consent Forms That Work",
+      "b": "Consent forms should be transparent and easy to understand. Our templates help you design checkboxes for specific data uses (e.g., email newsletters, cookies). Ensure you include a time-stamped acknowledgment and a link to your full privacy policy."
+    },
+    {
+      "h": "Compliance Checklist for Small Businesses",
+      "b": "Follow our step-by-step checklist to audit your data practices. Key steps include mapping data flows, appointing a data protection officer (if needed), and training staff on breach response. Use our Canva tracker to monitor deadlines for annual reviews."
+    },
+    {
+      "h": "Customizable Templates for Every Need",
+      "b": "All templates are fully editable in Canva, allowing you to add your branding and specific legal language. Choose from 10+ designs for privacy policies, cookie banners, and data subject access request (DSAR) forms. Each template includes placeholder text and tips for customization."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need legal expertise to use these templates?",
+      "a": "No, the templates are designed for non-lawyers with simple instructions. However, we recommend consulting a legal professional to ensure compliance with your specific jurisdiction."
+    },
+    {
+      "q": "Can I edit the templates in Canva?",
+      "a": "Yes, all templates are fully editable in Canva. You can change colors, fonts, text, and images to match your brand."
+    },
+    {
+      "q": "What formats are included?",
+      "a": "You receive editable Canva template links plus PDF and PNG versions for easy sharing and printing."
+    }
+  ]
+}

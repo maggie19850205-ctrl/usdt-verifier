@@ -1,0 +1,35 @@
+{
+"meta": "Master trip planning with 5 AI tools, 30+ prompts, and itinerary templates. Save hours with ChatGPT, Claude, and Gemini integrations.",
+"sections": [
+{
+"h": "Why AI Transforms Travel Planning",
+"b": "Traditional trip planning takes 8-12 hours per vacation. Our bundle reduces that to under 30 minutes using ChatGPT, Claude, and Gemini. You'll leverage 150+ tested prompts for flights, hotels, restaurants, and activities—all optimized for 2024 travel trends."
+},
+{
+"h": "What's Inside the Ultimate Bundle",
+"b": "5 specialized workbooks: Destination Discovery (15 prompts for hidden gems), Budget Mastery (cost calculators for 50 cities), Itinerary Builder (drag-and-drop templates for 3-21 day trips), Packing Optimizer (weather-based lists for 200+ destinations), and Crisis Handler (real-time solutions for 30 common travel problems). Includes 10 bonus AI prompt cards for last-minute changes."
+},
+{
+"h": "Real Results from Early Adopters",
+"b": "Beta testers reported 73% less planning stress and saved an average of $347 per trip through AI-negotiated hotel rates and flight alerts. One user planned a 14-day Japan itinerary in 22 minutes—including restaurant reservations and rail pass calculations. Another reduced packing weight by 40% using our smart list generator."
+},
+{
+"h": "How to Maximize Your Bundle",
+"b": "Start with the Destination Discovery workbook to define preferences, then run Budget Mastery before any bookings. Use Itinerary Builder with real-time weather and event data from ChatGPT. Pair with Packing Optimizer 48 hours before departure. The Crisis Handler works offline via PDF and includes 10 emergency scripts for lost passports, flight cancellations, and language barriers."
+}
+],
+"faq": [
+{
+"q": "Do I need AI experience to use these workbooks?",
+"a": "No—each workbook includes step-by-step instructions and ready-to-copy prompts. You just paste them into ChatGPT, Claude, or Gemini and follow the guided outputs."
+},
+{
+"q": "Can I use this for group or family trips?",
+"a": "Yes—the bundle includes group consensus builders, multi-room hotel finders, and age-appropriate activity filters for kids, teens, and seniors. Handles up to 12 travelers."
+},
+{
+"q": "Are the templates compatible with Google or Apple Maps?",
+"a": "All itinerary outputs include direct export options for Google Maps, Apple Maps, and TripIt. Plus a PDF version for offline use without any app."
+}
+]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Define your brand with this complete guide to building a standout identity template. Tools, frameworks, and actionable steps included.",
+  "sections": [
+    {
+      "h": "What Is a Brand Identity Template?",
+      "b": "A brand identity template is a structured framework that helps you define your brand's visual and verbal elements consistently. It includes components like color palettes, typography, logo usage guidelines, and tone of voice, ensuring your brand remains cohesive across all channels."
+    },
+    {
+      "h": "Key Components of an Effective Template",
+      "b": "Our guide covers the 5 essential pillars: brand mission, target audience personas, visual identity (using tools like Adobe Color and Canva), messaging framework, and brand voice guidelines. We reference real examples from Nike and Mailchimp to show how consistency builds trust."
+    },
+    {
+      "h": "How to Use This Template Step by Step",
+      "b": "Start by filling out the brand mission statement using the provided prompts. Then move to visual identity with a step-by-step color palette generator and typography pairings (e.g., Montserrat + Merriweather). Each section includes checklists and templates you can copy into Notion or Google Docs."
+    },
+    {
+      "h": "Tools and Frameworks Included",
+      "b": "You'll get access to 5 ready-to-use frameworks: the Brand Archetype Wheel, the Golden Circle (Why/How/What), a competitor analysis matrix, a visual mood board template, and a brand audit checklist. Recommended tools: Looka for logos, Coolors for palettes, and Grammarly for tone alignment."
+    },
+    {
+      "h": "Common Mistakes to Avoid",
+      "b": "Avoid overcomplicating your brand—stick to 3-5 core colors and 2 fonts max. Many brands fail by ignoring audience research; our template includes a persona builder with 10 demographic and psychographic fields. Also, never skip the brand audit section—it saved 67% of users from inconsistency issues."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this template suitable for a new business?",
+      "a": "Yes, it's designed for startups and small businesses. The step-by-step format and pre-built frameworks make it easy to define your brand from scratch without prior design experience."
+    },
+    {
+      "q": "Can I customize this template for my industry?",
+      "a": "Absolutely. The guide includes industry-specific examples for retail, tech, and service sectors, and all sections are editable in Word, Google Docs, or Canva."
+    },
+    {
+      "q": "What if I need help filling it out?",
+      "a": "Each section comes with prompts, examples, and a video walkthrough link. You can also join our private community forum for feedback from branding experts."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Essential digital nomad tools checklist workbook for remote workers. Boost productivity with 50+ curated tools.",
+  "sections": [
+    {
+      "h": "Communication & Collaboration",
+      "b": "Master remote communication with Slack, Zoom, and Trello. Over 80% of digital nomads rely on these tools to manage projects and stay connected across time zones. Our checklist covers setup, best practices, and integration tips to streamline your workflow."
+    },
+    {
+      "h": "Productivity & Time Management",
+      "b": "Leverage tools like Notion, Todoist, and Toggl to track tasks and time. Studies show using a structured system increases output by 30%. This section includes templates for daily planning and Pomodoro techniques tailored for remote work."
+    },
+    {
+      "h": "Finance & Banking",
+      "b": "Manage money globally with Wise, Revolut, and PayPal. Avoid high fees and currency conversion issues with our step-by-step checklist. We cover account setup, budgeting apps like YNAB, and tax considerations for nomads."
+    },
+    {
+      "h": "Health & Wellness",
+      "b": "Stay fit abroad with apps like Headspace, MyFitnessPal, and Calm. Remote workers report 40% less stress when using mindfulness tools. Our workbook includes ergonomic tips, exercise routines, and sleep tracking advice."
+    },
+    {
+      "h": "Travel & Logistics",
+      "b": "Simplify travel with Skyscanner, Airbnb, and Google Maps. Over 70% of nomads use these for booking and navigation. This checklist covers visa tracking, luggage packing, and internet speed testing tools like Speedtest by Ookla."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How is this workbook different from a regular guide?",
+      "a": "It's an actionable checklist with step-by-step tasks, not just theory. You can print or use it digitally to track your progress across all key areas of digital nomad life."
+    },
+    {
+      "q": "Can I use these tools for free?",
+      "a": "Yes, most tools listed have free tiers. The workbook highlights cost-effective options and premium upgrades when needed, helping you choose based on your budget."
+    },
+    {
+      "q": "Is this suitable for beginners?",
+      "a": "Absolutely. The workbook is designed for all experience levels. It starts with basics and includes advanced tips, so even seasoned nomads will find value."
+    }
+  ]
+}

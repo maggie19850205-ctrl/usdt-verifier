@@ -1,0 +1,39 @@
+{
+  "meta": "Complete client onboarding kit guide for service providers. Streamline intake, set expectations, and boost retention.",
+  "sections": [
+    {
+      "h": "Why a Structured Onboarding Process Matters",
+      "b": "A formalized onboarding process reduces client churn by up to 40% and increases project efficiency. Studies show that clients who experience a structured kickoff are 60% more likely to renew contracts. This kit provides templates and checklists to ensure every new client starts on the right foot."
+    },
+    {
+      "h": "Key Components of the Kit",
+      "b": "The guide covers five essential modules: welcome package creation, discovery session scripts, goal-setting frameworks (using SMART goals), communication channel setup (Slack, Trello, Notion), and milestone scheduling. Each module includes editable templates and real-world examples from agencies managing 50+ clients."
+    },
+    {
+      "h": "Automating Your Onboarding Workflow",
+      "b": "Leverage tools like Zapier, Dubsado, or HoneyBook to automate welcome emails, contract signing, and invoice generation. The guide includes step-by-step automation recipes that save 10+ hours per client. For example, auto-send a personalized onboarding survey within 5 minutes of payment confirmation."
+    },
+    {
+      "h": "Measuring Onboarding Success",
+      "b": "Track key metrics such as time-to-first-deliverable, client satisfaction score (CSAT), and onboarding completion rate. The kit provides a dashboard template (Google Sheets or Airtable) to monitor these KPIs. Aim for a CSAT above 4.5/5 and onboarding completion within 7 days."
+    },
+    {
+      "h": "Common Pitfalls and How to Avoid Them",
+      "b": "Avoid information overload by limiting the initial onboarding packet to 3-5 action items. Prevent scope creep by using a structured discovery call script that captures all requirements upfront. The guide includes a 'red flag' checklist to identify clients who may need extra guidance."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who is this client onboarding kit for?",
+      "a": "This kit is designed for freelancers, agencies, and consultants in service-based industries such as marketing, design, coaching, and IT consulting."
+    },
+    {
+      "q": "Are the templates customizable?",
+      "a": "Yes, all templates are provided in editable formats (Google Docs, Word, and PDF) so you can tailor them to your specific brand and workflow."
+    },
+    {
+      "q": "How quickly can I implement this?",
+      "a": "Most users can set up the core onboarding process within 2-3 hours. The automation recipes can be configured in under 30 minutes using the included step-by-step guides."
+    }
+  ]
+}

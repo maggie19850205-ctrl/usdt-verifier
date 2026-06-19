@@ -1,0 +1,28 @@
+{
+  "meta": "Master Pinterest SEO with this actionable checklist workbook. Optimize pins, boards, and profile for higher visibility and traffic.",
+  "intro": "This checklist workbook guides you through a step-by-step Pinterest SEO audit and optimization process. Use it to identify keyword opportunities, improve pin descriptions, and structure your boards for maximum discoverability.",
+  "items": [
+    "Complete a keyword research audit using Pinterest Trends and Google Keyword Planner to find high-volume, low-competition terms.",
+    "Optimize your profile name and bio with your primary keyword and a clear value proposition.",
+    "Update board titles and descriptions with targeted keywords, ensuring each board focuses on a specific theme.",
+    "Create 10 optimized pins: include keyword-rich titles, 2-3 hashtags, and a 150-character description with primary keyword in the first sentence.",
+    "Add Rich Pins via website metadata to automatically sync product/recipe/article info and boost SEO signals.",
+    "Implement a pinning schedule: pin 5-15 fresh pins daily using Tailwind or manual scheduling, focusing on peak engagement times.",
+    "Audit your existing pins: remove or repurpose pins with low saves by updating descriptions, images, and links.",
+    "Track performance metrics monthly: impressions, saves, and click-through rates using Pinterest Analytics to refine your strategy."
+  ],
+  "faq": [
+    {
+      "q": "How often should I repeat this checklist?",
+      "a": "Run through the full checklist quarterly, but update keywords and pin descriptions monthly as trends change."
+    },
+    {
+      "q": "Do I need a paid Pinterest account to use this?",
+      "a": "No, all steps work with a free business account. Rich Pins require website setup but are free."
+    },
+    {
+      "q": "Will this work for any niche?",
+      "a": "Yes, the framework applies to all niches. Just adapt the keyword research to your specific audience and industry."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+"meta": "Master no-code SaaS building with this complete guide covering Bubble, Airtable, and Stripe integration for rapid MVP launch.",
+"sections": [
+{
+"h": "Choosing Your No-Code Stack",
+"b": "Select the right tools for your SaaS: Bubble for frontend logic, Airtable as a flexible database, and Stripe for payments. This combo handles 90% of common SaaS needs without writing code."
+},
+{
+"h": "Building a User Authentication System",
+"b": "Implement sign-up, login, and password reset using Bubble's built-in user system. Connect to Airtable for storing user profiles and roles, enabling tiered access in under 2 hours."
+},
+{
+"h": "Creating Dynamic Pricing Pages",
+"b": "Design subscription tiers with Stripe's no-code checkout links. Use Bubble's repeating groups to display plans fetched from Airtable, updating prices instantly without redeploying."
+},
+{
+"h": "Automating Email Notifications",
+"b": "Set up automated welcome emails, payment confirmations, and usage alerts via Zapier connecting Bubble events to SendGrid. Trigger 5+ email sequences with zero code."
+},
+{
+"h": "Launching and Scaling Your MVP",
+"b": "Deploy your no-code SaaS on Bubble's cloud with custom domain and SSL. Monitor performance with built-in analytics; scale to 10,000 users without server management."
+}
+],
+"faq": [
+{
+"q": "Do I need any coding experience to use this guide?",
+"a": "No, this guide is designed for complete beginners. It walks you through every step using visual builders like Bubble and Airtable."
+},
+{
+"q": "Can I integrate custom APIs?",
+"a": "Yes, Bubble supports REST API calls. The guide includes examples for connecting third-party services like Google Maps or Slack."
+},
+{
+"q": "How long does it take to build a basic SaaS?",
+"a": "Most users complete a functional MVP within 3-5 hours following the guide, including authentication, pricing, and email automation."
+}
+]
+}

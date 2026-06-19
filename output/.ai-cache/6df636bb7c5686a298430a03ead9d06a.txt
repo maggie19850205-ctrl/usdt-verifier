@@ -1,0 +1,39 @@
+{
+"meta": "Master font pairing with this complete guide. Learn typography rules, tools, and frameworks for stunning design combinations.",
+"sections": [
+{
+"h": "Introduction to Font Pairing",
+"b": "Font pairing is the art of combining typefaces to create visual harmony and readability. This guide covers foundational principles like contrast, hierarchy, and mood, using tools like Google Fonts and Typekit to find complementary pairs."
+},
+{
+"h": "Key Principles of Typography",
+"b": "Understand contrast (serif vs sans-serif), weight variation (light + bold), and x-height alignment. Apply the 1:2 scale ratio for headings and body text, as seen in frameworks like Material Design Typography."
+},
+{
+"h": "Top 10 Font Pairing Combinations",
+"b": "Discover proven pairs: Playfair Display + Source Sans Pro, Roboto + Merriweather, and Lato + Montserrat. Each combination includes use cases for blogs, portfolios, and e-commerce sites."
+},
+{
+"h": "Tools and Resources for Pairing",
+"b": "Use FontPair.co, Type Connection, and Google Fonts’ pairing suggestions. Test combinations with real text using the 3-font limit rule and check for legibility at 16px body text."
+},
+{
+"h": "Common Mistakes and How to Avoid Them",
+"b": "Avoid pairing two display fonts, mixing too many styles, or ignoring contrast. Stick to one serif and one sans-serif, and limit to 2-3 fonts per project as recommended by design experts."
+}
+],
+"faq": [
+{
+"q": "What is the best font pairing for a blog?",
+"a": "For blogs, use a readable serif like Merriweather for headings and a clean sans-serif like Open Sans for body text. This combination balances elegance and readability."
+},
+{
+"q": "How many fonts should I use in one design?",
+"a": "Stick to 2-3 fonts maximum to maintain visual consistency. Use one for headings, one for body text, and optionally a third for accents or call-to-action elements."
+},
+{
+"q": "Can I pair two sans-serif fonts together?",
+"a": "Yes, but ensure they have distinct weights or styles, such as pairing a geometric sans like Montserrat with a humanist sans like Lato. Avoid similar proportions to prevent monotony."
+}
+]
+}

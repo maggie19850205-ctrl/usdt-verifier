@@ -1,0 +1,35 @@
+{
+  "meta": "Master freelance AI development with this complete bundle: guides, templates, and tools for building profitable AI assistants.",
+  "sections": [
+    {
+      "h": "Why This Bundle Transforms Your Freelance Career",
+      "b": "Freelance AI development is booming, with demand for custom assistants growing 300% year-over-year. This bundle gives you the exact frameworks, templates, and code to build and deploy AI assistants for clients in healthcare, e-commerce, and SaaS. Skip the trial and error—start with battle-tested strategies that have helped freelancers earn $5k-$15k per project."
+    },
+    {
+      "h": "What’s Inside: Complete AI Assistant Toolkit",
+      "b": "You get 5 core modules: (1) Client discovery and scoping templates using the RAPID framework, (2) 10 ready-to-deploy AI assistant blueprints for chatbots, data analysis, and content generation, (3) Integration guides for OpenAI, LangChain, and Zapier with step-by-step code examples, (4) Pricing and proposal templates that convert at 40%+ rates, and (5) Deployment checklists for AWS, Vercel, and Hugging Face. Total value: over 200 pages of actionable content."
+    },
+    {
+      "h": "Real Results: From Zero to First Client in 30 Days",
+      "b": "Early adopters using this bundle report landing their first AI assistant client within 30 days. One freelancer built a customer support chatbot for a local e-commerce store using the included blueprint, charging $3,500. Another used the proposal template to win a $12,000 contract for a multi-assistant system. The bundle includes case studies and scripts to replicate these outcomes."
+    },
+    {
+      "h": "Lifetime Access and Updates Included",
+      "b": "Purchase once and get lifetime access to all current and future updates. As AI tools evolve—like GPT-5 or new LangChain features—we update the bundle for free. You also join a private community of 500+ freelance AI builders sharing tips, job leads, and troubleshooting. No recurring fees, no hidden costs."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding experience to use this bundle?",
+      "a": "Basic Python knowledge helps but isn’t required. The bundle includes no-code options using Zapier and pre-built scripts, plus a crash course on AI fundamentals. Many freelancers with zero coding background have successfully deployed assistants using the templates."
+    },
+    {
+      "q": "How is this different from free AI tutorials online?",
+      "a": "Free resources are scattered and generic. This bundle is a curated, step-by-step system focused specifically on freelancing—from client acquisition to deployment. You get proprietary frameworks, real-world case studies, and ready-to-use assets that save weeks of research."
+    },
+    {
+      "q": "What if the AI tools change after I buy?",
+      "a": "We monitor major updates and release revised content within 2 weeks. For example, when LangChain v0.3 launched, we updated all integration guides and code examples. Your download includes these updates automatically."
+    }
+  ]
+}

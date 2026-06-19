@@ -1,0 +1,19 @@
+{
+"meta": "Streamline your voiceover projects with 8 ready-to-use AI script templates. Save time, boost creativity, and nail every recording.",
+"intro": "This checklist workbook provides 8 essential AI voiceover script templates designed to help you quickly structure, customize, and record professional-quality audio for any project—from ads to e-learning.",
+"items": [
+"Template 1: Commercial Ad Script – Hook, product benefit, CTA, and tone markers.",
+"Template 2: Narration Script – Scene setup, pacing cues, and emotional inflection notes.",
+"Template 3: Explainer Video Script – Problem, solution, feature breakdown, and closing.",
+"Template 4: Podcast Intro/Outro – Host intro, topic tease, sponsor mention, and sign-off.",
+"Template 5: Audiobook Sample – Character voices, chapter transition, and mood setting.",
+"Template 6: Social Media Short – Attention grabber, key message, and quick call-to-action.",
+"Template 7: E-Learning Module – Learning objective, step-by-step instruction, and recap.",
+"Template 8: IVR/Phone System – Greeting, menu options, and hold message with tone cues."
+],
+"faq": [
+{"q": "How do I use these templates with an AI voice generator?", "a": "Simply copy the template text into your AI voice tool (like ElevenLabs or Murf), adjust tone and speed as needed, then export the audio."},
+{"q": "Can I customize the templates for my brand?", "a": "Yes, each template includes placeholder fields for brand name, product, and specific messaging—just replace them with your own content."},
+{"q": "Are these templates suitable for beginners?", "a": "Absolutely. The templates are straightforward and include tips for delivery, so even first-time users can produce professional voiceovers."}
+]
+}

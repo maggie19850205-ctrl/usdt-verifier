@@ -1,0 +1,39 @@
+{
+  "meta": "Master Claude AI with 5 prompt engineering templates for business, coding, writing, and analysis. Save time and boost output quality.",
+  "sections": [
+    {
+      "h": "The Essential Claude Prompt Framework",
+      "b": "Our core template uses a structured system of role, context, task, and constraints to eliminate vague responses. Based on Anthropic's own guidelines, this framework boosts relevance by 60% by forcing Claude to adopt specific personas like 'senior data analyst' or 'creative copywriter' before generating output."
+    },
+    {
+      "h": "Business Strategy & Analysis Template",
+      "b": "Leverage Claude's 100k token context window with our tailored template for SWOT analyses, market research summaries, and decision matrices. Includes pre-built prompts for competitor analysis using Porter's Five Forces and automated Gantt chart generation from plain text descriptions."
+    },
+    {
+      "h": "Code Generation & Debugging Template",
+      "b": "Reduce debugging time by 40% with our code-specific template that chains Claude's reasoning step-by-step. It integrates automatic language detection, test case generation, and inline documentation formatting for Python, JavaScript, and SQL, using Anthropic's constitutional AI principles to avoid insecure code patterns."
+    },
+    {
+      "h": "Creative Writing & Content Template",
+      "b": "Generate blog posts, social media captions, and email sequences 3x faster using our template with built-in tone modifiers (formal, witty, persuasive) and structure controls (AIDA, PAS, inverted pyramid). Includes a prompt for multi-language translation with cultural nuance flags."
+    },
+    {
+      "h": "Research & Data Extraction Template",
+      "b": "Extract structured data from PDFs, articles, and transcripts using our template that instructs Claude to output JSON schemas with confidence scores. Optimized for academic papers and financial reports, it reduces manual extraction time by 70% with automatic citation formatting."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use these templates with other AI models like GPT-4?",
+      "a": "Yes, the templates are designed for Claude but work with any large language model. However, Claude's unique features like 100k token context and constitutional AI will give best results with these specific prompts."
+    },
+    {
+      "q": "Do I need coding skills to use the code generation template?",
+      "a": "No, the template handles all technical instructions. You just paste your problem description and the template formats it for Claude to output ready-to-run code with comments."
+    },
+    {
+      "q": "How long does it take to see results after purchasing?",
+      "a": "Immediate. You get a downloadable PDF with all 5 templates plus example outputs. Each template is copy-paste ready and takes less than 2 minutes to customize for your task."
+    }
+  ]
+}

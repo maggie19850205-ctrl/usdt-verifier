@@ -1,0 +1,19 @@
+{
+"meta": "Master AI data analysis with this step-by-step workbook. 8 actionable checklists for cleaning, modeling, and visualizing data.",
+"intro": "Transform raw data into actionable insights using AI tools like ChatGPT, Python, and Tableau. This workbook provides 8 structured checklists to streamline your analysis workflow, reduce errors, and accelerate decision-making.",
+"items": [
+"Define business problem and success metrics using SMART criteria",
+"Collect and validate data sources (CSV, APIs, databases) with Python pandas",
+"Clean data: handle missing values, outliers, and duplicates using automated scripts",
+"Explore data with descriptive statistics and visualization (matplotlib, seaborn)",
+"Build predictive models using scikit-learn (regression, classification, clustering)",
+"Evaluate model performance with cross-validation and confusion matrices",
+"Generate AI-powered insights via ChatGPT API for narrative summaries",
+"Create interactive dashboards in Tableau or Power BI for stakeholder presentation"
+],
+"faq": [
+{"q": "Do I need coding experience to use this workbook?", "a": "Basic Python knowledge helps, but each checklist includes step-by-step instructions and code snippets for beginners."},
+{"q": "Can I use these checklists with any dataset?", "a": "Yes, the workbooks are dataset-agnostic and designed for general business, scientific, or survey data."},
+{"q": "Is there a digital fillable version?", "a": "Yes, you get both a printable PDF and a fillable PDF for digital completion."}
+]
+}

@@ -1,0 +1,35 @@
+{
+  "meta": "Ultimate bundle of 50 AI voiceover script templates for commercials, narration, and social media. Save time and boost conversions.",
+  "sections": [
+    {
+      "h": "What’s Inside the Ultimate Bundle",
+      "b": "This bundle includes 50 professionally crafted AI voiceover script templates across 5 categories: commercials, explainer videos, social media ads, podcast intros, and audiobook narration. Each template is optimized for tools like ElevenLabs, Murf, and Descript, with placeholders for tone, pacing, and target audience."
+    },
+    {
+      "h": "Key Benefits for Content Creators",
+      "b": "Save up to 10 hours per project by eliminating writer’s block and script iteration cycles. Users report a 40% increase in engagement when using structured voiceover scripts. Templates include built-in hooks, CTAs, and emotional triggers tailored for AI voice synthesis."
+    },
+    {
+      "h": "How to Use the Templates",
+      "b": "Simply copy a template into your AI voiceover tool, adjust the {bracketed} fields for your product or message, and generate. For example, the 30-second commercial template includes a problem-agitation-solution structure proven to boost click-through rates by 25% in A/B tests."
+    },
+    {
+      "h": "Bonus Materials Included",
+      "b": "You also get a quick-start guide on pacing and pronunciation marks for AI voices, plus a cheat sheet for 10 common voiceover mistakes. These extras alone are valued at $15, making the bundle a steal at $8.99."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use these templates for any AI voiceover tool?",
+      "a": "Yes, the templates are tool-agnostic and work with ElevenLabs, Murf, Descript, Play.ht, and others. Just paste the script and adjust the voice settings."
+    },
+    {
+      "q": "Are the templates editable?",
+      "a": "Absolutely. Each template comes in a plain text format with clear placeholders so you can customize the product name, audience, and tone in under 5 minutes."
+    },
+    {
+      "q": "What if I need a script for a specific industry?",
+      "a": "The bundle covers general categories, but you can easily adapt any template to your niche—just swap out the example product for your own. A customization guide is included."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "meta": "A complete DIY data privacy guide with 22 practical projects to protect your digital life, starting at $22.99.",
+  "sections": [
+    {
+      "h": "Why DIY Data Privacy Matters",
+      "b": "In an age of constant surveillance and data breaches, taking control of your own privacy is essential. This guide empowers you with hands-on projects that don't require technical expertise."
+    },
+    {
+      "h": "What You'll Learn",
+      "b": "From encrypting your emails to setting up a VPN at home, each project is step-by-step and budget-friendly. You'll gain practical skills to safeguard your personal information."
+    },
+    {
+      "h": "Who Is This Guide For",
+      "b": "Perfect for beginners and intermediate users who want actionable privacy solutions. No prior coding or security knowledge needed—just a willingness to learn."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need any special equipment for these projects?",
+      "a": "Most projects use free or low-cost tools, and many only require a computer and internet connection. A few may involve purchasing a Raspberry Pi or external hard drive."
+    },
+    {
+      "q": "How long does each project take?",
+      "a": "Projects range from 15 minutes to 2 hours, depending on complexity. The guide provides clear time estimates and difficulty levels for each."
+    },
+    {
+      "q": "Will this protect me from all online threats?",
+      "a": "No single guide can guarantee complete security, but these projects significantly reduce your risk and give you control over your data. They address common vulnerabilities."
+    }
+  ]
+}

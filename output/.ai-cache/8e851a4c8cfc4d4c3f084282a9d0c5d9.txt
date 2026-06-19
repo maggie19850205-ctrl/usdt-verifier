@@ -1,0 +1,39 @@
+{
+  "meta": "Complete guide to developing ChatGPT plugins with templates, tools, and best practices for $10.99.",
+  "sections": [
+    {
+      "h": "Plugin Architecture Overview",
+      "b": "Learn the core architecture of ChatGPT plugins, including the manifest file, OpenAPI specification, and authentication flow. We cover how to structure your plugin for seamless integration with GPT-4 using OAuth 2.0 or API key authentication."
+    },
+    {
+      "h": "Setting Up Your Development Environment",
+      "b": "Get started with Node.js 18+, Python 3.10+, or any language of your choice. We provide step-by-step instructions for setting up a local server using Express.js or FastAPI, complete with hot-reloading for rapid iteration."
+    },
+    {
+      "h": "Building the API Endpoints",
+      "b": "Design and implement RESTful endpoints that ChatGPT can call, with examples for CRUD operations, data retrieval, and real-time processing. We include 5 ready-to-use endpoint templates with proper error handling and rate limiting."
+    },
+    {
+      "h": "Testing and Deployment",
+      "b": "Use the ChatGPT Plugin Tester tool to validate your plugin locally, then deploy to cloud platforms like Vercel, Railway, or AWS Lambda. We cover monitoring with Sentry and analytics with PostHog for production readiness."
+    },
+    {
+      "h": "Going Live on the Plugin Store",
+      "b": "Submit your plugin to the OpenAI Plugin Store with a polished listing, including screenshots, descriptions, and privacy policy. We share tips for getting approved on the first try and achieving 100+ installs in the first month."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What programming languages are supported?",
+      "a": "Any language that can serve an HTTP API works, but we provide templates for Node.js, Python, and Go. Most developers prefer Node.js for its event-driven architecture."
+    },
+    {
+      "q": "Do I need prior ChatGPT plugin experience?",
+      "a": "No, this guide is beginner-friendly. We start from scratch and assume only basic API development knowledge. The templates handle all complex setup."
+    },
+    {
+      "q": "Can I use this for commercial plugins?",
+      "a": "Yes, all templates are royalty-free and include MIT licensing. You can build and sell plugins without additional fees."
+    }
+  ]
+}

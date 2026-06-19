@@ -1,0 +1,39 @@
+{
+  "meta": "A complete Figma UI kit for data privacy guide design, featuring components, templates, and best practices.",
+  "sections": [
+    {
+      "h": "Comprehensive Privacy Design Components",
+      "b": "This kit includes over 100 pre-built Figma components for cookie consent banners, privacy policy pages, GDPR compliance forms, and data access dashboards. Save 40+ hours of design time with ready-to-use UI elements that follow WCAG 2.1 AA accessibility standards."
+    },
+    {
+      "h": "GDPR & CCPA Compliance Ready",
+      "b": "All components are designed to meet key data privacy regulations including GDPR (Articles 12-14) and CCPA (Section 1798.100). Includes opt-in checkboxes, data deletion requests, and privacy notice templates with proper legal wording placeholders."
+    },
+    {
+      "h": "Interactive Prototyping & User Flows",
+      "b": "Built with Figma auto-layout and variants for seamless responsive design. Includes 5 complete user flows for consent management, data access requests, account deletion, privacy settings, and breach notifications, all linked with interactive prototypes."
+    },
+    {
+      "h": "Customizable Design System",
+      "b": "Comes with a 200+ global color palette, typography scales (12-48px), and 50+ icons specific to data privacy. Adjustable to any brand with component overrides and smart design tokens for rapid customization."
+    },
+    {
+      "h": "Documentation & Best Practices",
+      "b": "Includes a 15-page best practices guide covering privacy UX patterns, color psychology for trust, and microcopy examples. Also features a checklist for accessibility audits and legal compliance reviews."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this kit compliant with GDPR and CCPA?",
+      "a": "Yes, all components are designed to meet key requirements of GDPR (data consent, access, erasure) and CCPA (opt-out, disclosure) regulations. However, we recommend consulting a legal expert for final compliance."
+    },
+    {
+      "q": "Can I customize the colors and fonts?",
+      "a": "Absolutely. The kit uses Figma global styles and variables, allowing you to change the entire color palette and typography in seconds while maintaining component consistency."
+    },
+    {
+      "q": "Does this include mobile-responsive designs?",
+      "a": "Yes, every component includes desktop, tablet, and mobile variants using Figma auto-layout, ensuring a consistent user experience across all screen sizes."
+    }
+  ]
+}

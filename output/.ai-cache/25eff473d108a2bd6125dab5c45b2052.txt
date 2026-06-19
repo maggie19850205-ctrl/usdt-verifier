@@ -1,0 +1,40 @@
+{
+  "meta": "Repurpose AI content across platforms with 5 customizable templates. Save time, boost reach, and maintain consistency.",
+  "intro": "Stop creating from scratch. Our AI Content Repurposing System Template Pack gives you 5 ready-to-use templates to transform a single piece of content into posts, emails, scripts, and more—saving hours each week.",
+  "templates": [
+    {
+      "n": "Blog-to-Social Media Chain",
+      "d": "Convert a 1000-word blog into 5 social posts for LinkedIn, Twitter, Instagram, Facebook, and Threads. Includes hooks, key takeaways, and call-to-action prompts."
+    },
+    {
+      "n": "Video-to-Email Sequence",
+      "d": "Turn a YouTube or webinar recording into a 3-email nurture sequence. Automatically extracts timestamps, key quotes, and summary bullets for each email."
+    },
+    {
+      "n": "Podcast-to-Article Converter",
+      "d": "Transform a 30-minute podcast transcript into a 800-word article with subheadings, pull quotes, and an SEO-optimized meta description."
+    },
+    {
+      "n": "Infographic-to-Text Repurposer",
+      "d": "Extract data points, stats, and narrative from any infographic or slide deck into a readable blog post or LinkedIn carousel script."
+    },
+    {
+      "n": "Multi-Platform Quote Pack",
+      "d": "Generate 10 quote cards from a single interview or keynote—optimized for Instagram, Pinterest, Twitter, and LinkedIn with platform-specific word counts and hashtag suggestions."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What tools do I need to use these templates?",
+      "a": "You only need a text editor (Google Docs, Notion, or Word) and access to ChatGPT or Claude to follow the prompt structures. No coding or design skills required."
+    },
+    {
+      "q": "How long does it take to repurpose one piece of content?",
+      "a": "With the templates, you can repurpose a single blog or video into 5+ formats in under 30 minutes—compared to 2-3 hours manually."
+    },
+    {
+      "q": "Can I customize the templates for my brand voice?",
+      "a": "Yes, each template includes placeholders for brand tone, audience, and key messaging. You can edit them to match your style guide in seconds."
+    }
+  ]
+}

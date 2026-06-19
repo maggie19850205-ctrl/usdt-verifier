@@ -1,0 +1,40 @@
+{
+  "meta": "Streamline invoicing with 5 customizable templates for freelancers and small businesses.",
+  "intro": "Save time and look professional with our Invoice Template Pack. Each template is designed for easy customization in Word, Excel, and Google Docs.",
+  "templates": [
+    {
+      "n": "Simple Invoice",
+      "d": "Clean, minimalist layout with client details, itemized list, and total. Ideal for quick billing."
+    },
+    {
+      "n": "Hourly Rate Invoice",
+      "d": "Track billable hours with rate, subtotal, and tax fields. Perfect for consultants and freelancers."
+    },
+    {
+      "n": "Project-Based Invoice",
+      "d": "Break down project phases, milestones, and payments. Great for agency and contractor work."
+    },
+    {
+      "n": "Recurring Invoice",
+      "d": "Automate monthly billing with subscription fields and auto-incrementing invoice numbers."
+    },
+    {
+      "n": "Professional Invoice with Logo",
+      "d": "Branded layout with company logo, payment terms, and due date. Suitable for established businesses."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What file formats are included?",
+      "a": "Each template comes in .docx, .xlsx, and Google Docs formats for maximum compatibility."
+    },
+    {
+      "q": "Can I edit these templates?",
+      "a": "Yes, all templates are fully editable. You can change colors, fonts, and add your logo."
+    },
+    {
+      "q": "Is there a limit on usage?",
+      "a": "No, you can use the templates for unlimited invoices for your clients or your own business."
+    }
+  ]
+}

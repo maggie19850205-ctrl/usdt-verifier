@@ -1,0 +1,39 @@
+{
+  "meta": "Plan no code projects in 2026 with expert strategies, tool comparisons, and workflows for scalable app development.",
+  "sections": [
+    {
+      "h": "Why a No Code Development Planner for 2026",
+      "b": "As no code platforms evolve rapidly, having a structured planner ensures you stay ahead. This guide covers Bubble, Adalo, and Glide, with 2026 feature updates like AI integration and advanced APIs. You'll learn to map user flows, test prototypes, and deploy 3x faster than traditional coding."
+    },
+    {
+      "h": "Key Components of Your No Code Roadmap",
+      "b": "Break down your project into milestones: ideation, tool selection, MVP build, and launch. Use frameworks like the No Code Maturity Model to assess scalability. We include a 12-week timeline template, with weekly checkpoints for user testing and iteration, reducing build time by 40%."
+    },
+    {
+      "h": "Tool Comparison & Selection Criteria",
+      "b": "Compare Bubble for complex databases, Adalo for mobile-first apps, and Glide for spreadsheet-based tools. Each platform's 2026 pricing and limitations are detailed. We provide a decision matrix scoring 10 criteria, including load speed, third-party integrations, and AI features like automated workflows."
+    },
+    {
+      "h": "Building for Scale: Automation & AI",
+      "b": "Integrate Zapier, Make, and OpenAI APIs to automate tasks like email sequences and data enrichment. Case studies show how a team built a CRM handling 10k users with zero code. Learn to implement error handling and version control using GitHub for no code projects."
+    },
+    {
+      "h": "Launch & Growth Strategies",
+      "b": "Deploy your app with analytics via Mixpanel or Plausible, and iterate based on user behavior. We cover marketing channels like Product Hunt and no code directories. A/B testing frameworks using Google Optimize can improve conversion rates by 25% in the first month."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need any coding knowledge to use this planner?",
+      "a": "No, the planner is designed for complete beginners. It explains every concept, from drag-and-drop builders to API integrations, with step-by-step instructions."
+    },
+    {
+      "q": "Can this planner help me build a scalable app?",
+      "a": "Yes, it includes strategies for scaling with no code, such as using external databases like Airtable and optimizing performance with caching tools like WeWeb."
+    },
+    {
+      "q": "What if I'm already familiar with no code?",
+      "a": "The 2026 updates and advanced sections on AI integration and automation provide new insights even for experienced builders looking to enhance their workflows."
+    }
+  ]
+}

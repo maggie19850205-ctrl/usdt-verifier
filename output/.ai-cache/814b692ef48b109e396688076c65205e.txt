@@ -1,0 +1,39 @@
+{
+  "meta": "All-in-one toolkit for digital nomads: productivity, remote work, travel hacks, and income strategies.",
+  "sections": [
+    {
+      "h": "Essential Productivity Suite",
+      "b": "Master time-blocking with Todoist and Toggl to boost focus by 40%. Integrate Notion for centralized project management, reducing task switching by 3 hours daily."
+    },
+    {
+      "h": "Remote Work Infrastructure",
+      "b": "Set up a reliable VPN (NordVPN), noise-canceling tools (Krisp), and cloud storage (Google Drive 2TB). Achieve 99.9% uptime with backup Starlink and local SIM cards."
+    },
+    {
+      "h": "Travel & Logistics Toolkit",
+      "b": "Automate flight deals with Skyscanner alerts and use TrustedHousesitters for free stays. Save $500/month with Wise for multi-currency banking and Splitwise for expense sharing."
+    },
+    {
+      "h": "Income Diversification Playbook",
+      "b": "Generate $3k/month through Upwork freelancing, Amazon KDP publishing, and print-on-demand via Printful. Scale with 5 proven client acquisition templates for cold outreach."
+    },
+    {
+      "h": "Health & Wellness System",
+      "b": "Maintain energy with 7-minute HIIT workouts (Freeletics) and meal prep using Mealime. Track sleep with Oura Ring and manage stress with Headspace's 10-day focus series."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What tools are included in the bundle?",
+      "a": "The bundle covers 50+ tools across productivity, remote work, travel, income, and health, with step-by-step setup guides and templates."
+    },
+    {
+      "q": "Is this suitable for beginners?",
+      "a": "Yes, each section includes beginner-friendly tutorials and checklists, from setting up a VPN to launching a freelance profile."
+    },
+    {
+      "q": "How often is the bundle updated?",
+      "a": "We update the bundle quarterly with new tools and strategies, based on user feedback and industry trends."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+"meta": "Boost remote team efficiency with actionable productivity checklist workbook. Track progress, reduce burnout, and hit deadlines.",
+"intro": "This workbook is designed for managers and team leads to systematically improve remote team productivity. It provides 8 actionable checklists covering communication, task management, wellness, and accountability.",
+"items": [
+"Set up daily stand-up meeting template with timeboxed updates (max 15 min)",
+"Define asynchronous communication rules using Slack channels and statuses",
+"Implement a task prioritization framework (e.g., Eisenhower Matrix) in Trello or Asana",
+"Schedule weekly 1-on-1s with each team member for feedback and blockers",
+"Track team hours vs. output using Toggl or Clockify for 2 weeks",
+"Create a shared document for meeting notes and action items (Google Docs)",
+"Establish a 'no meeting' block of 4 hours per day for deep work",
+"Run a monthly retrospective survey via Typeform to measure engagement"
+],
+"faq": [
+{"q": "How long does it take to complete this workbook?", "a": "Most teams finish the checklists in 4–6 weeks, dedicating 2–3 hours per week to implementation."},
+{"q": "Is this suitable for a team of 5 or 50?", "a": "Yes, the checklists are scalable. For larger teams, we recommend assigning a checklist owner per department."},
+{"q": "Do I need any special software to use it?", "a": "No, the workbook is a digital PDF. However, we suggest pairing it with tools like Slack, Trello, or Google Workspace for best results."}
+]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": "Master data privacy with actionable steps to protect personal info, secure accounts, and control digital footprint.",
+  "sections": [
+    {
+      "h": "Why Data Privacy Matters for Your Wallet",
+      "b": "Your personal data is a valuable asset—identity theft costs victims an average of $1,200 per incident. This guide shows how to safeguard financial accounts using tools like password managers (e.g., LastPass, 1Password) and two-factor authentication to prevent unauthorized access."
+    },
+    {
+      "h": "Audit Your Digital Footprint in 3 Steps",
+      "b": "Start by searching your name on Google and data broker sites like Spokeo to see what's public. Then, use services like DeleteMe or Incogni to remove listings, and review privacy settings on social media platforms to limit exposure. This process typically takes 2–3 hours."
+    },
+    {
+      "h": "Secure Your Devices and Networks",
+      "b": "Enable full-disk encryption on your laptop and phone (e.g., BitLocker for Windows, FileVault for Mac) to protect data if stolen. Use a VPN like NordVPN or ExpressVPN when on public Wi-Fi, and update software regularly to patch vulnerabilities—over 60% of breaches exploit known flaws."
+    },
+    {
+      "h": "Manage Passwords and Authentication",
+      "b": "Create unique, 12+ character passwords for every account using a password manager. Enable multi-factor authentication (MFA) via authenticator apps like Google Authenticator or hardware keys like YubiKey—this blocks 99.9% of automated attacks."
+    },
+    {
+      "h": "Protect Financial and Health Data",
+      "b": "Freeze your credit with Equifax, Experian, and TransUnion to prevent new account fraud—it's free and takes 15 minutes per bureau. For health data, opt out of sharing under HIPAA by requesting restrictions from providers, and shred documents with sensitive info before disposal."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How often should I audit my digital footprint?",
+      "a": "Aim for a full audit every 6 months, plus quick checks after major data breaches. Set calendar reminders to review privacy settings and remove outdated accounts."
+    },
+    {
+      "q": "Is a VPN necessary for home use?",
+      "a": "While not essential for basic browsing, a VPN adds privacy from ISPs and secures connections on public Wi-Fi. It's highly recommended if you access financial accounts outside home networks."
+    },
+    {
+      "q": "What's the easiest way to start protecting data today?",
+      "a": "Enable MFA on your email and banking accounts immediately—it's the single most effective step. Then, install a password manager and change your most reused passwords."
+    }
+  ]
+}

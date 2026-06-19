@@ -1,0 +1,39 @@
+{
+"meta": "Master personal finance in 2026 with this color-coded guide for budgeting, saving, investing, and debt management.",
+"sections": [
+{
+"h": "The 2026 Financial Color Spectrum",
+"b": "This guide uses a unique color-coding system to simplify personal finance. Green represents growth investments, blue indicates savings and security, red flags high-risk areas, and yellow highlights opportunities for optimization. Each color corresponds to a specific action plan, making complex decisions visual and intuitive."
+},
+{
+"h": "Budgeting with the Color Wheel",
+"b": "Apply the 50/30/20 rule using our color palette: 50% of income goes to needs (blue), 30% to wants (yellow), and 20% to savings/investments (green). The guide includes printable color charts and digital templates for tracking monthly expenses in real-time with tools like YNAB or Mint."
+},
+{
+"h": "Investment Color Coding for 2026",
+"b": "Categorize your portfolio by risk: green for ETFs and index funds (low risk), orange for growth stocks (medium risk), and red for crypto or options (high risk). The guide provides a 2026 market forecast with recommended allocations based on historical data from 2020-2025."
+},
+{
+"h": "Debt Reduction Through Color Mapping",
+"b": "Use the avalanche method color-coded by interest rate: red for high-interest debt (over 10%), yellow for moderate (5-10%), and green for low (under 5%). The guide includes a visual payoff tracker and calculators from NerdWallet to accelerate debt freedom by an average of 18 months."
+},
+{
+"h": "Emergency Fund & Safety Net Colors",
+"b": "Build a 3-6 month emergency fund in a high-yield savings account (blue zone) earning 4-5% APY. The guide outlines a 12-week savings challenge with weekly color milestones, using apps like Qapital or Digit to automate transfers and track progress visually."
+}
+],
+"faq": [
+{
+"q": "How does the color system work for someone new to finance?",
+"a": "Each color corresponds to a financial category or action, like green for investing or blue for savings. The guide includes a legend and step-by-step instructions, so even beginners can start organizing their finances within an hour."
+},
+{
+"q": "Is this guide updated for 2026 tax laws and inflation?",
+"a": "Yes, all content reflects 2026 tax brackets, inflation adjustments, and regulatory changes. The guide also includes a section on inflation-proofing your budget using TIPS and I-bonds."
+},
+{
+"q": "Can I use this with existing budgeting apps?",
+"a": "Absolutely. The color codes integrate seamlessly with apps like Mint, YNAB, and EveryDollar. The guide provides exportable templates and sync instructions for digital use."
+}
+]
+}

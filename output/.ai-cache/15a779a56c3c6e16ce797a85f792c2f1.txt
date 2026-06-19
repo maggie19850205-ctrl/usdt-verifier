@@ -1,0 +1,28 @@
+{
+  "meta": "Craft high-converting landing pages with 8 proven copy templates. Ideal for marketers and entrepreneurs.",
+  "intro": "Stop guessing what to write. This checklist workbook gives you 8 battle-tested landing page copy templates designed to boost conversions. Each template includes a fill-in-the-blank structure, key psychological triggers, and optimization tips. Perfect for SaaS, ecommerce, and lead gen.",
+  "items": [
+    "Hero section template with headline, subheadline, and CTA formula using urgency and benefit stacking",
+    "Feature-benefit matrix template for listing up to 5 key features with corresponding customer outcomes",
+    "Social proof section template including testimonial formats, logo bars, and case study snippets",
+    "Pain-agitation-solution (PAS) framework template for connecting with visitor emotions",
+    "Objection handling template addressing top 3 common hesitations with rebuttals",
+    "Pricing table template with tiered options, feature comparison, and FOMO elements",
+    "CTA button copy template with 5 variations for urgency, clarity, and action orientation",
+    "Footer and trust signal template including guarantees, privacy links, and contact info"
+  ],
+  "faq": [
+    {
+      "q": "How do I use these templates?",
+      "a": "Each template has blank fields for your specific product info. Fill in the brackets, then test variations using A/B testing tools like Google Optimize or Optimizely."
+    },
+    {
+      "q": "Are these templates suitable for any landing page builder?",
+      "a": "Yes, the templates work with any platform—Unbounce, Leadpages, Webflow, or even plain HTML. They focus on copy structure, not design."
+    },
+    {
+      "q": "What if I need more than 8 templates?",
+      "a": "This workbook covers the most common landing page sections. For advanced needs, consider our Ultimate Bundle which includes 15 additional templates."
+    }
+  ]
+}

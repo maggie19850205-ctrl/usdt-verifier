@@ -1,0 +1,40 @@
+{
+  "meta": "Streamline AI video creation with 5 customizable templates. Save time, ensure consistency, and elevate your content strategy.",
+  "intro": "This template pack provides five ready-to-use, customizable templates designed to accelerate your AI video generation workflow. Each template is built for a specific use case, helping you maintain brand consistency and focus on storytelling rather than starting from scratch.",
+  "templates": [
+    {
+      "n": "Product Demo Template",
+      "d": "A structured template for showcasing product features in under 60 seconds. Includes sections for hook, problem, solution, key benefits, and a strong call-to-action (CTA). Optimized for tools like RunwayML and Synthesia."
+    },
+    {
+      "n": "Educational Explainer Template",
+      "d": "Designed for tutorials and how-to videos. Features a step-by-step narrative flow with placeholders for on-screen text, visuals, and voiceover scripts. Integrates with Descript and Murf for seamless editing."
+    },
+    {
+      "n": "Social Media Ad Template",
+      "d": "A short-form template for platforms like TikTok, Instagram Reels, and YouTube Shorts. Includes hooks, rapid cuts, and trending audio suggestions. Works best with CapCut and Fliki."
+    },
+    {
+      "n": "Brand Story Template",
+      "d": "A cinematic template for sharing your company’s mission and values. Includes scene descriptions for b-roll, testimonials, and logo animation. Compatible with Pika Labs and HeyGen."
+    },
+    {
+      "n": "Webinar Recap Template",
+      "d": "A concise template for summarizing key takeaways from live events. Features a timeline structure with bullet points, speaker highlights, and a closing CTA. Optimized for Opus Clip and Veed.io."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What software do I need to use these templates?",
+      "a": "These templates are designed to be software-agnostic but work best with popular AI video tools like RunwayML, Synthesia, Descript, CapCut, and Pika Labs. You can adapt them to any platform you prefer."
+    },
+    {
+      "q": "How do I customize a template for my brand?",
+      "a": "Simply replace placeholder text, colors, and logos with your brand assets. Each template includes clear instructions for swapping visuals and adjusting tone to match your voice."
+    },
+    {
+      "q": "Can I use these templates for commercial projects?",
+      "a": "Yes, all templates are royalty-free and can be used for both personal and commercial projects. No attribution is required."
+    }
+  ]
+}

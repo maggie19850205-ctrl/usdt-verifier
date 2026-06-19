@@ -1,0 +1,35 @@
+{
+"meta": "Streamline client onboarding with our Ultimate Bundle: contracts, questionnaires, and workflow templates for agencies.",
+"sections": [
+{
+"h": "Why Your Agency Needs a Structured Onboarding Process",
+"b": "A disorganized onboarding process can lead to client churn and scope creep. Our Ultimate Bundle provides a repeatable system, reducing onboarding time by up to 40% using proven frameworks like the '90-Day Plan' and 'Client Success Milestones'."
+},
+{
+"h": "What’s Inside the Ultimate Bundle",
+"b": "This bundle includes 12 essential templates: a comprehensive Service Agreement, a Client Onboarding Questionnaire with 25 key discovery questions, a Project Kickoff Checklist covering 30+ tasks, a Communication Cadence Template aligned with the RACI model, and a Feedback Loop Workflow for continuous improvement."
+},
+{
+"h": "How to Implement the Bundle in Your Agency",
+"b": "Start by customizing the Service Agreement with your agency details using tools like PandaDoc or DocuSign. Then, send the Client Onboarding Questionnaire before the kickoff meeting to gather critical insights. Use the Project Kickoff Checklist during your first week to ensure no step is missed, referencing the 'First 5 Days' framework."
+},
+{
+"h": "Proven Results from Agencies Using This Bundle",
+"b": "Agencies using this bundle report a 50% reduction in miscommunication issues and a 30% increase in client satisfaction scores within the first quarter. By standardizing your onboarding, you can also reclaim an average of 10 hours per week per project manager, allowing focus on strategic growth."
+}
+],
+"faq": [
+{
+"q": "Can I edit the templates to match my brand?",
+"a": "Yes, all templates are provided in editable formats (DOCX and Google Docs) so you can customize colors, logos, and content to fit your agency’s branding and specific services."
+},
+{
+"q": "Is this bundle suitable for solo freelancers?",
+"a": "Absolutely. While designed for agencies, solopreneurs can use the streamlined versions of the templates to maintain professionalism and efficiency without overwhelming overhead."
+},
+{
+"q": "What if I need help customizing the templates?",
+"a": "Each template includes a 'Quick Start Guide' with step-by-step instructions. For additional support, you can access our private community forum where experts and other users share best practices."
+}
+]
+}

@@ -1,0 +1,35 @@
+{
+  "meta": "Ultimate Instagram growth bundle with checklists, templates, and guides to boost followers and engagement fast.",
+  "sections": [
+    {
+      "h": "What’s Inside the Ultimate Bundle",
+      "b": "This bundle combines our best-selling Instagram growth checklist, content planner, and engagement tracker into one powerful package. You get 15+ ready-to-use templates for posts, stories, and reels, plus a 30-day growth roadmap. Stop guessing and start seeing real results with tools used by 500+ creators."
+    },
+    {
+      "h": "Proven Framework for Faster Growth",
+      "b": "Follow the 4-step system: Optimize your profile, schedule viral content, engage strategically, and analyze with our custom metrics tracker. We include a hashtag research guide with 200+ niche keywords and a bio optimization checklist that increased click-through rates by 40% in tests."
+    },
+    {
+      "h": "Time-Saving Automation Tools",
+      "b": "Use our pre-built content calendar templates for 3 months of posts, plus a daily engagement log to track comments, likes, and DMs. The bundle also includes a Reel scripting template that helped users save 5 hours per week while doubling their video views."
+    },
+    {
+      "h": "Bonus Resources and Support",
+      "b": "Get exclusive access to our private community with weekly growth tips and a 14-day email course on Instagram algorithms. Every purchase includes lifetime updates and a 60-day money-back guarantee if you don’t see a 20% follower increase."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this bundle suitable for beginners?",
+      "a": "Yes, the bundle includes step-by-step instructions and video tutorials for every template, so even if you’re new to Instagram, you can start growing immediately."
+    },
+    {
+      "q": "How do I access the templates?",
+      "a": "After purchase, you’ll receive a PDF with links to editable Google Docs and Canva templates, plus a downloadable zip file for offline use."
+    },
+    {
+      "q": "Can I use these for a business account?",
+      "a": "Absolutely, the strategies and templates work for personal brands, small businesses, and influencers, with specific tips for each account type."
+    }
+  ]
+}

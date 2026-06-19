@@ -1,0 +1,28 @@
+{
+  "meta": "Unlock creative logo design ideas with this checklist workbook. 50+ prompts to define brand identity and sketch concepts.",
+  "intro": "This workbook guides you through a structured process to generate and refine logo design concepts. Use it to clarify brand values, explore visual directions, and ensure your final logo is both unique and effective.",
+  "items": [
+    "Define the brand’s core mission and target audience in one sentence.",
+    "List 10 keywords that describe the brand’s personality (e.g., trustworthy, playful, modern).",
+    "Sketch 5 distinct logo concepts using only black and white.",
+    "Identify 3 competitors’ logos and note one strength and one weakness for each.",
+    "Select your top 2 sketches and refine them with 3 color palette options each.",
+    "Test each refined logo against 3 different usage scenarios (e.g., website header, business card, social media icon).",
+    "Gather feedback from 5 people outside your team and record their top 3 associations per logo.",
+    "Finalize one logo and create a simple brand style guide including primary colors, fonts, and clear space requirements."
+  ],
+  "faq": [
+    {
+      "q": "Is this workbook suitable for beginners?",
+      "a": "Yes, it is designed for both beginners and experienced designers. The prompts guide you step-by-step, but allow flexibility for creative exploration."
+    },
+    {
+      "q": "Do I need any specific software to use this workbook?",
+      "a": "No, you can use any medium—pen and paper, digital drawing tools, or design software like Adobe Illustrator or Figma."
+    },
+    {
+      "q": "How long does it typically take to complete the workbook?",
+      "a": "Most users complete it in 2–4 hours, depending on how deeply they explore each prompt and how many iterations they create."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": "Automate lead generation with this template pack. Includes 5 ready-to-use templates for CRM, email, and social media workflows.",
+  "intro": "Streamline your lead generation process with our comprehensive template pack. Designed for marketers and sales teams, these ready-to-use templates automate CRM integration, email sequences, social media outreach, and lead scoring. Save hours of manual work and boost conversion rates with pre-built workflows tested by over 500 businesses.",
+  "templates": [
+    {
+      "n": "CRM Integration Template",
+      "d": "Automatically sync leads from web forms and landing pages to your CRM (e.g., Salesforce, HubSpot). Includes field mapping and deduplication rules to ensure clean data."
+    },
+    {
+      "n": "Email Outreach Sequence Template",
+      "d": "A 5-email drip campaign template with personalized subject lines and CTAs. Integrates with Mailchimp and ActiveCampaign for automated follow-ups based on lead behavior."
+    },
+    {
+      "n": "Social Media Lead Capture Template",
+      "d": "Pre-built workflows for LinkedIn and Facebook to collect leads via lead gen forms and direct messages. Tracks engagement and triggers automated responses."
+    },
+    {
+      "n": "Lead Scoring Template",
+      "d": "Assigns scores based on actions like email opens, page visits, and form submissions. Integrates with Google Analytics to prioritize high-intent leads."
+    },
+    {
+      "n": "Sales Pipeline Automation Template",
+      "d": "Automates lead movement through pipeline stages (e.g., qualified, proposal, closed). Sends alerts to sales reps and updates CRM fields in real time."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which tools are compatible with these templates?",
+      "a": "Templates work with popular tools like Salesforce, HubSpot, Mailchimp, ActiveCampaign, LinkedIn, and Facebook. They are designed for easy integration via Zapier or native APIs."
+    },
+    {
+      "q": "Do I need technical skills to use these templates?",
+      "a": "No, templates are plug-and-play with simple drag-and-drop editors. Basic familiarity with your CRM or email platform is helpful, but step-by-step instructions are included."
+    },
+    {
+      "q": "Can I customize the templates for my industry?",
+      "a": "Yes, each template is fully editable. You can adjust fields, sequences, and triggers to match your specific lead generation strategy and target audience."
+    }
+  ]
+}

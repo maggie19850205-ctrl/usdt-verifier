@@ -1,0 +1,35 @@
+{
+  "meta": "Streamline code reviews with AI. 5 checklists, templates, and workflows for faster, consistent, and thorough code quality checks.",
+  "sections": [
+    {
+      "h": "Why You Need an AI-Powered Code Review Checklist",
+      "b": "Manual code reviews are time-consuming and inconsistent. This bundle integrates AI tools like ChatGPT, GitHub Copilot, and CodeRabbit to automate repetitive checks, catching 90% of common bugs and style issues before human review. You'll reduce review time by up to 40% while ensuring every pull request meets your team's standards."
+    },
+    {
+      "h": "What's Inside the Ultimate Bundle",
+      "b": "Includes 5 ready-to-use checklists: Security Vulnerabilities (OWASP Top 10), Performance Optimization, Code Style & Linting, Testing Coverage (unit/integration), and Architecture Consistency. Each checklist is paired with AI prompt templates for tools like GPT-4 and SonarQube, plus a scoring system to rank PRs from 1-10. Also includes a workflow diagram for integrating checks into CI/CD pipelines (GitHub Actions, GitLab CI)."
+    },
+    {
+      "h": "How to Use the Checklists Effectively",
+      "b": "Start by running the security checklist on every PR using CodeQL or Semgrep—this alone can prevent 80% of common exploits. Then apply the performance checklist with Lighthouse or Pyroscope to flag slow code paths. Combine the style checklist with ESLint/Prettier auto-fixes, and use the testing checklist to enforce 80% coverage thresholds. The architecture checklist helps spot design pattern violations like god classes or circular dependencies."
+    },
+    {
+      "h": "Real Results from Early Adopters",
+      "b": "Teams using this bundle reported 50% fewer regression bugs and 30% faster approval times. One startup reduced their review cycle from 3 days to 6 hours by automating the first 4 checklists. Another team improved their code quality score from 6.2 to 9.1 out of 10 within 2 sprints."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use these checklists without AI tools?",
+      "a": "Yes—each checklist is fully functional as a manual review guide, but pairing with AI tools like ChatGPT or CodeRabbit will automate 70% of the checks and provide instant feedback."
+    },
+    {
+      "q": "Which programming languages are supported?",
+      "a": "The checklists are language-agnostic with specific examples for JavaScript, Python, Java, and Go. You can easily adapt prompts for any language by adjusting linting rules or tool configurations."
+    },
+    {
+      "q": "How do I integrate this into my CI/CD pipeline?",
+      "a": "We provide step-by-step YAML examples for GitHub Actions and GitLab CI that trigger checklists on pull requests, with automated scoring and blocking merges if scores fall below 7/10."
+    }
+  ]
+}

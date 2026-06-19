@@ -1,0 +1,40 @@
+{
+  "type": "complete-guide",
+  "meta": "Master Notion with this complete guide to build a productivity system that organizes your life and work.",
+  "sections": [
+    {
+      "h": "Set Up Your Dashboard",
+      "b": "Learn to create a central dashboard using linked databases and filtered views. Use Notion's calendar and timeline features to track tasks and projects seamlessly."
+    },
+    {
+      "h": "Task Management with Databases",
+      "b": "Build a task database with status, priority, and due date properties. Implement Kanban boards and recurring tasks using Notion's formulas and rollups."
+    },
+    {
+      "h": "Note-Taking and Knowledge Base",
+      "b": "Organize notes with nested pages and relational databases. Use toggle lists and backlinks to create a personal wiki for quick reference and research."
+    },
+    {
+      "h": "Goal Setting and Habit Tracking",
+      "b": "Set SMART goals with progress bars and habit trackers. Use Notion's timeline view to plan quarterly objectives and monitor daily streaks."
+    },
+    {
+      "h": "Collaboration and Team Workflows",
+      "b": "Share pages with team members and assign tasks with comments. Leverage Notion's permissions and real-time editing to streamline remote collaboration."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this guide suitable for beginners?",
+      "a": "Yes, the guide starts with basic setup and progresses to advanced features, making it perfect for all skill levels."
+    },
+    {
+      "q": "What tools do I need?",
+      "a": "You only need a Notion account (free or paid) and a device with internet access to follow along."
+    },
+    {
+      "q": "How long does it take to implement?",
+      "a": "Most users set up the core system in under two hours, with optional customization taking another hour."
+    }
+  ]
+}

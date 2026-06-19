@@ -1,0 +1,39 @@
+{
+  "meta": "Master marketing analytics dashboards with this complete guide covering tools, KPIs, and frameworks for data-driven decisions.",
+  "sections": [
+    {
+      "h": "Why Marketing Analytics Dashboards Matter",
+      "b": "A marketing analytics dashboard centralizes data from multiple channels into a single view, enabling real-time performance tracking. According to a 2023 Gartner study, companies using integrated dashboards see a 20% improvement in ROI on marketing spend by reducing silos and accelerating decision-making."
+    },
+    {
+      "h": "Core KPIs Every Dashboard Must Track",
+      "b": "Essential metrics include Customer Acquisition Cost (CAC), Lifetime Value (LTV), conversion rates, and channel attribution. Use tools like Google Analytics 4 for web data, HubSpot for CRM integration, and Tableau for visualization to monitor these KPIs across paid, organic, and social channels."
+    },
+    {
+      "h": "Framework for Building Your Dashboard",
+      "b": "Start with the OKR framework (Objectives and Key Results) to align metrics with business goals. Then apply the AIDA model (Awareness, Interest, Desire, Action) to map funnel stages. Use Looker Studio or Power BI to create interactive dashboards that update hourly from sources like Facebook Ads and Salesforce."
+    },
+    {
+      "h": "Advanced Techniques: Predictive Analytics & Automation",
+      "b": "Leverage Python scripts in Jupyter Notebooks to forecast trends using linear regression on historical data. Automate alerts with Zapier when CAC exceeds 150% of target, and use Google Analytics 4's predictive metrics for churn probability. This reduces manual analysis time by 40%."
+    },
+    {
+      "h": "Common Pitfalls and How to Avoid Them",
+      "b": "Avoid data overload by limiting to 10-12 key metrics per dashboard—too many cause decision paralysis. Ensure data accuracy with regular audits using tools like Supermetrics for validation. Also, align dashboard design with stakeholder roles: executives need summaries, analysts need granular data."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best tool for building a marketing analytics dashboard?",
+      "a": "The best tool depends on your stack: Looker Studio is free and integrates with Google products, while Tableau offers advanced visualization for enterprise. For small teams, Databox provides pre-built templates for common channels."
+    },
+    {
+      "q": "How often should I update my dashboard data?",
+      "a": "Real-time updates are ideal for campaigns, but daily refresh is sufficient for most KPIs. Use automated connectors in tools like Funnel.io to schedule updates every 24 hours, reducing manual work."
+    },
+    {
+      "q": "Can I use this guide for both B2B and B2C dashboards?",
+      "a": "Yes, the frameworks apply universally, but focus metrics differ: B2B emphasizes lead quality and pipeline velocity, while B2C prioritizes customer acquisition cost and churn rate. Adjust your KPIs accordingly."
+    }
+  ]
+}

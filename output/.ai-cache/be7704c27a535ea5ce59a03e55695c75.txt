@@ -1,0 +1,35 @@
+{
+  "meta": "All-in-one marketing analytics dashboard bundle: track KPIs, optimize campaigns, and drive ROI with 4 actionable sections.",
+  "sections": [
+    {
+      "h": "Centralized KPI Tracking",
+      "b": "Monitor 20+ essential metrics—from CAC to LTV—in a single view using Google Data Studio connectors and automated data pulls. This section eliminates manual reporting, reducing update time by 70% with live integrations for Facebook Ads, Google Analytics, and HubSpot."
+    },
+    {
+      "h": "Campaign Performance Optimizer",
+      "b": "Leverage A/B testing frameworks and ROAS calculators to refine ad spend across 5 channels (Google, Meta, LinkedIn, TikTok, Email). Includes pre-built cohort analysis and attribution models (first-touch, last-touch, linear) to pinpoint high-impact campaigns."
+    },
+    {
+      "h": "Real-Time Alerts & Forecasting",
+      "b": "Set threshold-based alerts for metric drops (e.g., CTR below 1.5%) using Zapier triggers and Slack integration. Built-in linear regression forecasting projects monthly spend needs with 85% accuracy, helping prevent budget overruns."
+    },
+    {
+      "h": "Executive Dashboard & Export",
+      "b": "Generate one-click PDF reports with visual summaries for C-level reviews, highlighting top 3 growth drivers and anomaly flags. Supports CSV/Excel exports for custom analysis, and includes a 12-month historical trend comparison."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What platforms does the dashboard integrate with?",
+      "a": "It integrates natively with Google Analytics, Facebook Ads, HubSpot, LinkedIn Campaign Manager, and TikTok Ads via API connectors, plus custom CSV uploads for other sources."
+    },
+    {
+      "q": "Can I customize the KPI thresholds for alerts?",
+      "a": "Yes, all alert thresholds are fully adjustable per metric—set your own target values for CTR, CPA, conversion rate, and budget limits."
+    },
+    {
+      "q": "Is this bundle suitable for a small team with no data analyst?",
+      "a": "Absolutely. The dashboard is designed with pre-built templates and step-by-step setup guides, requiring no coding or advanced analytics skills to operate."
+    }
+  ]
+}

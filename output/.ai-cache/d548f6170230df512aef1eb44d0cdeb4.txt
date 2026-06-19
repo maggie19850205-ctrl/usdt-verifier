@@ -1,0 +1,28 @@
+{
+  "meta": "Struggling with newsletter content? This checklist workbook helps you plan, write, and optimize emails for higher engagement and conversions.",
+  "intro": "This workbook provides 8 actionable checklists to streamline your newsletter creation process, from topic selection to performance analysis. Each checklist includes prompts, examples, and space for your own ideas, ensuring you never face a blank page again.",
+  "items": [
+    "1. Topic Brainstorming: Generate 10+ newsletter ideas using the 'Problem-Solution-Resource' framework and trending industry keywords.",
+    "2. Subject Line Optimization: Test 5 subject line formulas (e.g., How-to, Listicle, Curiosity Gap) with a scoring system for open rates.",
+    "3. Content Structure: Outline your newsletter using the AIDA model (Attention, Interest, Desire, Action) with 3-5 bullet points per section.",
+    "4. Call-to-Action Crafting: Write 3 CTAs per newsletter—primary (click), secondary (share), tertiary (reply)—with urgency triggers.",
+    "5. Visual Asset Checklist: Ensure each email includes 1 hero image, 1 infographic or chart, and 1 branded GIF using tools like Canva or Figma.",
+    "6. Proofreading & Tone Check: Run your copy through Hemingway (grade ≤8) and Grammarly (score ≥90%) while maintaining a conversational tone.",
+    "7. A/B Testing Setup: Define 2 variables (e.g., subject line vs. CTA button color) with a minimum sample size of 500 subscribers per variant.",
+    "8. Performance Review: Track 4 KPIs (open rate ≥20%, click-through rate ≥3%, unsubscribe rate ≤0.5%, reply rate ≥1%) weekly and adjust accordingly."
+  ],
+  "faq": [
+    {
+      "q": "How is this different from a generic newsletter guide?",
+      "a": "This workbook provides 8 ready-to-use checklists with specific prompts, scoring systems, and examples—not just theory. You can immediately apply each step to your current newsletter."
+    },
+    {
+      "q": "Can I use this for any type of newsletter (e.g., B2B, e-commerce, personal)?",
+      "a": "Yes, the checklists are platform-agnostic and work for any niche. The frameworks (AIDA, problem-solution-resource) are proven across industries."
+    },
+    {
+      "q": "Is this a digital download or physical workbook?",
+      "a": "It's a digital PDF workbook (8.5x11 inches) with fillable fields, compatible with apps like GoodNotes, Notability, or printable for pen-and-paper use."
+    }
+  ]
+}

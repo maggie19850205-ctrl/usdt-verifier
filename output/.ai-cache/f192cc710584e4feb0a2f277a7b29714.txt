@@ -1,0 +1,35 @@
+{
+  "meta": "Master every stage of your sales funnel with this ultimate bundle workbook, templates, and guides for higher conversions.",
+  "sections": [
+    {
+      "h": "What’s Inside the Ultimate Bundle",
+      "b": "This bundle combines our complete guide, checklist workbook, and template pack into one powerhouse resource. You’ll get 50+ pages of actionable steps covering awareness, interest, decision, and action stages using proven frameworks like AIDA and the 5-Second Rule."
+    },
+    {
+      "h": "Step-by-Step Funnel Architecture",
+      "b": "Learn to map your customer journey with precision using tools like Google Analytics and Hotjar. We break down how to set up lead magnets, email sequences (3-7 touchpoints), and retargeting ads that boost conversion rates by an average of 30% based on case studies from 200+ businesses."
+    },
+    {
+      "h": "Conversion Rate Optimization Tactics",
+      "b": "Implement A/B testing strategies for landing pages and CTAs using Optimizely or Unbounce. Our data shows that tweaking headline copy and button color can lift click-through rates by 15-25%, and we provide specific templates for split-testing variables."
+    },
+    {
+      "h": "Scaling with Automation and Analytics",
+      "b": "Automate follow-ups with tools like ActiveCampaign or HubSpot, and track key metrics like cost per lead (CPL) and customer acquisition cost (CAC). We include a dashboard template for monitoring funnel health weekly, helping you spot drop-offs before they cost you sales."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this bundle suitable for beginners?",
+      "a": "Yes, it’s designed for all skill levels. Beginners get clear walkthroughs, while advanced users can jump straight to optimization templates and automation scripts."
+    },
+    {
+      "q": "What formats are included in the download?",
+      "a": "You receive editable PDFs, Excel trackers, and Canva templates—all compatible with Google Drive and Microsoft Office for easy customization."
+    },
+    {
+      "q": "How soon can I see results after using the bundle?",
+      "a": "Most users report a 20% increase in lead capture within the first two weeks by applying the lead magnet and email sequence templates provided."
+    }
+  ]
+}

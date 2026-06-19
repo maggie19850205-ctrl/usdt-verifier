@@ -1,0 +1,35 @@
+{
+  "meta": "Master Perplexity AI with 4 research guides: queries, sources, analysis, ethics. Boost productivity and accuracy.",
+  "sections": [
+    {
+      "h": "Crafting Powerful Research Queries",
+      "b": "Learn to structure queries using boolean operators and natural language patterns to get precise results from Perplexity AI. Master the art of asking multi-part questions that surface cross-domain insights in seconds."
+    },
+    {
+      "h": "Evaluating Source Credibility in Real-Time",
+      "b": "Use Perplexity's source citation feature to cross-check claims against 50+ databases and peer-reviewed journals. Develop a 3-step verification framework that reduces misinformation risk by 80% in your research workflows."
+    },
+    {
+      "h": "Automating Literature Reviews with AI",
+      "b": "Integrate Perplexity with Zotero and Obsidian to auto-generate annotated bibliographies at 10x speed. Set up recurring queries that track new publications in your field, saving 15+ hours per week on manual searching."
+    },
+    {
+      "h": "Ethical AI Research Practices",
+      "b": "Navigate data privacy and bias concerns by implementing Perplexity's 'Pro Search' anonymization features. Build transparent research logs that comply with IRB standards while leveraging AI for hypothesis generation."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does this bundle require a Perplexity Pro subscription?",
+      "a": "No, all techniques work with the free tier, though Pro Search features are highlighted for advanced users. The guides include workarounds for non-Pro accounts."
+    },
+    {
+      "q": "Can I use these methods for academic publishing?",
+      "a": "Yes, the bundle includes a dedicated chapter on citing AI-generated insights in APA/MLA formats. It covers journal-specific guidelines for AI-assisted research."
+    },
+    {
+      "q": "How long will it take to implement the strategies?",
+      "a": "Most users see productivity gains within 3 sessions. The automation workflows require about 2 hours to set up initially, then run autonomously."
+    }
+  ]
+}

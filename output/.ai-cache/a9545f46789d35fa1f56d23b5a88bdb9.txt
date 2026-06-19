@@ -1,0 +1,19 @@
+{
+  "meta": "A step-by-step checklist workbook to define your brand voice style guide. Includes exercises for tone, vocabulary, and consistency.",
+  "intro": "This workbook guides you through 8 actionable steps to create a consistent brand voice style guide. Perfect for solopreneurs and small teams.",
+  "items": [
+    "Identify your brand's core values and personality traits using a 3-word exercise.",
+    "Define your target audience's demographics, psychographics, and communication preferences.",
+    "Create a tone spectrum from formal to casual, with examples for each level.",
+    "List 10 forbidden words and 10 preferred words that align with your brand voice.",
+    "Draft 5 sample phrases for common customer interactions (e.g., support, sales, social media).",
+    "Audit 3 existing pieces of content for voice consistency, noting discrepancies.",
+    "Write a one-paragraph brand voice statement that includes tone, vocabulary, and purpose.",
+    "Review and refine your guide with a peer or client using a 5-point checklist."
+  ],
+  "faq": [
+    {"q": "How long does it take to complete this workbook?", "a": "Most users finish in 2–3 hours, but you can break it into 30-minute sessions over a week."},
+    {"q": "Do I need any prior branding experience?", "a": "No, the workbook is designed for beginners with clear instructions and examples for each step."},
+    {"q": "Can I use this for an existing brand?", "a": "Yes, the exercises help refine or overhaul an existing voice, with prompts to audit current content."}
+  ]
+}

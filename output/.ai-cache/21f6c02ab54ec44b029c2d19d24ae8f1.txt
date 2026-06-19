@@ -1,0 +1,40 @@
+{
+"meta": "Automate invoicing with 5 customizable templates. Save time, reduce errors, and get paid faster. Perfect for freelancers and small businesses.",
+"intro": "Stop wasting hours on manual invoicing. This template pack includes 5 ready-to-use, customizable invoice templates designed for freelancers, solopreneurs, and small businesses. Each template is optimized for clarity, professionalism, and quick payment processing. Compatible with Excel, Google Sheets, and PDF editors.",
+"templates": [
+{
+"n": "Simple Hourly Invoice",
+"d": "Clean, single-page template for hourly billing. Includes fields for date, hours worked, rate, and total. Perfect for consultants and freelancers."
+},
+{
+"n": "Project-Based Invoice",
+"d": "Itemized template for fixed-price projects. Add line items, descriptions, quantities, and unit prices. Built-in subtotal and tax calculation."
+},
+{
+"n": "Recurring Subscription Invoice",
+"d": "For SaaS, memberships, or retainers. Pre-filled billing cycles, auto-calculated prorated amounts, and payment due dates."
+},
+{
+"n": "Professional Service Invoice",
+"d": "Detailed template for agencies and service providers. Includes purchase order number, project name, and multiple tax rate support."
+},
+{
+"n": "Quick Payment Request",
+"d": "Minimalist template for fast payments. One-click total display, QR code for mobile payments, and PayPal/Venmo links."
+}
+],
+"faq": [
+{
+"q": "What formats are included?",
+"a": "Each template is available as an editable Excel (.xlsx), Google Sheets link, and fillable PDF. You can customize colors, logos, and fields."
+},
+{
+"q": "Can I add my business logo?",
+"a": "Yes. All templates have a designated logo placeholder. Simply drag and drop your logo image into the cell or PDF field."
+},
+{
+"q": "Do the templates calculate taxes automatically?",
+"a": "Yes. Templates include built-in formulas for subtotal, tax (customizable rate), and grand total. Tax is calculated as a percentage of the subtotal."
+}
+]
+}

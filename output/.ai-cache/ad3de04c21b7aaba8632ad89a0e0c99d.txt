@@ -1,0 +1,28 @@
+{
+  "meta": "Streamline your content workflow with this automated content creation checklist workbook. Boost efficiency and consistency.",
+  "intro": "This workbook provides a structured checklist to automate and optimize your entire content creation process, from ideation to publication and repurposing.",
+  "items": [
+    "Define your content goals and target audience personas using tools like Google Analytics and HubSpot.",
+    "Set up an automated content calendar with Trello or Asana, scheduling posts 4 weeks in advance.",
+    "Utilize AI writing assistants like Jasper or Writesonic to generate first drafts of blog posts and social media captions.",
+    "Implement a review and approval workflow in Google Docs or Monday.com with version control and comment threads.",
+    "Automate image creation and resizing using Canva's API or Adobe Express for consistent branding across platforms.",
+    "Schedule and publish content automatically with Buffer or Hootsuite, including cross-posting to multiple channels.",
+    "Set up automated distribution via email newsletters using Mailchimp or ConvertKit, triggered by new content publication.",
+    "Monitor performance with automated reports from SEMrush or Google Data Studio, tracking key metrics like traffic and engagement."
+  ],
+  "faq": [
+    {
+      "q": "Do I need technical skills to use this checklist?",
+      "a": "No, the workbook is designed for non-technical users and includes step-by-step instructions for setting up each automation with popular tools."
+    },
+    {
+      "q": "Can I customize the checklist for my specific industry?",
+      "a": "Yes, each section includes prompts and examples that can be adapted to any niche, from e-commerce to B2B services."
+    },
+    {
+      "q": "How long does it take to implement the full checklist?",
+      "a": "Most users complete the setup within 2-3 hours, with ongoing tweaks as they refine their workflow over the first month."
+    }
+  ]
+}

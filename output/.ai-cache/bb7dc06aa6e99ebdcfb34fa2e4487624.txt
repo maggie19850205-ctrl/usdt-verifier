@@ -1,0 +1,28 @@
+{
+  "meta": "Win more clients with our Freelance Proposal Checklist Workbook. 8 actionable steps to craft winning proposals.",
+  "intro": "This workbook provides a structured checklist to ensure your freelance proposals are clear, compelling, and client-focused, helping you stand out and win more projects.",
+  "items": [
+    "Research your client and their industry thoroughly before writing.",
+    "Define the project scope with specific deliverables and timelines.",
+    "Outline your unique value proposition and key differentiators.",
+    "Structure your proposal with a clear problem statement and solution.",
+    "Include a detailed pricing breakdown with options (e.g., fixed, hourly, retainer).",
+    "Add social proof: 2-3 relevant case studies or client testimonials.",
+    "Write a compelling call-to-action and next steps for the client.",
+    "Proofread and format your proposal for readability (use headers, bullet points, and white space)."
+  ],
+  "faq": [
+    {
+      "q": "Is this workbook suitable for beginners?",
+      "a": "Yes, it's designed for freelancers at any stage, with clear steps and examples to guide you through the proposal process."
+    },
+    {
+      "q": "Can I use these steps for any type of freelance project?",
+      "a": "Absolutely. The checklist covers universal proposal best practices applicable to design, writing, development, consulting, and more."
+    },
+    {
+      "q": "Does the workbook include templates?",
+      "a": "This is a checklist workbook focused on actionable steps, not templates. For ready-to-use templates, check our Template Pack."
+    }
+  ]
+}

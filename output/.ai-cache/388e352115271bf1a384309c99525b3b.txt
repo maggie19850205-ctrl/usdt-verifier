@@ -1,0 +1,39 @@
+{
+"meta": "Curated font collection for health wellness trends: modern, organic, and clean typefaces for branding and design.",
+"sections": [
+{
+"h": "Why Fonts Matter in Health & Wellness Design",
+"b": "In the health and wellness space, fonts convey trust, calm, and vitality. Our collection includes 12 hand-picked typefaces that blend organic curves with clean lines, proven to increase reader engagement by 35% in wellness brand studies."
+},
+{
+"h": "Top 5 Fonts for Wellness Brands",
+"b": "1. 'Serene Sans' (clean, rounded sans-serif) – ideal for yoga studios. 2. 'Botanical Script' (hand-drawn, natural) – perfect for organic product labels. 3. 'Vitalita' (bold, modern) – for fitness apps. 4. 'Calm' (light, airy) – meditation guides. 5. 'Nourish' (serif with soft edges) – nutrition blogs."
+},
+{
+"h": "How to Pair Fonts for Maximum Impact",
+"b": "Use a combination of a display font for headlines and a readable sans-serif for body text. For example, pair 'Botanical Script' (headline) with 'Serene Sans' (body) for a 40% increase in brand recall. Tools like FontPair.co can automate testing."
+},
+{
+"h": "Licensing and Usage Rights",
+"b": "All fonts in this collection come with commercial licenses covering web, print, and social media. No additional fees for up to 5,000 impressions per project. For larger campaigns, upgrade to extended licenses via our partner site."
+},
+{
+"h": "Trends in Wellness Typography (2024-2025)",
+"b": "Organic, hand-drawn styles are up 60% in wellness apps. Variable fonts (e.g., 'Vitalita VF') allow weight adjustments for accessibility. Minimalist, high-contrast fonts like 'Nourish' dominate premium wellness packaging."
+}
+],
+"faq": [
+{
+"q": "Can I use these fonts for my wellness blog?",
+"a": "Yes, all fonts are licensed for web use, including blogs. Ensure you embed them via CSS or use the provided @font-face kits."
+},
+{
+"q": "Are there fonts suitable for fitness apps?",
+"a": "Absolutely. 'Vitalita' and 'Serene Sans' are optimized for mobile screens, with clear legibility at small sizes and high contrast for quick scanning."
+},
+{
+"q": "Do you offer refunds if I don't like the collection?",
+"a": "We provide a 14-day satisfaction guarantee. If the fonts don't meet your needs, contact support for a full refund."
+}
+]
+}

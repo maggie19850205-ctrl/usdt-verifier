@@ -1,0 +1,28 @@
+{
+  "meta": "Automate your customer support with this AI-powered checklist workbook. Streamline workflows, reduce costs, and boost satisfaction.",
+  "intro": "This workbook provides a step-by-step checklist to implement AI automation in your customer support operations. From chatbot setup to escalation workflows, each item ensures a smooth transition to efficient, 24/7 support.",
+  "items": [
+    "Define common support queries and categorize them into tiers (e.g., billing, technical, general).",
+    "Select an AI chatbot platform (e.g., Zendesk AI, Intercom, or Tidio) that integrates with your existing CRM.",
+    "Set up automated responses for Tier 1 queries using pre-trained models or custom FAQ datasets.",
+    "Configure intent recognition to route complex issues (Tier 2/3) to human agents with context.",
+    "Implement sentiment analysis to flag frustrated customers and prioritize urgent tickets.",
+    "Create a fallback protocol for queries the AI cannot handle, ensuring seamless handoff to live agents.",
+    "Test the automation with a pilot group (e.g., 10% of traffic) and collect feedback on resolution rates.",
+    "Monitor key metrics weekly: first response time, resolution rate, and customer satisfaction score (CSAT)."
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding skills to use this workbook?",
+      "a": "No, the checklist is designed for non-technical support managers. It focuses on configuration steps for popular no-code AI tools."
+    },
+    {
+      "q": "How long does it take to implement the checklist?",
+      "a": "Most teams complete the initial setup within 2-4 weeks, depending on the complexity of their support workflows."
+    },
+    {
+      "q": "Can I use this with my existing helpdesk software?",
+      "a": "Yes, the workbook includes integration steps for common platforms like Zendesk, Freshdesk, and Help Scout."
+    }
+  ]
+}

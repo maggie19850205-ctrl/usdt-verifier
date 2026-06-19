@@ -1,0 +1,35 @@
+{
+  "meta": "Automate your social media with AI. Ultimate bundle includes scheduling tools, templates, and strategies for growth.",
+  "sections": [
+    {
+      "h": "What’s Inside the Ultimate Bundle",
+      "b": "This bundle combines 5 AI-powered scheduling templates, a 12-week content planner, and access to scheduling tools like Buffer and Hootsuite integrations. You get 50+ pre-written captions and 30 visual templates for posts across Instagram, Twitter, LinkedIn, and Facebook."
+    },
+    {
+      "h": "How AI Optimizes Your Posting Schedule",
+      "b": "Our AI analyzes your audience engagement data to suggest optimal posting times, increasing reach by up to 40%. It uses machine learning to prioritize content types (e.g., videos, carousels) that perform best for your niche, based on 10,000+ data points from similar accounts."
+    },
+    {
+      "h": "Step-by-Step Implementation Guide",
+      "b": "Follow our 7-step framework to set up automated scheduling in under 2 hours. Includes a calendar template for planning 3 months of content, plus a checklist for integrating with Zapier or IFTTT to cross-post automatically."
+    },
+    {
+      "h": "Proven Results & Case Studies",
+      "b": "Tested by 200+ beta users, average engagement increased 35% within 4 weeks. One user saved 10 hours weekly by automating 80% of their posting. Another grew their LinkedIn following by 500% using our AI-driven hashtag and caption strategies."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need technical skills to use this bundle?",
+      "a": "No. The bundle includes a beginner-friendly guide with screenshots for setting up scheduling tools. AI features are pre-configured—just input your content and preferences."
+    },
+    {
+      "q": "Can I use this for multiple social media accounts?",
+      "a": "Yes. Templates support up to 5 accounts per platform. The AI adapts recommendations for each account’s audience and posting history."
+    },
+    {
+      "q": "Is there support if I get stuck?",
+      "a": "Yes. Purchase includes email support within 48 hours and access to a private community of users sharing tips and best practices."
+    }
+  ]
+}

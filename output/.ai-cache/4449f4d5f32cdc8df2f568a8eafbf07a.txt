@@ -1,0 +1,39 @@
+{
+  "meta": "Unlock top AI tool deals and coupons. Save on premium artificial intelligence software with our complete guide.",
+  "sections": [
+    {
+      "h": "Top AI Tool Discounts",
+      "b": "Access exclusive coupon codes for leading AI platforms like Jasper, Copy.ai, and Midjourney, with savings up to 40% off annual plans. These deals are verified daily to ensure you get the best price on cutting-edge software for content creation, image generation, and data analysis."
+    },
+    {
+      "h": "How to Redeem Coupons",
+      "b": "Simply click on your chosen deal, copy the unique code, and paste it at checkout on the provider's website. Most coupons apply automatically if you use our direct links, and we include step-by-step instructions for each tool to avoid common errors."
+    },
+    {
+      "h": "Seasonal and Flash Sales",
+      "b": "Stay ahead with limited-time offers during Black Friday, Cyber Monday, and product launches, often featuring 50-60% off. We track over 50 AI tools and update this guide within hours of new deals, so you never miss a flash sale on services like ChatGPT Plus or Notion AI."
+    },
+    {
+      "h": "Maximizing Value with Bundles",
+      "b": "Bundle deals from providers like Surfer SEO and Frase.io offer combined AI writing and optimization tools for under $100 per month. These packages typically include lifetime access or extended trials, saving you over 30% compared to individual subscriptions."
+    },
+    {
+      "h": "Exclusive Partner Offers",
+      "b": "Our partnerships with AI startups provide unique discounts not found elsewhere, such as 20% off on Writesonic's long-form plan or a free month of Synthesia's video creation tool. These offers are updated weekly and require no additional sign-up beyond our link."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How often are the AI tool coupons updated?",
+      "a": "We refresh our deals every 24-48 hours to ensure all codes are active and reflect current promotions, including flash sales that may last only a few days."
+    },
+    {
+      "q": "Can I stack multiple coupons on one purchase?",
+      "a": "Most AI tools allow only one coupon per transaction, but our guide highlights deals with the highest percentage off to maximize your savings."
+    },
+    {
+      "q": "Are these deals available worldwide?",
+      "a": "Yes, the majority of our coupons are global, though a few may be region-specific. We note any restrictions in the deal description."
+    }
+  ]
+}

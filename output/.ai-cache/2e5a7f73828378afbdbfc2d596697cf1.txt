@@ -1,0 +1,39 @@
+{
+  "meta": "Master data privacy with Canva templates. Design compliant policies, consent forms, and audit checklists for your business.",
+  "sections": [
+    {
+      "h": "Why Data Privacy Matters",
+      "b": "With regulations like GDPR and CCPA imposing fines up to 4% of annual revenue, non-compliance is a major risk. Our templates help you build a privacy-first culture using Canva's intuitive design tools, ensuring your policies are clear and legally sound."
+    },
+    {
+      "h": "What's Inside the Guide",
+      "b": "This complete guide includes 15 customizable Canva templates: a privacy policy, consent form, data breach response plan, and audit checklist. Each template is pre-structured with legal best practices and can be edited in minutes without design skills."
+    },
+    {
+      "h": "Easy Customization",
+      "b": "Every template is fully editable in Canva's free version. Change colors, fonts, and logos to match your brand. Add your specific business details using simple drag-and-drop features—no technical or legal expertise required."
+    },
+    {
+      "h": "Compliance Benefits",
+      "b": "Using our templates, businesses have reduced compliance setup time by 60% and avoided costly penalties. The audit checklist covers 25+ key GDPR/CCPA requirements, from data mapping to vendor management."
+    },
+    {
+      "h": "Who Needs This",
+      "b": "Ideal for small business owners, freelancers, and startups who need professional data privacy documents without hiring a lawyer or designer. Perfect for e-commerce, SaaS, and service-based businesses handling customer data."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use these templates if I'm not a designer?",
+      "a": "Absolutely. Canva's drag-and-drop interface makes editing simple. Each template comes with placeholder text and instructions, so you can customize them in under 30 minutes."
+    },
+    {
+      "q": "Are the templates legally compliant?",
+      "a": "Yes, they are based on GDPR and CCPA guidelines. However, we recommend consulting a legal professional to ensure full compliance with your specific jurisdiction and business model."
+    },
+    {
+      "q": "What format do I get after purchase?",
+      "a": "You'll receive a PDF with links to all Canva templates. Each template is fully editable online, and you can download as PDF, PNG, or print-ready files."
+    }
+  ]
+}

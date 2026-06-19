@@ -1,0 +1,39 @@
+{
+  "meta": "Automate your online business with this WordPress theme guide. Streamline workflows, boost sales, and save time.",
+  "sections": [
+    {
+      "h": "Why Automate Your Online Business with WordPress",
+      "b": "Automation reduces manual tasks, letting you focus on growth. This guide covers tools like WooCommerce automations, Zapier integrations, and WP-Cron to schedule posts, emails, and order processing. Studies show automation can cut operational time by up to 40%."
+    },
+    {
+      "h": "Step-by-Step Setup for Sales Funnels",
+      "b": "Learn to build automated sales funnels using plugins like Elementor Pro and FunnelKit. Configure triggers for abandoned cart emails, upsell offers, and post-purchase sequences. Includes metrics on conversion rate improvements (average 25% increase)."
+    },
+    {
+      "h": "Email Marketing Automation Integration",
+      "b": "Connect WordPress with Mailchimp, ActiveCampaign, or ConvertKit using API keys. Automate welcome series, segmented campaigns, and re-engagement flows. Example: A/B test subject lines to boost open rates by 15%."
+    },
+    {
+      "h": "Social Media & Content Scheduling",
+      "b": "Use tools like Jetpack Social or Blog2Social to auto-share posts across Twitter, LinkedIn, and Facebook. Schedule content via WP-Cron or external apps like Buffer. Automating shares can increase traffic by 30%."
+    },
+    {
+      "h": "Metrics & Optimization for Long-Term Growth",
+      "b": "Track automation performance with Google Analytics and MonsterInsights. Monitor conversion rates, bounce rates, and ROI. Adjust triggers based on data—e.g., optimize email send times for 20% higher engagement."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding skills to use this theme?",
+      "a": "No, this guide is designed for non-coders. It uses drag-and-drop builders and pre-built integration steps."
+    },
+    {
+      "q": "Can I automate order processing for physical products?",
+      "a": "Yes, integrate with ShipStation or WooCommerce Shipping to auto-generate labels and tracking numbers."
+    },
+    {
+      "q": "Is this compatible with any hosting provider?",
+      "a": "Yes, works on all major hosts like SiteGround, Bluehost, and WP Engine with standard PHP 7.4+ support."
+    }
+  ]
+}

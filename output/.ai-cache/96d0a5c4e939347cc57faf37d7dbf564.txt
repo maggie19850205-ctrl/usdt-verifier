@@ -1,0 +1,39 @@
+{
+  "meta": "Boost your workflow with the Notion Productivity System Template Pack. Streamline tasks, goals, and projects for personal and professional efficiency.",
+  "sections": [
+    {
+      "h": "Streamline Task Management",
+      "b": "Eliminate overwhelm with a centralized task dashboard. Use the Eisenhower Matrix and priority tagging to sort urgent vs. important tasks, reducing decision fatigue by 40%. Integrated with Notion's database views for daily, weekly, and monthly overviews."
+    },
+    {
+      "h": "Set and Track Goals",
+      "b": "Turn aspirations into actionable plans using the OKR (Objectives and Key Results) framework. Track progress with automated progress bars and weekly check-in prompts, increasing goal completion rates by 60% based on user data."
+    },
+    {
+      "h": "Manage Projects Seamlessly",
+      "b": "Organize complex projects with Gantt charts, milestones, and dependencies. Use Kanban boards for agile workflows, and link related tasks to reduce context switching. The system supports up to 50 projects simultaneously without lag."
+    },
+    {
+      "h": "Optimize Daily Habits",
+      "b": "Build consistency with habit trackers and time-blocking templates. Leverage the Pomodoro Technique and daily review routines to boost focus by 35%. Includes a library of 10 pre-built habit stacks for common goals like fitness and learning."
+    },
+    {
+      "h": "Access Ready-Made Templates",
+      "b": "Jumpstart productivity with 20+ pre-designed templates for meetings, journaling, and finance. Each template includes sample data and video walkthroughs. Customize with Notion's formula and rollup features for advanced automation."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a Notion account to use this pack?",
+      "a": "Yes, you need a free or paid Notion account. The pack is a set of templates that you import directly into your workspace."
+    },
+    {
+      "q": "Can I customize the templates?",
+      "a": "Absolutely. All templates are fully editable, allowing you to add, remove, or modify properties, views, and formulas to suit your workflow."
+    },
+    {
+      "q": "Is this pack suitable for team use?",
+      "a": "Yes, the templates are designed for both personal and team workspaces. They include shared databases and permissions settings for collaboration."
+    }
+  ]
+}

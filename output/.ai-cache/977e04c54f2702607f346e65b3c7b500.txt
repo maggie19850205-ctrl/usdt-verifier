@@ -1,0 +1,17 @@
+Here is a 10-item actionable checklist for building a **Color Palette Collection**, designed to be specific and measurable.
+
+1. **Extract** 5 dominant hex codes from your 3 most-used brand assets (logo, website hero image, and primary social media graphic) using an eyedropper tool (e.g., in Photoshop or a browser extension).
+
+2. **Categorize** your existing 20+ favorite palettes into 4 groups (e.g., "Neutral/Base," "Bold/Accent," "Pastel/Soft," and "Dark/Moody") using a color board app (like Coolors or Adobe Capture).
+
+3. **Capture** 10 distinct colors from 3 different real-world photographs taken this week (e.g., a sunset, a plant, or a city scene) by manually sampling them with a color picker.
+
+4. **Define** the exact RGB and HSL values for each of the 5 core colors in your primary palette, recording them in a spreadsheet or design system document.
+
+5. **Test** each palette (minimum 3 palettes) for accessibility by checking that every background/text color combination passes the WCAG 2.1 AA contrast ratio (4.5:1 for normal text) using a tool like WebAIM.
+
+6. **Create** 3 unique 5-color palettes inspired by a single trending color from the Pantone Color of the Year, using a color harmony rule (e.g., complementary, analogous, or triadic).
+
+7. **Archive** any palette you haven't used in a project within the last 6 months into a separate "Retired" folder or tag, keeping your active collection under 50 palettes.
+
+8. **Generate** a 4-color palette from a single hex code of a color you rarely use (e.g., a muted orange) using a color palette generator (like ColorSpace or Paletton) to force exploration outside your comfort

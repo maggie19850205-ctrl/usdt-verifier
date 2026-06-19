@@ -1,0 +1,35 @@
+{
+  "meta": "Master AI workflow automation with this ultimate bundle of guides, templates, and checklists to streamline tasks and boost productivity.",
+  "sections": [
+    {
+      "h": "What’s Inside the Bundle",
+      "b": "This ultimate bundle combines 5 complete guides, 3 checklist workbooks, and 10 template packs covering AI workflow automation from basics to advanced integration. You’ll get step-by-step blueprints for automating repetitive tasks using tools like Zapier, Make (formerly Integromat), and OpenAI’s GPT-4, reducing manual effort by up to 80%."
+    },
+    {
+      "h": "Key Automation Frameworks",
+      "b": "Learn the 4 core frameworks: trigger-action mapping, conditional logic chains, data transformation pipelines, and multi-step approval workflows. For example, automate email sorting with 95% accuracy using GPT-4 classification, or set up a 3-step lead capture system that integrates with Salesforce and Slack, saving 10+ hours weekly."
+    },
+    {
+      "h": "Real-World Use Cases",
+      "b": "Deploy pre-built templates for customer support ticket triage (handles 500+ tickets/day), social media content scheduling (post to 5 platforms simultaneously), and invoice processing (extract data with 99% accuracy using OCR + AI). Each use case includes metrics—like a 40% reduction in response time for support teams."
+    },
+    {
+      "h": "Implementation Roadmap",
+      "b": "Follow the 7-day implementation plan: Day 1-2 audit current workflows, Day 3-4 map automations using the included flowchart templates, Day 5-6 test with sample data (provided CSV files), Day 7 deploy and monitor. Includes a troubleshooting guide for common errors like API rate limits or data mismatches."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding experience to use these templates?",
+      "a": "No, all templates are no-code or low-code. Tools like Zapier and Make have drag-and-drop interfaces, and the bundle includes video walkthroughs for each automation."
+    },
+    {
+      "q": "Can I customize the workflows for my industry?",
+      "a": "Yes, each template is modular with editable fields. For example, the lead capture workflow works for real estate, e-commerce, or SaaS by swapping API keys and data schemas."
+    },
+    {
+      "q": "What support is included with the bundle?",
+      "a": "You get lifetime access to the templates and guides, plus a private community forum where you can ask questions and share customizations with other users."
+    }
+  ]
+}

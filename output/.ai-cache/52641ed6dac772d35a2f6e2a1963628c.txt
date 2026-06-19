@@ -1,0 +1,19 @@
+{
+"meta": "Master AI fitness coaching with this checklist workbook. Streamline client plans, track progress, and boost results.",
+"intro": "This checklist workbook is designed to help fitness professionals leverage AI tools like ChatGPT and Claude to create personalized coaching plans, automate client follow-ups, and optimize training routines. Each checklist provides actionable steps to enhance efficiency and client outcomes.",
+"items": [
+"Define client goals using the SMART framework with AI-generated prompts.",
+"Input client data (age, weight, fitness level) into ChatGPT to generate a baseline workout plan.",
+"Use AI to create a weekly schedule balancing strength, cardio, and recovery days.",
+"Automate daily check-in messages with personalized motivation and form tips.",
+"Generate 3 progressive overload variations for each exercise using Claude.",
+"Track client progress with an AI-powered log template for reps, sets, and weights.",
+"Schedule monthly reassessments using AI to adjust plans based on performance data.",
+"Create a library of 10 AI-generated warm-up and cool-down routines for different goals."
+],
+"faq": [
+{"q": "Do I need prior AI experience to use this workbook?", "a": "No, the workbook includes step-by-step instructions and example prompts for tools like ChatGPT, making it accessible for beginners."},
+{"q": "Can I use this with any fitness app or software?", "a": "Yes, the checklists are platform-agnostic and designed to integrate with popular tools like Google Sheets, Trainerize, or My PT Hub."},
+{"q": "How long does it take to implement the checklists?", "a": "Most checklists can be completed in 10-15 minutes each, with immediate improvements to client engagement and plan efficiency."}
+]
+}

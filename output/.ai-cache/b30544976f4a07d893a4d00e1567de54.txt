@@ -1,0 +1,35 @@
+{
+  "meta": "All-in-one freelance AI assistant bundle: guides, prompts, tools for productivity, client work, and business growth.",
+  "sections": [
+    {
+      "h": "What’s Inside the Ultimate Bundle",
+      "b": "This comprehensive package includes a complete guide to building a freelance AI assistant, a checklist workbook for daily operations, a template pack of ready-to-use prompts, and exclusive access to our community. You’ll get over 50 pre-built prompts, 10 workflow templates, and a step-by-step setup manual covering tools like ChatGPT, Claude, and Zapier."
+    },
+    {
+      "h": "Boost Productivity by 40%",
+      "b": "Automate repetitive tasks like email drafting, client intake, and project tracking. Our framework reduces administrative overhead by up to 40%, freeing 10+ hours weekly for high-value work. Includes time-tracking integrations and auto-scheduling scripts for Calendly and Notion."
+    },
+    {
+      "h": "Client-Ready Deliverables",
+      "b": "Generate proposals, reports, and invoices in minutes using our AI templates. The bundle includes 15 client-facing document templates optimized for freelancers in marketing, design, and consulting. Achieve a 25% faster turnaround on client projects with built-in quality checks."
+    },
+    {
+      "h": "Scalable Growth System",
+      "b": "Learn to scale from solo freelancer to agency with our AI-powered lead generation and CRM automation. Includes scripts for LinkedIn outreach, automated follow-ups, and client retention workflows. Users report a 30% increase in repeat business within 3 months."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need technical skills to use this bundle?",
+      "a": "No, the bundle is designed for non-technical users. All guides include step-by-step instructions with screenshots, and templates are plug-and-play with popular AI tools like ChatGPT and Google Bard."
+    },
+    {
+      "q": "Can I customize the templates for my niche?",
+      "a": "Yes, every template is editable. You can adjust prompts, workflows, and documents to match your specific freelance services, whether it’s writing, design, or consulting."
+    },
+    {
+      "q": "Is there ongoing support or updates?",
+      "a": "Yes, you get lifetime access to the bundle and free updates for 12 months. Plus, join our private community for Q&A and new prompt releases every month."
+    }
+  ]
+}

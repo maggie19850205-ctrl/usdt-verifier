@@ -1,0 +1,16 @@
+{
+"meta": "YouTube SEO template pack with 5 templates for video optimization, keyword research, and ranking strategies.",
+"intro": "This template pack provides 5 ready-to-use templates for optimizing YouTube videos for search, including keyword research, title and description optimization, and thumbnail analysis.",
+"templates": [
+{"n": "Keyword Research Template", "d": "Use this template to identify high-volume, low-competition keywords using tools like TubeBuddy and VidIQ. Includes columns for search volume, competition score, and relevance."},
+{"n": "Title & Description Optimizer", "d": "A structured template for crafting clickable titles and keyword-rich descriptions. Integrates best practices for using primary keywords in the first 150 characters and adding timestamps."},
+{"n": "Tags & Hashtags Planner", "d": "Organize up to 500 characters of tags by priority and relevance. Includes a section for trending hashtags and long-tail keyword variations."},
+{"n": "Thumbnail Analysis Sheet", "d": "Evaluate thumbnail performance with metrics like CTR and brightness. Provides a checklist for contrast, text readability, and emotional triggers."},
+{"n": "Video Performance Tracker", "d": "Track key metrics like watch time, retention rate, and click-through rate over 30 days. Includes columns for A/B testing results and optimization notes."}
+],
+"faq": [
+{"q": "How do I use the keyword research template?", "a": "Input seed keywords into the template, then use TubeBuddy to fetch search volume and competition scores. Rank keywords by relevance and target the top 3 in your video."},
+{"q": "Can I customize the templates?", "a": "Yes, all templates are editable Google Sheets or Excel files. You can add columns, modify formulas, or adjust the layout to fit your workflow."},
+{"q": "Are these templates suitable for beginners?", "a": "Absolutely. Each template includes instructions and examples, making them accessible for creators new to YouTube SEO."}
+]
+}

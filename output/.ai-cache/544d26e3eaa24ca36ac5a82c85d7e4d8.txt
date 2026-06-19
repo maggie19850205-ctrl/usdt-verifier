@@ -1,0 +1,31 @@
+{
+  "meta": "Automate your email writing with AI. Save time, boost engagement, and streamline business communication with this complete guide.",
+  "sections": [
+    {
+      "h": "What is an AI Email Writer?",
+      "b": "An AI email writer uses artificial intelligence to generate professional, personalized emails in seconds. It helps businesses automate responses, create marketing campaigns, and maintain consistent communication without manual effort."
+    },
+    {
+      "h": "Key Features of Our Tool",
+      "b": "Our AI email writer offers customizable templates, tone adjustment, and multi-language support. It integrates seamlessly with your existing CRM and email platforms, saving you hours of writing time each week."
+    },
+    {
+      "h": "How to Get Started",
+      "b": "Simply sign up for the complete guide at $15.99, and you'll receive step-by-step instructions on setting up and optimizing your AI email writer. Start automating your emails today and see a boost in productivity."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How does the AI email writer work?",
+      "a": "It uses natural language processing to understand your input and generate contextually relevant email drafts. You can refine the output with simple edits."
+    },
+    {
+      "q": "Is it compatible with my email platform?",
+      "a": "Yes, it works with major platforms like Gmail, Outlook, and most CRM systems. Integration is straightforward with the provided guide."
+    },
+    {
+      "q": "Can I customize the tone of the emails?",
+      "a": "Absolutely. You can select from professional, casual, persuasive, or friendly tones to match your brand voice."
+    }
+  ]
+}

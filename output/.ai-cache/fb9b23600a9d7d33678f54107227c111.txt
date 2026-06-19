@@ -1,0 +1,39 @@
+{
+  "meta": "Build a no code apparel brand with this complete guide. Design, print, and sell custom clothing without coding skills.",
+  "sections": [
+    {
+      "h": "Getting Started with No Code Apparel",
+      "b": "Launching an apparel line requires zero programming knowledge when using no code tools like Shopify for your storefront and Printful for print-on-demand fulfillment. This guide covers the entire process from niche selection to first sale, with a focus on leveraging platforms like Canva for design and Oberlo for sourcing. You'll learn how to set up a professional store in under a week."
+    },
+    {
+      "h": "Designing Your Collection with Canva and Placeit",
+      "b": "Create stunning t-shirt designs and mockups using Canva's drag-and-drop editor and Placeit's apparel templates. No graphic design experience needed—these tools offer thousands of pre-made assets, fonts, and color palettes. We'll show you how to create 10 unique designs in 2 hours using batch processing techniques."
+    },
+    {
+      "h": "Automating Production and Shipping with Printful",
+      "b": "Integrate Printful directly with your Shopify store to automate order fulfillment. When a customer buys a shirt, Printful prints it, packs it, and ships it without any manual work. This section covers pricing strategies to maintain 40% profit margins while offering 20+ product variants from hoodies to hats."
+    },
+    {
+      "h": "Marketing Your Brand Without Ads",
+      "b": "Use no code marketing tools like ManyChat for Instagram chatbots and Mailchimp for email sequences to drive sales organically. We'll walk through a 30-day launch plan that generates 500+ targeted visitors using Pinterest pins and TikTok challenges. Learn how to build a waitlist and pre-sell before inventory exists."
+    },
+    {
+      "h": "Scaling with Automation and Analytics",
+      "b": "Scale your apparel line using Zapier to connect your store with Google Sheets for inventory tracking and Slack for order notifications. Track key metrics like conversion rates (target 2.5%) and average order value ($45+) using free analytics from Google Analytics and Facebook Pixel. This section includes a scaling checklist for reaching $10k monthly revenue."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need any design skills to create apparel?",
+      "a": "No, tools like Canva and Placeit provide templates and drag-and-drop editors so anyone can create professional designs in minutes. You can also use AI generators like Midjourney for unique artwork."
+    },
+    {
+      "q": "How much money do I need to start?",
+      "a": "With print-on-demand, you only pay for products after a customer orders, so starting costs are under $50 for a Shopify trial and domain name. No inventory investment required."
+    },
+    {
+      "q": "Can I sell internationally with this method?",
+      "a": "Yes, Printful has fulfillment centers in the US, Europe, and Australia, allowing you to ship globally with reasonable rates. Your Shopify store supports multiple currencies and languages automatically."
+    }
+  ]
+}

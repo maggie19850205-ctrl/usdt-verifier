@@ -1,0 +1,39 @@
+{
+  "meta": "Master AI tools to build contracts 10x faster. A complete guide with templates and workflows for legal professionals.",
+  "sections": [
+    {
+      "h": "Why AI for Contract Building?",
+      "b": "Traditional contract drafting is slow and error-prone. With AI tools like ChatGPT, Claude, and specialized legal AI platforms, you can generate first drafts in minutes, not hours. Studies show legal teams cut drafting time by 60-80% using AI-assisted workflows."
+    },
+    {
+      "h": "Top AI Tools for Contracts",
+      "b": "We cover 5 key tools: ChatGPT for clause generation, Claude for complex reasoning, Lexion for contract management, Ironclad for workflow automation, and Lawgeex for AI-powered review. Each tool has specific strengths, from drafting NDAs to negotiating multi-party agreements."
+    },
+    {
+      "h": "Step-by-Step Drafting Workflow",
+      "b": "Our guide provides a 10-step workflow: starting with defining contract type and jurisdiction, using AI to generate clauses, reviewing with legal checklists, and finalizing with human oversight. We include specific prompts for each step, proven to reduce revision cycles by 50%."
+    },
+    {
+      "h": "Risk Mitigation & Compliance",
+      "b": "AI can flag high-risk clauses, missing terms, and regulatory issues in seconds. We show how to configure AI to check for GDPR, CCPA, and industry-specific compliance, reducing liability by up to 40% compared to manual review alone."
+    },
+    {
+      "h": "Templates & Customization",
+      "b": "Access 20+ ready-to-use contract templates for NDAs, service agreements, employment contracts, and more. Each template includes AI-optimized fields for customization, with instructions to adapt for your jurisdiction and industry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this guide suitable for non-lawyers?",
+      "a": "Yes, the guide is written for entrepreneurs, freelancers, and legal professionals. It includes step-by-step instructions and pre-built prompts that require no legal background to get started."
+    },
+    {
+      "q": "Do I need to pay for AI tools?",
+      "a": "No, many tools like ChatGPT and Claude offer free tiers sufficient for basic contract drafting. The guide also covers free alternatives and when to upgrade to paid plans."
+    },
+    {
+      "q": "How long does it take to see results?",
+      "a": "Most users create their first AI-generated contract within 15 minutes of following the guide. Full workflow mastery typically takes 2-3 hours of practice."
+    }
+  ]
+}

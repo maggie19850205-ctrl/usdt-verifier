@@ -1,0 +1,28 @@
+{
+  "meta": "Step-by-step checklist workbook for setting up an AI chatbot. Covers platform selection, training, testing, and deployment.",
+  "intro": "This workbook provides a structured checklist to guide you through every step of setting up an AI chatbot, from defining goals to going live. Perfect for beginners and small business owners.",
+  "items": [
+    "Define chatbot purpose and target audience (e.g., customer support, lead generation, FAQ).",
+    "Choose a chatbot platform (e.g., Tidio, ManyChat, Chatfuel, or custom API with OpenAI).",
+    "Map out conversation flows: greetings, common questions, fallback responses, and escalation paths.",
+    "Design and write initial responses: tone of voice, brand-aligned language, and 10-15 sample Q&As.",
+    "Integrate with your website or messaging apps (e.g., Facebook Messenger, WhatsApp, Slack).",
+    "Train the chatbot using sample data: upload FAQs, product info, or link to knowledge base (e.g., 20-50 entries).",
+    "Test chatbot with real users: run 5-10 test conversations, identify errors, and refine responses.",
+    "Launch and monitor performance: track key metrics like response accuracy, user satisfaction, and handoff rate for 2 weeks."
+  ],
+  "faq": [
+    {
+      "q": "Do I need coding skills to use this workbook?",
+      "a": "No, the workbook is designed for non-technical users. It focuses on platform selection and conversational design, not programming."
+    },
+    {
+      "q": "How long does it take to set up a chatbot using this checklist?",
+      "a": "Most users complete setup in 1-2 days, including training and testing, depending on complexity."
+    },
+    {
+      "q": "Can I use this for a chatbot that handles sales?",
+      "a": "Yes, the workbook includes steps for lead qualification and product recommendations, adaptable for sales chatbots."
+    }
+  ]
+}

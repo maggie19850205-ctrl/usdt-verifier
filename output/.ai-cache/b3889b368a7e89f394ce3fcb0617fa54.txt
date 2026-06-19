@@ -1,0 +1,35 @@
+{
+  "meta": "Master SaaS pricing with 4 proven frameworks, 5 case studies, and 3 templates. Boost revenue 30%+.",
+  "sections": [
+    {
+      "h": "The Value Metric Framework",
+      "b": "Identify the core unit of value your product delivers (e.g., API calls, users, storage). Use the Jobs-to-be-Done methodology to map customer willingness-to-pay. This framework alone can increase average revenue per user (ARPU) by 25-40%."
+    },
+    {
+      "h": "Tiered Pricing & Feature Segmentation",
+      "b": "Design 3-5 pricing tiers using the Good-Better-Best model. Anchor the middle tier as your primary seller, with the highest tier offering 2x value for 1.5x price. Data shows this structure boosts conversion by 18% and reduces churn by 12%."
+    },
+    {
+      "h": "Psychology-Driven Pricing Tactics",
+      "b": "Apply decoy effects, charm pricing ($9.99 vs $10), and scarcity tactics (limited-time discounts). A/B test your price points; SaaS companies using psychological pricing see a 15-20% lift in trial-to-paid conversion."
+    },
+    {
+      "h": "Case Studies & Implementation Roadmap",
+      "b": "Analyze 5 real-world SaaS examples (Slack, Zoom, Canva, HubSpot, Shopify) with revenue impact data. Follow a 30-day implementation roadmap: audit your current pricing, run 3 A/B tests, and deploy your new structure with a 14-day transition window."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this bundle suitable for early-stage SaaS startups?",
+      "a": "Yes. The guide includes a dedicated section for pre-revenue and early-stage startups, with free-tier strategies and minimum viable pricing models."
+    },
+    {
+      "q": "How often should I update my pricing strategy?",
+      "a": "Review pricing every 6-12 months or after major product releases. The bundle provides a quarterly audit template to track market shifts and competitor changes."
+    },
+    {
+      "q": "Does the bundle include ready-to-use pricing templates?",
+      "a": "Yes. You get 3 fully customizable spreadsheet templates for tiered pricing, value metric calculation, and A/B test tracking."
+    }
+  ]
+}

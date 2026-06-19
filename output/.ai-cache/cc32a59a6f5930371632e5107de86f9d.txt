@@ -1,0 +1,39 @@
+{
+  "meta": "Master no-code development with this Notion dashboard. Track projects, tools, and resources for building apps without coding.",
+  "sections": [
+    {
+      "h": "Why No-Code Development Matters",
+      "b": "No-code platforms like Bubble, Webflow, and Adalo empower non-developers to build web apps, mobile apps, and automation workflows. This dashboard helps you organize your no-code stack, track project milestones, and manage tool subscriptions—all in one Notion workspace."
+    },
+    {
+      "h": "Project Tracking & Pipeline Management",
+      "b": "Use the included Kanban board to move projects from idea to launch. Each project card captures tool choices (e.g., Zapier for integrations, Airtable for databases), development phase, and testing notes. Over 80% of no-code projects fail due to poor planning—this dashboard prevents that."
+    },
+    {
+      "h": "Tool Library & Resource Hub",
+      "b": "Maintain a searchable database of 50+ no-code tools categorized by use case: frontend (Bubble, Glide), backend (Xano, Backendless), automation (Make, n8n), and design (Figma, Framer). Each entry includes pricing tiers, learning resources, and community reviews."
+    },
+    {
+      "h": "Automation & Workflow Templates",
+      "b": "Pre-built Notion databases for recurring tasks like user onboarding, email sequences, and data syncing. For example, a Zapier-to-Notion integration logs every form submission directly into your dashboard. Save 10+ hours per week by automating manual data entry."
+    },
+    {
+      "h": "Metrics & Growth Dashboard",
+      "b": "Track key performance indicators: user signups, revenue, and feature requests. Link Stripe or Plaid via no-code API tools (e.g., Parabola) to auto-populate financial data. Set weekly goals and visualize progress with built-in charts."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need any coding experience to use this dashboard?",
+      "a": "No, this dashboard is designed for non-developers. All templates are pre-configured with simple dropdowns, checkboxes, and linked databases—no formulas or code required."
+    },
+    {
+      "q": "Can I integrate this with other no-code tools I already use?",
+      "a": "Yes, the dashboard includes Zapier and Make recipes to sync data from Bubble, Webflow, Airtable, and 20+ other platforms. You can also embed public links from tools like Calendly or Typeform."
+    },
+    {
+      "q": "How is this different from a generic project management template?",
+      "a": "This dashboard is purpose-built for no-code developers. It includes a tool library, automation blueprints, and metrics tracking specific to no-code workflows—features missing from standard PM templates."
+    }
+  ]
+}

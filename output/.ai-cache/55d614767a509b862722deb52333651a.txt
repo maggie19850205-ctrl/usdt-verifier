@@ -1,0 +1,35 @@
+{
+"meta": "Automate lead generation with 10+ tools, 5 workflows, and 3 templates. Save time and double your leads for $5.",
+"sections": [
+{
+"h": "What’s Inside the Bundle",
+"b": "This bundle includes 10+ lead generation automation tools, 5 pre-built workflows for LinkedIn, email, and web scraping, and 3 customizable templates. You’ll also get a step-by-step guide to set up each automation in under 30 minutes."
+},
+{
+"h": "How It Doubles Your Leads",
+"b": "By automating repetitive tasks like prospecting, follow-ups, and data enrichment, you can focus on closing deals. Users report a 2x increase in qualified leads within the first month using tools like Zapier, Apollo.io, and Hunter.io."
+},
+{
+"h": "Key Tools and Frameworks",
+"b": "Includes scripts for LinkedIn Sales Navigator scraping, email finder integrations, and CRM auto-population. Frameworks like the 5-Touch Follow-Up Sequence and Multi-Channel Outreach Matrix are pre-configured for instant deployment."
+},
+{
+"h": "Who Should Buy This Bundle",
+"b": "Perfect for sales teams, freelancers, and small business owners who want to scale lead generation without hiring extra staff. No coding skills required—just copy, paste, and run the automations."
+}
+],
+"faq": [
+{
+"q": "Do I need technical skills to use this bundle?",
+"a": "No, the bundle is designed for non-technical users. Each automation comes with a video tutorial and written instructions."
+},
+{
+"q": "What tools are included?",
+"a": "You get templates for Zapier, Make (formerly Integromat), Apollo.io, Hunter.io, and LinkedIn automation tools like Dux-Soup."
+},
+{
+"q": "Is there a money-back guarantee?",
+"a": "Yes, we offer a 30-day money-back guarantee. If you’re not satisfied, we’ll refund your $5 no questions asked."
+}
+]
+}

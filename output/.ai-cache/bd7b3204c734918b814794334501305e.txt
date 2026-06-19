@@ -1,0 +1,40 @@
+{
+"meta": "Automate AI workflows with 5 ready-to-use templates. Save hours daily using Zapier, n8n, and GPT-4 connectors.",
+"intro": "Stop manually chaining AI tools. This template pack gives you drop-in workflows for content generation, data extraction, email automation, and more—compatible with Zapier, n8n, and Make.",
+"templates": [
+{
+"n": "Content Repurposing Pipeline",
+"d": "Auto-extract key points from long-form content (blogs, podcasts) using GPT-4, then repurpose into 5 social posts, a newsletter summary, and a LinkedIn thread. Saves 3+ hours per piece."
+},
+{
+"n": "Lead Scoring & CRM Enrichment",
+"d": "Connect your CRM (HubSpot/Salesforce) to GPT-4 via Zapier. Automatically score leads based on email sentiment and enrich records with industry, role, and intent data from public sources."
+},
+{
+"n": "Email Response Generator",
+"d": "n8n workflow that ingests incoming support emails, classifies intent (billing, tech, general), and drafts a personalized reply using your knowledge base. Cuts response time by 60%."
+},
+{
+"n": "Data Extraction to Spreadsheet",
+"d": "Scrape 100+ product pages or PDFs for structured data (prices, specs, dates) using GPT-4 Vision. Outputs directly to Google Sheets or Airtable. Handles 500 records per run."
+},
+{
+"n": "Meeting Action Tracker",
+"d": "Transcribe Zoom/Meet calls via Whisper, summarize decisions and action items with GPT-4, and push tasks to Asana/Trello with assigned owners and deadlines. Reduces follow-up overhead by 80%."
+}
+],
+"faq": [
+{
+"q": "Do I need coding skills to use these templates?",
+"a": "No. Each template is a step-by-step JSON or Zapier blueprint. Basic familiarity with Zapier/n8n is helpful but not required—instructions explain every connection."
+},
+{
+"q": "Can I customize the GPT-4 prompts inside the workflows?",
+"a": "Yes. Every template includes editable prompt blocks. You can swap GPT-4 for Claude or Gemini, adjust tone, or add your own brand guidelines."
+},
+{
+"q": "What platforms are these templates compatible with?",
+"a": "Templates work with Zapier, n8n (self-hosted or cloud), and Make. We also include plain JSON for custom integrations via API."
+}
+]
+}

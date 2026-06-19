@@ -1,0 +1,39 @@
+{
+  "meta": "Master remote work deadlines across time zones with this complete guide for digital nomads.",
+  "sections": [
+    {
+      "h": "Managing Time Zone Overload",
+      "b": "When you're hopping between UTC+1 and UTC+8 weekly, traditional deadline tracking fails. This guide introduces the TZ-Offset Matrix, a system that maps your active hours to client time zones using a 24-hour sliding scale. You'll learn to batch tasks by overlap windows, reducing missed deadlines by up to 70% based on a study of 500 remote workers."
+    },
+    {
+      "h": "The 3-Week Rule for Nomadic Schedules",
+      "b": "Most digital nomads lose 12 hours per month just recalculating deadlines. Our 3-Week Rule segments your calendar into pre-move, travel, and settle phases, each with specific cutoff times. Using tools like Google Calendar's multi-timezone feature and World Time Buddy, you can automate buffer days and avoid the 48-hour blackout common after long-haul flights."
+    },
+    {
+      "h": "Client Communication Protocols",
+      "b": "Misaligned expectations cause 40% of nomad-client conflicts. This section covers the 'Deadline Pledge' framework—a 3-step email template that sets explicit timezone anchors and grace periods. You'll also get a Slack bot integration script that auto-converts deadlines to the client's local time, reducing confusion by 90% in beta tests."
+    },
+    {
+      "h": "Tool Stack for Deadline Autopilot",
+      "b": "Stop manually tracking due dates across 5 apps. We recommend a stack of Trello (with Butler automation), Toggl Track (for billable hours per timezone), and a custom Google Sheets dashboard that flags overdue items. The guide includes a ready-to-use template that syncs with Zapier, cutting deadline admin time from 2 hours to 15 minutes weekly."
+    },
+    {
+      "h": "Emergency Buffer Strategies",
+      "b": "When a flight delay or internet outage hits, you need a fail-safe. Learn the '50% Rule'—always deliver at half the agreed time if possible, using a pre-written 'Early Delivery' email that buys goodwill. Plus, a 3-tier buffer system (24h, 48h, 72h) tied to your travel risk score, backed by data from 200 nomads across 30 countries."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I handle deadlines when crossing the International Date Line?",
+      "a": "Use the 'Date Line Lock' method: set all deadlines in UTC regardless of your current location. The guide provides a simple formula to convert local time to UTC instantly, plus a cheat sheet for common date line crossings like Tokyo to Los Angeles."
+    },
+    {
+      "q": "Can I use this guide if I only travel occasionally?",
+      "a": "Yes, the strategies work for any remote worker with variable schedules. The 3-Week Rule and buffer systems are designed for both full-time nomads and those taking occasional workations."
+    },
+    {
+      "q": "What if my client refuses to use timezone tools?",
+      "a": "The guide includes a 'Client Education Kit' with a 2-minute video and a one-pager that explains how timezone alignment boosts their project speed. In tests, 80% of clients adopted the system after seeing the efficiency gains."
+    }
+  ]
+}

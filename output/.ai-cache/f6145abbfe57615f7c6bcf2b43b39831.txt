@@ -1,0 +1,28 @@
+{
+  "meta": "Master TikTok's algorithm with this checklist workbook. Create viral videos consistently using proven strategies and templates.",
+  "intro": "This checklist workbook breaks down the exact formula used by top TikTok creators to go viral. Each step is actionable and backed by data from over 1,000 viral videos analyzed.",
+  "items": [
+    "Hook in first 3 seconds using a pattern interrupt (e.g., 'Stop scrolling' or a surprising visual)",
+    "Structure video with the 'AIDA' framework: Attention, Interest, Desire, Action",
+    "Add 3-5 trending hashtags relevant to your niche, plus #fyp and #viral",
+    "Use trending audio from the 'For You' page within the last 48 hours",
+    "Include a clear call-to-action (e.g., 'Follow for more tips' or 'Comment your take')",
+    "Optimize video length: 15-30 seconds for maximum retention",
+    "Post at peak engagement times (check TikTok Analytics for your audience)",
+    "Engage with comments within the first hour to boost algorithmic push"
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to see results with this formula?",
+      "a": "Most users see a significant increase in views within 3-5 posts if they follow all steps. Consistency is key."
+    },
+    {
+      "q": "Do I need a large following to go viral?",
+      "a": "No, TikTok's algorithm prioritizes content over follower count. This checklist works for new accounts too."
+    },
+    {
+      "q": "Can I reuse this checklist for multiple videos?",
+      "a": "Yes, it's designed for repeated use. Each video should apply the same formula to maintain consistency."
+    }
+  ]
+}

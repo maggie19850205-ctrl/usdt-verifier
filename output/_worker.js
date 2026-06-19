@@ -534,6 +534,41 @@ export default {
         return json({ ok: true, results });
       }
 
+      // -- AI Generate endpoint (OpenAI/Claude via Worker edge) --
+      if (path === '/api/ai-generate' && method === 'POST') {
+        try {
+          const { system, user, model, maxTokens } = await request.json();
+          if (!system || !user) return json({ error: 'Missing system or user prompt' }, 400);
+          const apiKey = env.AI_API_KEY || '';
+          if (!apiKey) return json({ error: 'AI_API_KEY not configured' }, 503);
+          const ms = (model || 'gpt-4o-mini').toLowerCase();
+          let result = null;
+          if (ms.startsWith('gpt') || ms.startsWith('openai')) {
+            const r = await fetch('https://api.openai.com/v1/chat/completions', {
+              method: 'POST', headers: { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+              body: JSON.stringify({ model: 'gpt-4o-mini', messages: [{ role: 'system', content: system }, { role: 'user', content: user }], max_tokens: maxTokens || 500, temperature: 0.7 })
+            });
+            const d = await r.json(); result = d?.choices?.[0]?.message?.content || null;
+          } else if (ms.startsWith('claude')) {
+            const r = await fetch('https://api.anthropic.com/v1/messages', {
+              method: 'POST', headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'Content-Type': 'application/json' },
+              body: JSON.stringify({ model: 'claude-3-haiku-20240307', max_tokens: maxTokens || 500, system: system, messages: [{ role: 'user', content: user }] })
+            });
+            const d = await r.json(); result = d?.content?.[0]?.text || null;
+          } else if (ms.startsWith('deepseek')) {
+            const r = await fetch('https://api.deepseek.com/v1/chat/completions', {
+              method: 'POST', headers: { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+              body: JSON.stringify({ model: 'deepseek-chat', messages: [{ role: 'system', content: system }, { role: 'user', content: user }], max_tokens: maxTokens || 500, temperature: 0.7 })
+            });
+            const d = await r.json();
+            if (!r.ok) return json({ error: 'DeepSeek API error', status: r.status, details: d }, 502);
+            result = d?.choices?.[0]?.message?.content || null;
+            if (!result) return json({ error: 'DeepSeek returned no content', raw: d }, 502);
+          }
+          if (!result) return json({ error: 'No response from AI', details: 'Check API key and model name' }, 502);
+          return json({ content: result.trim() });
+        } catch (e) { return json({ error: e.message }, 500); }
+      }
       // 鈹€鈹€ Language-based routing 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
       const langMatch = path.match(/^\/(en|es|pt)(\/|$)/);
       if (langMatch) {

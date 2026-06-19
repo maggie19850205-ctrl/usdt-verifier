@@ -1,0 +1,35 @@
+{
+  "meta": "Boost remote team productivity with this ultimate bundle: guides, templates, and checklists for async workflows and engagement.",
+  "sections": [
+    {
+      "h": "Master Async Communication",
+      "b": "Reduce meeting overload by 40% using structured async updates via tools like Loom and Slack. Implement daily standups as written threads with a 15-minute response window to maintain momentum."
+    },
+    {
+      "h": "Build Accountability Systems",
+      "b": "Deploy OKR templates with weekly check-ins using Asana or Trello to track progress. Pair with a 3-tier priority matrix to ensure 80% of effort drives high-impact outcomes."
+    },
+    {
+      "h": "Foster Team Engagement",
+      "b": "Use weekly pulse surveys (e.g., Officevibe) and virtual coffee chats to boost morale. Introduce a recognition system with points redeemable for perks, shown to increase retention by 25%."
+    },
+    {
+      "h": "Optimize Remote Onboarding",
+      "b": "Standardize onboarding with a 30-60-90 day plan template in Notion, including buddy assignments and milestone reviews. Reduce ramp-up time by 50% with pre-recorded tool walkthroughs."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What tools are covered in this bundle?",
+      "a": "The bundle includes templates for Slack, Asana, Trello, Notion, Loom, and Google Workspace, plus guides for integrating them into daily workflows."
+    },
+    {
+      "q": "Is this suitable for small teams or large enterprises?",
+      "a": "Yes, the frameworks scale from 5-person startups to 500+ employee organizations, with modular templates adaptable to your team size."
+    },
+    {
+      "q": "How quickly can I implement the strategies?",
+      "a": "Most teams see productivity gains within 2 weeks by starting with the async communication and accountability modules, which take under 3 hours to set up."
+    }
+  ]
+}
