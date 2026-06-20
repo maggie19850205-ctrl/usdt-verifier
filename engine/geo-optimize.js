@@ -19,6 +19,24 @@ console.log('Created llms.txt');
 const robotsContent = `User-agent: PerplexityBot
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 User-agent: *
 Allow: /
 Sitemap: https://automoney-store.pages.dev/sitemap.xml
@@ -125,6 +143,16 @@ if (fs.existsSync(BLOG)) {
       fs.writeFileSync(fp, html, 'utf8');
     }
   }
+}
+
+// === 5. Create IndexNow key file ===
+const INDEXNOW_KEY = '092e0e380fec4e3f9e317a373d0f6a4d';
+const keyPath = path.join(OUTPUT, `${INDEXNOW_KEY}.txt`);
+if (!fs.existsSync(keyPath)) {
+  fs.writeFileSync(keyPath, INDEXNOW_KEY, 'utf8');
+  console.log(`IndexNow key file created: ${INDEXNOW_KEY}.txt`);
+} else {
+  console.log('IndexNow key file exists');
 }
 
 console.log('\nGEO optimization complete!');
