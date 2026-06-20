@@ -363,6 +363,7 @@
 - [Youtube Seo Optimization Guide Ultimate Bundle](https://automoney-store.pages.dev/downloads/youtube-seo-optimization-guide-ultimate-bundle.html): AI-powered bundle with templates, guides, and checklists
 
 ## Tools
+- [SEO HTML Analyzer](https://automoney-store.pages.dev/tools/seo-analyzer.html)
 - [Schema Generator](https://automoney-store.pages.dev/tools/schema-generator.html)
 - [SERP Preview](https://automoney-store.pages.dev/tools/serp-preview.html)
 - [Readability Score](https://automoney-store.pages.dev/tools/readability-score.html)
