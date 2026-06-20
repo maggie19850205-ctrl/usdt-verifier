@@ -11,7 +11,7 @@ for (const file of productFiles) {
   const name = file.replace(/\.html$/, '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
   llmsContent += `- [${name}](https://automoney-store.pages.dev/downloads/${file}): AI-powered ${file.includes('ultimate-bundle') ? 'bundle with templates, guides, and checklists' : file.includes('template') ? 'ready-to-use template pack' : file.includes('guide') ? 'comprehensive guide' : 'practical workbook'}\n`;
 }
-llmsContent += `\n## Tools\n- [Schema Generator](https://automoney-store.pages.dev/tools/schema-generator.html)\n- [SERP Preview](https://automoney-store.pages.dev/tools/serp-preview.html)\n- [Readability Score](https://automoney-store.pages.dev/tools/readability-score.html)\n- [Word Counter](https://automoney-store.pages.dev/tools/word-counter.html)\n- [QR Code Generator](https://automoney-store.pages.dev/tools/qr-code.html)\n- [More free tools](https://automoney-store.pages.dev/tools/)\n\n## Blog\n- [Blog Home](https://automoney-store.pages.dev/blog/)\n`;
+llmsContent += `\n## Tools\n- [SEO HTML Analyzer](https://automoney-store.pages.dev/tools/seo-analyzer.html)\n- [Schema Generator](https://automoney-store.pages.dev/tools/schema-generator.html)\n- [SERP Preview](https://automoney-store.pages.dev/tools/serp-preview.html)\n- [Readability Score](https://automoney-store.pages.dev/tools/readability-score.html)\n- [Word Counter](https://automoney-store.pages.dev/tools/word-counter.html)\n- [QR Code Generator](https://automoney-store.pages.dev/tools/qr-code.html)\n- [More free tools](https://automoney-store.pages.dev/tools/)\n\n## Blog\n- [Blog Home](https://automoney-store.pages.dev/blog/)\n`;
 fs.writeFileSync(path.join(OUTPUT, 'llms.txt'), llmsContent, 'utf8');
 console.log('Created llms.txt');
 
