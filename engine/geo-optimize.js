@@ -146,7 +146,7 @@ if (fs.existsSync(BLOG)) {
 }
 
 // === 5. Create IndexNow key file ===
-const INDEXNOW_KEY = '092e0e380fec4e3f9e317a373d0f6a4d';
+const INDEXNOW_KEY = '625e8ab739f0c8372a98ca1a573ff570';
 const keyPath = path.join(OUTPUT, `${INDEXNOW_KEY}.txt`);
 if (!fs.existsSync(keyPath)) {
   fs.writeFileSync(keyPath, INDEXNOW_KEY, 'utf8');

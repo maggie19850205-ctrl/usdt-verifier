@@ -306,8 +306,8 @@ export default {
     }
 
     // Serve IndexNow key file directly (bypass ASSETS SPA fallback)
-    if (path === '/092e0e380fec4e3f9e317a373d0f6a4d.txt') {
-      return new Response('092e0e380fec4e3f9e317a373d0f6a4d', {
+    if (path === '/625e8ab739f0c8372a98ca1a573ff570.txt') {
+      return new Response('625e8ab739f0c8372a98ca1a573ff570', {
         headers: { 'Content-Type': 'text/plain;charset=utf-8' }
       });
     }
@@ -528,7 +528,7 @@ export default {
         try {
           const urls = Object.values(PRODUCT_FILES).map(f => `${SITE_URL}/downloads/${f.replace(/\.html$/g, '')}`);
           urls.push(SITE_URL, SITE_URL+'/sitemap.xml', SITE_URL+'/about.html', SITE_URL+'/affiliate.html');
-          const body = JSON.stringify({ host: 'automoney-store.pages.dev', key: '092e0e380fec4e3f9e317a373d0f6a4d', keyLocation: SITE_URL+'/092e0e380fec4e3f9e317a373d0f6a4d.txt', urlList: urls.slice(0, 10000) });
+          const body = JSON.stringify({ host: 'automoney-store.pages.dev', key: '625e8ab739f0c8372a98ca1a573ff570', keyLocation: SITE_URL+'/625e8ab739f0c8372a98ca1a573ff570.txt', urlList: urls.slice(0, 10000) });
           const r = await fetch('https://api.indexnow.org/indexnow', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body });
           results.push({ engine: 'Bing/IndexNow', status: r.status === 200 ? 'submitted ' + urls.length + ' URLs' : r.status });
         } catch (e) { results.push({ engine: 'Bing/IndexNow', error: e.message }); }

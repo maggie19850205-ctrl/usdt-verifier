@@ -37,7 +37,7 @@ function request(opts, body = null) {
 async function submitIndexNow(urls) {
   console.log(`\n=== IndexNow (${urls.length} URLs) ===`);
   // IndexNow accepts up to 10k URLs per batch
-  const batch = { host: 'automoney-store.pages.dev', key: '092e0e380fec4e3f9e317a373d0f6a4d', urlList: urls };
+  const batch = { host: 'automoney-store.pages.dev', key: '625e8ab739f0c8372a98ca1a573ff570', urlList: urls };
   const res = await request({
     hostname: 'api.indexnow.org', path: '/IndexNow', method: 'POST',
     headers: { 'Content-Type': 'application/json; charset=utf-8' }

@@ -11,30 +11,32 @@ while ((m = re.exec(xml)) !== null) urls.push(m[1]);
 
 console.log(`Total URLs: ${urls.length}`);
 
-const batch = {
-  host: 'automoney-store.pages.dev',
-  key: '092e0e380fec4e3f9e317a373d0f6a4d',
-  urlList: urls
-};
+const hostname = 'api.indexnow.org';
+const key = '625e8ab739f0c8372a98ca1a573ff570';
 
-const data = JSON.stringify(batch);
-const req = https.request({
-  hostname: 'api.indexnow.org',
-  path: '/IndexNow',
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json; charset=utf-8',
-    'Content-Length': Buffer.byteLength(data)
-  }
-}, res => {
-  let body = '';
-  res.on('data', c => body += c);
-  res.on('end', () => {
-    console.log(`IndexNow: HTTP ${res.statusCode}`);
-    console.log(`Response: ${body.substring(0, 200)}`);
+let success = 0, fail = 0;
+
+function submit(url) {
+  return new Promise(resolve => {
+    const path = `/IndexNow?url=${encodeURIComponent(url)}&key=${key}`;
+    const req = https.get({ hostname, path }, res => {
+      let body = '';
+      res.on('data', c => body += c);
+      res.on('end', () => {
+        if (res.statusCode === 202) success++;
+        else fail++;
+        if ((success + fail) % 100 === 0) console.log(`Progress: ${success + fail}/${urls.length} (OK: ${success}, Fail: ${fail})`);
+        resolve();
+      });
+    });
+    req.on('error', () => { fail++; resolve(); });
+    req.end();
   });
-});
+}
 
-req.on('error', e => console.error('Error:', e.message));
-req.write(data);
-req.end();
+(async () => {
+  for (let i = 0; i < urls.length; i++) {
+    await submit(urls[i]);
+  }
+  console.log(`\nDone: ${success} OK, ${fail} failed`);
+})();
