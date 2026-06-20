@@ -44,6 +44,9 @@ jobs:
       - name: Fix purchase flow
         run: node engine/fix-purchase-flow.js
 
+      - name: Run GEO optimization (llms.txt, robots.txt, Organization+FAQ schema, IndexNow key)
+        run: node engine/geo-optimize.js
+
       - name: Regenerate sitemap
         run: node generate-sitemap.js
 
