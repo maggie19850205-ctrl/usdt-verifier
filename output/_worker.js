@@ -313,11 +313,16 @@ export default {
     }
 
     try {
-      // 鈹€鈹€ Rate limiting on all API calls 鈹€鈹€
-      const clientIP = request.headers.get('CF-Connecting-IP') || 'unknown';
-      const rl = await rateLimit(env, clientIP, 120, 60000);
-      if (rl.limited) {
-        return json({ error: 'Rate limited', retryAfter: rl.retryAfter }, 429);
+      // Bypass rate limiting for search engine crawlers
+      const ua = (request.headers.get('User-Agent') || '').toLowerCase();
+      const crawlers = ['googlebot','bingbot','perplexitybot','gptbot','chatgpt-user','anthropic-ai','claude-web','ccbot','duckduckbot','yandexbot','slurp','facebookexternalhit','twitterbot','baiduspider','applebot'];
+      const isCrawler = crawlers.some(c => ua.includes(c));
+      if (!isCrawler) {
+        const clientIP = request.headers.get('CF-Connecting-IP') || 'unknown';
+        const rl = await rateLimit(env, clientIP, 120, 60000);
+        if (rl.limited) {
+          return json({ error: 'Rate limited', retryAfter: rl.retryAfter }, 429);
+        }
       }
 
       // 鈹€鈹€ API routes 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
