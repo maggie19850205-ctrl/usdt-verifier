@@ -57,11 +57,50 @@ jobs:
       - name: Regenerate sitemap
         run: node generate-sitemap.js
 
-      - name: Deploy to Cloudflare Pages
+      - name: Generate multi-site content (6 sub-sites)
+        run: node engine/generate-multi-site.js
+
+      - name: Deploy automoney-store (main store)
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: npx wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
-      - name: Submit IndexNow (after deploy)
-        run: node engine/indexnow-resubmit.js
+      - name: Deploy maomaolove (main brand)
+        if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
+        run: npx wrangler pages deploy sites/maomaolove --branch main --project-name maomaolove --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Deploy aitools
+        if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
+        run: npx wrangler pages deploy sites/aitools --branch main --project-name aitools --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Deploy templatehub
+        if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
+        run: npx wrangler pages deploy sites/templatehub --branch main --project-name templatehub --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Deploy geoseo
+        if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
+        run: npx wrangler pages deploy sites/geoseo --branch main --project-name geoseo --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Deploy cryptopay
+        if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
+        run: npx wrangler pages deploy sites/cryptopay --branch main --project-name cryptopay --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Deploy sidehustle
+        if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
+        run: npx wrangler pages deploy sites/sidehustle --branch main --project-name sidehustle --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Submit IndexNow for all sites
+        run: node engine/indexnow-resubmit-all.js
