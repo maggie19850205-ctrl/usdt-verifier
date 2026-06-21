@@ -27,6 +27,14 @@ const sites = [
     theme: 'pink',
     niches: ['Digital Products', 'AI Tools', 'Templates', 'Business'],
     nav: ['Products', 'Tools', 'Blog', 'FAQ'],
+    products: [
+      {name:'AI Prompt Library (500+ Prompts)', price:'$9.99', slug:'ai-prompt-library', desc:'500+ tested ChatGPT, Claude, and Gemini prompts for content creation, business, and productivity.', badge:'Bestseller'},
+      {name:'Notion Business Dashboard', price:'$14.99', slug:'notion-business-dashboard', desc:'Complete Notion workspace for business management. CRM, project tracking, finance, and content calendar.', badge:'Popular'},
+      {name:'SEO Audit Checklist Bundle', price:'$19.99', slug:'seo-audit-checklist-bundle', desc:'Comprehensive SEO checklists: technical SEO, on-page, off-page, local SEO, and GEO optimization.', badge:'New'},
+      {name:'Content Creation Template Pack', price:'$24.99', slug:'content-creation-template-pack', desc:'50+ templates for blog posts, social media, emails, video scripts, and landing pages.', badge:''},
+      {name:'Digital Product Creation Course', price:'$29.99', slug:'digital-product-course', desc:'Step-by-step guide to creating and selling digital products. From idea to first sale in 30 days.', badge:'Hot'},
+      {name:'Business Automation Suite', price:'$49.99', slug:'business-automation-suite', desc:'Complete automation workflows for small business. AI-powered email, social, content, and CRM automation.', badge:'Premium'}
+    ],
     blogPosts: [
       {slug:'maommaolove-digital-products-guide', title:'MaoMaoLove Digital Products: Complete Guide for Creators', desc:'Everything you need to know about buying and selling digital products on MaoMaoLove. From USDT payment to instant delivery.'},
       {slug:'why-choose-maomaolove', title:'Why MaoMaoLove? The Best Digital Product Marketplace in 2026', desc:'Discover what makes MaoMaoLove different: USDT payments, no registration, GEO-optimized content, and premium quality.'},
@@ -161,7 +169,23 @@ function makeSite(site) {
   const crossNav = siblings.map(s => `<a href="https://${s.domain}">${s.title.replace(' - .*','')}</a>`).join('\n    ');
 
   // —— Homepage ——
-  const productsHtml = siblings.map(s => `<div class="product-card"><h3><a href="https://${s.domain}">${s.title}</a></h3><p>${s.tagline}</p><span class="tag">${s.niches[0]}</span></div>`).join('\n');
+  const networkHtml = siblings.map(s => `<div class="product-card"><h3><a href="https://${s.domain}">${s.title}</a></h3><p>${s.tagline}</p><span class="tag">${s.niches[0]}</span></div>`).join('\n');
+
+  let productsSection = '';
+  if (site.products && site.products.length) {
+    productsSection = `<h2>Featured Products</h2>
+<div class="product-grid">
+${site.products.map(p => `<div class="prod-card ${p.badge ? 'has-badge' : ''}">
+  <div class="prod-badge">${p.badge}</div>
+  <h3>${p.name}</h3>
+  <p>${esc(p.desc)}</p>
+  <div class="prod-footer">
+    <span class="prod-price">${p.price} USDT</span>
+    <a class="buy-btn" href="https://automoney-store.pages.dev/?product=${p.slug}">Buy Now</a>
+  </div>
+</div>`).join('\n')}
+</div>`;
+  }
 
   const homeHtml = `<!DOCTYPE html>
 <html lang="en">
@@ -184,10 +208,21 @@ function makeSite(site) {
 .sitelist{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:32px 0}
 .nav-links{text-align:center;padding:12px 0;font-size:0.85rem;color:#555}
 .nav-links a{color:#888;margin:0 12px}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:24px 0}
+.prod-card{background:#16162a;border:1px solid #2a2a4a;border-radius:12px;padding:24px;position:relative}
+.prod-card h3{font-size:1rem;margin:0 0 8px;color:#fff}
+.prod-card p{font-size:0.85rem;color:#888;margin:0 0 16px}
+.prod-footer{display:flex;align-items:center;justify-content:space-between}
+.prod-price{font-size:1.2rem;font-weight:700;color:${site.color}}
+.buy-btn{display:inline-block;background:${site.color};color:#0a0a12;padding:8px 20px;border-radius:100px;font-weight:600;font-size:.85rem}
+.buy-btn:hover{opacity:0.9;color:#0a0a12}
+.prod-badge{position:absolute;top:-6px;right:12px;background:${site.color};color:#0a0a12;font-size:.7rem;padding:2px 10px;border-radius:100px;font-weight:700}
+.has-badge .prod-badge{display:block}
 </style></head><body>
 <div class="wrap">
 <div class="nav-links">
   <a href="/">Home</a>
+  ${site.products ? '<a href="/products/">Products</a>' : ''}
   <a href="/blog/">Blog</a>
   <a href="/faq.html">FAQ</a>
 ${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join('\n  ')}
@@ -196,9 +231,11 @@ ${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a
   <h1>${site.title.split(' - ')[0]}</h1>
   <p>${site.tagline}</p>
   <p style="color:#555;font-size:0.9rem">USDT (TRC-20): ${USDT}</p>
+  <a href="https://automoney-store.pages.dev/products/" class="cta">Browse All Products →</a>
 </div>
+${productsSection}
 <h2>Our Network Sites</h2>
-<div class="sitelist">${productsHtml}</div>
+<div class="sitelist">${networkHtml}</div>
 <h2>Latest from Blog</h2>
 ${site.blogPosts.slice(0,2).map(p => `<div class="product-card"><h3><a href="/blog/${p.slug}.html">${p.title}</a></h3><p>${esc(p.desc)}</p></div>`).join('\n')}
 <p style="text-align:center;margin-top:24px"><a href="/blog/" class="cta">View All Posts →</a></p>
@@ -306,6 +343,67 @@ ${site.blogPosts.map(p => `<div class="post"><h3><a href="/blog/${p.slug}.html">
 </div></body></html>`;
   fs.writeFileSync(path.join(BLOG_DIR, 'index.html'), blogIndex, 'utf-8');
 
+  // —— Products page (maomaolove only) ——
+  if (site.products && site.products.length) {
+    const prodDir = path.join(dir, 'products');
+    fs.mkdirSync(prodDir, { recursive: true });
+    const pSchema = `<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","url":"https://${site.domain}/products/","name":"${site.title.split(' - ')[0]} Products","itemListElement":[${site.products.map((p,i) => `{"@type":"ListItem","position":${i+1},"item":{"@type":"Product","name":"${esc(p.name)}","description":"${esc(p.desc)}","offers":{"@type":"Offer","price":${p.price.replace('$','')},"priceCurrency":"USD"}}}`).join(',')}]}</script>`;
+    const prodHtml = `<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Products | ${site.title.split(' - ')[0]}</title>
+<meta name="description" content="${esc(site.title)} product catalog. Digital products starting at $9.99. USDT TRC-20 payment, instant delivery.">
+<link rel="canonical" href="https://${site.domain}/products/">
+<meta name="robots" content="index, follow">
+${pSchema}
+<style>${CSS}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px;margin:32px 0}
+.p-card{background:#16162a;border:1px solid #2a2a4a;border-radius:12px;padding:24px;position:relative}
+.p-card h2{font-size:1.1rem;margin:0 0 8px;color:#fff}
+.p-card p{font-size:0.85rem;color:#888;margin:0 0 16px}
+.p-card .pf{display:flex;align-items:center;justify-content:space-between}
+.p-card .pp{font-size:1.3rem;font-weight:700;color:${site.color}}
+.p-card .bb{display:inline-block;background:${site.color};color:#0a0a12;padding:8px 20px;border-radius:100px;font-weight:600;font-size:.85rem}
+.p-card .pb{position:absolute;top:-6px;right:12px;background:${site.color};color:#0a0a12;font-size:.7rem;padding:2px 10px;border-radius:100px;font-weight:700}
+.ins{background:#1a1a3e;border:1px solid #2a2a4a;border-radius:8px;padding:20px;margin:24px 0}
+.ins h3{color:${site.color};font-size:1rem;margin:0 0 12px}
+.ins ol{margin:0;padding-left:20px}
+.ins li{color:#b0b0c0;font-size:0.85rem;margin:6px 0}
+.ins code{background:#2a2a4a;padding:2px 8px;border-radius:4px;font-size:.8rem;color:#fff}
+</style></head><body>
+<div class="wrap">
+<p style="color:#555;font-size:0.8rem;margin-bottom:24px"><a href="/">Home</a> › Products</p>
+<h1>Digital Products</h1>
+<p style="color:#666;margin-bottom:8px">Pay with <strong>USDT (TRC-20)</strong> — no registration, instant delivery.</p>
+<div class="ins">
+<h3>How to Buy</h3>
+<ol>
+<li>Send exact USDT amount to: <code>${USDT}</code></li>
+<li>Copy your transaction hash (TXID) from your wallet</li>
+<li>Click "Buy Now" on the product, paste TXID and email</li>
+<li>Receive instant download link</li>
+</ol>
+</div>
+<div class="product-grid">
+${site.products.map(p => `<div class="p-card">
+  <div class="pb">${p.badge || 'Popular'}</div>
+  <h2>${p.name}</h2>
+  <p>${esc(p.desc)}</p>
+  <div class="pf">
+    <span class="pp">${p.price}</span>
+    <a class="bb" href="https://automoney-store.pages.dev/?product=${p.slug}">Buy Now →</a>
+  </div>
+</div>`).join('\n')}
+</div>
+<div class="footer">
+<p>&copy; 2026 ${site.title.split(' - ')[0]} | USDT: ${USDT}</p>
+<p>${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join(' · ')}</p>
+</div>
+</div></body></html>`;
+    fs.writeFileSync(path.join(prodDir, 'index.html'), prodHtml, 'utf-8');
+    console.log(`  Products: ${site.products.length} items`);
+  }
+
   // —— IndexNow key file (same key across all sites) ——
   fs.writeFileSync(path.join(dir, '625e8ab739f0c8372a98ca1a573ff570.txt'), '625e8ab739f0c8372a98ca1a573ff570', 'utf-8');
 
@@ -320,6 +418,8 @@ ${site.blogPosts.map(p => `<div class="post"><h3><a href="/blog/${p.slug}.html">
     ...site.blogPosts.map(p => `https://${site.domain}/blog/${p.slug}.html`),
     `https://${site.domain}/blog/`
   ];
+  if (site.products) urls.push(`https://${site.domain}/products/`);
+  if (site.slug === 'maomaolove') urls.push(`https://${site.domain}/tools/`);
   fs.writeFileSync(path.join(dir, 'sitemap.xml'),
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     urls.map(u => `  <url><loc>${u}</loc><priority>0.8</priority></url>`).join('\n') +
