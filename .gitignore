@@ -29,3 +29,14 @@ paperclip-master*/
 seo-geo-claude-skills-main*/
 superpowers-main*/
 yao-open-skills-main*/
+
+# Generated files
+*.png
+*.html
+submit-log.txt
+submit-results.log
+betalist-form.html
+saashub-form.html
+ph-form.html
+ph-home.html
+ph-new-post.html
