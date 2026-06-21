@@ -10,17 +10,17 @@ const products = fs.readdirSync(PAGES_DIR, { withFileTypes: true })
   .filter(d => d.isDirectory())
   .map(d => {
     let name = d.name;
-    let price = '$9.99';
+    let price = '';
 
-    // Try to read from index.html
-    const indexPath = path.join(PAGES_DIR, d.name, 'index.html');
-    if (fs.existsSync(indexPath)) {
-      const html = fs.readFileSync(indexPath, 'utf-8');
+    const slugFile = path.join(PAGES_DIR, d.name, `${d.name}.html`);
+    if (fs.existsSync(slugFile)) {
+      const html = fs.readFileSync(slugFile, 'utf-8');
       const titleMatch = html.match(/<title>(.*?)<\/title>/);
-      if (titleMatch) name = titleMatch[1].replace(' - AutoMoney Store', '');
-      const priceMatch = html.match(/<p class="price">\$(\d+\.\d+)<\/p>/);
+      if (titleMatch) name = titleMatch[1].replace(/ [\-|] AutoMoney Store$/, '');
+      const priceMatch = html.match(/<div class="price-hero">\$(\d+\.\d+)/);
       if (priceMatch) price = `$${priceMatch[1]}`;
     }
+    if (!price) price = '';
 
     return { slug: d.name, name, price, isNew: d.name.includes('-ultimate-bundle') || !d.name.match(/^\d{2}-/) };
   })
@@ -75,7 +75,7 @@ h1{font-size:2rem;margin-bottom:8px;background:linear-gradient(135deg,#00e676,#0
 ${products.map(p => `<a href="/pages/${p.slug}/" class="card">
 ${p.isNew ? '<span class="badge">NEW</span>' : ''}
 <div class="title">${p.name}</div>
-<div class="price">${p.price}</div>
+${p.price ? `<div class="price">${p.price}</div>` : ''}
 </a>`).join('\n')}
 </div>
 
