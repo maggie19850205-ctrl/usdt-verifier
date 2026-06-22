@@ -201,12 +201,7 @@ function makeSite(site) {
   const BLOG_DIR = path.join(dir, 'blog');
   fs.mkdirSync(BLOG_DIR, { recursive: true });
 
-  const siblings = sites.filter(s => s.slug !== site.slug);
-  const crossNav = siblings.map(s => `<a href="https://${s.domain}">${s.title.replace(' - .*','')}</a>`).join('\n    ');
-
   // —— Homepage ——
-  const networkHtml = siblings.map(s => `<div class="product-card"><h3><a href="https://${s.domain}">${s.title}</a></h3><p>${s.tagline}</p><span class="tag">${s.niches[0]}</span></div>`).join('\n');
-
   let productsSection = '';
   if (site.products && site.products.length) {
     productsSection = `<h2>Featured Products</h2>
@@ -261,30 +256,93 @@ ${site.products.map(p => `<div class="prod-card ${p.badge ? 'has-badge' : ''}">
   ${site.products ? '<a href="/products/">Products</a>' : ''}
   <a href="/blog/">Blog</a>
   <a href="/faq.html">FAQ</a>
-${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join('\n  ')}
 </div>
 <div class="hero">
   <h1>${site.title.split(' - ')[0]}</h1>
   <p>${site.tagline}</p>
   <p style="color:#555;font-size:0.9rem">USDT (TRC-20): ${USDT}</p>
-  <a href="https://automoney-store.pages.dev/products/" class="cta">Browse All Products →</a>
+  <a href="/products/" class="cta">Browse Our Products →</a>
 </div>
 ${productsSection}
-<h2>Our Network Sites</h2>
-<div class="sitelist">${networkHtml}</div>
 <h2>Latest from Blog</h2>
 ${site.blogPosts.slice(0,2).map(p => `<div class="product-card"><h3><a href="/blog/${p.slug}.html">${p.title}</a></h3><p>${esc(p.desc)}</p></div>`).join('\n')}
 <p style="text-align:center;margin-top:24px"><a href="/blog/" class="cta">View All Posts →</a></p>
 <div class="footer">
   <p>&copy; 2026 ${site.title.split(' - ')[0]}</p>
   <p>USDT (TRC-20): ${USDT}</p>
-  <p>${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join(' · ')}</p>
 </div>
 </div></body></html>`;
   fs.writeFileSync(path.join(dir, 'index.html'), homeHtml, 'utf-8');
 
   // —— Blog posts ——
   for (const post of site.blogPosts) {
+    // Fill blog posts with substantial content instead of empty shells
+    let bodyContent = '';
+    if (post.slug.startsWith('self-hosted-usdt')) {
+      bodyContent = `<p>Accepting cryptocurrency payments directly on your own domain gives you full control over your revenue stream. Unlike third-party payment processors that can freeze accounts, hold funds, or require extensive KYC documentation, a self-hosted USDT TRC-20 payment gateway puts you in charge.</p>
+<p>This guide walks you through the complete setup process using Cloudflare Workers and the Tron blockchain. You will have a working payment system within 30 minutes, no company registration required.</p>
+<h2>Why USDT TRC-20?</h2>
+<p>Tether (USDT) on the Tron network offers the ideal balance of stability and speed. The token is pegged 1:1 to the US Dollar, eliminating volatility risk. Transactions confirm in 30-60 seconds with fees under $0.50, regardless of the amount sent. This makes it suitable for both microtransactions and enterprise payments.</p>
+<h2>Architecture Overview</h2>
+<p>The payment gateway consists of three components: a Cloudflare Worker that handles payment verification and product delivery, a static frontend that presents the checkout interface, and the Tron blockchain that processes the actual transactions. The Worker uses the Tronscan API to verify transaction status without running a full node.</p>
+<h2>Step 1: Set Up Your Wallet</h2>
+<p>Create a TRC-20 compatible wallet using Trust Wallet, MetaMask (with Tron network added), or TronLink. Fund it with a small amount of TRX for transaction fees. Your USDT balance will appear in the wallet once payments arrive. Store your private key securely offline.</p>
+<h2>Step 2: Deploy the Verification Worker</h2>
+<p>The Cloudflare Worker listens for POST requests to /api/verify-payment. When a customer submits a transaction ID (TXID), the Worker queries the Tronscan API to confirm the transaction exists, the amount matches your product price, and the destination address is correct. On successful verification, the Worker generates a time-limited download token and emails the download link to the customer.</p>
+<h2>Step 3: Create Your Product Pages</h2>
+<p>Each product page includes the wallet address, the exact price in USDT, and a form where customers paste their TXID after sending payment. The page should clearly state the refund policy, delivery timeframe, and support contact. Include FAQPage schema markup to help search engines understand your payment process.</p>
+<h2>Step 4: Test the Complete Flow</h2>
+<p>Send a small test payment from a second wallet. Verify that the Worker detects the transaction, generates the download token, and delivers the product. Check that the email arrives and the download link works. Monitor the Tron block explorer to confirm the transaction details match your records.</p>
+<h2>Security Considerations</h2>
+<p>Rate limit the verification endpoint to prevent brute force attacks. Validate all inputs server-side. Do not trust client-side price checks. Use environment variables for API keys and wallet addresses. Consider adding a webhook endpoint for zero-confirmation payment detection.</p>`;
+    } else if (post.slug.includes('n8n-workflow')) {
+      bodyContent = `<p>n8n has become the leading open-source workflow automation platform, connecting over 400 services through a visual builder. With 2000+ pre-built workflow templates covering 188 integrations, you can automate virtually any business process without writing code.</p>
+<p>This guide covers the complete Automation Empire workflow collection, how to deploy it, and the most impactful automation patterns for businesses in 2026.</p>
+<h2>What Makes a Good Automation Workflow?</h2>
+<p>The best n8n workflows follow a clear pattern: trigger, transform, and act. A trigger event (new email, form submission, schedule) starts the workflow. Data is transformed through filtering, mapping, or API calls. The final action updates a CRM, sends a notification, or creates a record.</p>
+<h2>CRM Automation</h2>
+<p>Sync leads from Facebook Lead Ads directly to HubSpot or Salesforce. Enrich contact data with Clearbit. Score leads based on behavior. Trigger personalized email sequences in Mailchimp when a lead reaches a threshold score. These workflows save sales teams hours of manual data entry daily.</p>
+<h2>Content Publishing Pipeline</h2>
+<p>Connect Google Docs to WordPress, Medium, and LinkedIn simultaneously. When a draft is marked complete in Google Docs, the workflow formats the content, generates featured images with DALL-E, schedules the post, and notifies the team in Slack. This single workflow replaces 3-4 separate publishing tools.</p>
+<h2>E-commerce Operations</h2>
+<p>Monitor Shopify orders for fraud signals. Automatically fulfill digital product orders. Sync inventory across WooCommerce and Etsy. Generate shipping labels when orders hit Ready status. Trigger abandoned cart recovery emails after 1 hour of inactivity.</p>
+<h2>AI-Enhanced Workflows</h2>
+<p>Integrate OpenAI and Anthropic nodes into your workflows for content generation, sentiment analysis, classification, and data extraction. For example: classify support tickets by urgency, generate personalized responses, and route to the appropriate team - all within a single n8n workflow.</p>`;
+    } else if (post.slug.includes('geo-vs-seo') || post.slug.includes('geo-dominance')) {
+      bodyContent = `<p>Generative Engine Optimization (GEO) represents the next evolution of search visibility. While traditional SEO optimizes for link-based ranking algorithms, GEO optimizes content to be cited by AI-powered search engines like Perplexity, ChatGPT Search, Google AI Overview, and Claude.</p>
+<p>This guide explains the key differences between GEO and SEO, and provides actionable strategies for both approaches in 2026.</p>
+<h2>How Traditional SEO Works</h2>
+<p>Search engines crawl and index web pages, then rank them based on hundreds of signals including backlinks, content relevance, page speed, mobile usability, and domain authority. The goal is to appear in the top 10 results for target keywords.</p>
+<h2>How GEO Works</h2>
+<p>AI search engines retrieve information differently. They use retrieval-augmented generation (RAG) to pull relevant content from indexed sources, then synthesize answers. Your content gets cited when it is the most authoritative, clear, and directly relevant source for a specific query.</p>
+<h2>Key Differences</h2>
+<p>SEO rewards link authority and domain age. GEO rewards clarity, structure, and direct answers. A page that ranks #1 in Google may never be cited by Perplexity, while a new domain with well-structured content can appear in AI answers immediately.</p>
+<h2>GEO Optimization Strategies</h2>
+<p>Use clear headings that match question patterns (what, why, how). Provide direct answers in the first paragraph. Include structured data (FAQPage, HowTo, Product). Write in concise, factual prose. Cite sources for claims. Use lists and tables for scannable information.</p>
+<h2>Measuring GEO Performance</h2>
+<p>Check Perplexity and ChatGPT for citations of your content. Monitor referral traffic from ai chatbots in your analytics. Track brand mentions in AI-generated answers. Use tools like GEOScore and BrightEdge for formal GEO metrics.</p>`;
+    } else if (post.slug.includes('ai-agent-personalities') || post.slug.includes('ai-workforce')) {
+      bodyContent = `<p>Specialized AI agent personalities transform generic language models into domain-specific experts. By defining an agent identity, expertise area, workflow patterns, and communication style, you can dramatically improve output quality for specific tasks.</p>
+<p>This guide explains how to deploy and use 250 specialized AI agent personalities across different AI coding tools.</p>
+<h2>What Are AI Agent Personalities?</h2>
+<p>An agent personality is a structured profile file (typically SOUL.md or AGENTS.md) that defines the agent role, domain expertise, workflow methodology, output format, and interaction patterns. When loaded by an AI tool, the personality guides the model behavior toward that specific domain.</p>
+<h2>Deployment Methods</h2>
+<p>Claude Code uses the ~/.claude/agents/ directory. Cursor loads from .cursorrules. Codex supports custom instructions per project. Each agent file is a markdown document with structured sections for identity, expertise, workflow, and output standards.</p>
+<h2>Business Use Cases</h2>
+<p>Marketing agent personalities generate platform-specific content (LinkedIn, Twitter, blog). Engineering personalities enforce coding standards and review patterns. Design personalities maintain brand consistency. Sales personalities follow proven outreach frameworks.</p>`;
+    } else if (post.slug.includes('internet-access') || post.slug.includes('agent-reach')) {
+      bodyContent = `<p>Giving AI agents real internet access transforms them from isolated chatbots into connected research assistants. Agent-Reach bridges AI coding tools with 13 online platforms including YouTube, Twitter, Reddit, GitHub, and web search.</p>
+<p>This guide covers setup, configuration, and practical usage patterns.</p>
+<h2>Installation</h2>
+<p>Agent-Reach is a Python CLI tool. Install with pip install agent-reach, then run agent-reach doctor to verify your setup. Configure API keys for each platform in the .env file.</p>
+<h2>Platform Coverage</h2>
+<p>Web search via Exa API for general research. YouTube for video transcripts and metadata. Twitter for trend and conversation analysis. Reddit for community discussions. GitHub for code and repository exploration. RSS feeds for news monitoring.</p>
+<h2>Practical Workflows</h2>
+<p>Research competitors by searching Twitter discussions and Reddit reviews simultaneously. Monitor YouTube comments for product feedback. Track GitHub issues for open-source project health. Combine multiple platform results into a single analysis report.</p>`;
+    } else {
+      bodyContent = `<p>${post.desc}</p>
+<p>This guide provides practical insights and actionable strategies for ${site.niches[0].toLowerCase()} professionals and entrepreneurs in 2026.</p>`;
+    }
     const faqs = site.faqs.slice(0, 3);
     const schema = `<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"${esc(post.title)}","description":"${esc(post.desc)}","author":{"@type":"Person","name":"${site.title.split(' - ')[0]} Team"},"datePublished":"2026-06-20","dateModified":"2026-06-20","mainEntityOfPage":{"@type":"WebPage","@id":"https://${site.domain}/blog/${post.slug}.html"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[${faqs.map(f => `{"@type":"Question","name":"${esc(f.q)}","acceptedAnswer":{"@type":"Answer","text":"${esc(f.a)}"}}`).join(',')}]}</script>`;
@@ -305,22 +363,10 @@ h1{font-size:1.8rem}.meta{color:#555;font-size:.85rem;margin-bottom:32px}
 <h1>${post.title}</h1>
 <div class="meta">${site.title.split(' - ')[0]} Team · June 20, 2026</div>
 <div class="blog-content">
-<p>${post.desc}</p>
-<p>This guide is part of the ${site.title.split(' - ')[0]} knowledge base. We provide premium digital products and resources for creators and entrepreneurs.</p>
-<p>${siblings.slice(0,2).map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join(' and ')} are sister sites in our network.</p>
-<h2>Key Takeaways</h2>
-<ul>
-<li>${site.niches[0]} is a growing field with significant opportunities</li>
-<li>Use structured data and schema markup for better visibility</li>
-<li>Accept USDT TRC-20 payments for global reach without banking barriers</li>
-</ul>
-<h2>Related Resources</h2>
-<p>Check out our other sites for more specialized content:</p>
-<ul>${siblings.slice(0,4).map(s => `<li><a href="https://${s.domain}">${s.title}</a> — ${s.tagline}</li>`).join('\n')}</ul>
+${bodyContent}
 </div>
 <div class="footer">
 <p>&copy; 2026 ${site.title.split(' - ')[0]} | USDT: ${USDT}</p>
-<p>${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join(' · ')}</p>
 </div>
 </div></body></html>`;
     fs.writeFileSync(path.join(BLOG_DIR, `${post.slug}.html`), html, 'utf-8');
@@ -349,7 +395,6 @@ ${faqSchema}
 ${site.faqs.map(f => `<div class="qa"><div class="qa-q">${f.q}</div><div class="qa-a">${f.a}</div></div>`).join('\n')}
 <div class="footer">
 <p>&copy; 2026 ${site.title.split(' - ')[0]} | USDT: ${USDT}</p>
-<p>${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join(' · ')}</p>
 </div>
 </div></body></html>`;
   fs.writeFileSync(path.join(dir, 'faq.html'), faqHtml, 'utf-8');
@@ -374,7 +419,6 @@ ${site.faqs.map(f => `<div class="qa"><div class="qa-q">${f.q}</div><div class="
 ${site.blogPosts.map(p => `<div class="post"><h3><a href="/blog/${p.slug}.html">${p.title}</a></h3><p>${esc(p.desc)}</p></div>`).join('\n')}
 <div class="footer">
 <p>&copy; 2026 ${site.title.split(' - ')[0]} | USDT: ${USDT}</p>
-<p>${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join(' · ')}</p>
 </div>
 </div></body></html>`;
   fs.writeFileSync(path.join(BLOG_DIR, 'index.html'), blogIndex, 'utf-8');
@@ -433,7 +477,6 @@ ${site.products.map(p => `<div class="p-card">
 </div>
 <div class="footer">
 <p>&copy; 2026 ${site.title.split(' - ')[0]} | USDT: ${USDT}</p>
-<p>${siblings.map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join(' · ')}</p>
 </div>
 </div></body></html>`;
     fs.writeFileSync(path.join(prodDir, 'index.html'), prodHtml, 'utf-8');
@@ -492,7 +535,7 @@ const toolsHtml = `<!DOCTYPE html>
   <div class="tool-card"><h3><a href="https://maomaolove.pages.dev/tools/readability-score.html">Readability Score</a></h3><p>Check Flesch-Kincaid readability</p></div>
 </div>
 <div class="footer">
-<p>&copy; 2026 MaoMaoLove | Visit our network: ${sites.filter(s=>s.slug!=='maomaolove').map(s => `<a href="https://${s.domain}">${s.title.split(' - ')[0]}</a>`).join(' · ')}</p>
+<p>&copy; 2026 MaoMaoLove</p>
 </div>
 </div></body></html>`;
 fs.mkdirSync(path.join(SITES_DIR, 'maomaolove', 'tools'), { recursive: true });
