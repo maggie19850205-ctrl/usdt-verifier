@@ -10,7 +10,8 @@ const SITES = [
   'templatehub-d7b.pages.dev',
   'geoseo-bq9.pages.dev',
   'cryptopay-1dm.pages.dev',
-  'sidehustle-bks.pages.dev'
+  'sidehustle-bks.pages.dev',
+  'agentpro.pages.dev'
 ];
 
 function submitSite(host) {
