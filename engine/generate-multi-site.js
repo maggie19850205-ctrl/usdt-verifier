@@ -132,6 +132,42 @@ const sites = [
     ]
   },
   {
+    slug: 'agentpro', domain: 'agentpro.pages.dev',
+    title: 'AgentPro - AI Agent Superstore',
+    desc: 'Premium AI agent personalities and internet tools. 236 agents for Claude, Cursor, OpenClaw. Agent-Reach internet kit included.',
+    tagline: 'Your AI Workforce, Ready to Deploy',
+    color: '#00e676',
+    theme: 'green',
+    niches: ['AI Agents', 'Claude', 'Agent-Reach', 'Automation'],
+    nav: ['Agents', 'Tools', 'Blog', 'FAQ'],
+    products: [
+      {name:'USDT Payment Gateway - Self-Hosted', price:'$99.00', slug:'usdt-payment-gateway-self-hosted', desc:'Accept USDT TRC-20 payments on your own domain. No KYC, no company registration, no monthly fees. Complete Cloudflare Workers deployment.', badge:'Flagship'},
+      {name:'AI Workforce Pro (250 Agent Personalities)', price:'$49.00', slug:'ai-workforce-pro', desc:'Deploy 250 specialized AI agent personalities for Claude Code, Cursor, Codex, and more. Includes SOUL.md files, deployment scripts, and business packs.', badge:'Bestseller'},
+      {name:'Automation Empire (2000+ n8n Workflows)', price:'$49.00', slug:'automation-empire', desc:'2000+ production-ready n8n automation workflows across 188 integrations. Search, import, and run in minutes. Docker ready.', badge:'Popular'},
+      {name:'GEO Dominance Toolkit', price:'$49.00', slug:'geo-dominance-toolkit', desc:'20 AI-powered Claude Code skills for GEO and SEO. CORE-EEAT content quality framework. Optimize for Perplexity, ChatGPT, Google AI.', badge:'New'},
+      {name:'AI Company Builder - Autonomous Agent Teams', price:'$59.00', slug:'ai-company-builder', desc:'Build and deploy autonomous AI agent companies. CEO, CTO, CMO, engineers - all AI. Full orchestration platform.', badge:'Premium'},
+      {name:'Anti-Block Data Harvester', price:'$49.00', slug:'anti-block-data-harvester', desc:'Scrape any website without getting blocked. Cloudflare bypass, adaptive parsing, stealth mode. Python framework included.', badge:'New'},
+      {name:'Market Intelligence Engine', price:'$49.00', slug:'market-intelligence-engine', desc:'Monitor 11 platforms for trending news. AI-filtered, translated, pushed to any channel. MCP server included.', badge:'Hot'},
+      {name:'Infinite Knowledge Factory', price:'$29.00', slug:'infinite-knowledge-factory', desc:'Turn any book, document, or folder into an AI agent skill. PDF, EPUB, DOCX, HTML, MOBI supported.', badge:'Value'},
+      {name:'Context Vault - AI Memory System', price:'$29.00', slug:'context-vault', desc:'Persistent cross-session memory for AI coding tools. Never lose context. Works with Claude Code, Gemini CLI, OpenCode.', badge:'Value'},
+      {name:'AI Agent Super Bundle (236 Agents)', price:'$29.99', slug:'ai-agent-super-bundle', desc:'Complete collection of 236 specialized AI agent personalities across 16 divisions. Deploy to any AI coding tool.', badge:'Classic'},
+      {name:'Agent-Reach Internet Kit', price:'$9.99', slug:'agent-reach-internet-kit', desc:'Give your AI agent real internet access across 13 platforms. Web, YouTube, Twitter, Reddit, and more.', badge:'Starter'}
+    ],
+    blogPosts: [
+      {slug:'ai-agent-personalities-guide', title:'AI Agent Personalities: How to Deploy 250 Specialized Agents', desc:'Complete guide to deploying and using AI agent personalities across Claude Code, Cursor, OpenClaw, and more.'},
+      {slug:'self-hosted-usdt-payment-gateway-guide', title:'How to Build a Self-Hosted USDT Payment Gateway in 2026', desc:'Complete guide to accepting USDT TRC-20 payments on your own domain. No KYC, no company registration, no monthly fees.'},
+      {slug:'n8n-workflow-automation-2026-guide', title:'2000+ n8n Workflows: The Ultimate Automation Library for 2026', desc:'Build your automation empire with 2000+ production-ready n8n workflows. CRM, AI, email, social media, and more.'},
+      {slug:'geo-vs-seo-complete-guide-2026', title:'GEO Dominance: How to Optimize for AI Search Engines in 2026', desc:'Master Generative Engine Optimization. Get cited by Perplexity, ChatGPT, Claude, and Google AI Overview.'},
+      {slug:'ai-agent-internet-access-guide', title:'Give Your AI Agents Internet Access: Complete 2026 Guide', desc:'Step-by-step guide to giving AI agents real internet access across 13 platforms. Web, YouTube, Twitter, Reddit, and more.'}
+    ],
+    faqs: [
+      {q:'What products do you sell?', a:'Self-hosted USDT payment gateway, AI agent personality bundles, n8n automation workflows, GEO optimization tools, AI company builder platform, web scraping tools, trend monitoring engines, and AI memory systems.'},
+      {q:'How is this different from free GitHub projects?', a:'We transform raw open-source code into complete, production-ready solutions with professional documentation, video tutorials, pre-configured templates, ongoing updates, and direct support.'},
+      {q:'How do I pay?', a:'We accept USDT TRC-20 only. Send payment to our wallet address, upload your transaction hash, and receive instant download access. No KYC, no registration.'},
+      {q:'Can I use these commercially?', a:'Yes. All products are licensed for commercial use. Each product includes its specific license terms.'}
+    ]
+  },
+  {
     slug: 'sidehustle', domain: 'sidehustle-bks.pages.dev',
     title: 'SideHustle - Make Money Online Guides',
     desc: 'Realistic guides for making money online. Zero investment strategies, digital product creation, and passive income methods.',

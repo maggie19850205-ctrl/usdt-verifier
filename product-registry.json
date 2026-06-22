@@ -1,0 +1,133 @@
+{
+  "generated": "2026-06-22T17:14:35.066Z",
+  "totalProducts": 9,
+  "totalValue": 461,
+  "products": [
+    {
+      "id": "usdt-payment-gateway-self-hosted",
+      "name": "USDT Payment Gateway - Self-Hosted",
+      "price": "$99.00",
+      "keywords": [
+        "self-hosted crypto payment gateway",
+        "USDT payment gateway",
+        "TRC-20 payment",
+        "crypto payment no KYC",
+        "decentralized payment processing"
+      ],
+      "source": "our_own_implementation",
+      "category": "Developer Tools"
+    },
+    {
+      "id": "ai-workforce-pro",
+      "name": "AI Workforce Pro - 250 Agent Personalities",
+      "price": "$49.00",
+      "keywords": [
+        "AI agent bundle",
+        "Claude Code skills",
+        "AI agent personalities",
+        "Claude assistant training",
+        "AI coding team"
+      ],
+      "source": "agency-agents",
+      "category": "Software Development"
+    },
+    {
+      "id": "automation-empire",
+      "name": "Automation Empire - 2000+ n8n Workflows",
+      "price": "$49.00",
+      "keywords": [
+        "n8n workflow template",
+        "automation template",
+        "n8n automation",
+        "workflow automation bundle",
+        "Zapier alternative"
+      ],
+      "source": "n8n-workflows",
+      "category": "Software Development"
+    },
+    {
+      "id": "geo-dominance-toolkit",
+      "name": "GEO Dominance Toolkit",
+      "price": "$49.00",
+      "keywords": [
+        "generative engine optimization",
+        "GEO optimization",
+        "AI search optimization",
+        "Perplexity optimization",
+        "ChatGPT SEO"
+      ],
+      "source": "seo-geo-claude-skills",
+      "category": "Business & Money"
+    },
+    {
+      "id": "infinite-knowledge-factory",
+      "name": "Infinite Knowledge Factory",
+      "price": "$29.00",
+      "keywords": [
+        "knowledge management tool",
+        "AI document processing",
+        "book to AI skill",
+        "technical documentation tool",
+        "AI learning system"
+      ],
+      "source": "book-to-skill",
+      "category": "Education"
+    },
+    {
+      "id": "ai-company-builder",
+      "name": "AI Company Builder - Autonomous Agent Teams",
+      "price": "$59.00",
+      "keywords": [
+        "AI agent team",
+        "autonomous AI",
+        "AI company",
+        "multi-agent system",
+        "AI orchestration platform"
+      ],
+      "source": "paperclip",
+      "category": "Software Development"
+    },
+    {
+      "id": "context-vault",
+      "name": "Context Vault - Persistent AI Memory System",
+      "price": "$29.00",
+      "keywords": [
+        "AI memory tool",
+        "Claude session memory",
+        "AI context management",
+        "developer productivity tool",
+        "AI workflow tool"
+      ],
+      "source": "claude-mem",
+      "category": "Software Development"
+    },
+    {
+      "id": "anti-block-data-harvester",
+      "name": "Anti-Block Data Harvester",
+      "price": "$49.00",
+      "keywords": [
+        "web scraping tool",
+        "anti-block scraper",
+        "data extraction tool",
+        "Cloudflare bypass",
+        "Python web scraper"
+      ],
+      "source": "scrapling",
+      "category": "Software Development"
+    },
+    {
+      "id": "market-intelligence-engine",
+      "name": "Market Intelligence Engine - AI Trend Monitor",
+      "price": "$49.00",
+      "keywords": [
+        "AI trend monitoring",
+        "news aggregation tool",
+        "social listening tool",
+        "market intelligence",
+        "trend analysis tool"
+      ],
+      "source": "trendradar",
+      "category": "Business & Money"
+    }
+  ]
+}

@@ -96,6 +96,14 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
+      - name: Deploy agentpro
+        if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
+        run: |
+          cp output/_worker.js sites/agentpro/_worker.js
+          npx wrangler pages deploy sites/agentpro --branch main --project-name agentpro --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
       - name: Deploy sidehustle
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: npx wrangler pages deploy sites/sidehustle --branch main --project-name sidehustle --commit-dirty=true
