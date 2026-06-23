@@ -486,6 +486,10 @@ ${site.products.map(p => `<div class="p-card">
   // —— IndexNow key file (same key across all sites) ——
   fs.writeFileSync(path.join(dir, '625e8ab739f0c8372a98ca1a573ff570.txt'), '625e8ab739f0c8372a98ca1a573ff570', 'utf-8');
 
+  // —— Bing Webmaster verification file ——
+  fs.writeFileSync(path.join(dir, 'BingSiteAuth.xml'),
+    '<?xml version="1.0"?>\n<users>\n\t<user>9889CFBFF1DF2674675E130A4668A05F</user>\n</users>', 'utf-8');
+
   // —— robots.txt ——
   fs.writeFileSync(path.join(dir, 'robots.txt'),
     'User-agent: PerplexityBot\nAllow: /\n\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nUser-agent: anthropic-ai\nAllow: /\n\nUser-agent: Claude-Web\nAllow: /\n\nUser-agent: CCBot\nAllow: /\n\nUser-agent: *\nAllow: /\nSitemap: https://' + site.domain + '/sitemap.xml\n', 'utf-8');
