@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -14,12 +14,20 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate blog content
+        run: node engine/blog-content-generator.js
+
       - name: Build all sites
         run: node engine/generate-multi-site.js
 
+      - name: SEO optimize all HTML pages
+        run: node engine/seo-optimizer.js
+
       - name: Deploy agentpro.pages.dev
-        run: |
-          npx wrangler pages deploy sites/agentpro --project-name=agentpro --branch=main
+        run: npx wrangler pages deploy sites/agentpro --project-name=agentpro --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
 
@@ -27,8 +35,37 @@ jobs:
         run: cp output/_worker.js sites/agentpro/functions/_worker.js
 
       - name: Deploy automoney-store.pages.dev
-        run: |
-          npx wrangler pages deploy sites/automoney-store --project-name=automoney-store --branch=main
+        run: npx wrangler pages deploy sites/automoney-store --project-name=automoney-store --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Deploy aitools-a4r.pages.dev
+        run: npx wrangler pages deploy sites/aitools --project-name=aitools-a4r --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Deploy templatehub-d7b.pages.dev
+        run: npx wrangler pages deploy sites/templatehub --project-name=templatehub-d7b --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Deploy geoseo-bq9.pages.dev
+        run: npx wrangler pages deploy sites/geoseo --project-name=geoseo-bq9 --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Deploy cryptopay-1dm.pages.dev
+        run: npx wrangler pages deploy sites/cryptopay --project-name=cryptopay-1dm --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Deploy sidehustle-bks.pages.dev
+        run: npx wrangler pages deploy sites/sidehustle --project-name=sidehustle-bks --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Deploy maomaolove.pages.dev
+        run: npx wrangler pages deploy sites/maomaolove --project-name=maomaolove --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
 

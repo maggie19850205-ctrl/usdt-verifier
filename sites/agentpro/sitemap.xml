@@ -14,12 +14,16 @@
   <url><loc>https://agentpro.pages.dev/blog/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/products/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/ai-agent-generator/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/base64-encoder/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/base64-tool/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/case-converter/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/character-counter/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/color-contrast/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/color-picker/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/credit-calculator/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/crontab-generator/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/csv-viewer/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/eta-calculator/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/geo-readiness-checker/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/hash-generator/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/html-entity-converter/</loc><priority>0.8</priority></url>
@@ -28,9 +32,12 @@
   <url><loc>https://agentpro.pages.dev/tools/json-formatter/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/json-formatter-v2/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/json-to-csv/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/jwt-debugger/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/keyword-cluster-tool/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/latency-tester/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/list-randomizer/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/markdown-previewer/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/mermaid-generator/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/n8n-workflow-builder/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/number-base-converter/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/password-generator/</loc><priority>0.8</priority></url>
@@ -38,11 +45,14 @@
   <url><loc>https://agentpro.pages.dev/tools/qr-generator/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/regex-tester/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/schema-generator/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/seo-meta-preview/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/ssl-checker/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/text-diff/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/timestamp-converter/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/url-encoder/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/usdt-tx-verifier/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/user-agent-parser/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/uuid-generator/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentpro.pages.dev/tools/yaml-validator/</loc><priority>0.8</priority></url>
   <url><loc>https://agentpro.pages.dev/tools/</loc><priority>0.8</priority></url>
 </urlset>
