@@ -1,0 +1,36 @@
+name: Daily SEO Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 06:00 UTC (14:00 CST)
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Build all sites
+        run: node engine/generate-multi-site.js
+
+      - name: Deploy agentpro.pages.dev
+        run: |
+          npx wrangler pages deploy sites/agentpro --project-name=agentpro --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Copy _worker.js for payment processing
+        run: cp output/_worker.js sites/agentpro/functions/_worker.js
+
+      - name: Deploy automoney-store.pages.dev
+        run: |
+          npx wrangler pages deploy sites/automoney-store --project-name=automoney-store --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+
+      - name: IndexNow submit all sites
+        run: node engine/indexnow-resubmit-all.js
