@@ -490,15 +490,35 @@ ${site.products.map(p => `<div class="p-card">
   fs.writeFileSync(path.join(dir, 'robots.txt'),
     'User-agent: PerplexityBot\nAllow: /\n\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nUser-agent: anthropic-ai\nAllow: /\n\nUser-agent: Claude-Web\nAllow: /\n\nUser-agent: CCBot\nAllow: /\n\nUser-agent: *\nAllow: /\nSitemap: https://' + site.domain + '/sitemap.xml\n', 'utf-8');
 
-  // —— sitemap.xml ——
+  // —— sitemap.xml (scan blog dir for .html files + all known pages) ——
+  const blogDir = path.join(dir, 'blog');
+  let blogSlugs = site.blogPosts.map(p => p.slug);
+  if (fs.existsSync(blogDir)) {
+    try {
+      const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.html') && f !== 'index.html');
+      files.forEach(f => {
+        const slug = f.replace(/\.html$/, '');
+        if (!blogSlugs.includes(slug)) blogSlugs.push(slug);
+      });
+    } catch (e) { /* blog dir might not exist */ }
+  }
   const urls = [
     `https://${site.domain}/`,
     `https://${site.domain}/faq.html`,
-    ...site.blogPosts.map(p => `https://${site.domain}/blog/${p.slug}.html`),
+    ...blogSlugs.map(s => `https://${site.domain}/blog/${s}.html`),
     `https://${site.domain}/blog/`
   ];
   if (site.products) urls.push(`https://${site.domain}/products/`);
   if (site.slug === 'maomaolove') urls.push(`https://${site.domain}/tools/`);
+  // Also scan tools directory if it exists
+  const toolsDir = path.join(dir, 'tools');
+  if (fs.existsSync(toolsDir)) {
+    try {
+      const tDirs = fs.readdirSync(toolsDir).filter(f => fs.statSync(path.join(toolsDir, f)).isDirectory());
+      tDirs.forEach(d => urls.push(`https://${site.domain}/tools/${d}/`));
+      urls.push(`https://${site.domain}/tools/`);
+    } catch (e) {}
+  }
   fs.writeFileSync(path.join(dir, 'sitemap.xml'),
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     urls.map(u => `  <url><loc>${u}</loc><priority>0.8</priority></url>`).join('\n') +
