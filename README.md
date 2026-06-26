@@ -8,7 +8,14 @@ A simple, zero-dependency USDT TRC-20 transaction verification tool. Check any U
 - Check amount, sender, recipient, and confirmation status
 - No API keys required (uses public Tronscan API)
 - Single file, zero dependencies
-- Also available as a [web tool](https://agentpro.pages.dev/tools/usdt-tx-verifier/)
+- Also available as a [web tool](https://maggie19850205-ctrl.github.io/usdt-verifier/)
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `verify-usdt.py` | Command-line Python script |
+| `index.html` | Web-based version (GitHub Pages) |
 
 ## Installation
 

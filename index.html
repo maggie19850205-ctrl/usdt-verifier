@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>USDT TRC-20 Transaction Verifier</title>
+<meta name="description" content="Check any USDT TRC-20 transaction status. Enter TXID to verify payment, confirm amount, sender, and confirmations.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://maggie19850205-ctrl.github.io/usdt-verifier/">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a12;color:#e0e0e0;line-height:1.6}
+.wrap{max-width:800px;margin:0 auto;padding:20px}
+h1{font-size:2rem;color:#fff;margin:40px 0 8px;text-align:center}
+.sub{text-align:center;color:#666;font-size:.9rem;margin-bottom:40px}
+.card{background:#16162a;border:1px solid #2a2a4a;border-radius:12px;padding:32px;margin:24px 0}
+input{width:100%;padding:12px;background:#0a0a12;border:1px solid #2a2a4a;border-radius:8px;color:#fff;font-size:1rem;margin:8px 0;box-sizing:border-box}
+input:focus{outline:none;border-color:#f472b6}
+button{background:#f472b6;color:#0a0a12;border:none;padding:14px 28px;border-radius:8px;font-size:1rem;font-weight:600;cursor:pointer;width:100%;transition:opacity .2s}
+button:hover{opacity:.85}
+button:disabled{opacity:.5;cursor:not-allowed}
+.spinner{display:none;text-align:center;padding:20px;color:#666}
+.spinner.show{display:block}
+.spinner:after{content:'';display:inline-block;width:24px;height:24px;border:3px solid #2a2a4a;border-top-color:#f472b6;border-radius:50%;animation:spin .6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.result{background:#1a1a3e;border:1px solid #2a2a4a;border-radius:8px;padding:16px;margin:16px 0;display:none}
+.result.show{display:block}
+.result p{margin:6px 0;font-size:.9rem;color:#ccc}
+.result strong{color:#fff}
+.result code{font-size:.8rem;color:#888;word-break:break-all}
+.meta{color:#666;font-size:.8rem;text-align:center;margin:40px 0}
+.meta a{color:#f472b6;text-decoration:none}
+.footer{text-align:center;padding:32px 0;color:#555;font-size:.8rem;border-top:1px solid #2a2a4a;margin-top:60px}
+.footer a{color:#f472b6;text-decoration:none}
+.tag{display:inline-block;background:#1a1a3e;color:#f472b6;font-size:.75rem;padding:2px 10px;border-radius:100px;margin:4px 2px}
+.tool-header{text-align:center;margin:20px 0 30px}
+.err{color:#ff6b6b!important}
+.ok{color:#4ade80!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="tool-header">
+<h1>USDT TRC-20 Transaction Verifier</h1>
+<p class="sub">Enter a transaction hash (TXID) to verify its status on the Tron blockchain. Useful for confirming payments, checking amounts, and validating USDT transfers.</p>
+<div><span class="tag">USDT</span><span class="tag">TRC-20</span><span class="tag">verifier</span><span class="tag">payment</span></div>
+</div>
+<div class="card">
+<label style="color:#888;font-size:.85rem">Transaction Hash (TXID)</label>
+<input type="text" id="txid" placeholder="Paste your TRC-20 transaction hash here..." autocomplete="off">
+<button id="btn" onclick="verify()">Verify Transaction</button>
+<div class="spinner" id="spinner"></div>
+<div class="result" id="result"></div>
+</div>
+<p class="meta">Free tool. Need a complete self-hosted USDT payment gateway? <a href="https://automoney-store.pages.dev/?product=usdt-payment-gateway-self-hosted">Check the store</a>.</p>
+</div>
+<div class="footer">
+<p>&copy; 2026 USDT Verifier | <a href="https://github.com/maggie19850205-ctrl/usdt-verifier">GitHub</a> | USDT (TRC-20): TRnz5Pi8R3hjCbBjnDuZo7ZvR57euo2q8Z</p>
+</div>
+<script>
+async function verify() {
+  const txid = document.getElementById('txid').value.trim();
+  const result = document.getElementById('result');
+  const spinner = document.getElementById('spinner');
+  const btn = document.getElementById('btn');
+
+  if (!txid) { result.innerHTML = '<p class="err">Please enter a TXID</p>'; result.className = 'result show'; return; }
+
+  btn.disabled = true;
+  spinner.className = 'spinner show';
+  result.className = 'result';
+
+  try {
+    const url = 'https://apilist.tronscanapi.com/api/transaction-info?hash=' + encodeURIComponent(txid);
+    const res = await fetch(url);
+    const d = await res.json();
+
+    if (d.error || !d.hash) {
+      result.innerHTML = '<p class="err">Transaction not found or invalid TXID.</p>';
+      result.className = 'result show';
+      return;
+    }
+
+    const tokenInfo = d.tokenTransferInfo || {};
+    const status = d.confirmed
+      ? '<span class="ok">\u2713 Confirmed (' + (d.confirmations || 0) + ' confirmations)</span>'
+      : '<span style="color:#fbbf24">\u23f3 Pending</span>';
+    const ts = d.timestamp ? new Date(d.timestamp).toLocaleString() : 'N/A';
+
+    result.innerHTML = `
+      <p><strong>Status:</strong> ${status}</p>
+      <p><strong>From:</strong> ${tokenInfo.from_address || 'N/A'}</p>
+      <p><strong>To:</strong> ${tokenInfo.to_address || 'N/A'}</p>
+      <p><strong>Amount:</strong> ${tokenInfo.amount_str || 'N/A'} USDT</p>
+      <p><strong>Block:</strong> ${d.block || 'N/A'}</p>
+      <p><strong>Timestamp:</strong> ${ts}</p>
+      <p><strong>TXID:</strong> <code>${d.hash}</code></p>
+      <p style="margin-top:12px"><a href="https://tronscan.org/#/transaction/${d.hash}" target="_blank" rel="noopener" style="color:#f472b6">View on Tronscan \u2192</a></p>
+    `;
+    result.className = 'result show';
+  } catch (e) {
+    result.innerHTML = '<p class="err">Error: ' + e.message + '</p>';
+    result.className = 'result show';
+  } finally {
+    btn.disabled = false;
+    spinner.className = 'spinner';
+  }
+}
+
+document.getElementById('txid').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') verify();
+});
+</script>
+</body>
+</html>
