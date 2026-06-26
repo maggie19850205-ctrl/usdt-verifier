@@ -565,4 +565,7 @@ const toolsHtml = `<!DOCTYPE html>
 fs.mkdirSync(path.join(SITES_DIR, 'maomaolove', 'tools'), { recursive: true });
 fs.writeFileSync(path.join(SITES_DIR, 'maomaolove', 'tools', 'index.html'), toolsHtml, 'utf-8');
 
+// Generate free tools for agentpro
+require('./free-tools-builder-v5.js');
+
 console.log('\nAll sites generated!');
