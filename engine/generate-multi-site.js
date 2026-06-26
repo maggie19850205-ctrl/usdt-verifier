@@ -254,6 +254,7 @@ ${site.products.map(p => `<div class="prod-card ${p.badge ? 'has-badge' : ''}">
 <div class="nav-links">
   <a href="/">Home</a>
   ${site.products ? '<a href="/products/">Products</a>' : ''}
+  ${site.slug === 'agentpro' || site.slug === 'maomaolove' ? '<a href="/tools/">Tools</a>' : ''}
   <a href="/blog/">Blog</a>
   <a href="/faq.html">FAQ</a>
 </div>
@@ -567,5 +568,6 @@ fs.writeFileSync(path.join(SITES_DIR, 'maomaolove', 'tools', 'index.html'), tool
 
 // Generate free tools for agentpro
 require('./free-tools-builder-v5.js');
+require('./free-tools-builder-v6.js');
 
 console.log('\nAll sites generated!');
