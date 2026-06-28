@@ -38,7 +38,10 @@ const sites = [
     blogPosts: [
       {slug:'maommaolove-digital-products-guide', title:'MaoMaoLove Digital Products: Complete Guide for Creators', desc:'Everything you need to know about buying and selling digital products on MaoMaoLove. From USDT payment to instant delivery.'},
       {slug:'why-choose-maomaolove', title:'Why MaoMaoLove? The Best Digital Product Marketplace in 2026', desc:'Discover what makes MaoMaoLove different: USDT payments, no registration, GEO-optimized content, and premium quality.'},
-      {slug:'maomaolove-vs-other-marketplaces', title:'MaoMaoLove vs Etsy vs Gumroad: Which Is Better for Digital Products?', desc:'Compare MaoMaoLove with Etsy and Gumroad. Fees, traffic sources, payment methods, and creator benefits compared.'}
+      {slug:'maomaolove-vs-other-marketplaces', title:'MaoMaoLove vs Etsy vs Gumroad: Which Is Better for Digital Products?', desc:'Compare MaoMaoLove with Etsy and Gumroad. Fees, traffic sources, payment methods, and creator benefits compared.'},
+      {slug:'digital-products-business-guide-2026', title:'Digital Products Business Guide: Start Selling Online in 2026', desc:'Complete guide to starting a digital products business. No inventory, no shipping, instant delivery with USDT payments.'},
+      {slug:'usdt-digital-product-payment-guide', title:'USDT Digital Product Payment Guide for Creators', desc:'How to accept USDT TRC-20 payments for your digital products. No KYC, no merchant account, no chargebacks.'},
+      {slug:'content-creation-templates-productivity', title:'Content Creation Templates That Boost Productivity by 300%', desc:'50+ tested content creation templates for blogs, social media, emails, and video scripts. Save hours every week.'}
     ],
     faqs: [
       {q:'What is MaoMaoLove?', a:'MaoMaoLove is a premium digital products marketplace offering AI tools, templates, guides, and business resources. We accept USDT TRC-20 payments and deliver instantly with no registration required.'},
@@ -158,7 +161,10 @@ const sites = [
       {slug:'self-hosted-usdt-payment-gateway-guide', title:'How to Build a Self-Hosted USDT Payment Gateway in 2026', desc:'Complete guide to accepting USDT TRC-20 payments on your own domain. No KYC, no company registration, no monthly fees.'},
       {slug:'n8n-workflow-automation-2026-guide', title:'2000+ n8n Workflows: The Ultimate Automation Library for 2026', desc:'Build your automation empire with 2000+ production-ready n8n workflows. CRM, AI, email, social media, and more.'},
       {slug:'geo-vs-seo-complete-guide-2026', title:'GEO Dominance: How to Optimize for AI Search Engines in 2026', desc:'Master Generative Engine Optimization. Get cited by Perplexity, ChatGPT, Claude, and Google AI Overview.'},
-      {slug:'ai-agent-internet-access-guide', title:'Give Your AI Agents Internet Access: Complete 2026 Guide', desc:'Step-by-step guide to giving AI agents real internet access across 13 platforms. Web, YouTube, Twitter, Reddit, and more.'}
+      {slug:'ai-agent-internet-access-guide', title:'Give Your AI Agents Internet Access: Complete 2026 Guide', desc:'Step-by-step guide to giving AI agents real internet access across 13 platforms. Web, YouTube, Twitter, Reddit, and more.'},
+      {slug:'how-to-choose-ai-coding-agent', title:'How to Choose the Right AI Coding Agent in 2026', desc:'Compare Claude Code, Cursor, GitHub Copilot, and OpenClaude. Find the best AI coding agent for your workflow.'},
+      {slug:'building-automation-pipelines-n8n-2026', title:'Building Automation Pipelines with n8n in 2026', desc:'Complete guide to building production-ready n8n automation pipelines. Connect 188+ apps and automate anything.'},
+      {slug:'self-hosted-crypto-payment-gateway-setup', title:'Self-Hosted Crypto Payment Gateway: Complete Setup Guide', desc:'Accept USDT TRC-20 payments on your own domain. Full Cloudflare Workers deployment guide with no monthly fees.'}
     ],
     faqs: [
       {q:'What products do you sell?', a:'Self-hosted USDT payment gateway, AI agent personality bundles, n8n automation workflows, GEO optimization tools, AI company builder platform, web scraping tools, trend monitoring engines, and AI memory systems.'},
@@ -266,7 +272,22 @@ ${site.products.map(p => `<div class="prod-card ${p.badge ? 'has-badge' : ''}">
 </div>
 ${productsSection}
 <h2>Latest from Blog</h2>
-${site.blogPosts.slice(0,2).map(p => `<div class="product-card"><h3><a href="/blog/${p.slug}.html">${p.title}</a></h3><p>${esc(p.desc)}</p></div>`).join('\n')}
+${(() => {
+  const blogDir2 = path.join(dir, 'blog');
+  let blogFiles = [];
+  if (fs.existsSync(blogDir2)) {
+    blogFiles = fs.readdirSync(blogDir2).filter(f => f.endsWith('.html') && f !== 'index.html').sort().reverse().slice(0,4);
+  }
+  if (blogFiles.length === 0) {
+    return site.blogPosts.slice(0,2).map(p => `<div class="product-card"><h3><a href="/blog/${p.slug}.html">${p.title}</a></h3><p>${esc(p.desc)}</p></div>`).join('\n');
+  }
+  return blogFiles.map(f => {
+    const content = fs.readFileSync(path.join(blogDir2, f), 'utf8');
+    const title = (content.match(/<title>([^<]+)<\/title>/) || [,f.replace('.html','')])[1];
+    const desc = (content.match(/<meta name="description" content="([^"]+)">/) || [,''])[1];
+    return `<div class="product-card"><h3><a href="/blog/${f.replace('.html','')}.html">${esc(title)}</a></h3><p>${desc ? esc(desc) : ''}</p></div>`;
+  }).join('\n');
+})()}
 <p style="text-align:center;margin-top:24px"><a href="/blog/" class="cta">View All Posts →</a></p>
 <div class="footer">
   <p>&copy; 2026 ${site.title.split(' - ')[0]}</p>
@@ -417,7 +438,17 @@ ${site.faqs.map(f => `<div class="qa"><div class="qa-q">${f.q}</div><div class="
 <p style="color:#555;font-size:0.8rem;margin-bottom:24px"><a href="/">Home</a> › Blog</p>
 <h1>Blog</h1>
 <p style="color:#666;margin-bottom:32px">Latest articles from ${site.title.split(' - ')[0]}</p>
-${site.blogPosts.map(p => `<div class="post"><h3><a href="/blog/${p.slug}.html">${p.title}</a></h3><p>${esc(p.desc)}</p></div>`).join('\n')}
+${(() => {
+  const blogFiles = fs.existsSync(BLOG_DIR) ? fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.html') && f !== 'index.html').sort().reverse() : [];
+  if (blogFiles.length === 0) return '<p>No posts yet.</p>';
+  return blogFiles.map(f => {
+    const content = fs.readFileSync(path.join(BLOG_DIR, f), 'utf8');
+    const title = (content.match(/<title>([^<]+)<\/title>/) || [,f.replace('.html','')])[1];
+    const desc = (content.match(/<meta name="description" content="([^"]+)">/) || [,''])[1];
+    const slug = f.replace('.html','');
+    return `<div class="post"><h3><a href="/blog/${slug}.html">${esc(title)}</a></h3><p>${desc ? esc(desc) : ''}</p></div>`;
+  }).join('\n');
+})()}
 <div class="footer">
 <p>&copy; 2026 ${site.title.split(' - ')[0]} | USDT: ${USDT}</p>
 </div>
@@ -569,5 +600,10 @@ fs.writeFileSync(path.join(SITES_DIR, 'maomaolove', 'tools', 'index.html'), tool
 // Generate free tools for agentpro
 require('./free-tools-builder-v5.js');
 require('./free-tools-builder-v6.js');
+require('./free-tools-builder-v7.js');
+require('./free-tools-builder-v8.js');
+
+// Rebuild tools index for all sites by scanning actual directories
+require('./rebuild-tools-index.js');
 
 console.log('\nAll sites generated!');

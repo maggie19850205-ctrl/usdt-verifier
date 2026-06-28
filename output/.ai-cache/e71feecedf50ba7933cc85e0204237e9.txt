@@ -1,1 +1,0 @@
-Time Management API typically includes functionalities for scheduling, creating, managing, and deleting appointments or events, tracking time spent on tasks, setting reminders, and integrating with calendar applications.

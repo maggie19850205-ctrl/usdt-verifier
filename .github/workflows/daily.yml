@@ -2,7 +2,7 @@ name: Daily Auto-Run Pipeline
 
 on:
   push:
-    branches: [master]
+    branches: [main, master]
   schedule:
     - cron: '0 2 * * *'
   workflow_dispatch:
@@ -57,8 +57,14 @@ jobs:
       - name: Regenerate sitemap
         run: node generate-sitemap.js
 
-      - name: Generate multi-site content (6 sub-sites)
+      - name: Generate multi-site content (6 sub-sites, v5/v6/v7/v8 tools, dynamic index)
         run: node engine/generate-multi-site.js
+
+      - name: Generate v2 blog posts (78 long-tail keyword posts)
+        run: node engine/generate-blog-posts-v2.js
+
+      - name: SEO optimizer (inject keywords, meta tags, alt text)
+        run: node engine/seo-optimizer.js
 
       - name: Deploy automoney-store (main store)
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}

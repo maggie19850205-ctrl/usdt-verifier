@@ -20,6 +20,15 @@ jobs:
       - name: Generate blog content
         run: node engine/blog-content-generator.js
 
+      - name: Generate dev.to tutorials
+        run: node engine/generate-devto-tutorials.js
+
+      - name: Generate deep content articles
+        run: node engine/generate-deep-content.js
+
+      - name: Generate additional blog posts
+        run: node engine/generate-blog-posts-v2.js
+
       - name: Build all sites
         run: node engine/generate-multi-site.js
 
@@ -31,11 +40,8 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
 
-      - name: Copy _worker.js for payment processing
-        run: cp output/_worker.js sites/agentpro/functions/_worker.js
-
-      - name: Deploy automoney-store.pages.dev
-        run: npx wrangler pages deploy sites/automoney-store --project-name=automoney-store --branch=main
+      - name: Deploy automoney-store.pages.dev (from output/)
+        run: npx wrangler pages deploy output --project-name=automoney-store --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
 

@@ -1,1 +1,0 @@
-The Ai Video Generation Checklist Workbook is a comprehensive guide that outlines the essential steps and components for creating AI-generated videos, including project planning, scripting, video production, AI integration, testing, and optimization.

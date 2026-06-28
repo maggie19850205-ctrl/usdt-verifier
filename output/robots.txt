@@ -22,3 +22,5 @@ Allow: /
 User-agent: *
 Allow: /
 Sitemap: https://automoney-store.pages.dev/sitemap.xml
+
+
