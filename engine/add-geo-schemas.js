@@ -4,6 +4,8 @@ const path = require('path');
 const DOWNLOADS_DIR = path.join(__dirname, '..', 'output', 'downloads');
 const SITE = 'https://automoney-store.pages.dev';
 
+if (!fs.existsSync(DOWNLOADS_DIR)) { console.log('SKIP: no output/downloads dir'); process.exit(0); }
+
 function getSlug(html) {
   const m = html.match(/\/downloads\/([^"'/?]+)/);
   return m ? m[1] : '';

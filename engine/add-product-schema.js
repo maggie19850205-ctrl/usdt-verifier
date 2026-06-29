@@ -3,6 +3,7 @@ const path = require('path');
 
 const PAGES_DIR = path.join(__dirname, '..', 'output', 'pages');
 const USDT_ADDRESS = 'TRnz5Pi8R3hjCbBjnDuZo7ZvR57euo2q8Z';
+if (!fs.existsSync(PAGES_DIR)) { console.log('SKIP: no output/pages dir'); process.exit(0); }
 
 function getTitle(html) {
   const m = html.match(/<h1>([^<]+)<\/h1>/);

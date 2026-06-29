@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const dir = path.join(__dirname, '..', 'output', 'downloads');
+if (!fs.existsSync(dir)) { console.log('SKIP: no output/downloads dir'); process.exit(0); }
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.html'));
 
 const USDT_ADDRESS = 'TRnz5Pi8R3hjCbBjnDuZo7ZvR57euo2q8Z';
