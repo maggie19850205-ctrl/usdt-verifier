@@ -5,6 +5,10 @@ const DOWNLOADS = path.join(__dirname, '..', 'output', 'downloads');
 const OUTPUT = path.join(__dirname, '..', 'output');
 
 // === 1. Create llms.txt ===
+if (!fs.existsSync(DOWNLOADS)) {
+  console.log(`Directory ${DOWNLOADS} does not exist, skipping`);
+  process.exit(0);
+}
 const productFiles = fs.readdirSync(DOWNLOADS).filter(f => f.endsWith('.html') && f !== 'index.html');
 let llmsContent = `# AutoMoney Store - AI-powered digital products\n> Digital products for productivity, SEO, content creation, and business automation built with AI workflows.\n\n## Products\n`;
 for (const file of productFiles) {
