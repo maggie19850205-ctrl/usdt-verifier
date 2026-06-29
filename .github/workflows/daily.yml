@@ -78,24 +78,36 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
-      - name: Deploy automoney-store (main store)
+      - name: Deploy automoney-store (main store) - test
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: |
           set +e
-          # Try with dry-run style first - just upload a single file
-          echo "file://$PWD/output/index.html" > /tmp/test-file.txt
-          echo "=== First try: deploy without commit-dirty ==="
-          output1=$(wrangler pages deploy output --branch main --project-name automoney-store 2>&1)
+          echo "=== Step 1: capture whoami permissions ==="
+          wrangler whoami 2>&1
+          echo "=== Step 2: deploy just index.html ==="
+          mkdir -p /tmp/testdeploy
+          echo "<h1>test</h1>" > /tmp/testdeploy/index.html
+          output1=$(wrangler pages deploy /tmp/testdeploy --branch main --project-name automoney-store 2>&1)
           exit1=$?
           echo "$output1"
           echo "EXIT_CODE=$exit1"
-          if [ $exit1 -eq 0 ]; then exit 0; fi
-          echo "=== Retry with verbose ==="
-          output2=$(wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1)
+          if [ $exit1 -ne 0 ]; then
+            echo "=== FAILED: basic deploy test failed ==="
+            exit $exit1
+          fi
+          echo "=== Step 3: deploy main output with _worker.js removed ==="
+          cp output/_worker.js /tmp/_worker.js.bak
+          rm -f output/_worker.js
+          output2=$(wrangler pages deploy output --branch main --project-name automoney-store 2>&1)
           exit2=$?
+          cp /tmp/_worker.js.bak output/_worker.js
           echo "$output2"
           echo "EXIT_CODE=$exit2"
-          exit $exit2
+          if [ $exit2 -ne 0 ]; then
+            echo "=== FAILED: deploy without _worker.js failed ==="
+            exit $exit2
+          fi
+          echo "=== SUCCESS: both deploy tests passed ==="
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
