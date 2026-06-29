@@ -63,6 +63,12 @@ jobs:
       - name: Generate v2 blog posts (78 long-tail keyword posts)
         run: node engine/generate-blog-posts-v2.js
 
+      - name: Generate keyword-targeted product pages (119+ niches)
+        run: node engine/keyword-products.js
+
+      - name: Regenerate sitemap with new product pages
+        run: node generate-sitemap.js
+
       - name: SEO optimizer (inject keywords, meta tags, alt text)
         run: node engine/seo-optimizer.js
 
