@@ -66,6 +66,15 @@ jobs:
       - name: SEO optimizer (inject keywords, meta tags, alt text)
         run: node engine/seo-optimizer.js
 
+      - name: Add monetization (affiliate links, ad slots)
+        run: node engine/add-monetization.js
+
+      - name: Bundle premium products into downloadable zips
+        run: node engine/bundle-products.js
+
+      - name: Generate download landing pages
+        run: node generate-downloads.js
+
       - name: Deploy automoney-store (main store)
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1
