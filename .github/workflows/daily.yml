@@ -82,12 +82,20 @@ jobs:
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: |
           set +e
-          output=$(wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1)
-          exit_code=$?
-          echo "$output"
-          echo "EXIT_CODE=$exit_code"
-          exit $exit_code
-        shell: bash
+          # Try with dry-run style first - just upload a single file
+          echo "file://$PWD/output/index.html" > /tmp/test-file.txt
+          echo "=== First try: deploy without commit-dirty ==="
+          output1=$(wrangler pages deploy output --branch main --project-name automoney-store 2>&1)
+          exit1=$?
+          echo "$output1"
+          echo "EXIT_CODE=$exit1"
+          if [ $exit1 -eq 0 ]; then exit 0; fi
+          echo "=== Retry with verbose ==="
+          output2=$(wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1)
+          exit2=$?
+          echo "$output2"
+          echo "EXIT_CODE=$exit2"
+          exit $exit2
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
