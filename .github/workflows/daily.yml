@@ -66,28 +66,28 @@ jobs:
       - name: SEO optimizer (inject keywords, meta tags, alt text)
         run: node engine/seo-optimizer.js
 
-      - name: Pre-deploy debug (list output files)
+      - name: Debug deploy (token+project)
         run: |
-          echo "=== Output dir contents ==="
+          echo "TOKEN_LENGTH=${#CLOUDFLARE_API_TOKEN}"
+          if wrangler whoami 2>&1; then echo "WHOAMI_OK=1"; else echo "WHOAMI_FAILED=1"; fi
+          if wrangler pages project list 2>&1 | head -5; then echo "PROJECT_LIST_OK=1"; else echo "PROJECT_LIST_FAILED=1"; fi
+          echo "=== output/ files ==="
           ls -la output/
-          echo "=== File count ==="
+          echo "=== total files ==="
           find output/ -type f | wc -l
-          echo "=== Problematic files ==="
-          find output/ -name '*[!-a-zA-Z0-9_.]*' -o -name '* *' 2>/dev/null | head -20
-        shell: bash
-
-      - name: Check deploy credentials
-        run: |
-          echo "--- Token status ---"
-          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then echo "CLOUDFLARE_API_TOKEN: SET (length=${#CLOUDFLARE_API_TOKEN})"; else echo "CLOUDFLARE_API_TOKEN: NOT SET"; fi
-          wrangler whoami 2>&1 || echo "whoami failed"
-          wrangler pages project list 2>&1 | head -20 || echo "project list failed"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy automoney-store (main store)
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
-        run: wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1
+        run: |
+          set +e
+          output=$(wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1)
+          exit_code=$?
+          echo "$output"
+          echo "EXIT_CODE=$exit_code"
+          exit $exit_code
+        shell: bash
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
