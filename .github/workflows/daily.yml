@@ -66,6 +66,19 @@ jobs:
       - name: SEO optimizer (inject keywords, meta tags, alt text)
         run: node engine/seo-optimizer.js
 
+      - name: Pre-deploy debug (list output files)
+        run: |
+          echo "=== Output dir contents ==="
+          ls -la output/
+          echo "=== File count ==="
+          find output/ -type f | wc -l
+          echo "=== Problematic files ==="
+          find output/ -name '*[!-a-zA-Z0-9_.]*' -o -name '* *' 2>/dev/null | head -20
+        shell: bash
+
+      - name: Test wrangler version
+        run: wrangler --version
+
       - name: Deploy automoney-store (main store)
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1
