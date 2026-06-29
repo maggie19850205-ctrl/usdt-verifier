@@ -78,6 +78,9 @@ jobs:
       - name: Generate content distribution articles (dev.to, Medium)
         run: node engine/content-distributor.js
 
+      - name: GEO boost (llms.txt, breadcrumbs, people-also-ask, related posts)
+        run: node engine/geo-boost.js
+
       - name: Deploy automoney-store (main store)
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1
