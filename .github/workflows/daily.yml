@@ -63,8 +63,11 @@ jobs:
       - name: Generate v2 blog posts (78 long-tail keyword posts)
         run: node engine/generate-blog-posts-v2.js
 
-      - name: Generate keyword-targeted product pages (119+ niches)
+      - name: Generate keyword-targeted product pages (240+ keywords, 9 niches)
         run: node engine/keyword-products.js
+
+      - name: Generate comparison pages (X vs Y, Best of lists)
+        run: node engine/comparison-pages.js
 
       - name: Regenerate sitemap with new product pages
         run: node generate-sitemap.js
