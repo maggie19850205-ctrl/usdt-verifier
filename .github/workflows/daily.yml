@@ -87,55 +87,47 @@ jobs:
       - name: GEO boost (llms.txt, breadcrumbs, people-also-ask, related posts)
         run: node engine/geo-boost.js
 
+      - name: Refresh Cloudflare OAuth token (auto-renew before deploy)
+        id: refresh-token
+        run: node engine/refresh-token.js
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_REFRESH_TOKEN: ${{ secrets.CLOUDFLARE_REFRESH_TOKEN }}
+          CLOUDFLARE_OAUTH_CLIENT_ID: ${{ secrets.CLOUDFLARE_OAUTH_CLIENT_ID }}
+
       - name: Deploy automoney-store (main store)
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy output --branch main --project-name automoney-store --commit-dirty=true 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy maomaolove (main brand)
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy sites/maomaolove --branch main --project-name maomaolove --commit-dirty=true 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy aitools
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy sites/aitools --branch main --project-name aitools --commit-dirty=true 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy templatehub
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy sites/templatehub --branch main --project-name templatehub --commit-dirty=true 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy geoseo
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy sites/geoseo --branch main --project-name geoseo --commit-dirty=true 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy cryptopay
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy sites/cryptopay --branch main --project-name cryptopay --commit-dirty=true 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy agentpro
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: |
           cp output/_worker.js sites/agentpro/_worker.js
           wrangler pages deploy sites/agentpro --branch main --project-name agentpro --commit-dirty=true 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Deploy sidehustle
         if: ${{ inputs.deploy != 'false' || github.event_name != 'workflow_dispatch' }}
         run: wrangler pages deploy sites/sidehustle --branch main --project-name sidehustle --commit-dirty=true 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Submit IndexNow for all sites
         run: node engine/indexnow-resubmit-all.js
