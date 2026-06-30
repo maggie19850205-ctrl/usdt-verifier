@@ -74,8 +74,8 @@ async function main() {
 
   // Write to GITHUB_ENV for subsequent steps
   const githubEnv = process.env.GITHUB_ENV;
+  const fs = require('fs');
   if (githubEnv) {
-    const fs = require('fs');
     fs.appendFileSync(githubEnv, `CLOUDFLARE_API_TOKEN=${access_token}\n`);
     if (refresh_token) {
       fs.appendFileSync(githubEnv, `CLOUDFLARE_REFRESH_TOKEN=${refresh_token}\n`);
@@ -85,6 +85,24 @@ async function main() {
     console.log('No GITHUB_ENV found, printing token for manual use');
     console.log(`NEW_TOKEN=${access_token}`);
     if (refresh_token) console.log(`NEW_REFRESH=${refresh_token}`);
+  }
+
+  // Persist new tokens back to GitHub secrets so future CI runs have valid tokens
+  // Uses gh CLI with GH_REPO_ADMIN_TOKEN (our PAT stored as a repo secret)
+  if (githubEnv && refresh_token && process.env.GH_REPO_ADMIN_TOKEN) {
+    try {
+      const { execSync } = require('child_process');
+      console.log('Persisting new tokens to GitHub secrets...');
+      execSync(`echo "${process.env.GH_REPO_ADMIN_TOKEN}" | gh auth login --with-token`, { stdio: 'pipe' });
+      execSync(`gh secret set CLOUDFLARE_REFRESH_TOKEN --body "${refresh_token}" --repo maggie19850205-ctrl/usdt-verifier`, { stdio: 'pipe' });
+      execSync(`gh secret set CLOUDFLARE_API_TOKEN --body "${access_token}" --repo maggie19850205-ctrl/usdt-verifier`, { stdio: 'pipe' });
+      console.log('GitHub secrets updated successfully for next CI run');
+    } catch (e) {
+      console.log('Warning: failed to persist secrets automatically:', e.message);
+      console.log('This does not affect the current deploy - tokens are set in GITHUB_ENV');
+    }
+  } else if (githubEnv && refresh_token && !process.env.GH_REPO_ADMIN_TOKEN) {
+    console.log('GH_REPO_ADMIN_TOKEN not set - new refresh token will not persist for next CI run');
   }
 }
 
